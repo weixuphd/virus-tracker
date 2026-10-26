@@ -1,6 +1,6 @@
 # Virus-tracker
 
-> Daily AI-ready pathogen and outbreak intelligence. Generated 2026-10-26T03:58:41.855271Z. 169 records.
+> Daily AI-ready pathogen and outbreak intelligence. Generated 2026-10-26T08:12:53.373083Z. 848 records.
 
 ## Files
 - [events.jsonl](events.jsonl): one JSON event per line, schema `virus-tracker.event.v1`
@@ -12,6 +12,8 @@
 - [digest.md](digest.md): Chinese daily briefing
 - [history-100d.md](history-100d.md): 100-day retrospective report
 - [history-100d.json](history-100d.json): 100-day structured statistics
+- [history-all.md](history-all.md): full retrospective from VT_DATA_START_DATE
+- [history-all.json](history-all.json): full structured statistics
 - [graph.json](graph.json): event–pathogen–host–location knowledge graph
 
 ## Quick start

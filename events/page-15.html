@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>事件库 · Virus-tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="">概览</a>
+        <a href="/virus-tracker/events/index.html" class="active">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="page-head">
+  <div>
+    <span class="eyebrow">EVENT LIBRARY</span>
+    <h1>病原与疫情事件库</h1>
+    <p class="muted">共 848 条符合相关性阈值的事件。支持按病原体、宿主、严重度、来源与时间筛选。</p>
+  </div>
+  <div class="page-head-actions">
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/events.jsonl">导出 JSONL</a>
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/events.csv">导出 CSV</a>
+  </div>
+</section>
+
+<form class="filter-panel" method="get" action="/virus-tracker/events/index.html" id="filter-form">
+  <div class="filter-search">
+    <label for="q">关键词</label>
+    <input type="search" id="q" name="q" value="" placeholder="病原体、地区、事件关键词…">
+  </div>
+  <div>
+    <label for="pathogen">病原体</label>
+    <select id="pathogen" name="pathogen">
+      <option value="">全部病原体</option>
+      
+        <option value="SARS-CoV-2" >SARS-CoV-2 (102)</option>
+      
+        <option value="Highly pathogenic avian influenza" >Highly pathogenic avian influenza (87)</option>
+      
+        <option value="Influenza A(H5N1)" >Influenza A(H5N1) (79)</option>
+      
+        <option value="Ebolavirus" >Ebolavirus (74)</option>
+      
+        <option value="Dengue virus" >Dengue virus (59)</option>
+      
+        <option value="Measles virus" >Measles virus (42)</option>
+      
+        <option value="Mpox virus" >Mpox virus (37)</option>
+      
+        <option value="Plasmodium" >Plasmodium (37)</option>
+      
+        <option value="Mycobacterium tuberculosis" >Mycobacterium tuberculosis (35)</option>
+      
+        <option value="Chikungunya virus" >Chikungunya virus (28)</option>
+      
+        <option value="Salmonella" >Salmonella (28)</option>
+      
+        <option value="Aspergillus fumigatus" >Aspergillus fumigatus (25)</option>
+      
+        <option value="Hantavirus" >Hantavirus (22)</option>
+      
+        <option value="Vibrio cholerae" >Vibrio cholerae (21)</option>
+      
+        <option value="Respiratory syncytial virus" >Respiratory syncytial virus (18)</option>
+      
+        <option value="Yersinia pestis" >Yersinia pestis (17)</option>
+      
+        <option value="African swine fever virus" >African swine fever virus (16)</option>
+      
+        <option value="Poliovirus" >Poliovirus (16)</option>
+      
+        <option value="Severe fever with thrombocytopenia syndrome virus" >Severe fever with thrombocytopenia syndrome virus (15)</option>
+      
+        <option value="Mucorales" >Mucorales (13)</option>
+      
+        <option value="Klebsiella pneumoniae" >Klebsiella pneumoniae (13)</option>
+      
+        <option value="Rabies virus" >Rabies virus (12)</option>
+      
+        <option value="Influenza A(H9N2)" >Influenza A(H9N2) (12)</option>
+      
+        <option value="Cyclospora cayetanensis" >Cyclospora cayetanensis (12)</option>
+      
+        <option value="West Nile virus" >West Nile virus (11)</option>
+      
+        <option value="Lumpy skin disease virus" >Lumpy skin disease virus (11)</option>
+      
+        <option value="Enterovirus A71" >Enterovirus A71 (10)</option>
+      
+        <option value="Norovirus" >Norovirus (10)</option>
+      
+        <option value="Zika virus" >Zika virus (9)</option>
+      
+        <option value="Foot-and-mouth disease virus" >Foot-and-mouth disease virus (9)</option>
+      
+        <option value="Echinococcus" >Echinococcus (9)</option>
+      
+        <option value="Hepatitis A virus" >Hepatitis A virus (9)</option>
+      
+        <option value="Yellow fever virus" >Yellow fever virus (8)</option>
+      
+        <option value="Oropouche virus" >Oropouche virus (8)</option>
+      
+        <option value="Candida auris" >Candida auris (8)</option>
+      
+        <option value="Marburg virus" >Marburg virus (8)</option>
+      
+        <option value="Acinetobacter baumannii" >Acinetobacter baumannii (8)</option>
+      
+        <option value="Cryptococcus neoformans" >Cryptococcus neoformans (7)</option>
+      
+        <option value="Chronic wasting disease prion" >Chronic wasting disease prion (7)</option>
+      
+        <option value="Leishmania" >Leishmania (6)</option>
+      
+        <option value="Hepatitis E virus" >Hepatitis E virus (6)</option>
+      
+        <option value="Meticillin-resistant Staphylococcus aureus" >Meticillin-resistant Staphylococcus aureus (6)</option>
+      
+        <option value="Leptospira" >Leptospira (6)</option>
+      
+        <option value="Brucella" >Brucella (6)</option>
+      
+        <option value="Toxoplasma gondii" >Toxoplasma gondii (5)</option>
+      
+        <option value="SARS-CoV" >SARS-CoV (5)</option>
+      
+        <option value="Rubella virus" >Rubella virus (5)</option>
+      
+        <option value="Schistosoma" >Schistosoma (5)</option>
+      
+        <option value="Rotavirus" >Rotavirus (5)</option>
+      
+        <option value="Mycoplasma pneumoniae" >Mycoplasma pneumoniae (5)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="host">宿主</label>
+    <select id="host" name="host">
+      <option value="">全部宿主</option>
+      
+        <option value="human" >人类 (626)</option>
+      
+        <option value="poultry" >家禽 (124)</option>
+      
+        <option value="cattle" >牛 (61)</option>
+      
+        <option value="mosquitoes" >蚊 (41)</option>
+      
+        <option value="livestock" >家畜 (39)</option>
+      
+        <option value="wildlife" >野生动物 (39)</option>
+      
+        <option value="wild_birds" >野鸟 (38)</option>
+      
+        <option value="swine" >猪 (27)</option>
+      
+        <option value="rodents" >啮齿类 (26)</option>
+      
+        <option value="dogs" >犬 (16)</option>
+      
+        <option value="ticks" >蜱 (15)</option>
+      
+        <option value="small_ruminants" >羊 (14)</option>
+      
+        <option value="cats" >猫 (13)</option>
+      
+        <option value="bats" >蝙蝠 (8)</option>
+      
+        <option value="fish" >鱼类 (4)</option>
+      
+        <option value="horses" >马 (3)</option>
+      
+        <option value="primates" >灵长类 (2)</option>
+      
+        <option value="camels" >骆驼 (1)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="severity">严重度</label>
+    <select id="severity" name="severity">
+      <option value="">全部</option>
+      
+        <option value="critical" >极高</option>
+      
+        <option value="high" >高</option>
+      
+        <option value="moderate" >中</option>
+      
+        <option value="low" >低</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="source">来源</label>
+    <select id="source" name="source">
+      <option value="">全部来源</option>
+      
+        <option value="pubmed" >PubMed (677)</option>
+      
+        <option value="cdc_outbreaks" >US CDC Outbreaks (22)</option>
+      
+        <option value="cidrap_avian_influenza" >CIDRAP · Avian Influenza (14)</option>
+      
+        <option value="cidrap_measles" >CIDRAP · Measles (14)</option>
+      
+        <option value="cidrap_cholera" >CIDRAP · Cholera (13)</option>
+      
+        <option value="cidrap_ebola" >CIDRAP · Ebola (13)</option>
+      
+        <option value="cidrap_foodborne" >CIDRAP · Foodborne Disease (12)</option>
+      
+        <option value="cidrap_mpox" >CIDRAP · Mpox (10)</option>
+      
+        <option value="cidrap_plague" >CIDRAP · Plague (8)</option>
+      
+        <option value="cidrap_cwd" >CIDRAP · Chronic Wasting Disease (7)</option>
+      
+        <option value="sciencedaily_infectious" >ScienceDaily Infectious Diseases (7)</option>
+      
+        <option value="cidrap_covid" >CIDRAP · COVID-19 (6)</option>
+      
+        <option value="cidrap_dengue" >CIDRAP · Dengue (6)</option>
+      
+        <option value="cidrap_polio" >CIDRAP · Polio (6)</option>
+      
+        <option value="cidrap_vhf" >CIDRAP · Viral Hemorrhagic Fever (6)</option>
+      
+        <option value="cidrap_malaria" >CIDRAP · Malaria (4)</option>
+      
+        <option value="cidrap_fungal" >CIDRAP · Fungal Infection (3)</option>
+      
+        <option value="cidrap_mers" >CIDRAP · MERS-CoV (3)</option>
+      
+        <option value="cidrap_rsv" >CIDRAP · RSV (3)</option>
+      
+        <option value="who_news" >WHO News (3)</option>
+      
+        <option value="cidrap_misc" >CIDRAP · Misc Emerging Topics (2)</option>
+      
+        <option value="cidrap_tuberculosis" >CIDRAP · Tuberculosis (2)</option>
+      
+        <option value="gdelt_outbreak_news" >GDELT · outbreak_news (2)</option>
+      
+        <option value="cdc_newsroom" >US CDC Newsroom (1)</option>
+      
+        <option value="cidrap_amr" >CIDRAP · Antimicrobial Stewardship (1)</option>
+      
+        <option value="ukhsa" >UK Health Security Agency (1)</option>
+      
+        <option value="who_afro" >WHO African Region (1)</option>
+      
+        <option value="woah" >WOAH (World Organisation for Animal Health) (1)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="days">时间</label>
+    <select id="days" name="days">
+      <option value="">全部时间</option>
+      
+        <option value="1" >最近 24 小时</option>
+      
+        <option value="3" >最近 3 天</option>
+      
+        <option value="7" >最近 7 天</option>
+      
+        <option value="14" >最近 14 天</option>
+      
+        <option value="30" >最近 30 天</option>
+      
+        <option value="90" >最近 90 天</option>
+      
+    </select>
+  </div>
+  <div class="filter-actions">
+    <button type="submit" class="btn btn-primary">筛选</button>
+    <a href="/virus-tracker/events/index.html" class="btn btn-ghost">重置</a>
+  </div>
+</form>
+
+
+  <div class="event-list event-list-wide">
+    <article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">53</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/2371.html">Highly pathogenic avian influenza viruses in mammals: host-range expansion and…</a></h3>
+    <p>（规则抽取，未使用大模型）SUMMARYHighly pathogenic avian influenza (HPAI) viruses, especially subtype H5N1, have caused major outbreaks in poultry and serious human infections since the first description of &#34;fowl plague&#34; in 1878. Over time, these viruses have expanded the…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span><span class="tag tag-pathogen">Yersinia pestis</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">家禽</span><span class="tag tag-host">野鸟</span>
+      <span class="tag tag-location">Hong Kong</span><span class="tag tag-location">Global</span><span class="tag tag-location">United States</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-08-31 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">53</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/5750.html">Clinical outcomes of pulmonary tuberculosis two years later in children treated with…</a></h3>
+    <p>（规则抽取，未使用大模型）BACKGROUND: In 2017, the Revised National Tuberculosis Control Program (RNTCP), now known as the National Tuberculosis Elimination Program (NTEP), introduced a major change in its treatment guidelines, shifting from an alternate-day regimen to da…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Mycobacterium tuberculosis</span>
+      <span class="tag tag-host">人类</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2025-04-08 08:00</span>
+    <span class="muted small">病例 165</span>
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/2695.html">Molecular Epidemiology and Co-Circulation of Foot-and-Mouth Disease Serotypes in Ghana…</a></h3>
+    <p>（规则抽取，未使用大模型）Foot-and-mouth disease (FMD) represents one of the most severe transboundary animal diseases globally. Although considered endemic in Ghana, recent data on circulating serotypes are limited. This study investigated and characterized FMD outbreaks…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Foot-and-mouth disease virus</span>
+      <span class="tag tag-host">牛</span><span class="tag tag-host">家畜</span>
+      <span class="tag tag-location">Ghana</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-07-13 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/581.html">H5N1 epidemiology and production impact in eight California dairy herds at the outbreak…</a></h3>
+    <p>（规则抽取，未使用大模型）The 2024 emergence of Highly Pathogenic Avian Influenza (HPAI) H5N1, clade 2.3.4.4b, genotype B3.13, in U.S. dairy cattle was a novel disease event affecting animal health, production, and public health. We conducted structured interviews with ma…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span>
+      <span class="tag tag-host">家禽</span><span class="tag tag-host">牛</span><span class="tag tag-host">家畜</span>
+      <span class="tag tag-location">California</span><span class="tag tag-location">United States</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-09-24 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/2180.html">Mpox (Formerly Known as Monkeypox) in Dermatological Practice: Presentation of a Series…</a></h3>
+    <p>（规则抽取，未使用大模型）Mpox (formerly known as monkeypox) has re-emerged globally as a significant public health concern, with dermatology services occupying a key role in early recognition due to its predominant mucocutaneous manifestations. We present a series of fou…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Mpox virus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Mexico</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-09-10 08:00</span>
+    <span class="muted small">病例 4</span>
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/3152.html">Estimation of sample size required to detect an outbreak of highly pathogenic avian…</a></h3>
+    <p>（规则抽取，未使用大模型）The Asian lineage of H5 highly pathogenic avian influenza (HPAI) virus is causing a large number of outbreaks globally. This study was conducted to evaluate the current Japanese emergency surveillance policy of HPAI in poultry farms. Under the cu…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Highly pathogenic avian influenza</span>
+      <span class="tag tag-host">家禽</span>
+      <span class="tag tag-location">Asia</span><span class="tag tag-location">Japan</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-03-12 08:00</span>
+    
+    <span class="muted small danger-text">死亡 3</span>
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/4207.html">Fatal Congenital Toxoplasmosis with Progressive Liver Failure and Genomic…</a></h3>
+    <p>（规则抽取，未使用大模型）Congenital toxoplasmosis presents with a wide clinical spectrum, ranging from asymptomatic infection to severe disease with multi-organ failure. We report a rare fatal case of disseminated congenital toxoplasmosis in a human neonate. The infant i…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Toxoplasma gondii</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">United States</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2025-12-17 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/2697.html">Highly Pathogenic Avian Influenza H5N1 in South America, 2022-2025: Spread, Affected…</a></h3>
+    <p>（规则抽取，未使用大模型）The H5N1 highly pathogenic avian influenza (HPAI) virus has caused severe global losses, reaching South America in 2022 and Antarctica in 2024. Here, we synthesize outbreak reports submitted to the World Organization for Animal Health by South Am…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span>
+      <span class="tag tag-host">家禽</span><span class="tag tag-host">野鸟</span><span class="tag tag-host">野生动物</span>
+      <span class="tag tag-location">Americas</span><span class="tag tag-location">Global</span><span class="tag tag-location">United States</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-07-12 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/718.html">Trimester-dependent vertical transmission of H5N1 influenza virus through placental and…</a></h3>
+    <p>（规则抽取，未使用大模型）Avian influenza H5N1 has pandemic potential and historically causes more severe disease in pregnant women than the general population. With increasing transmission of H5N1 detected among placental mammals, animal models are necessary for testing …</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">家禽</span><span class="tag tag-host">牛</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-08-21 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/4357.html">Urbanization influences hemorrhagic fever with renal syndrome transmission: 34-year…</a></h3>
+    <p>（规则抽取，未使用大模型）BACKGROUND: Mainland China accounts for over 90 % of the global hemorrhagic fever with renal syndrome (HFRS) cases, yet quantitative relationships between climate, urbanization and transmission dynamics remain poorly understood across national sc…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Hantavirus</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">啮齿类</span><span class="tag tag-host">野生动物</span>
+      <span class="tag tag-location">China</span><span class="tag tag-location">Global</span><span class="tag tag-location">Heilongjiang</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2025-12-09 08:00</span>
+    <span class="muted small">病例 99</span>
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/84.html">肯尼亚发现第二例埃博拉患者</a></h3>
+    <p>肯尼亚发现一名与此前因埃博拉病毒死亡的国民有密切关系的家庭成员感染了埃博拉病毒，目前尚未报告具体病例和死亡数字。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Ebolavirus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Kenya</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Ebola</span>
+    <span class="muted small">2026-10-16 04:24</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/4572.html">Neuromelioidosis in Rajasthan: A rare and fatal manifestation of Burkholderia…</a></h3>
+    <p>（规则抽取，未使用大模型）BACKGROUND: Melioidosis, an often-fatal infection caused by Burkholderia pseudomallei, is typically endemic to wet, tropical regions. However, its occurrence in dry, arid zones like northwest India is underrecognized. Neuromelioidosis, the rare n…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Mycobacterium tuberculosis</span><span class="tag tag-pathogen">Burkholderia pseudomallei</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">India</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2025-11-29 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/528.html">Minimised SARS-CoV-2 transmission during Tokyo 2020 Olympic and Paralympic Games…</a></h3>
+    <p>（规则抽取，未使用大模型）BACKGROUNDAmid the COVID-19 pandemic, stringent public health measures were taken during the Tokyo 2020 Olympic and Paralympic Games (Tokyo 2020).AIMWe describe SARS-CoV-2 transmission among Games participants and in-person contributors (GPIPC)s.…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">SARS-CoV-2</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Japan</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-10-01 08:00</span>
+    <span class="muted small">病例 804</span>
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/2670.html">Severe pneumonia and acute respiratory distress syndrome caused by avian influenza A…</a></h3>
+    <p>（规则抽取，未使用大模型）BACKGROUND: Human infection with avian influenza A (H10N3) is a rare but severe emerging zoonotic disease. To date, only a limited number of cases have been reported, which restricts a comprehensive understanding of its clinical features and publ…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H10N3)</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">家禽</span>
+      <span class="tag tag-location">China</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-07-17 08:00</span>
+    <span class="muted small">病例 4</span>
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/850.html">Arizona reports pneumonic plague death in Coconino County</a></h3>
+    <p>（规则抽取，未使用大模型）Officials also said the overall risk to the public is low.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Yersinia pestis</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Arizona</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Plague</span>
+    <span class="muted small">2025-07-15 03:31</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/1370.html">Pathogen and Testing Profiles in Post-Infectious Irritable Bowel Syndrome Across the…</a></h3>
+    <p>（规则抽取，未使用大模型）Background/Objectives: The COVID-19 public health emergency altered enteric infection surveillance, diagnostic testing, and antibiotic prescribing. We compared pathogen/testing composition among post-infectious irritable bowel syndrome (PI-IBS) c…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">SARS-CoV-2</span>
+      <span class="tag tag-host">人类</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-10-08 08:00</span>
+    <span class="muted small">病例 2</span>
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/845.html">Quick takes: Revised ACIP charter, human avian flu case in Italy, Salmonella outbreak…</a></h3>
+    <p>（规则抽取，未使用大模型）The IDSA is urging that the CDC&#39;s Advisory Committee on Immunization Practices maintains scientific integrity.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Highly pathogenic avian influenza</span><span class="tag tag-pathogen">Poliovirus</span><span class="tag tag-pathogen">Salmonella</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">家禽</span>
+      <span class="tag tag-location">Italy</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Polio</span>
+    <span class="muted small">2026-04-11 01:31</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/3449.html">Clinical Characteristics of Hospitalized Patients with Dengue Fever in Guangzhou, China.</a></h3>
+    <p>（规则抽取，未使用大模型）BACKGROUND: While the WHO has outlined specific dengue clinical phases, detailed real-world comparisons across different clinical phases remain valuable for clinical management. This study evaluates clinical features of dengue hospitalizations du…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Dengue virus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">China</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-08-15 08:00</span>
+    <span class="muted small">病例 151</span>
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/3042.html">Highly Pathogenic Avian Influenza A(H5N1) Clade 2.3.4.4b Virus and Mass Mortality in…</a></h3>
+    <p>（规则抽取，未使用大模型）In autumn 2025, highly pathogenic avian influenza A(H5N1) clade 2.3.4.4b virus, genotype EA-2024-DI.2.1, caused systemic infections leading to a mass mortality event among the western migrating subpopulation of Eurasian cranes (Grus grus) in Germ…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span>
+      <span class="tag tag-host">家禽</span>
+      <span class="tag tag-location">Germany</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-05-01 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">52</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/3905.html">Fulminant Hepatic Failure in Dengue Infection: Two Survivors From a Resource-Limited…</a></h3>
+    <p>（规则抽取，未使用大模型）Dengue is a leading cause of viral hemorrhagic fever globally, with hepatic involvement being common but usually mild. Rarely, dengue can progress to fulminant hepatic failure, a life-threatening complication requiring prompt recognition especial…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Dengue virus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Sudan</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2025-12-26 08:00</span>
+    <span class="muted small">病例 2</span>
+    
+  </div>
+</article>
+  </div>
+  <nav class="pagination" aria-label="分页">
+    
+      <a class="btn btn-ghost" href="/virus-tracker/events/page-14.html">← 上一页</a>
+    
+    <span class="page-indicator">第 15 / 43 页</span>
+    
+      <a class="btn btn-ghost" href="/virus-tracker/events/page-16.html">下一页 →</a>
+    
+  </nav>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+</body>
+</html>

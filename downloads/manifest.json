@@ -1,10 +1,10 @@
 {
   "schema_version": "virus-tracker.event.v1",
   "pipeline_version": "0.1.0",
-  "generated_at": "2026-10-26T03:58:41.855271Z",
-  "record_count": 169,
+  "generated_at": "2026-10-26T08:12:53.373083Z",
+  "record_count": 848,
   "date_range": {
-    "start": "2026-04-24T00:00:00Z",
+    "start": "2025-01-01T00:00:00Z",
     "end": "2026-11-01T00:00:00Z"
   },
   "sources": [
@@ -63,6 +63,12 @@
       "authority": 4
     },
     {
+      "id": "cidrap_mers",
+      "name": "CIDRAP · MERS-CoV",
+      "type": "news",
+      "authority": 4
+    },
+    {
       "id": "cidrap_malaria",
       "name": "CIDRAP · Malaria",
       "type": "news",
@@ -101,6 +107,12 @@
     {
       "id": "cidrap_rsv",
       "name": "CIDRAP · RSV",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_tuberculosis",
+      "name": "CIDRAP · Tuberculosis",
       "type": "news",
       "authority": 4
     },
@@ -165,17 +177,17 @@
       "authority": 5
     }
   ],
-  "model": "virus-tracker",
+  "model": "rules",
   "files": [
     {
       "name": "events.jsonl",
-      "sha256": "1a76646dc9fe65d44bb896885040e845614e38e8d4344e39f1c368cc157aeead",
-      "bytes": 789847
+      "sha256": "bd9c8e1362820c5ddcb4c9a0ff5f6eb46adb76bf555b8a8b2c0c68e26829f9f9",
+      "bytes": 4906855
     },
     {
       "name": "events.json",
-      "sha256": "02a8cd30c08c4936ec744206b38dc4242a6bab3707c8e71c7c714c6f61017a57",
-      "bytes": 911553
+      "sha256": "47851d1ea49126d3404bfb53ad4ad9b6fe345db918ea4da96acb890f629b6685",
+      "bytes": 5550446
     },
     {
       "name": "event.schema.json",
@@ -189,36 +201,46 @@
     },
     {
       "name": "history-100d.md",
-      "sha256": "de9bba717af2655e56f705fd6aa43ca353c1c1034154b7f05cc6ce64fbb1cd7d",
-      "bytes": 5088
+      "sha256": "a736e024353e2e50b4585e8bacc04b01b2d2eb2a6ee33a2d3e55ac4a7dcb25b7",
+      "bytes": 8973
     },
     {
       "name": "history-100d.json",
-      "sha256": "f4b06137e41fd57db1024756069a9917aabbdc09e9f31f3419cc9f5ff251d5c3",
-      "bytes": 38508
+      "sha256": "2bc7bd8c720a29ce6cbaa30ee8f8a5b009811220d2a5c30dcbea168c252af64d",
+      "bytes": 77593
+    },
+    {
+      "name": "history-all.md",
+      "sha256": "37e1546d826a9d425d418ee20101fd1e60677c25cd27f19062efb8f1b3a36200",
+      "bytes": 9719
+    },
+    {
+      "name": "history-all.json",
+      "sha256": "8c26b9b60d25a87c5e7739639549cb0bbcf563bd55149bfa367218245299c015",
+      "bytes": 191068
     },
     {
       "name": "graph.json",
-      "sha256": "22042da23ca8e055508b8835a5d3d6fc9d4dda8bbec00dc3e68035c9e1cded27",
-      "bytes": 127051
+      "sha256": "e0abe9f59198b9bef0658fa9c9c57fffa46a962a920805f78c5e115288e938fb",
+      "bytes": 597698
     },
     {
       "name": "events.csv",
-      "sha256": "ec491db4a2d8a9d1c1643051f15585332eb501b3164358e6a90823786c00801c",
-      "bytes": 272916
+      "sha256": "1050412f3dbe406fcd69df30b98d2fd00c6d5ec68c9dc5389956388765fb23d3",
+      "bytes": 1704707
     },
     {
       "name": "llms.txt",
-      "sha256": "f69539f3d87600e6265ae4adf4f03d2393ffcf30def08188c7180b6fbfb9aaff",
-      "bytes": 1343
+      "sha256": "0c3b180c2f1d391841e45f2efbd1b3043027547760a7aa407485fbe9cf5ca0d2",
+      "bytes": 1489
     },
     {
       "name": "dataset-card.md",
-      "sha256": "023cc273f450d1d6f1ed27747ea0606810e469f62b81b2f73c0e9bdfb862cf64",
-      "bytes": 3854
+      "sha256": "d1113dd658a95d5ea8b06ecabfeedad37037ea8d32f6a51f064217894cd3172b",
+      "bytes": 4073
     }
   ],
-  "citation": "Virus-tracker (2026). Daily pathogen and outbreak intelligence dataset [virus-tracker.event.v1]. Generated 2026-10-26T03:58:41.855271Z.",
+  "citation": "Virus-tracker (2026). Daily pathogen and outbreak intelligence dataset [virus-tracker.event.v1]. Generated 2026-10-26T08:12:53.373083Z.",
   "license": "Event metadata and machine-generated summaries are released under CC BY 4.0. Original article text, titles and images remain subject to the terms of the linked source.",
   "disclaimer": "Machine-generated for research and public-health surveillance only. Not medical advice and not a substitute for official outbreak notifications."
 }

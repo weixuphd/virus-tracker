@@ -1,19 +1,19 @@
 # Virus-tracker AI-READY Dataset Card
 
 - **Schema**: virus-tracker.ai-ready.v1
-- **Generated**: 2026-10-26T04:11:32.155211Z
-- **Events**: 169（train 135 / benchmark 34，
+- **Generated**: 2026-10-26T08:13:47.232309Z
+- **Events**: 848（train 678 / benchmark 170，
   按 event_id 隔离）
-- **Instruction samples**: 52000
-- **Benchmark samples**: 10500
-- **Pretraining corpus**: 10,014,808,356 tokens
-  （target 10,000,000,000；base 26,494,202 tokens，
-  augmentation ×378，streaming）
+- **Instruction samples**: 200000
+- **Benchmark samples**: 40000
+- **Pretraining corpus**: 10,047,503,102 tokens
+  （target 10,000,000,000；base 110,412,122 tokens，
+  augmentation ×91，streaming）
 - **Tokenizer**: cl100k_base
-- **Fine-tune eval**: accuracy 0.9706，
-  macro recall 0.9524
-- **Uplift vs majority**: accuracy 26.47 pp，
-  recall 61.91 pp
+- **Fine-tune eval**: accuracy 0.9882，
+  macro recall 0.9836
+- **Uplift vs majority**: accuracy 37.59 pp，
+  recall 73.36 pp
 
 ## Files
 

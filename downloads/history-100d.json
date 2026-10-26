@@ -2,230 +2,240 @@
   "days": 100,
   "start": "2026-07-19",
   "end": "2026-10-26",
-  "total": 167,
-  "high_or_critical": 18,
+  "total": 408,
+  "high_or_critical": 50,
   "critical": 2,
   "severity": {
     "critical": 2,
-    "high": 16,
-    "moderate": 105,
-    "low": 44
+    "high": 48,
+    "moderate": 255,
+    "low": 103
   },
   "pathogens": [
     [
       "Ebolavirus",
-      27
-    ],
-    [
-      "Highly pathogenic avian influenza",
-      26
-    ],
-    [
-      "Influenza A(H5N1)",
-      22
-    ],
-    [
-      "Measles virus",
-      20
+      53
     ],
     [
       "SARS-CoV-2",
-      18
+      50
+    ],
+    [
+      "Measles virus",
+      33
+    ],
+    [
+      "Highly pathogenic avian influenza",
+      30
+    ],
+    [
+      "Dengue virus",
+      27
+    ],
+    [
+      "Influenza A(H5N1)",
+      26
+    ],
+    [
+      "Plasmodium",
+      21
     ],
     [
       "Salmonella",
+      16
+    ],
+    [
+      "Mycobacterium tuberculosis",
+      15
+    ],
+    [
+      "Respiratory syncytial virus",
+      14
+    ],
+    [
+      "Aspergillus fumigatus",
+      14
+    ],
+    [
+      "Chikungunya virus",
+      12
+    ],
+    [
+      "Yersinia pestis",
+      12
+    ],
+    [
+      "Hantavirus",
       11
     ],
     [
       "Cyclospora cayetanensis",
+      10
+    ],
+    [
+      "Mpox virus",
       9
     ],
     [
-      "Dengue virus",
-      9
+      "Klebsiella pneumoniae",
+      8
+    ],
+    [
+      "Mucorales",
+      8
     ],
     [
       "Poliovirus",
       7
     ],
     [
-      "Yersinia pestis",
-      7
-    ],
-    [
-      "Plasmodium",
+      "Rabies virus",
       6
-    ],
-    [
-      "Chikungunya virus",
-      5
-    ],
-    [
-      "Respiratory syncytial virus",
-      4
-    ],
-    [
-      "African swine fever virus",
-      3
-    ],
-    [
-      "Influenza A(H5N6)",
-      3
-    ],
-    [
-      "Influenza A(H9N2)",
-      3
-    ],
-    [
-      "Vibrio cholerae",
-      3
-    ],
-    [
-      "West Nile virus",
-      3
-    ],
-    [
-      "Mpox virus",
-      2
-    ],
-    [
-      "Leptospira",
-      2
     ]
   ],
   "hosts": [
     [
       "human",
       "人类",
-      125
+      319
     ],
     [
       "poultry",
       "家禽",
-      27
-    ],
-    [
-      "cattle",
-      "牛",
-      13
-    ],
-    [
-      "wildlife",
-      "野生动物",
-      10
-    ],
-    [
-      "livestock",
-      "家畜",
-      9
-    ],
-    [
-      "wild_birds",
-      "野鸟",
-      8
+      37
     ],
     [
       "mosquitoes",
       "蚊",
-      7
+      19
     ],
     [
-      "cats",
-      "猫",
-      4
+      "cattle",
+      "牛",
+      19
     ],
     [
-      "swine",
-      "猪",
-      4
+      "wildlife",
+      "野生动物",
+      13
     ],
     [
       "rodents",
       "啮齿类",
-      4
+      11
+    ],
+    [
+      "livestock",
+      "家畜",
+      11
+    ],
+    [
+      "wild_birds",
+      "野鸟",
+      10
     ],
     [
       "ticks",
       "蜱",
-      3
+      9
     ],
     [
-      "horses",
-      "马",
-      2
+      "dogs",
+      "犬",
+      6
     ],
     [
       "small_ruminants",
       "羊",
-      1
+      5
+    ],
+    [
+      "cats",
+      "猫",
+      5
+    ],
+    [
+      "swine",
+      "猪",
+      5
+    ],
+    [
+      "bats",
+      "蝙蝠",
+      3
+    ],
+    [
+      "fish",
+      "鱼类",
+      2
     ]
   ],
   "locations": [
     [
-      "United States",
-      25
-    ],
-    [
-      "Democratic Republic of the Congo",
-      21
-    ],
-    [
       "Global",
-      21
+      60
+    ],
+    [
+      "United States",
+      45
     ],
     [
       "Africa",
-      14
+      37
     ],
     [
-      "Kenya",
-      9
+      "Democratic Republic of the Congo",
+      32
+    ],
+    [
+      "China",
+      22
     ],
     [
       "Europe",
-      9
+      21
+    ],
+    [
+      "Americas",
+      15
+    ],
+    [
+      "India",
+      14
     ],
     [
       "Asia",
+      13
+    ],
+    [
+      "Uganda",
+      10
+    ],
+    [
+      "Kenya",
+      10
+    ],
+    [
+      "Brazil",
       9
     ],
     [
       "Pennsylvania",
-      8
-    ],
-    [
-      "China",
-      8
-    ],
-    [
-      "Florida",
-      6
+      9
     ],
     [
       "Italy",
-      4
+      7
     ],
     [
-      "Sri Lanka",
-      4
-    ],
-    [
-      "Philippines",
-      4
-    ],
-    [
-      "Texas",
-      4
-    ],
-    [
-      "Michigan",
-      4
+      "Germany",
+      7
     ]
   ],
   "sources": [
     [
       "PubMed",
-      69
+      310
     ],
     [
       "CIDRAP · Measles",
@@ -287,19 +297,19 @@
   "types": [
     [
       "virus",
-      124
+      269
     ],
     [
       "bacteria",
-      35
+      92
     ],
     [
       "parasite",
-      18
+      48
     ],
     [
       "fungus",
-      4
+      35
     ],
     [
       "prion",
@@ -339,7 +349,7 @@
       "date": "2026-07-22",
       "label": "07-22",
       "weekday": "周三",
-      "total": 0,
+      "total": 2,
       "high": 0,
       "critical": 0
     },
@@ -347,7 +357,7 @@
       "date": "2026-07-23",
       "label": "07-23",
       "weekday": "周四",
-      "total": 1,
+      "total": 2,
       "high": 0,
       "critical": 0
     },
@@ -355,8 +365,8 @@
       "date": "2026-07-24",
       "label": "07-24",
       "weekday": "周五",
-      "total": 4,
-      "high": 0,
+      "total": 6,
+      "high": 1,
       "critical": 0
     },
     {
@@ -379,7 +389,7 @@
       "date": "2026-07-27",
       "label": "07-27",
       "weekday": "周一",
-      "total": 1,
+      "total": 3,
       "high": 0,
       "critical": 0
     },
@@ -403,7 +413,7 @@
       "date": "2026-07-30",
       "label": "07-30",
       "weekday": "周四",
-      "total": 1,
+      "total": 2,
       "high": 0,
       "critical": 0
     },
@@ -419,7 +429,7 @@
       "date": "2026-08-01",
       "label": "08-01",
       "weekday": "周六",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -435,7 +445,7 @@
       "date": "2026-08-03",
       "label": "08-03",
       "weekday": "周一",
-      "total": 0,
+      "total": 2,
       "high": 0,
       "critical": 0
     },
@@ -451,7 +461,7 @@
       "date": "2026-08-05",
       "label": "08-05",
       "weekday": "周三",
-      "total": 1,
+      "total": 4,
       "high": 0,
       "critical": 0
     },
@@ -459,7 +469,7 @@
       "date": "2026-08-06",
       "label": "08-06",
       "weekday": "周四",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -475,7 +485,7 @@
       "date": "2026-08-08",
       "label": "08-08",
       "weekday": "周六",
-      "total": 0,
+      "total": 2,
       "high": 0,
       "critical": 0
     },
@@ -491,7 +501,7 @@
       "date": "2026-08-10",
       "label": "08-10",
       "weekday": "周一",
-      "total": 0,
+      "total": 5,
       "high": 0,
       "critical": 0
     },
@@ -499,7 +509,7 @@
       "date": "2026-08-11",
       "label": "08-11",
       "weekday": "周二",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -515,7 +525,7 @@
       "date": "2026-08-13",
       "label": "08-13",
       "weekday": "周四",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -523,7 +533,7 @@
       "date": "2026-08-14",
       "label": "08-14",
       "weekday": "周五",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -531,7 +541,7 @@
       "date": "2026-08-15",
       "label": "08-15",
       "weekday": "周六",
-      "total": 0,
+      "total": 2,
       "high": 0,
       "critical": 0
     },
@@ -547,7 +557,7 @@
       "date": "2026-08-17",
       "label": "08-17",
       "weekday": "周一",
-      "total": 0,
+      "total": 3,
       "high": 0,
       "critical": 0
     },
@@ -555,7 +565,7 @@
       "date": "2026-08-18",
       "label": "08-18",
       "weekday": "周二",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -579,7 +589,7 @@
       "date": "2026-08-21",
       "label": "08-21",
       "weekday": "周五",
-      "total": 3,
+      "total": 4,
       "high": 0,
       "critical": 0
     },
@@ -587,7 +597,7 @@
       "date": "2026-08-22",
       "label": "08-22",
       "weekday": "周六",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -603,7 +613,7 @@
       "date": "2026-08-24",
       "label": "08-24",
       "weekday": "周一",
-      "total": 2,
+      "total": 4,
       "high": 0,
       "critical": 0
     },
@@ -611,7 +621,7 @@
       "date": "2026-08-25",
       "label": "08-25",
       "weekday": "周二",
-      "total": 1,
+      "total": 4,
       "high": 0,
       "critical": 0
     },
@@ -619,7 +629,7 @@
       "date": "2026-08-26",
       "label": "08-26",
       "weekday": "周三",
-      "total": 2,
+      "total": 3,
       "high": 1,
       "critical": 0
     },
@@ -635,7 +645,7 @@
       "date": "2026-08-28",
       "label": "08-28",
       "weekday": "周五",
-      "total": 1,
+      "total": 3,
       "high": 0,
       "critical": 0
     },
@@ -643,7 +653,7 @@
       "date": "2026-08-29",
       "label": "08-29",
       "weekday": "周六",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -659,7 +669,7 @@
       "date": "2026-08-31",
       "label": "08-31",
       "weekday": "周一",
-      "total": 3,
+      "total": 6,
       "high": 0,
       "critical": 0
     },
@@ -667,15 +677,15 @@
       "date": "2026-09-01",
       "label": "09-01",
       "weekday": "周二",
-      "total": 3,
-      "high": 0,
+      "total": 9,
+      "high": 3,
       "critical": 0
     },
     {
       "date": "2026-09-02",
       "label": "09-02",
       "weekday": "周三",
-      "total": 2,
+      "total": 5,
       "high": 0,
       "critical": 0
     },
@@ -683,16 +693,16 @@
       "date": "2026-09-03",
       "label": "09-03",
       "weekday": "周四",
-      "total": 2,
-      "high": 0,
+      "total": 5,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-09-04",
       "label": "09-04",
       "weekday": "周五",
-      "total": 2,
-      "high": 0,
+      "total": 7,
+      "high": 1,
       "critical": 0
     },
     {
@@ -707,7 +717,7 @@
       "date": "2026-09-06",
       "label": "09-06",
       "weekday": "周日",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -715,7 +725,7 @@
       "date": "2026-09-07",
       "label": "09-07",
       "weekday": "周一",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -723,15 +733,15 @@
       "date": "2026-09-08",
       "label": "09-08",
       "weekday": "周二",
-      "total": 3,
-      "high": 1,
+      "total": 6,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-09-09",
       "label": "09-09",
       "weekday": "周三",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -739,7 +749,7 @@
       "date": "2026-09-10",
       "label": "09-10",
       "weekday": "周四",
-      "total": 2,
+      "total": 5,
       "high": 0,
       "critical": 0
     },
@@ -747,15 +757,15 @@
       "date": "2026-09-11",
       "label": "09-11",
       "weekday": "周五",
-      "total": 1,
-      "high": 0,
+      "total": 7,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-09-12",
       "label": "09-12",
       "weekday": "周六",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -771,7 +781,7 @@
       "date": "2026-09-14",
       "label": "09-14",
       "weekday": "周一",
-      "total": 2,
+      "total": 5,
       "high": 1,
       "critical": 0
     },
@@ -779,15 +789,15 @@
       "date": "2026-09-15",
       "label": "09-15",
       "weekday": "周二",
-      "total": 2,
-      "high": 0,
+      "total": 6,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-09-16",
       "label": "09-16",
       "weekday": "周三",
-      "total": 2,
+      "total": 8,
       "high": 0,
       "critical": 0
     },
@@ -795,24 +805,24 @@
       "date": "2026-09-17",
       "label": "09-17",
       "weekday": "周四",
-      "total": 4,
-      "high": 0,
+      "total": 7,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-09-18",
       "label": "09-18",
       "weekday": "周五",
-      "total": 2,
-      "high": 1,
+      "total": 12,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-09-19",
       "label": "09-19",
       "weekday": "周六",
-      "total": 0,
-      "high": 0,
+      "total": 4,
+      "high": 1,
       "critical": 0
     },
     {
@@ -827,15 +837,15 @@
       "date": "2026-09-21",
       "label": "09-21",
       "weekday": "周一",
-      "total": 0,
-      "high": 0,
+      "total": 6,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-09-22",
       "label": "09-22",
       "weekday": "周二",
-      "total": 3,
+      "total": 8,
       "high": 0,
       "critical": 0
     },
@@ -843,7 +853,7 @@
       "date": "2026-09-23",
       "label": "09-23",
       "weekday": "周三",
-      "total": 3,
+      "total": 6,
       "high": 1,
       "critical": 0
     },
@@ -851,23 +861,23 @@
       "date": "2026-09-24",
       "label": "09-24",
       "weekday": "周四",
-      "total": 2,
-      "high": 0,
+      "total": 7,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-09-25",
       "label": "09-25",
       "weekday": "周五",
-      "total": 1,
-      "high": 1,
+      "total": 6,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-09-26",
       "label": "09-26",
       "weekday": "周六",
-      "total": 0,
+      "total": 1,
       "high": 0,
       "critical": 0
     },
@@ -883,7 +893,7 @@
       "date": "2026-09-28",
       "label": "09-28",
       "weekday": "周一",
-      "total": 2,
+      "total": 7,
       "high": 1,
       "critical": 0
     },
@@ -891,7 +901,7 @@
       "date": "2026-09-29",
       "label": "09-29",
       "weekday": "周二",
-      "total": 6,
+      "total": 14,
       "high": 0,
       "critical": 0
     },
@@ -899,15 +909,15 @@
       "date": "2026-09-30",
       "label": "09-30",
       "weekday": "周三",
-      "total": 3,
-      "high": 0,
+      "total": 10,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-10-01",
       "label": "10-01",
       "weekday": "周四",
-      "total": 6,
+      "total": 14,
       "high": 0,
       "critical": 0
     },
@@ -915,15 +925,15 @@
       "date": "2026-10-02",
       "label": "10-02",
       "weekday": "周五",
-      "total": 5,
-      "high": 0,
+      "total": 9,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-10-03",
       "label": "10-03",
       "weekday": "周六",
-      "total": 0,
+      "total": 2,
       "high": 0,
       "critical": 0
     },
@@ -939,39 +949,39 @@
       "date": "2026-10-05",
       "label": "10-05",
       "weekday": "周一",
-      "total": 5,
-      "high": 0,
+      "total": 9,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-10-06",
       "label": "10-06",
       "weekday": "周二",
-      "total": 5,
-      "high": 1,
+      "total": 9,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-10-07",
       "label": "10-07",
       "weekday": "周三",
-      "total": 4,
-      "high": 1,
+      "total": 9,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-10-08",
       "label": "10-08",
       "weekday": "周四",
-      "total": 5,
-      "high": 0,
+      "total": 13,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-10-09",
       "label": "10-09",
       "weekday": "周五",
-      "total": 5,
+      "total": 9,
       "high": 0,
       "critical": 0
     },
@@ -979,7 +989,7 @@
       "date": "2026-10-10",
       "label": "10-10",
       "weekday": "周六",
-      "total": 2,
+      "total": 4,
       "high": 0,
       "critical": 0
     },
@@ -995,23 +1005,23 @@
       "date": "2026-10-12",
       "label": "10-12",
       "weekday": "周一",
-      "total": 2,
-      "high": 0,
+      "total": 12,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-10-13",
       "label": "10-13",
       "weekday": "周二",
-      "total": 6,
-      "high": 1,
+      "total": 14,
+      "high": 3,
       "critical": 0
     },
     {
       "date": "2026-10-14",
       "label": "10-14",
       "weekday": "周三",
-      "total": 3,
+      "total": 5,
       "high": 1,
       "critical": 0
     },
@@ -1019,23 +1029,23 @@
       "date": "2026-10-15",
       "label": "10-15",
       "weekday": "周四",
-      "total": 4,
-      "high": 0,
+      "total": 10,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-10-16",
       "label": "10-16",
       "weekday": "周五",
-      "total": 5,
-      "high": 1,
+      "total": 9,
+      "high": 2,
       "critical": 0
     },
     {
       "date": "2026-10-17",
       "label": "10-17",
       "weekday": "周六",
-      "total": 1,
+      "total": 2,
       "high": 0,
       "critical": 0
     },
@@ -1051,31 +1061,31 @@
       "date": "2026-10-19",
       "label": "10-19",
       "weekday": "周一",
-      "total": 1,
-      "high": 0,
+      "total": 4,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-10-20",
       "label": "10-20",
       "weekday": "周二",
-      "total": 3,
-      "high": 0,
+      "total": 9,
+      "high": 1,
       "critical": 0
     },
     {
       "date": "2026-10-21",
       "label": "10-21",
       "weekday": "周三",
-      "total": 7,
-      "high": 1,
+      "total": 12,
+      "high": 2,
       "critical": 2
     },
     {
       "date": "2026-10-22",
       "label": "10-22",
       "weekday": "周四",
-      "total": 8,
+      "total": 9,
       "high": 1,
       "critical": 0
     },
@@ -1083,7 +1093,7 @@
       "date": "2026-10-23",
       "label": "10-23",
       "weekday": "周五",
-      "total": 8,
+      "total": 9,
       "high": 1,
       "critical": 0
     },
@@ -1125,15 +1135,15 @@
       "key": "2026-W30",
       "start": "2026-07-20",
       "end": "2026-07-26",
-      "total": 5,
-      "high": 0,
+      "total": 10,
+      "high": 1,
       "critical": 0
     },
     {
       "key": "2026-W31",
       "start": "2026-07-27",
       "end": "2026-08-02",
-      "total": 2,
+      "total": 6,
       "high": 0,
       "critical": 0
     },
@@ -1141,7 +1151,7 @@
       "key": "2026-W32",
       "start": "2026-08-03",
       "end": "2026-08-09",
-      "total": 2,
+      "total": 10,
       "high": 0,
       "critical": 0
     },
@@ -1149,7 +1159,7 @@
       "key": "2026-W33",
       "start": "2026-08-10",
       "end": "2026-08-16",
-      "total": 1,
+      "total": 11,
       "high": 0,
       "critical": 0
     },
@@ -1157,7 +1167,7 @@
       "key": "2026-W34",
       "start": "2026-08-17",
       "end": "2026-08-23",
-      "total": 6,
+      "total": 12,
       "high": 1,
       "critical": 0
     },
@@ -1165,7 +1175,7 @@
       "key": "2026-W35",
       "start": "2026-08-24",
       "end": "2026-08-30",
-      "total": 9,
+      "total": 18,
       "high": 1,
       "critical": 0
     },
@@ -1173,64 +1183,64 @@
       "key": "2026-W36",
       "start": "2026-08-31",
       "end": "2026-09-06",
-      "total": 13,
-      "high": 0,
+      "total": 34,
+      "high": 6,
       "critical": 0
     },
     {
       "key": "2026-W37",
       "start": "2026-09-07",
       "end": "2026-09-13",
-      "total": 6,
-      "high": 1,
+      "total": 21,
+      "high": 4,
       "critical": 0
     },
     {
       "key": "2026-W38",
       "start": "2026-09-14",
       "end": "2026-09-20",
-      "total": 14,
-      "high": 2,
+      "total": 44,
+      "high": 7,
       "critical": 0
     },
     {
       "key": "2026-W39",
       "start": "2026-09-21",
       "end": "2026-09-27",
-      "total": 9,
-      "high": 2,
+      "total": 34,
+      "high": 5,
       "critical": 0
     },
     {
       "key": "2026-W40",
       "start": "2026-09-28",
       "end": "2026-10-04",
-      "total": 22,
-      "high": 1,
+      "total": 56,
+      "high": 3,
       "critical": 0
     },
     {
       "key": "2026-W41",
       "start": "2026-10-05",
       "end": "2026-10-11",
-      "total": 26,
-      "high": 2,
+      "total": 53,
+      "high": 6,
       "critical": 0
     },
     {
       "key": "2026-W42",
       "start": "2026-10-12",
       "end": "2026-10-18",
-      "total": 21,
-      "high": 3,
+      "total": 52,
+      "high": 8,
       "critical": 0
     },
     {
       "key": "2026-W43",
       "start": "2026-10-19",
       "end": "2026-10-25",
-      "total": 31,
-      "high": 3,
+      "total": 47,
+      "high": 6,
       "critical": 2
     },
     {
@@ -1245,26 +1255,26 @@
   "monthly": [
     {
       "key": "2026-07",
-      "total": 7,
-      "high": 0,
+      "total": 15,
+      "high": 1,
       "critical": 0
     },
     {
       "key": "2026-08",
-      "total": 21,
+      "total": 58,
       "high": 2,
       "critical": 0
     },
     {
       "key": "2026-09",
-      "total": 50,
-      "high": 6,
+      "total": 158,
+      "high": 24,
       "critical": 0
     },
     {
       "key": "2026-10",
-      "total": 89,
-      "high": 8,
+      "total": 177,
+      "high": 21,
       "critical": 2
     }
   ],
@@ -1357,6 +1367,235 @@
       "url": "https://www.cidrap.umn.edu/ebola/dr-congo-ebola-outbreak-tops-8000-cases-48-death-rate"
     },
     {
+      "id": 2625,
+      "headline": "Changes in the microbial spectrum and antimicrobial resistance of bloodstream infections…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Bloodstream infections (BSIs) are major infectious conditions associated with high morbidity and mortality, particularly in intensive care units (ICUs). In critically ill patients, early and appropriate empirical antimicrobial therapy plays an important role in preventing adverse clinical outcomes. However, the increasing burden of antimicrobial resistance necessitates that empirical treatment strategies be continuously reassessed based on up-to-date local resistance data.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Klebsiella pneumoniae"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 72,
+      "relevance": 86,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-07-24 00:00:00",
+      "day": "2026-07-24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42902233"
+    },
+    {
+      "id": 1542,
+      "headline": "Nationwide Surveillance and Control Measures during Large Measles Outbreak, Bangladesh…",
+      "summary": "（规则抽取，未使用大模型）Nationwide surveillance in Bangladesh during April 2-May 27, 2026, identified a total of 67,079 suspected and 8,834 confirmed measles cases across 8 administrative divisions. Among suspected cases, 472 deaths were reported, and 88 deaths were reported among confirmed cases. Despite high reported vaccine coverage, transmission persisted amid residual immunity gaps.",
+      "pathogen_names": [
+        "Measles virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Bangladesh"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 72,
+      "relevance": 83,
+      "cases": 8834,
+      "deaths": 472,
+      "source_name": "PubMed",
+      "published_at": "2026-10-02 00:00:00",
+      "day": "2026-10-02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42826219"
+    },
+    {
+      "id": 1216,
+      "headline": "Heterogeneous co-circulation of multiple DENV-1 and DENV-2 genotypes in Vung Tau during…",
+      "summary": "（规则抽取，未使用大模型）Dengue virus (DENV) remains a significant global health threat, particularly in hyper-endemic regions like Vietnam, where the co-circulation of multiple serotypes and genotypes complicates disease control. In 2023, 6.5 million dengue cases and 6,800 deaths were reported globally, marking the largest dengue outbreak in the world. Vietnam recorded 149,557 dengue cases and 36 deaths, with a notable dominance of the DENV-2 serotype.",
+      "pathogen_names": [
+        "Dengue virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Vietnam",
+        "Global",
+        "Asia"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 71,
+      "relevance": 86,
+      "cases": 149557,
+      "deaths": 36,
+      "source_name": "PubMed",
+      "published_at": "2026-10-13 00:00:00",
+      "day": "2026-10-13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870316"
+    },
+    {
+      "id": 1114,
+      "headline": "Entomological investigations into yellow fever outbreak in northern Ghana.",
+      "summary": "（规则抽取，未使用大模型）Arboviruses are pathogens of emerging/re-emerging infectious diseases. Half the world's population is at risk. Recent African epidemics confirmed 19,569 cases with 820 deaths.",
+      "pathogen_names": [
+        "Dengue virus",
+        "Yellow fever virus",
+        "Zika virus",
+        "Chikungunya virus"
+      ],
+      "hosts": [
+        "human",
+        "mosquitoes"
+      ],
+      "host_labels": [
+        "人类",
+        "蚊"
+      ],
+      "locations": [
+        "Ghana",
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 71,
+      "relevance": 91,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-15 00:00:00",
+      "day": "2026-10-15",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42879437"
+    },
+    {
+      "id": 2227,
+      "headline": "Fear, stigma and Uncertainty: The short and long-term effects of Ebola on survivors…",
+      "summary": "（规则抽取，未使用大模型）In 2014, Uganda was identified as a high-risk country for Ebola Virus Disease (EVD), with a series of outbreaks recorded since 2000. In 2007, the second outbreak in Bundibugyo district resulted in 149 reported cases and 37 confirmed Ebola deaths. Through the outbreak response, a new strain of the Ebola virus (Bundibugyo ebolavirus) was discovered.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Uganda"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 70,
+      "relevance": 75,
+      "cases": 149,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-08 00:00:00",
+      "day": "2026-09-08",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42709728"
+    },
+    {
+      "id": 1954,
+      "headline": "Estimating total human deaths from rabies: A statistical framework leveraging reports of…",
+      "summary": "（规则抽取，未使用大模型）Estimating the global burden of human rabies is notoriously challenging because the infection is often misdiagnosed or not reported. Although rare, instances of donor-derived human-to-human rabies transmission have been identified after organ or tissue transplantation. Here, we present a statistical framework leveraging these instances to estimate both the probability that a death from rabies is diagnosed for an infected individual and the number of total deaths from rabies.",
+      "pathogen_names": [
+        "Rabies virus"
+      ],
+      "hosts": [
+        "human",
+        "dogs"
+      ],
+      "host_labels": [
+        "人类",
+        "犬"
+      ],
+      "locations": [
+        "Global",
+        "China",
+        "United States",
+        "India"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 70,
+      "relevance": 89,
+      "cases": null,
+      "deaths": 2227,
+      "source_name": "PubMed",
+      "published_at": "2026-09-21 00:00:00",
+      "day": "2026-09-21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42766652"
+    },
+    {
+      "id": 1966,
+      "headline": "All-Cause Excess Mortality During the COVID-19 Pandemic in a Rural Area of North India.",
+      "summary": "（规则抽取，未使用大模型）Introduction COVID-19 pandemic significantly impacted global mortality; however, many deaths were underreported. Excess mortality explains both direct and indirect impacts of the COVID-19 pandemic and therefore provides true and better estimates of pandemic deaths. Objectives The objective of this study was to estimate excess all-cause mortality during the COVID-19 pandemic in a rural area of North India.",
+      "pathogen_names": [
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "India",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 69,
+      "relevance": 83,
+      "cases": null,
+      "deaths": 43,
+      "source_name": "PubMed",
+      "published_at": "2026-09-19 00:00:00",
+      "day": "2026-09-19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42899133"
+    },
+    {
+      "id": 1463,
+      "headline": "Endogenous anti-Ebola virus GP1,2 antibodies interfere with detection of secreted…",
+      "summary": "（规则抽取，未使用大模型）Ebola disease (EBOD) is a highly infectious disease with severe hemorrhagic symptoms. It is caused by orthoebolaviruses, which include the Ebola virus (Orthoebolavirus zairense) (EBOV) causing Ebola virus disease (EVD), the most lethal EBOD to humans. Through co-transcriptional polymerase stuttering and subsequent proteolytic processing, its GP gene produces multiple protein products, including secreted glycoprotein (sGP) and structural membrane-associated trimeric GP1,2.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 69,
+      "relevance": 95,
+      "cases": 36,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-06 00:00:00",
+      "day": "2026-10-06",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42836625"
+    },
+    {
       "id": 117,
       "headline": "刚果民主共和国埃博拉疫情病例超9000例",
       "summary": "截至2026年10月，刚果民主共和国的埃博拉疫情已导致至少4381人死亡。该疫情自5月15日开始，目前尚无具体传播方式和公共卫生应对措施的信息。",
@@ -1382,6 +1621,121 @@
       "published_at": "2026-10-13 19:18:00",
       "day": "2026-10-13",
       "url": "https://www.cidrap.umn.edu/ebola/ebola-cases-top-9000-dr-congo-outbreak"
+    },
+    {
+      "id": 2326,
+      "headline": "Systemic and Mucosal Immune Responses From Serotype-Switched Viral-Vectored Ebola…",
+      "summary": "（规则抽取，未使用大模型）Ebola virus is a highly virulent pathogen causing severe hemorrhagic fever with 25%-90% mortality. The 2014 outbreak infected over 28,000 people, causing 11,325 deaths. Although there is one FDA-approved vaccine available for limited use, additional vaccines are needed.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human",
+        "rodents"
+      ],
+      "host_labels": [
+        "人类",
+        "啮齿类"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 65,
+      "cases": null,
+      "deaths": 11325,
+      "source_name": "PubMed",
+      "published_at": "2026-09-01 00:00:00",
+      "day": "2026-09-01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42765626"
+    },
+    {
+      "id": 2284,
+      "headline": "Spatio-temporal dynamics of Rift Valley fever virus circulation in sentinel livestock…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Multiple detections of Rift Valley fever virus (RVFV) infections in humans, animals and mosquito vectors suggest permanent circulation of RVFV in Senegal. This study investigated the spatial and temporal dynamics of RVFV circulation in central (Sahelian) and southeastern (Sudanian) Senegal from March 2021 to June 2024. METHODS: A total of 976 initially seronegative sheep and goats from sentinel herds in 10 districts and 2 areas were monitored for 40 months.",
+      "pathogen_names": [
+        "Rift Valley fever virus"
+      ],
+      "hosts": [
+        "human",
+        "small_ruminants",
+        "mosquitoes",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "羊",
+        "蚊",
+        "家畜"
+      ],
+      "locations": [
+        "Senegal"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 86,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-03 00:00:00",
+      "day": "2026-09-03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42757101"
+    },
+    {
+      "id": 2082,
+      "headline": "Expanding the spectrum of oropouche virus neurological disease: emerging evidence from…",
+      "summary": "（规则抽取，未使用大模型）Oropouche virus is an emerging arbovirus whose neurotropic potential is increasingly recognized across the Americas. During the 2024-2025 outbreak in Panama, we identified six patients with confirmed or probable infection who developed a broad range of neurological manifestations. Neurological symptoms arose several days after the onset of systemic illness and included ocular motor disturbances such as nystagmus and opsoclonus, cerebellar signs including ataxia and vertigo, seizures, altered mental status, and meningeal irritation.",
+      "pathogen_names": [
+        "Oropouche virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Panama",
+        "Americas"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 88,
+      "cases": 6,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-15 00:00:00",
+      "day": "2026-09-15",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42742818"
+    },
+    {
+      "id": 1804,
+      "headline": "Marburg virus disease outbreak and response in South Ethiopia Region.",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Marburg Virus Disease (MVD) is a highly virulent zoonotic infection associated with high case fatality rates and multi-organ dysfunction. Early recognition, timely supportive care, and appropriate clinical management are important in improving outcomes. We describe the clinical presentation, laboratory features, management strategies, and outcomes of five confirmed MVD survivors.",
+      "pathogen_names": [
+        "Marburg virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Ethiopia"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 90,
+      "cases": 5,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-25 00:00:00",
+      "day": "2026-09-25",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42806302"
     },
     {
       "id": 187,
@@ -1447,6 +1801,62 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42925048"
     },
     {
+      "id": 2264,
+      "headline": "Acute viral respiratory infections in children before and during the COVID-19 pandemic in…",
+      "summary": "（规则抽取，未使用大模型）Our objective was to evaluate the frequency and characteristics of acute respiratory infections (ARI) with confirmed viral etiology in children treated at a Peruvian referral hospital before and during the COVID-19 pandemic between 2019 and 2022. We conducted a descriptive study based on the detection records of adenovirus, influenza A and B (IA and IB), parainfluenza 1-3 (PIV), metapneumovirus (hMPV), and respiratory syncytial virus (RSV). Of 1740 episodes (1220 patients), 14.4% tested positive: 196 (78.0%) RSV, 23 (9.2%) IA, 14 (5.6%) PIV-3, and 13 (5.2%) hMPV.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Human metapneumovirus",
+        "Respiratory syncytial virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Peru"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 67,
+      "relevance": 77,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-04 00:00:00",
+      "day": "2026-09-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42867956"
+    },
+    {
+      "id": 944,
+      "headline": "Decomposing the decline in life expectancy at birth by cause of death during the COVID-19…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Life expectancy at birth has increased in Organisation for Economic Co-operation and Development countries and across the globe over the past few decades, until 2019. However, this trend was disrupted by the COVID-19 pandemic, which saw a significant decrease in life expectancy in Canada and many other countries. Few studies to date have decomposed the life expectancy gap by cause of death observed during the pandemic in a Canadian context.",
+      "pathogen_names": [
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Canada"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 67,
+      "relevance": 83,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-21 00:00:00",
+      "day": "2026-10-21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42905875"
+    },
+    {
       "id": 127,
       "headline": "刚果民主共和国埃博拉疫情持续，德国疟疾病死",
       "summary": "刚果民主共和国的埃博拉疫情仍在继续，病例接近7500例，死亡超过3600例。德国报告了疟疾病死案例。此外，全球新增7例脊髓灰质炎病例。",
@@ -1478,6 +1888,132 @@
       "url": "https://www.cidrap.umn.edu/ebola/quick-takes-dr-congo-ebola-emergency-malaria-deaths-germany-7-new-polio-cases"
     },
     {
+      "id": 2320,
+      "headline": "H5N1 Clade 2.3.4.4b Infections in Domestic Cats During an Avian Influenza Outbreak in…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: H5Nx goose/Guangdong (Gs/GD) lineage highly pathogenic avian influenza (HPAI) viruses pose a significant public health threat due to their global spread, mutation accumulation, and expanding host range. The descendant clade 2.3.4.4b has been causing widespread infections in birds and increasing spillover events in mammals. METHODS: This report documents the first fatal case of highly pathogenic avian influenza virus (HPAIV) H5N1 clade 2.3.4.4b infection in a domestic cat in Italy, detected in early January 2025.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "cats"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "猫"
+      ],
+      "locations": [
+        "Italy",
+        "Guangdong",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 95,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-01 00:00:00",
+      "day": "2026-09-01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42679799"
+    },
+    {
+      "id": 2293,
+      "headline": "Epidemic Comparison of Ebola and Zika-the Only Two Neglected Tropical Diseases with…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Comparative epidemiological evidence on Ebola virus disease (EVD) and Zika virus disease (ZVD) in women of childbearing age (WCBA) is limited, hindering understanding of their mother-to-child transmission (MTCT) potential and maternal-neonatal protection. This study aimed to compare EVD and ZVD epidemiology in WCBA, assess sex-specific differences, and examine the association between ZVD incidence and live births to inform maternal-neonatal protection and disease control. METHODS: Data on incidence, deaths, years of life lost (YLLs), years lived with disability (YLDs), and disability-adjusted life-years (DALYs) of EVD and ZVD (2011-2023) among WCBA and other populations were extracted from the Global Burden of Disease 2023 study.",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Zika virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Global",
+        "Africa",
+        "Americas",
+        "Brazil"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 90,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-03 00:00:00",
+      "day": "2026-09-03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42708066"
+    },
+    {
+      "id": 1017,
+      "headline": "A Carbapenem-Resistant Acinetobacter baumannii Outbreak in an Intensive Care Unit…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: We analyzed a carbapenem-resistant Acinetobacter baumannii (CRAB) outbreak in an intensive care unit (ICU) to improve insight into how this pathogen spreads within health care facilities and to inform the development of targeted control procedures. METHODS: A CRAB outbreak in a tertiary referral center was investigated over a 5-month window with clinical data, molecular typing (AP-PCR, PFGE), and one month of environmental sampling. All ICU patients (n=31) were compared-epidemic-clone-positive (n=7) versus -negative (n=24)-using Mann-Whitney/Fisher tests and Firth penalized logistic regression.",
+      "pathogen_names": [
+        "Acinetobacter baumannii"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 89,
+      "cases": 7,
+      "deaths": 7,
+      "source_name": "PubMed",
+      "published_at": "2026-10-19 00:00:00",
+      "day": "2026-10-19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896810"
+    },
+    {
+      "id": 2144,
+      "headline": "First laboratory-confirmed fatal dengue virus infection and its implications for national…",
+      "summary": "（规则抽取，未使用大模型）INTRODUCTION: Dengue virus (DENV) is an emerging public health threat in Africa, where its impact is underestimated due to nonspecific clinical manifestations and restricted diagnostic capabilities. In Liberia, laboratory-confirmed cases of DENV were initially recorded in an urban febrile surveillance study (2018-2020), yet severe or fatal outcomes had not been previously reported. This paper reports the first laboratory-confirmed fatal dengue case and its implications for national surveillance and policy in Liberia.",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Marburg virus",
+        "Lassa virus",
+        "Dengue virus",
+        "Plasmodium"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Liberia",
+        "Africa",
+        "Maryland",
+        "Ghana",
+        "Senegal",
+        "Côte d'Ivoire"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 65,
+      "relevance": 95,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-11 00:00:00",
+      "day": "2026-09-11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42830844"
+    },
+    {
       "id": 368,
       "headline": "刚果民主共和国埃博拉疫情再起：经验教训与未来方向",
       "summary": "2025年刚果民主共和国卡萨伊省爆发了由扎伊尔埃博拉病毒引起的埃博拉疫情，导致60多例确诊病例和超过65%的病死率。尽管存在先前控制成功的案例，但此次疫情暴露出在疫情准备和应对方面的持续脆弱性。通过紧急响应、疫苗接种、加强监测等措施，成功中断了传播。",
@@ -1507,6 +2043,144 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42890496"
     },
     {
+      "id": 2088,
+      "headline": "Mpox in Africa: one year continental response outcomes and way forward.",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Following the declaration of mpox as both a global and continental public health emergency in August 2024, the Joint Incident Management Support Team (IMST), co-led by the Africa Centres for Disease Control and Prevention (Africa CDC) and the WHO, was activated in Kinshasa, DRC to coordinate the continental mpox response. This article highlights the first year's epidemiological and operational findings. METHODS: Key performance indicators across eight IMST pillars (coordination, surveillance, laboratory, case management, infection prevention and control, risk communication and community engagement (RCCE), vaccination and research) were descriptively analysed using data from 28 African Union Member States from January 2024 to August 2025.",
+      "pathogen_names": [
+        "Mpox virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Africa",
+        "Global",
+        "Democratic Republic of the Congo",
+        "United States",
+        "Burundi"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 64,
+      "relevance": 68,
+      "cases": 803,
+      "deaths": 240,
+      "source_name": "PubMed",
+      "published_at": "2026-09-15 00:00:00",
+      "day": "2026-09-15",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42744565"
+    },
+    {
+      "id": 1508,
+      "headline": "Tuberculosis case profile by sex and context of the Covid-19 pandemic: São Paulo, Brazil.",
+      "summary": "（规则抽取，未使用大模型）OBJECTIVE: to analyze the profile of pulmonary tuberculosis cases, considering sex and context of the Covid-19 pandemic. METHOD: a cross-sectional study, covering new tuberculosis cases in the state of São Paulo diagnosed between 2014 and 2024. Data were collected from secondary sources and subjected to absolute and relative frequency analysis.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Mycobacterium tuberculosis"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Brazil"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 64,
+      "relevance": 77,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-05 00:00:00",
+      "day": "2026-10-05",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42848657"
+    },
+    {
+      "id": 1053,
+      "headline": "The toll of voting in a pandemic? Regional elections and the spread of COVID-19 in…",
+      "summary": "（规则抽取，未使用大模型）This study investigates whether the regional elections held in the German state of Bavaria on March 15 of 2020 - shortly after the WHO declared COVID-19 a global pandemic - contributed to the spread of COVID-19 cases and COVID-related deaths. Constructing synthetic controls for each of Bavaria's 96 districts based on non-Bavarian German districts, we find that over a third of the increase in positive test results cannot be explained by district-level demographic, economic, health or child care characteristics, nor by the distance to Ischgl - a proxy for skiing tourism associated with the first COVID-19 wave in Germany. Within Bavaria, districts with higher voter participation witnessed a steeper increase in COVID-19 cases and deaths after the election, while controlling for alternative drivers, such as the distance to Ischgl and the number of strong-beer festivals.",
+      "pathogen_names": [
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Bavaria",
+        "Germany",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 64,
+      "relevance": 83,
+      "cases": 19,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-16 00:00:00",
+      "day": "2026-10-16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42886302"
+    },
+    {
+      "id": 1656,
+      "headline": "Pediatric Deaths during Measles Outbreak, Jerusalem, Israel, 2025-2026.",
+      "summary": "（规则抽取，未使用大模型）Of 1,289 measles case-patients during April 2025-March 2026 in Jerusalem, Israel, 11 children died, a measles-specific mortality rate of 1.1 deaths/100,000 population. The measles-specific mortality rate among children <5 years of age was 7.7 deaths/100,000 population but 80.1 deaths/100,000 population in 6 neighborhoods populated by ultraorthodox Jews, a 47% measles-attributed death fraction.",
+      "pathogen_names": [
+        "Measles virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Israel"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 63,
+      "relevance": 80,
+      "cases": null,
+      "deaths": 7,
+      "source_name": "PubMed",
+      "published_at": "2026-09-30 00:00:00",
+      "day": "2026-09-30",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42816773"
+    },
+    {
+      "id": 1382,
+      "headline": "Ebola: Kenya marks first case and fatality in Bundibugyo strain outbreak.",
+      "summary": "（规则抽取，未使用大模型）Ebola: Kenya marks first case and fatality in Bundibugyo strain outbreak.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [],
+      "host_labels": [],
+      "locations": [
+        "Kenya"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 63,
+      "relevance": 87,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-08 00:00:00",
+      "day": "2026-10-08",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42849932"
+    },
+    {
       "id": 299,
       "headline": "哥伦比亚安第斯地区严重黄热病疫情特征",
       "summary": "2024-2025年，哥伦比亚安第斯地区出现严重黄热病疫情，61名患者中有22人死亡。研究发现非幸存者在ICU入院时血小板计数和凝血因子水平较低，而肝功能指标较高。",
@@ -1532,6 +2206,66 @@
       "published_at": "2026-10-21 00:00:00",
       "day": "2026-10-21",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42909258"
+    },
+    {
+      "id": 2331,
+      "headline": "Autochthonous chikungunya virus (CHIKV) outbreak in the province of Modena…",
+      "summary": "（规则抽取，未使用大模型）Between 10 August and 31 October 2025, 343 cases (306 confirmed and 37 probable) of symptomatic autochthonous chikungunya virus (CHIKV) infection were notified in eight municipalities in the province of Modena, Emilia-Romagna region, northern Italy. The infection was diagnosed by detection of CHIKV RNA in blood and urine samples, and by detection of IgM antibodies against CHIKV. Most common symptoms were arthralgia (n = 326) and fever (n = 317).",
+      "pathogen_names": [
+        "Chikungunya virus"
+      ],
+      "hosts": [
+        "human",
+        "mosquitoes"
+      ],
+      "host_labels": [
+        "人类",
+        "蚊"
+      ],
+      "locations": [
+        "Italy",
+        "South Africa",
+        "Europe"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 62,
+      "relevance": 81,
+      "cases": 343,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-01 00:00:00",
+      "day": "2026-09-01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42725371"
+    },
+    {
+      "id": 1835,
+      "headline": "Notes from the Field: The First 100 Days of Five Ebola Outbreaks - Democratic Republic of…",
+      "summary": "（规则抽取，未使用大模型）The first 100 days after identification of an outbreak are important to understanding transmission dynamics, impact of early public health interventions, and trajectory of potential future cases and deaths. A large Ebola disease outbreak in the Democratic Republic of the Congo (DRC), which has become the country's largest and deadliest, is ongoing. To better understand the current outbreak, this report compared metrics from the first 100 days of this outbreak with those of four past Ebola outbreaks.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo",
+        "Uganda",
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 62,
+      "relevance": 87,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-24 00:00:00",
+      "day": "2026-09-24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42784552"
     },
     {
       "id": 712,
@@ -1567,6 +2301,120 @@
       "published_at": "2026-08-26 00:00:00",
       "day": "2026-08-26",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42797905"
+    },
+    {
+      "id": 2028,
+      "headline": "Epidemiology of human RSV in Taiwan, 2018-2024.",
+      "summary": "（规则抽取，未使用大模型）Respiratory syncytial virus (RSV) is a leading cause of lower respiratory tract infections in infants and older adults worldwide. This retrospective study investigated the epidemiology and molecular characteristics of RSV in Taiwan from 2018 to 2024 using data from the National Community Virus Surveillance System, which encompassed the coronavirus disease 2019 (COVID-19) pandemic period. Among 74,773 samples collected from patients with suspected respiratory viral infections, 1,224 samples tested positive for RSV, yielding an overall detection rate of 1.6%.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Respiratory syncytial virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Taiwan",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 57,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-17 00:00:00",
+      "day": "2026-09-17",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42752679"
+    },
+    {
+      "id": 1449,
+      "headline": "Rethinking tuberculosis and human immunodeficiency virus as a syndemic: Implications for…",
+      "summary": "（规则抽取，未使用大模型）Tuberculosis remains the leading infectious cause of death among people living with human immunodeficiency virus (HIV). An estimated 10.7 million people developed tuberculosis worldwide in 2024, including 619,000 people living with HIV, while tuberculosis caused an estimated 150,000 deaths among people living with HIV. The two epidemics are better understood as a syndemic than as a co-infection because they concentrate in the same populations, interact biologically, and share adverse social conditions.",
+      "pathogen_names": [
+        "Mycobacterium tuberculosis"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Global",
+        "India"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 58,
+      "cases": null,
+      "deaths": 150000,
+      "source_name": "PubMed",
+      "published_at": "2026-10-07 00:00:00",
+      "day": "2026-10-07",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42843599"
+    },
+    {
+      "id": 1275,
+      "headline": "Measles death toll exceeds 1100 as Bangladesh struggles with outbreak.",
+      "summary": "（规则抽取，未使用大模型）Measles death toll exceeds 1100 as Bangladesh struggles with outbreak.",
+      "pathogen_names": [
+        "Measles virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Bangladesh"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 80,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-12 00:00:00",
+      "day": "2026-10-12",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42863858"
+    },
+    {
+      "id": 1233,
+      "headline": "Clonal outbreak of mecC-MRSA carriage linked to phage-mediated acquisition of immune…",
+      "summary": "（规则抽取，未使用大模型）OBJECTIVES: mecC-carrying methicillin-resistant Staphylococcus aureus (mecC-MRSA) are predominantly animal-associated pathogens that rarely cause human infections and have not been linked to hospital outbreaks. We investigated a suspected cluster of mecC-MRSA in a Belgian hospital and contextualised the outbreak isolates within the global mecC-MRSA population using whole-genome sequencing. METHODS: Seven mecC-MRSA isolates from screening samples from patients hospitalised in a single unit between September 2024 and January 2025 underwent whole genome sequencing alongside 16 unrelated human and 3 bovine mecC-MRSA from Belgium.",
+      "pathogen_names": [
+        "Meticillin-resistant Staphylococcus aureus"
+      ],
+      "hosts": [
+        "human",
+        "cattle"
+      ],
+      "host_labels": [
+        "人类",
+        "牛"
+      ],
+      "locations": [
+        "Belgium",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 85,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-13 00:00:00",
+      "day": "2026-10-13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42869291"
     },
     {
       "id": 397,
@@ -1791,6 +2639,95 @@
       "published_at": "2026-10-07 20:56:00",
       "day": "2026-10-07",
       "url": "https://www.cidrap.umn.edu/ebola/kenya-10-people-quarantine-officials-try-reach-57-more-contacts-deceased-ebola-patient"
+    },
+    {
+      "id": 2154,
+      "headline": "Fatal Infection with Dengue Virus and Avian Orthoavulavirus 1 in Traveler Returning from…",
+      "summary": "（规则抽取，未使用大模型）A previously healthy 26-year-old man died of hemorrhagic fever with fulminant hepatitis and shock 36 hours after returning to France from Mecca, Saudi Arabia. Postmortem analyses detected low-level dengue virus RNA and positive NS1 antigen along with unexpected extremely high-titer disseminated velogenic avian orthoavulavirus 1 infection with elevated systemic cytokine responses.",
+      "pathogen_names": [
+        "Dengue virus"
+      ],
+      "hosts": [
+        "human",
+        "poultry"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽"
+      ],
+      "locations": [
+        "Saudi Arabia",
+        "France"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 60,
+      "relevance": 86,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-11 00:00:00",
+      "day": "2026-09-11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42726670"
+    },
+    {
+      "id": 1984,
+      "headline": "Tell people and lose what I have: Care-seeking, concealment, and disclosure during Sierra…",
+      "summary": "（规则抽取，未使用大模型）During Sierra Leone's 2025 clade IIb mpox outbreak, care-seeking occurred in a social context where formal presentation could expose symptoms, sexualised assumptions, and private relationships to families, workplaces, neighbours, and surveillance systems. We conducted a focused thematic analysis nested within a broader qualitative study across Western Area Urban, Western Area Rural, Bo, and Kenema from 10 March to 28 August 2025. The focused dataset held 70 transcripts.",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Mpox virus",
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Sierra Leone"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 60,
+      "relevance": 81,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-18 00:00:00",
+      "day": "2026-09-18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42758771"
+    },
+    {
+      "id": 995,
+      "headline": "Epidemiology of malaria in the Torres Strait Islands, Australia, 2000-2025 and the public…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Australia was declared malaria free in 1981. However, the proximity of Australia's Torres Strait region to malaria-endemic Papua New Guinea (PNG), and the presence of the Anopheles mosquito across Northern Australia, means there is an ongoing risk of malaria for many Australian residents. This paper describes the epidemiology of malaria in the Torres Strait region between 2000 and 2025 and reports the public health response to three malaria outbreaks between 2023 and 2025.",
+      "pathogen_names": [
+        "Plasmodium"
+      ],
+      "hosts": [
+        "human",
+        "mosquitoes"
+      ],
+      "host_labels": [
+        "人类",
+        "蚊"
+      ],
+      "locations": [
+        "Australia",
+        "Papua New Guinea"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 60,
+      "relevance": 78,
+      "cases": 171,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-20 00:00:00",
+      "day": "2026-10-20",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896225"
     }
   ]
 }

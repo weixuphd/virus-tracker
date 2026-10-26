@@ -1,29 +1,30 @@
 {
   "status": "ok",
   "task": "severity_classification",
-  "train_samples": 5400,
-  "benchmark_samples": 1360,
+  "train_samples": 27120,
+  "benchmark_samples": 6000,
   "fine_tuned": {
-    "accuracy": 0.9706,
-    "macro_recall": 0.9524
+    "accuracy": 0.9882,
+    "macro_recall": 0.9836
   },
   "zero_shot_majority": {
-    "accuracy": 0.7059,
-    "macro_recall": 0.3333
+    "accuracy": 0.6123,
+    "macro_recall": 0.25
   },
   "rule_baseline": {
-    "accuracy": 0.9706,
-    "macro_recall": 0.9524
+    "accuracy": 0.9882,
+    "macro_recall": 0.9836
   },
   "labels": [
+    "critical",
     "high",
     "low",
     "moderate"
   ],
   "model": "TF-IDF + rule-engine signal hybrid (fine-tuned on AI-READY instruction data)",
   "uplift_vs_majority": {
-    "accuracy_pp": 26.47,
-    "recall_pp": 61.91
+    "accuracy_pp": 37.59,
+    "recall_pp": 73.36
   },
   "uplift_vs_rule": {
     "accuracy_pp": 0.0,

@@ -56,7 +56,7 @@
     <div class="hero-badges">
       <span class="pill">AI-READY v1</span>
       <span class="pill">19 项指标</span>
-      <span class="pill">2026-10-26T04:11:32.373444Z</span>
+      <span class="pill">2026-10-26T08:15:02.668556Z</span>
     </div>
   </div>
   <div class="ai-score pass">
@@ -112,7 +112,7 @@
         <strong>100.0</strong>
         <span>目标 ≥95%</span>
       </div>
-      <p>3887/3887 字段通过值域校验；schema 通过率 100.0%</p>
+      <p>11500/11500 字段通过值域校验；schema 通过率 100.0%</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -122,10 +122,10 @@
       </div>
       <h3>医学术语标准化治理语义一致率</h3>
       <div class="metric-values">
-        <strong>99.57</strong>
+        <strong>99.82</strong>
         <span>目标 ≥95%</span>
       </div>
-      <p>232/233 术语可规范化；宿主 100.0%</p>
+      <p>1126/1128 术语可规范化；宿主 100.0%</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -135,10 +135,10 @@
       </div>
       <h3>语义索引层查询计划生成时间</h3>
       <div class="metric-values">
-        <strong>1.37</strong>
+        <strong>2.47</strong>
         <span>目标 ≤500ms</span>
       </div>
-      <p>5 个样例查询计划最大 1.37ms；索引构建 13.0ms；169 文档</p>
+      <p>5 个样例查询计划最大 2.47ms；索引构建 70.44ms；848 文档</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -151,7 +151,7 @@
         <strong>3</strong>
         <span>目标 ≥1</span>
       </div>
-      <p>3 个专用数据产物：病原/疫情事件数据集、5.2 万指令+1.05 万基准数据集、13 亿 token 预训练语料</p>
+      <p>3 个专用数据产物：病原/疫情事件数据集、200,000 指令+40,000 基准数据集、10,047,503,102 token 预训练语料</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -161,10 +161,10 @@
       </div>
       <h3>学科高质量预训练数据集规模</h3>
       <div class="metric-values">
-        <strong>10,014,808,356</strong>
+        <strong>10,047,503,102</strong>
         <span>目标 ≥10亿Token</span>
       </div>
-      <p>streaming 增强语料 10,014,808,356 tokens；基础实料 26,494,202 × 378；428,274 文档</p>
+      <p>streaming 增强语料 10,047,503,102 tokens；基础实料 110,412,122 × 91；667,485 文档</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -174,7 +174,7 @@
       </div>
       <h3>指令微调数据集</h3>
       <div class="metric-values">
-        <strong>52,000</strong>
+        <strong>200,000</strong>
         <span>目标 ≥5万条</span>
       </div>
       <p>instruction/train.jsonl</p>
@@ -187,7 +187,7 @@
       </div>
       <h3>基准测试数据集</h3>
       <div class="metric-values">
-        <strong>10,500</strong>
+        <strong>40,000</strong>
         <span>目标 ≥1万条</span>
       </div>
       <p>benchmark/benchmark.jsonl；event_id 隔离</p>
@@ -213,10 +213,10 @@
       </div>
       <h3>高质量数据集微调模型推理准确率提升</h3>
       <div class="metric-values">
-        <strong>26.47</strong>
+        <strong>37.59</strong>
         <span>目标 ≥10%</span>
       </div>
-      <p>fine-tuned 0.9706 vs majority 0.7059；规则基线 0.9706</p>
+      <p>fine-tuned 0.9882 vs majority 0.6123；规则基线 0.9882</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -226,10 +226,10 @@
       </div>
       <h3>高质量数据集微调模型推理召回率提升</h3>
       <div class="metric-values">
-        <strong>61.91</strong>
+        <strong>73.36</strong>
         <span>目标 ≥15%</span>
       </div>
-      <p>fine-tuned macro recall 0.9524 vs majority 0.3333</p>
+      <p>fine-tuned macro recall 0.9836 vs majority 0.25</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -281,7 +281,7 @@
         <strong>100.0</strong>
         <span>目标 ≥99.9%</span>
       </div>
-      <p>观测 0.39h 内 246/246 心跳成功；窗口 30 天</p>
+      <p>观测 4.45h 内 1993/1993 心跳成功；窗口 30 天</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -294,7 +294,7 @@
         <strong>已实现</strong>
         <span>目标 跨机构合规审计</span>
       </div>
-      <p>跨机构 scoped_query + AuditLog；当前审计记录 22 条</p>
+      <p>跨机构 scoped_query + AuditLog；当前审计记录 24 条</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -307,7 +307,7 @@
         <strong>已实现</strong>
         <span>目标 全流程闭环</span>
       </div>
-      <p>5 个角色；22 条审计日志</p>
+      <p>5 个角色；24 条审计日志</p>
     </article>
   
     <article class="metric-card metric-pass">
@@ -317,10 +317,10 @@
       </div>
       <h3>动态脱敏响应时间</h3>
       <div class="metric-values">
-        <strong>0.209</strong>
+        <strong>0.202</strong>
         <span>目标 ≤100ms</span>
       </div>
-      <p>P95 0.209ms；样本 300</p>
+      <p>P95 0.202ms；样本 300</p>
     </article>
   
 </section>
@@ -469,19 +469,19 @@
   <section class="panel">
     <div class="panel-head"><h2>数据集与模型评测</h2><span class="muted small">event_id 隔离</span></div>
     <div class="mini-stats four">
-      <div><strong>52000</strong><span>指令样本</span></div>
-      <div><strong>10500</strong><span>基准样本</span></div>
-      <div><strong>10.01B</strong><span>预训练 Token</span></div>
-      <div><strong>0.9524</strong><span>微调 Recall</span></div>
+      <div><strong>200000</strong><span>指令样本</span></div>
+      <div><strong>40000</strong><span>基准样本</span></div>
+      <div><strong>10.05B</strong><span>预训练 Token</span></div>
+      <div><strong>0.9836</strong><span>微调 Recall</span></div>
     </div>
     <div class="panel-divider"></div>
     <div class="meta-list">
-      <div><span>训练 / 基准事件</span><strong>135 / 34</strong></div>
-      <div><span>基础实料 / 增强</span><strong>26,494,202 tokens × 378</strong></div>
-      <div><span>微调准确率</span><strong>0.9706</strong></div>
-      <div><span>零样本基线准确率</span><strong>0.7059</strong></div>
-      <div><span>准确率提升</span><strong class="status-ok">+26.47 pp</strong></div>
-      <div><span>召回率提升</span><strong class="status-ok">+61.91 pp</strong></div>
+      <div><span>训练 / 基准事件</span><strong>678 / 170</strong></div>
+      <div><span>基础实料 / 增强</span><strong>110,412,122 tokens × 91</strong></div>
+      <div><span>微调准确率</span><strong>0.9882</strong></div>
+      <div><span>零样本基线准确率</span><strong>0.6123</strong></div>
+      <div><span>准确率提升</span><strong class="status-ok">+37.59 pp</strong></div>
+      <div><span>召回率提升</span><strong class="status-ok">+73.36 pp</strong></div>
       <div><span>评测模型</span><strong>TF-IDF + rule-engine signal hybrid (fine-tuned on AI-READY instruction data)</strong></div>
     </div>
     <div class="panel-divider"></div>
@@ -531,9 +531,9 @@
   <section class="panel">
     <div class="panel-head"><h2>跨机构合规与脱敏</h2><span class="muted small">RBAC · Audit · De-ID</span></div>
     <div class="meta-list">
-      <div><span>审计记录</span><strong>22 条</strong></div>
+      <div><span>审计记录</span><strong>24 条</strong></div>
       <div><span>角色</span><strong>admin / analyst / researcher / auditor / viewer</strong></div>
-      <div><span>脱敏 P95</span><strong class="status-ok">0.209 ms</strong></div>
+      <div><span>脱敏 P95</span><strong class="status-ok">0.202 ms</strong></div>
       <div><span>脱敏实体</span><strong>{&#39;email&#39;: 309, &#39;id&#39;: 300, &#39;mrn&#39;: 300, &#39;phone&#39;: 303, &#39;name&#39;: 300, &#39;address&#39;: 300}</strong></div>
     </div>
     <div class="panel-divider"></div>
@@ -592,25 +592,25 @@
         <span>≥95%</span>
         <span>100.0</span>
         <span class="status-ok">通过</span>
-        <small>3887/3887 字段通过值域校验；schema 通过率 100.0%</small>
+        <small>11500/11500 字段通过值域校验；schema 通过率 100.0%</small>
       </div>
     
       <div class="ai-row">
         <span>4</span>
         <strong>医学术语标准化治理语义一致率</strong>
         <span>≥95%</span>
-        <span>99.57</span>
+        <span>99.82</span>
         <span class="status-ok">通过</span>
-        <small>232/233 术语可规范化；宿主 100.0%</small>
+        <small>1126/1128 术语可规范化；宿主 100.0%</small>
       </div>
     
       <div class="ai-row">
         <span>5</span>
         <strong>语义索引层查询计划生成时间</strong>
         <span>≤500ms</span>
-        <span>1.37</span>
+        <span>2.47</span>
         <span class="status-ok">通过</span>
-        <small>5 个样例查询计划最大 1.37ms；索引构建 13.0ms；169 文档</small>
+        <small>5 个样例查询计划最大 2.47ms；索引构建 70.44ms；848 文档</small>
       </div>
     
       <div class="ai-row">
@@ -619,23 +619,23 @@
         <span>≥1</span>
         <span>3</span>
         <span class="status-ok">通过</span>
-        <small>3 个专用数据产物：病原/疫情事件数据集、5.2 万指令+1.05 万基准数据集、13 亿 token 预训练语料</small>
+        <small>3 个专用数据产物：病原/疫情事件数据集、200,000 指令+40,000 基准数据集、10,047,503,102 token 预训练语料</small>
       </div>
     
       <div class="ai-row">
         <span>7</span>
         <strong>学科高质量预训练数据集规模</strong>
         <span>≥10亿Token</span>
-        <span>10,014,808,356</span>
+        <span>10,047,503,102</span>
         <span class="status-ok">通过</span>
-        <small>streaming 增强语料 10,014,808,356 tokens；基础实料 26,494,202 × 378；428,274 文档</small>
+        <small>streaming 增强语料 10,047,503,102 tokens；基础实料 110,412,122 × 91；667,485 文档</small>
       </div>
     
       <div class="ai-row">
         <span>8</span>
         <strong>指令微调数据集</strong>
         <span>≥5万条</span>
-        <span>52,000</span>
+        <span>200,000</span>
         <span class="status-ok">通过</span>
         <small>instruction/train.jsonl</small>
       </div>
@@ -644,7 +644,7 @@
         <span>9</span>
         <strong>基准测试数据集</strong>
         <span>≥1万条</span>
-        <span>10,500</span>
+        <span>40,000</span>
         <span class="status-ok">通过</span>
         <small>benchmark/benchmark.jsonl；event_id 隔离</small>
       </div>
@@ -662,18 +662,18 @@
         <span>11</span>
         <strong>高质量数据集微调模型推理准确率提升</strong>
         <span>≥10%</span>
-        <span>26.47</span>
+        <span>37.59</span>
         <span class="status-ok">通过</span>
-        <small>fine-tuned 0.9706 vs majority 0.7059；规则基线 0.9706</small>
+        <small>fine-tuned 0.9882 vs majority 0.6123；规则基线 0.9882</small>
       </div>
     
       <div class="ai-row">
         <span>12</span>
         <strong>高质量数据集微调模型推理召回率提升</strong>
         <span>≥15%</span>
-        <span>61.91</span>
+        <span>73.36</span>
         <span class="status-ok">通过</span>
-        <small>fine-tuned macro recall 0.9524 vs majority 0.3333</small>
+        <small>fine-tuned macro recall 0.9836 vs majority 0.25</small>
       </div>
     
       <div class="ai-row">
@@ -709,7 +709,7 @@
         <span>≥99.9%</span>
         <span>100.0</span>
         <span class="status-ok">通过</span>
-        <small>观测 0.39h 内 246/246 心跳成功；窗口 30 天</small>
+        <small>观测 4.45h 内 1993/1993 心跳成功；窗口 30 天</small>
       </div>
     
       <div class="ai-row">
@@ -718,7 +718,7 @@
         <span>跨机构合规审计</span>
         <span>已实现</span>
         <span class="status-ok">通过</span>
-        <small>跨机构 scoped_query + AuditLog；当前审计记录 22 条</small>
+        <small>跨机构 scoped_query + AuditLog；当前审计记录 24 条</small>
       </div>
     
       <div class="ai-row">
@@ -727,16 +727,16 @@
         <span>全流程闭环</span>
         <span>已实现</span>
         <span class="status-ok">通过</span>
-        <small>5 个角色；22 条审计日志</small>
+        <small>5 个角色；24 条审计日志</small>
       </div>
     
       <div class="ai-row">
         <span>19</span>
         <strong>动态脱敏响应时间</strong>
         <span>≤100ms</span>
-        <span>0.209</span>
+        <span>0.202</span>
         <span class="status-ok">通过</span>
-        <small>P95 0.209ms；样本 300</small>
+        <small>P95 0.202ms；样本 300</small>
       </div>
     
   </div>

@@ -1,0 +1,8368 @@
+{
+  "days": 664,
+  "start": "2025-01-01",
+  "end": "2026-10-26",
+  "total": 847,
+  "high_or_critical": 113,
+  "critical": 4,
+  "severity": {
+    "critical": 4,
+    "high": 109,
+    "moderate": 530,
+    "low": 204
+  },
+  "pathogens": [
+    [
+      "SARS-CoV-2",
+      102
+    ],
+    [
+      "Highly pathogenic avian influenza",
+      87
+    ],
+    [
+      "Influenza A(H5N1)",
+      79
+    ],
+    [
+      "Ebolavirus",
+      74
+    ],
+    [
+      "Dengue virus",
+      59
+    ],
+    [
+      "Measles virus",
+      42
+    ],
+    [
+      "Mpox virus",
+      37
+    ],
+    [
+      "Plasmodium",
+      37
+    ],
+    [
+      "Mycobacterium tuberculosis",
+      35
+    ],
+    [
+      "Chikungunya virus",
+      28
+    ],
+    [
+      "Salmonella",
+      28
+    ],
+    [
+      "Aspergillus fumigatus",
+      25
+    ],
+    [
+      "Hantavirus",
+      22
+    ],
+    [
+      "Vibrio cholerae",
+      21
+    ],
+    [
+      "Respiratory syncytial virus",
+      18
+    ],
+    [
+      "Yersinia pestis",
+      17
+    ],
+    [
+      "Poliovirus",
+      16
+    ],
+    [
+      "African swine fever virus",
+      16
+    ],
+    [
+      "Severe fever with thrombocytopenia syndrome virus",
+      15
+    ],
+    [
+      "Klebsiella pneumoniae",
+      13
+    ]
+  ],
+  "hosts": [
+    [
+      "human",
+      "人类",
+      626
+    ],
+    [
+      "poultry",
+      "家禽",
+      124
+    ],
+    [
+      "cattle",
+      "牛",
+      61
+    ],
+    [
+      "mosquitoes",
+      "蚊",
+      41
+    ],
+    [
+      "wildlife",
+      "野生动物",
+      39
+    ],
+    [
+      "livestock",
+      "家畜",
+      39
+    ],
+    [
+      "wild_birds",
+      "野鸟",
+      38
+    ],
+    [
+      "swine",
+      "猪",
+      27
+    ],
+    [
+      "rodents",
+      "啮齿类",
+      26
+    ],
+    [
+      "dogs",
+      "犬",
+      16
+    ],
+    [
+      "ticks",
+      "蜱",
+      15
+    ],
+    [
+      "small_ruminants",
+      "羊",
+      14
+    ],
+    [
+      "cats",
+      "猫",
+      13
+    ],
+    [
+      "bats",
+      "蝙蝠",
+      8
+    ],
+    [
+      "fish",
+      "鱼类",
+      4
+    ]
+  ],
+  "locations": [
+    [
+      "Global",
+      132
+    ],
+    [
+      "Africa",
+      99
+    ],
+    [
+      "United States",
+      94
+    ],
+    [
+      "China",
+      64
+    ],
+    [
+      "Europe",
+      52
+    ],
+    [
+      "Democratic Republic of the Congo",
+      47
+    ],
+    [
+      "Asia",
+      39
+    ],
+    [
+      "India",
+      35
+    ],
+    [
+      "Americas",
+      32
+    ],
+    [
+      "Uganda",
+      27
+    ],
+    [
+      "Brazil",
+      26
+    ],
+    [
+      "Germany",
+      16
+    ],
+    [
+      "United Kingdom",
+      16
+    ],
+    [
+      "South Korea",
+      16
+    ],
+    [
+      "Nigeria",
+      14
+    ]
+  ],
+  "sources": [
+    [
+      "PubMed",
+      676
+    ],
+    [
+      "US CDC Outbreaks",
+      22
+    ],
+    [
+      "CIDRAP · Measles",
+      14
+    ],
+    [
+      "CIDRAP · Avian Influenza",
+      14
+    ],
+    [
+      "CIDRAP · Ebola",
+      13
+    ],
+    [
+      "CIDRAP · Cholera",
+      13
+    ],
+    [
+      "CIDRAP · Foodborne Disease",
+      12
+    ],
+    [
+      "CIDRAP · Mpox",
+      10
+    ],
+    [
+      "CIDRAP · Plague",
+      8
+    ],
+    [
+      "CIDRAP · Chronic Wasting Disease",
+      7
+    ],
+    [
+      "ScienceDaily Infectious Diseases",
+      7
+    ],
+    [
+      "CIDRAP · Viral Hemorrhagic Fever",
+      6
+    ],
+    [
+      "CIDRAP · Polio",
+      6
+    ],
+    [
+      "CIDRAP · Dengue",
+      6
+    ],
+    [
+      "CIDRAP · COVID-19",
+      6
+    ]
+  ],
+  "types": [
+    [
+      "virus",
+      595
+    ],
+    [
+      "bacteria",
+      180
+    ],
+    [
+      "parasite",
+      88
+    ],
+    [
+      "fungus",
+      56
+    ],
+    [
+      "prion",
+      8
+    ],
+    [
+      "unknown",
+      2
+    ]
+  ],
+  "daily": [
+    {
+      "date": "2025-01-01",
+      "label": "01-01",
+      "weekday": "周三",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-02",
+      "label": "01-02",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-03",
+      "label": "01-03",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-04",
+      "label": "01-04",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-05",
+      "label": "01-05",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-06",
+      "label": "01-06",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-07",
+      "label": "01-07",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-08",
+      "label": "01-08",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-09",
+      "label": "01-09",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-10",
+      "label": "01-10",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-11",
+      "label": "01-11",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-12",
+      "label": "01-12",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-13",
+      "label": "01-13",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-14",
+      "label": "01-14",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-15",
+      "label": "01-15",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-16",
+      "label": "01-16",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-17",
+      "label": "01-17",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-18",
+      "label": "01-18",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-19",
+      "label": "01-19",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-20",
+      "label": "01-20",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-21",
+      "label": "01-21",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-22",
+      "label": "01-22",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-23",
+      "label": "01-23",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-24",
+      "label": "01-24",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-25",
+      "label": "01-25",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-26",
+      "label": "01-26",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-27",
+      "label": "01-27",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-28",
+      "label": "01-28",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-29",
+      "label": "01-29",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-30",
+      "label": "01-30",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-01-31",
+      "label": "01-31",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-01",
+      "label": "02-01",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-02",
+      "label": "02-02",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-03",
+      "label": "02-03",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-04",
+      "label": "02-04",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-05",
+      "label": "02-05",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-06",
+      "label": "02-06",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-07",
+      "label": "02-07",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-08",
+      "label": "02-08",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-09",
+      "label": "02-09",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-10",
+      "label": "02-10",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-11",
+      "label": "02-11",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-12",
+      "label": "02-12",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-13",
+      "label": "02-13",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-14",
+      "label": "02-14",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-15",
+      "label": "02-15",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-16",
+      "label": "02-16",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-17",
+      "label": "02-17",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-18",
+      "label": "02-18",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-19",
+      "label": "02-19",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-20",
+      "label": "02-20",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-21",
+      "label": "02-21",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-22",
+      "label": "02-22",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-23",
+      "label": "02-23",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-24",
+      "label": "02-24",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-25",
+      "label": "02-25",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-26",
+      "label": "02-26",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-27",
+      "label": "02-27",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-02-28",
+      "label": "02-28",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-01",
+      "label": "03-01",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-02",
+      "label": "03-02",
+      "weekday": "周日",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-03",
+      "label": "03-03",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-04",
+      "label": "03-04",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-05",
+      "label": "03-05",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-06",
+      "label": "03-06",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-07",
+      "label": "03-07",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-08",
+      "label": "03-08",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-09",
+      "label": "03-09",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-10",
+      "label": "03-10",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-11",
+      "label": "03-11",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 1
+    },
+    {
+      "date": "2025-03-12",
+      "label": "03-12",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-13",
+      "label": "03-13",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-14",
+      "label": "03-14",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-15",
+      "label": "03-15",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-16",
+      "label": "03-16",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-17",
+      "label": "03-17",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-18",
+      "label": "03-18",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-19",
+      "label": "03-19",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-20",
+      "label": "03-20",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-21",
+      "label": "03-21",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-22",
+      "label": "03-22",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-23",
+      "label": "03-23",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-24",
+      "label": "03-24",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-25",
+      "label": "03-25",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-26",
+      "label": "03-26",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-27",
+      "label": "03-27",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-28",
+      "label": "03-28",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-29",
+      "label": "03-29",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-30",
+      "label": "03-30",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-03-31",
+      "label": "03-31",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-01",
+      "label": "04-01",
+      "weekday": "周二",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-02",
+      "label": "04-02",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-03",
+      "label": "04-03",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-04",
+      "label": "04-04",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-05",
+      "label": "04-05",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-06",
+      "label": "04-06",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-07",
+      "label": "04-07",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-08",
+      "label": "04-08",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-09",
+      "label": "04-09",
+      "weekday": "周三",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-10",
+      "label": "04-10",
+      "weekday": "周四",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-11",
+      "label": "04-11",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-12",
+      "label": "04-12",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-13",
+      "label": "04-13",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-14",
+      "label": "04-14",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-15",
+      "label": "04-15",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-16",
+      "label": "04-16",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-17",
+      "label": "04-17",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-18",
+      "label": "04-18",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-19",
+      "label": "04-19",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-20",
+      "label": "04-20",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-21",
+      "label": "04-21",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-22",
+      "label": "04-22",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-23",
+      "label": "04-23",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-24",
+      "label": "04-24",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-25",
+      "label": "04-25",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-26",
+      "label": "04-26",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-27",
+      "label": "04-27",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-28",
+      "label": "04-28",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-29",
+      "label": "04-29",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-04-30",
+      "label": "04-30",
+      "weekday": "周三",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-01",
+      "label": "05-01",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-02",
+      "label": "05-02",
+      "weekday": "周五",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-03",
+      "label": "05-03",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-04",
+      "label": "05-04",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-05",
+      "label": "05-05",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-06",
+      "label": "05-06",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-07",
+      "label": "05-07",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-08",
+      "label": "05-08",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-09",
+      "label": "05-09",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-10",
+      "label": "05-10",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-11",
+      "label": "05-11",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-12",
+      "label": "05-12",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-13",
+      "label": "05-13",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-14",
+      "label": "05-14",
+      "weekday": "周三",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-15",
+      "label": "05-15",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-16",
+      "label": "05-16",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-17",
+      "label": "05-17",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-18",
+      "label": "05-18",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-19",
+      "label": "05-19",
+      "weekday": "周一",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-20",
+      "label": "05-20",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-21",
+      "label": "05-21",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-22",
+      "label": "05-22",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-23",
+      "label": "05-23",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-24",
+      "label": "05-24",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-25",
+      "label": "05-25",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-26",
+      "label": "05-26",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-27",
+      "label": "05-27",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-28",
+      "label": "05-28",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-29",
+      "label": "05-29",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-30",
+      "label": "05-30",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-05-31",
+      "label": "05-31",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-01",
+      "label": "06-01",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-02",
+      "label": "06-02",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-03",
+      "label": "06-03",
+      "weekday": "周二",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-04",
+      "label": "06-04",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-05",
+      "label": "06-05",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-06",
+      "label": "06-06",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-07",
+      "label": "06-07",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-08",
+      "label": "06-08",
+      "weekday": "周日",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-09",
+      "label": "06-09",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-10",
+      "label": "06-10",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-11",
+      "label": "06-11",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-12",
+      "label": "06-12",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-13",
+      "label": "06-13",
+      "weekday": "周五",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-14",
+      "label": "06-14",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-15",
+      "label": "06-15",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-16",
+      "label": "06-16",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-17",
+      "label": "06-17",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-18",
+      "label": "06-18",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-19",
+      "label": "06-19",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-20",
+      "label": "06-20",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-21",
+      "label": "06-21",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-22",
+      "label": "06-22",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-23",
+      "label": "06-23",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-24",
+      "label": "06-24",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-25",
+      "label": "06-25",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-26",
+      "label": "06-26",
+      "weekday": "周四",
+      "total": 3,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-27",
+      "label": "06-27",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-28",
+      "label": "06-28",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-29",
+      "label": "06-29",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-06-30",
+      "label": "06-30",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-01",
+      "label": "07-01",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-02",
+      "label": "07-02",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-03",
+      "label": "07-03",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-04",
+      "label": "07-04",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-05",
+      "label": "07-05",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-06",
+      "label": "07-06",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-07",
+      "label": "07-07",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-08",
+      "label": "07-08",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-09",
+      "label": "07-09",
+      "weekday": "周三",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-10",
+      "label": "07-10",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-11",
+      "label": "07-11",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-12",
+      "label": "07-12",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-13",
+      "label": "07-13",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-14",
+      "label": "07-14",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-15",
+      "label": "07-15",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-16",
+      "label": "07-16",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-17",
+      "label": "07-17",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-18",
+      "label": "07-18",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-19",
+      "label": "07-19",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-20",
+      "label": "07-20",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-21",
+      "label": "07-21",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-22",
+      "label": "07-22",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-23",
+      "label": "07-23",
+      "weekday": "周三",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-24",
+      "label": "07-24",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-25",
+      "label": "07-25",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-26",
+      "label": "07-26",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-27",
+      "label": "07-27",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-28",
+      "label": "07-28",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-29",
+      "label": "07-29",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-30",
+      "label": "07-30",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-07-31",
+      "label": "07-31",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-01",
+      "label": "08-01",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-02",
+      "label": "08-02",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-03",
+      "label": "08-03",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-04",
+      "label": "08-04",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-05",
+      "label": "08-05",
+      "weekday": "周二",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-06",
+      "label": "08-06",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-07",
+      "label": "08-07",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-08",
+      "label": "08-08",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-09",
+      "label": "08-09",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-10",
+      "label": "08-10",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-11",
+      "label": "08-11",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-12",
+      "label": "08-12",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-13",
+      "label": "08-13",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-14",
+      "label": "08-14",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-15",
+      "label": "08-15",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-16",
+      "label": "08-16",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-17",
+      "label": "08-17",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-18",
+      "label": "08-18",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-19",
+      "label": "08-19",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-20",
+      "label": "08-20",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-21",
+      "label": "08-21",
+      "weekday": "周四",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-22",
+      "label": "08-22",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-23",
+      "label": "08-23",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-24",
+      "label": "08-24",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-25",
+      "label": "08-25",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-26",
+      "label": "08-26",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-27",
+      "label": "08-27",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-28",
+      "label": "08-28",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-29",
+      "label": "08-29",
+      "weekday": "周五",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-30",
+      "label": "08-30",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-08-31",
+      "label": "08-31",
+      "weekday": "周日",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-01",
+      "label": "09-01",
+      "weekday": "周一",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-02",
+      "label": "09-02",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-03",
+      "label": "09-03",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-04",
+      "label": "09-04",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-05",
+      "label": "09-05",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-06",
+      "label": "09-06",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-07",
+      "label": "09-07",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-08",
+      "label": "09-08",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-09",
+      "label": "09-09",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-10",
+      "label": "09-10",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-11",
+      "label": "09-11",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-12",
+      "label": "09-12",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-13",
+      "label": "09-13",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-14",
+      "label": "09-14",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-15",
+      "label": "09-15",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-16",
+      "label": "09-16",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-17",
+      "label": "09-17",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-18",
+      "label": "09-18",
+      "weekday": "周四",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-19",
+      "label": "09-19",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-20",
+      "label": "09-20",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-21",
+      "label": "09-21",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-22",
+      "label": "09-22",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-23",
+      "label": "09-23",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-24",
+      "label": "09-24",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-25",
+      "label": "09-25",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-26",
+      "label": "09-26",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-27",
+      "label": "09-27",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-28",
+      "label": "09-28",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-29",
+      "label": "09-29",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-09-30",
+      "label": "09-30",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-01",
+      "label": "10-01",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-02",
+      "label": "10-02",
+      "weekday": "周四",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-03",
+      "label": "10-03",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-04",
+      "label": "10-04",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-05",
+      "label": "10-05",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-06",
+      "label": "10-06",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-07",
+      "label": "10-07",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-08",
+      "label": "10-08",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-09",
+      "label": "10-09",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-10",
+      "label": "10-10",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-11",
+      "label": "10-11",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-12",
+      "label": "10-12",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-13",
+      "label": "10-13",
+      "weekday": "周一",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-14",
+      "label": "10-14",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-15",
+      "label": "10-15",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-16",
+      "label": "10-16",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-17",
+      "label": "10-17",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-18",
+      "label": "10-18",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-19",
+      "label": "10-19",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-20",
+      "label": "10-20",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-21",
+      "label": "10-21",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-22",
+      "label": "10-22",
+      "weekday": "周三",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-23",
+      "label": "10-23",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-24",
+      "label": "10-24",
+      "weekday": "周五",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-25",
+      "label": "10-25",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-26",
+      "label": "10-26",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-27",
+      "label": "10-27",
+      "weekday": "周一",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-28",
+      "label": "10-28",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-29",
+      "label": "10-29",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-30",
+      "label": "10-30",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-10-31",
+      "label": "10-31",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-01",
+      "label": "11-01",
+      "weekday": "周六",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-02",
+      "label": "11-02",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-03",
+      "label": "11-03",
+      "weekday": "周一",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-04",
+      "label": "11-04",
+      "weekday": "周二",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-05",
+      "label": "11-05",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-06",
+      "label": "11-06",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-07",
+      "label": "11-07",
+      "weekday": "周五",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-08",
+      "label": "11-08",
+      "weekday": "周六",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-09",
+      "label": "11-09",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-10",
+      "label": "11-10",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-11",
+      "label": "11-11",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-12",
+      "label": "11-12",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-13",
+      "label": "11-13",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-14",
+      "label": "11-14",
+      "weekday": "周五",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-15",
+      "label": "11-15",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-16",
+      "label": "11-16",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-17",
+      "label": "11-17",
+      "weekday": "周一",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-18",
+      "label": "11-18",
+      "weekday": "周二",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-19",
+      "label": "11-19",
+      "weekday": "周三",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-20",
+      "label": "11-20",
+      "weekday": "周四",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-21",
+      "label": "11-21",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-22",
+      "label": "11-22",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-23",
+      "label": "11-23",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-24",
+      "label": "11-24",
+      "weekday": "周一",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-25",
+      "label": "11-25",
+      "weekday": "周二",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-26",
+      "label": "11-26",
+      "weekday": "周三",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-27",
+      "label": "11-27",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-28",
+      "label": "11-28",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-29",
+      "label": "11-29",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-11-30",
+      "label": "11-30",
+      "weekday": "周日",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-01",
+      "label": "12-01",
+      "weekday": "周一",
+      "total": 9,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-02",
+      "label": "12-02",
+      "weekday": "周二",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-03",
+      "label": "12-03",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-04",
+      "label": "12-04",
+      "weekday": "周四",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-05",
+      "label": "12-05",
+      "weekday": "周五",
+      "total": 3,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-06",
+      "label": "12-06",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-07",
+      "label": "12-07",
+      "weekday": "周日",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-08",
+      "label": "12-08",
+      "weekday": "周一",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-09",
+      "label": "12-09",
+      "weekday": "周二",
+      "total": 5,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-10",
+      "label": "12-10",
+      "weekday": "周三",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-11",
+      "label": "12-11",
+      "weekday": "周四",
+      "total": 7,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-12",
+      "label": "12-12",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-13",
+      "label": "12-13",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-14",
+      "label": "12-14",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-15",
+      "label": "12-15",
+      "weekday": "周一",
+      "total": 8,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-16",
+      "label": "12-16",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-17",
+      "label": "12-17",
+      "weekday": "周三",
+      "total": 8,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-18",
+      "label": "12-18",
+      "weekday": "周四",
+      "total": 8,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-19",
+      "label": "12-19",
+      "weekday": "周五",
+      "total": 6,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-20",
+      "label": "12-20",
+      "weekday": "周六",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-21",
+      "label": "12-21",
+      "weekday": "周日",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-22",
+      "label": "12-22",
+      "weekday": "周一",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-23",
+      "label": "12-23",
+      "weekday": "周二",
+      "total": 2,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-24",
+      "label": "12-24",
+      "weekday": "周三",
+      "total": 10,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-25",
+      "label": "12-25",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-26",
+      "label": "12-26",
+      "weekday": "周五",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-27",
+      "label": "12-27",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-28",
+      "label": "12-28",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-29",
+      "label": "12-29",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-30",
+      "label": "12-30",
+      "weekday": "周二",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2025-12-31",
+      "label": "12-31",
+      "weekday": "周三",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-01",
+      "label": "01-01",
+      "weekday": "周四",
+      "total": 8,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-02",
+      "label": "01-02",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-03",
+      "label": "01-03",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-04",
+      "label": "01-04",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-05",
+      "label": "01-05",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-06",
+      "label": "01-06",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-07",
+      "label": "01-07",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-08",
+      "label": "01-08",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-09",
+      "label": "01-09",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-10",
+      "label": "01-10",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-11",
+      "label": "01-11",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-12",
+      "label": "01-12",
+      "weekday": "周一",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-13",
+      "label": "01-13",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-14",
+      "label": "01-14",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-15",
+      "label": "01-15",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-16",
+      "label": "01-16",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-17",
+      "label": "01-17",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-18",
+      "label": "01-18",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-19",
+      "label": "01-19",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-20",
+      "label": "01-20",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-21",
+      "label": "01-21",
+      "weekday": "周三",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-22",
+      "label": "01-22",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-23",
+      "label": "01-23",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-24",
+      "label": "01-24",
+      "weekday": "周六",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-25",
+      "label": "01-25",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-26",
+      "label": "01-26",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-27",
+      "label": "01-27",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-28",
+      "label": "01-28",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-29",
+      "label": "01-29",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-30",
+      "label": "01-30",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-01-31",
+      "label": "01-31",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-01",
+      "label": "02-01",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-02",
+      "label": "02-02",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-03",
+      "label": "02-03",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-04",
+      "label": "02-04",
+      "weekday": "周三",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-05",
+      "label": "02-05",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-06",
+      "label": "02-06",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-07",
+      "label": "02-07",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-08",
+      "label": "02-08",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-09",
+      "label": "02-09",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-10",
+      "label": "02-10",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-11",
+      "label": "02-11",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-12",
+      "label": "02-12",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-13",
+      "label": "02-13",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-14",
+      "label": "02-14",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-15",
+      "label": "02-15",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-16",
+      "label": "02-16",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-17",
+      "label": "02-17",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-18",
+      "label": "02-18",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-19",
+      "label": "02-19",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-20",
+      "label": "02-20",
+      "weekday": "周五",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-21",
+      "label": "02-21",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-22",
+      "label": "02-22",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-23",
+      "label": "02-23",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-24",
+      "label": "02-24",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-25",
+      "label": "02-25",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-26",
+      "label": "02-26",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-27",
+      "label": "02-27",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-02-28",
+      "label": "02-28",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-01",
+      "label": "03-01",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-02",
+      "label": "03-02",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-03",
+      "label": "03-03",
+      "weekday": "周二",
+      "total": 2,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-04",
+      "label": "03-04",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-05",
+      "label": "03-05",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-06",
+      "label": "03-06",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-07",
+      "label": "03-07",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-08",
+      "label": "03-08",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-09",
+      "label": "03-09",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-10",
+      "label": "03-10",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-11",
+      "label": "03-11",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-12",
+      "label": "03-12",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-13",
+      "label": "03-13",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-14",
+      "label": "03-14",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-15",
+      "label": "03-15",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-16",
+      "label": "03-16",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-17",
+      "label": "03-17",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-18",
+      "label": "03-18",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-19",
+      "label": "03-19",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-20",
+      "label": "03-20",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-21",
+      "label": "03-21",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-22",
+      "label": "03-22",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-23",
+      "label": "03-23",
+      "weekday": "周一",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-24",
+      "label": "03-24",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-25",
+      "label": "03-25",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-26",
+      "label": "03-26",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-27",
+      "label": "03-27",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-28",
+      "label": "03-28",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-29",
+      "label": "03-29",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-30",
+      "label": "03-30",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-03-31",
+      "label": "03-31",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-01",
+      "label": "04-01",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-02",
+      "label": "04-02",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-03",
+      "label": "04-03",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-04",
+      "label": "04-04",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-05",
+      "label": "04-05",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-06",
+      "label": "04-06",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-07",
+      "label": "04-07",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-08",
+      "label": "04-08",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-09",
+      "label": "04-09",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-10",
+      "label": "04-10",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-11",
+      "label": "04-11",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-12",
+      "label": "04-12",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-13",
+      "label": "04-13",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-14",
+      "label": "04-14",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-15",
+      "label": "04-15",
+      "weekday": "周三",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-16",
+      "label": "04-16",
+      "weekday": "周四",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-17",
+      "label": "04-17",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-18",
+      "label": "04-18",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-19",
+      "label": "04-19",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-20",
+      "label": "04-20",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-21",
+      "label": "04-21",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-22",
+      "label": "04-22",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-23",
+      "label": "04-23",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-24",
+      "label": "04-24",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-25",
+      "label": "04-25",
+      "weekday": "周六",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-26",
+      "label": "04-26",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-27",
+      "label": "04-27",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-28",
+      "label": "04-28",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-29",
+      "label": "04-29",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-04-30",
+      "label": "04-30",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-01",
+      "label": "05-01",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-02",
+      "label": "05-02",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-03",
+      "label": "05-03",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-04",
+      "label": "05-04",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-05",
+      "label": "05-05",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-06",
+      "label": "05-06",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-07",
+      "label": "05-07",
+      "weekday": "周四",
+      "total": 2,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-08",
+      "label": "05-08",
+      "weekday": "周五",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-09",
+      "label": "05-09",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-10",
+      "label": "05-10",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-11",
+      "label": "05-11",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-12",
+      "label": "05-12",
+      "weekday": "周二",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-13",
+      "label": "05-13",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-14",
+      "label": "05-14",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-15",
+      "label": "05-15",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-16",
+      "label": "05-16",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-17",
+      "label": "05-17",
+      "weekday": "周日",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-18",
+      "label": "05-18",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-19",
+      "label": "05-19",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-20",
+      "label": "05-20",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-21",
+      "label": "05-21",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-22",
+      "label": "05-22",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-23",
+      "label": "05-23",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-24",
+      "label": "05-24",
+      "weekday": "周日",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-25",
+      "label": "05-25",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-26",
+      "label": "05-26",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-27",
+      "label": "05-27",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-28",
+      "label": "05-28",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-29",
+      "label": "05-29",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-30",
+      "label": "05-30",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-05-31",
+      "label": "05-31",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-01",
+      "label": "06-01",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-02",
+      "label": "06-02",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-03",
+      "label": "06-03",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-04",
+      "label": "06-04",
+      "weekday": "周四",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-05",
+      "label": "06-05",
+      "weekday": "周五",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-06",
+      "label": "06-06",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-07",
+      "label": "06-07",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-08",
+      "label": "06-08",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-09",
+      "label": "06-09",
+      "weekday": "周二",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-10",
+      "label": "06-10",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-11",
+      "label": "06-11",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-12",
+      "label": "06-12",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-13",
+      "label": "06-13",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-14",
+      "label": "06-14",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-15",
+      "label": "06-15",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-16",
+      "label": "06-16",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-17",
+      "label": "06-17",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-18",
+      "label": "06-18",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-19",
+      "label": "06-19",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-20",
+      "label": "06-20",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-21",
+      "label": "06-21",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-22",
+      "label": "06-22",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-23",
+      "label": "06-23",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-24",
+      "label": "06-24",
+      "weekday": "周三",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-25",
+      "label": "06-25",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-26",
+      "label": "06-26",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-27",
+      "label": "06-27",
+      "weekday": "周六",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-28",
+      "label": "06-28",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-29",
+      "label": "06-29",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-06-30",
+      "label": "06-30",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-01",
+      "label": "07-01",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 1
+    },
+    {
+      "date": "2026-07-02",
+      "label": "07-02",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-03",
+      "label": "07-03",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-04",
+      "label": "07-04",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-05",
+      "label": "07-05",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-06",
+      "label": "07-06",
+      "weekday": "周一",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-07",
+      "label": "07-07",
+      "weekday": "周二",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-08",
+      "label": "07-08",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-09",
+      "label": "07-09",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-10",
+      "label": "07-10",
+      "weekday": "周五",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-11",
+      "label": "07-11",
+      "weekday": "周六",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-12",
+      "label": "07-12",
+      "weekday": "周日",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-13",
+      "label": "07-13",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-14",
+      "label": "07-14",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-15",
+      "label": "07-15",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-16",
+      "label": "07-16",
+      "weekday": "周四",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-17",
+      "label": "07-17",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-18",
+      "label": "07-18",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-19",
+      "label": "07-19",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-20",
+      "label": "07-20",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-21",
+      "label": "07-21",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-22",
+      "label": "07-22",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-23",
+      "label": "07-23",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-24",
+      "label": "07-24",
+      "weekday": "周五",
+      "total": 6,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-25",
+      "label": "07-25",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-26",
+      "label": "07-26",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-27",
+      "label": "07-27",
+      "weekday": "周一",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-28",
+      "label": "07-28",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-29",
+      "label": "07-29",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-30",
+      "label": "07-30",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-31",
+      "label": "07-31",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-01",
+      "label": "08-01",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-02",
+      "label": "08-02",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-03",
+      "label": "08-03",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-04",
+      "label": "08-04",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-05",
+      "label": "08-05",
+      "weekday": "周三",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-06",
+      "label": "08-06",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-07",
+      "label": "08-07",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-08",
+      "label": "08-08",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-09",
+      "label": "08-09",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-10",
+      "label": "08-10",
+      "weekday": "周一",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-11",
+      "label": "08-11",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-12",
+      "label": "08-12",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-13",
+      "label": "08-13",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-14",
+      "label": "08-14",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-15",
+      "label": "08-15",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-16",
+      "label": "08-16",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-17",
+      "label": "08-17",
+      "weekday": "周一",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-18",
+      "label": "08-18",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-19",
+      "label": "08-19",
+      "weekday": "周三",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-20",
+      "label": "08-20",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-21",
+      "label": "08-21",
+      "weekday": "周五",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-22",
+      "label": "08-22",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-23",
+      "label": "08-23",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-24",
+      "label": "08-24",
+      "weekday": "周一",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-25",
+      "label": "08-25",
+      "weekday": "周二",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-26",
+      "label": "08-26",
+      "weekday": "周三",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-27",
+      "label": "08-27",
+      "weekday": "周四",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-28",
+      "label": "08-28",
+      "weekday": "周五",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-29",
+      "label": "08-29",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-30",
+      "label": "08-30",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-31",
+      "label": "08-31",
+      "weekday": "周一",
+      "total": 6,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-01",
+      "label": "09-01",
+      "weekday": "周二",
+      "total": 9,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-02",
+      "label": "09-02",
+      "weekday": "周三",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-03",
+      "label": "09-03",
+      "weekday": "周四",
+      "total": 5,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-04",
+      "label": "09-04",
+      "weekday": "周五",
+      "total": 7,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-05",
+      "label": "09-05",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-06",
+      "label": "09-06",
+      "weekday": "周日",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-07",
+      "label": "09-07",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-08",
+      "label": "09-08",
+      "weekday": "周二",
+      "total": 6,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-09",
+      "label": "09-09",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-10",
+      "label": "09-10",
+      "weekday": "周四",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-11",
+      "label": "09-11",
+      "weekday": "周五",
+      "total": 7,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-12",
+      "label": "09-12",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-13",
+      "label": "09-13",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-14",
+      "label": "09-14",
+      "weekday": "周一",
+      "total": 5,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-15",
+      "label": "09-15",
+      "weekday": "周二",
+      "total": 6,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-16",
+      "label": "09-16",
+      "weekday": "周三",
+      "total": 8,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-17",
+      "label": "09-17",
+      "weekday": "周四",
+      "total": 7,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-18",
+      "label": "09-18",
+      "weekday": "周五",
+      "total": 12,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-19",
+      "label": "09-19",
+      "weekday": "周六",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-20",
+      "label": "09-20",
+      "weekday": "周日",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-21",
+      "label": "09-21",
+      "weekday": "周一",
+      "total": 6,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-22",
+      "label": "09-22",
+      "weekday": "周二",
+      "total": 8,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-23",
+      "label": "09-23",
+      "weekday": "周三",
+      "total": 6,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-24",
+      "label": "09-24",
+      "weekday": "周四",
+      "total": 7,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-25",
+      "label": "09-25",
+      "weekday": "周五",
+      "total": 6,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-26",
+      "label": "09-26",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-27",
+      "label": "09-27",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-28",
+      "label": "09-28",
+      "weekday": "周一",
+      "total": 7,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-29",
+      "label": "09-29",
+      "weekday": "周二",
+      "total": 14,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-30",
+      "label": "09-30",
+      "weekday": "周三",
+      "total": 10,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-01",
+      "label": "10-01",
+      "weekday": "周四",
+      "total": 14,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-02",
+      "label": "10-02",
+      "weekday": "周五",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-03",
+      "label": "10-03",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-04",
+      "label": "10-04",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-05",
+      "label": "10-05",
+      "weekday": "周一",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-06",
+      "label": "10-06",
+      "weekday": "周二",
+      "total": 9,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-07",
+      "label": "10-07",
+      "weekday": "周三",
+      "total": 9,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-08",
+      "label": "10-08",
+      "weekday": "周四",
+      "total": 13,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-09",
+      "label": "10-09",
+      "weekday": "周五",
+      "total": 9,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-10",
+      "label": "10-10",
+      "weekday": "周六",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-11",
+      "label": "10-11",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-12",
+      "label": "10-12",
+      "weekday": "周一",
+      "total": 12,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-13",
+      "label": "10-13",
+      "weekday": "周二",
+      "total": 14,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-14",
+      "label": "10-14",
+      "weekday": "周三",
+      "total": 5,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-15",
+      "label": "10-15",
+      "weekday": "周四",
+      "total": 10,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-16",
+      "label": "10-16",
+      "weekday": "周五",
+      "total": 9,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-17",
+      "label": "10-17",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-18",
+      "label": "10-18",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-19",
+      "label": "10-19",
+      "weekday": "周一",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-20",
+      "label": "10-20",
+      "weekday": "周二",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-21",
+      "label": "10-21",
+      "weekday": "周三",
+      "total": 12,
+      "high": 2,
+      "critical": 2
+    },
+    {
+      "date": "2026-10-22",
+      "label": "10-22",
+      "weekday": "周四",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-23",
+      "label": "10-23",
+      "weekday": "周五",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-24",
+      "label": "10-24",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-25",
+      "label": "10-25",
+      "weekday": "周日",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-26",
+      "label": "10-26",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    }
+  ],
+  "weekly": [
+    {
+      "key": "2025-W01",
+      "start": "2025-01-01",
+      "end": "2025-01-05",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W02",
+      "start": "2025-01-06",
+      "end": "2025-01-12",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W03",
+      "start": "2025-01-13",
+      "end": "2025-01-19",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W04",
+      "start": "2025-01-20",
+      "end": "2025-01-26",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W05",
+      "start": "2025-01-27",
+      "end": "2025-02-02",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W06",
+      "start": "2025-02-03",
+      "end": "2025-02-09",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W07",
+      "start": "2025-02-10",
+      "end": "2025-02-16",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W08",
+      "start": "2025-02-17",
+      "end": "2025-02-23",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W09",
+      "start": "2025-02-24",
+      "end": "2025-03-02",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W10",
+      "start": "2025-03-03",
+      "end": "2025-03-09",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W11",
+      "start": "2025-03-10",
+      "end": "2025-03-16",
+      "total": 2,
+      "high": 0,
+      "critical": 1
+    },
+    {
+      "key": "2025-W12",
+      "start": "2025-03-17",
+      "end": "2025-03-23",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W13",
+      "start": "2025-03-24",
+      "end": "2025-03-30",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W14",
+      "start": "2025-03-31",
+      "end": "2025-04-06",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W15",
+      "start": "2025-04-07",
+      "end": "2025-04-13",
+      "total": 5,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2025-W16",
+      "start": "2025-04-14",
+      "end": "2025-04-20",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W17",
+      "start": "2025-04-21",
+      "end": "2025-04-27",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W18",
+      "start": "2025-04-28",
+      "end": "2025-05-04",
+      "total": 3,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2025-W19",
+      "start": "2025-05-05",
+      "end": "2025-05-11",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W20",
+      "start": "2025-05-12",
+      "end": "2025-05-18",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W21",
+      "start": "2025-05-19",
+      "end": "2025-05-25",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W22",
+      "start": "2025-05-26",
+      "end": "2025-06-01",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W23",
+      "start": "2025-06-02",
+      "end": "2025-06-08",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W24",
+      "start": "2025-06-09",
+      "end": "2025-06-15",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W25",
+      "start": "2025-06-16",
+      "end": "2025-06-22",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W26",
+      "start": "2025-06-23",
+      "end": "2025-06-29",
+      "total": 6,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2025-W27",
+      "start": "2025-06-30",
+      "end": "2025-07-06",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W28",
+      "start": "2025-07-07",
+      "end": "2025-07-13",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W29",
+      "start": "2025-07-14",
+      "end": "2025-07-20",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W30",
+      "start": "2025-07-21",
+      "end": "2025-07-27",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W31",
+      "start": "2025-07-28",
+      "end": "2025-08-03",
+      "total": 6,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W32",
+      "start": "2025-08-04",
+      "end": "2025-08-10",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W33",
+      "start": "2025-08-11",
+      "end": "2025-08-17",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W34",
+      "start": "2025-08-18",
+      "end": "2025-08-24",
+      "total": 5,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W35",
+      "start": "2025-08-25",
+      "end": "2025-08-31",
+      "total": 11,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W36",
+      "start": "2025-09-01",
+      "end": "2025-09-07",
+      "total": 6,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W37",
+      "start": "2025-09-08",
+      "end": "2025-09-14",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W38",
+      "start": "2025-09-15",
+      "end": "2025-09-21",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W39",
+      "start": "2025-09-22",
+      "end": "2025-09-28",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W40",
+      "start": "2025-09-29",
+      "end": "2025-10-05",
+      "total": 5,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W41",
+      "start": "2025-10-06",
+      "end": "2025-10-12",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W42",
+      "start": "2025-10-13",
+      "end": "2025-10-19",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W43",
+      "start": "2025-10-20",
+      "end": "2025-10-26",
+      "total": 9,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2025-W44",
+      "start": "2025-10-27",
+      "end": "2025-11-02",
+      "total": 11,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-W45",
+      "start": "2025-11-03",
+      "end": "2025-11-09",
+      "total": 12,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2025-W46",
+      "start": "2025-11-10",
+      "end": "2025-11-16",
+      "total": 7,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W47",
+      "start": "2025-11-17",
+      "end": "2025-11-23",
+      "total": 14,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-W48",
+      "start": "2025-11-24",
+      "end": "2025-11-30",
+      "total": 18,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2025-W49",
+      "start": "2025-12-01",
+      "end": "2025-12-07",
+      "total": 20,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2025-W50",
+      "start": "2025-12-08",
+      "end": "2025-12-14",
+      "total": 20,
+      "high": 4,
+      "critical": 0
+    },
+    {
+      "key": "2025-W51",
+      "start": "2025-12-15",
+      "end": "2025-12-21",
+      "total": 35,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2025-W52",
+      "start": "2025-12-22",
+      "end": "2025-12-28",
+      "total": 20,
+      "high": 4,
+      "critical": 0
+    },
+    {
+      "key": "2026-W01",
+      "start": "2025-12-29",
+      "end": "2026-01-04",
+      "total": 17,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-W02",
+      "start": "2026-01-05",
+      "end": "2026-01-11",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W03",
+      "start": "2026-01-12",
+      "end": "2026-01-18",
+      "total": 8,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W04",
+      "start": "2026-01-19",
+      "end": "2026-01-25",
+      "total": 6,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W05",
+      "start": "2026-01-26",
+      "end": "2026-02-01",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W06",
+      "start": "2026-02-02",
+      "end": "2026-02-08",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W07",
+      "start": "2026-02-09",
+      "end": "2026-02-15",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W08",
+      "start": "2026-02-16",
+      "end": "2026-02-22",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W09",
+      "start": "2026-02-23",
+      "end": "2026-03-01",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W10",
+      "start": "2026-03-02",
+      "end": "2026-03-08",
+      "total": 5,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-W11",
+      "start": "2026-03-09",
+      "end": "2026-03-15",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W12",
+      "start": "2026-03-16",
+      "end": "2026-03-22",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W13",
+      "start": "2026-03-23",
+      "end": "2026-03-29",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W14",
+      "start": "2026-03-30",
+      "end": "2026-04-05",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W15",
+      "start": "2026-04-06",
+      "end": "2026-04-12",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W16",
+      "start": "2026-04-13",
+      "end": "2026-04-19",
+      "total": 3,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-W17",
+      "start": "2026-04-20",
+      "end": "2026-04-26",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W18",
+      "start": "2026-04-27",
+      "end": "2026-05-03",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W19",
+      "start": "2026-05-04",
+      "end": "2026-05-10",
+      "total": 7,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-W20",
+      "start": "2026-05-11",
+      "end": "2026-05-17",
+      "total": 8,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W21",
+      "start": "2026-05-18",
+      "end": "2026-05-24",
+      "total": 11,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W22",
+      "start": "2026-05-25",
+      "end": "2026-05-31",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W23",
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W24",
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W25",
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W26",
+      "start": "2026-06-22",
+      "end": "2026-06-28",
+      "total": 8,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W27",
+      "start": "2026-06-29",
+      "end": "2026-07-05",
+      "total": 3,
+      "high": 0,
+      "critical": 1
+    },
+    {
+      "key": "2026-W28",
+      "start": "2026-07-06",
+      "end": "2026-07-12",
+      "total": 12,
+      "high": 4,
+      "critical": 0
+    },
+    {
+      "key": "2026-W29",
+      "start": "2026-07-13",
+      "end": "2026-07-19",
+      "total": 10,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W30",
+      "start": "2026-07-20",
+      "end": "2026-07-26",
+      "total": 10,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W31",
+      "start": "2026-07-27",
+      "end": "2026-08-02",
+      "total": 6,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W32",
+      "start": "2026-08-03",
+      "end": "2026-08-09",
+      "total": 10,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W33",
+      "start": "2026-08-10",
+      "end": "2026-08-16",
+      "total": 11,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W34",
+      "start": "2026-08-17",
+      "end": "2026-08-23",
+      "total": 12,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W35",
+      "start": "2026-08-24",
+      "end": "2026-08-30",
+      "total": 18,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W36",
+      "start": "2026-08-31",
+      "end": "2026-09-06",
+      "total": 34,
+      "high": 6,
+      "critical": 0
+    },
+    {
+      "key": "2026-W37",
+      "start": "2026-09-07",
+      "end": "2026-09-13",
+      "total": 21,
+      "high": 4,
+      "critical": 0
+    },
+    {
+      "key": "2026-W38",
+      "start": "2026-09-14",
+      "end": "2026-09-20",
+      "total": 44,
+      "high": 7,
+      "critical": 0
+    },
+    {
+      "key": "2026-W39",
+      "start": "2026-09-21",
+      "end": "2026-09-27",
+      "total": 34,
+      "high": 5,
+      "critical": 0
+    },
+    {
+      "key": "2026-W40",
+      "start": "2026-09-28",
+      "end": "2026-10-04",
+      "total": 56,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2026-W41",
+      "start": "2026-10-05",
+      "end": "2026-10-11",
+      "total": 53,
+      "high": 6,
+      "critical": 0
+    },
+    {
+      "key": "2026-W42",
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "total": 52,
+      "high": 8,
+      "critical": 0
+    },
+    {
+      "key": "2026-W43",
+      "start": "2026-10-19",
+      "end": "2026-10-25",
+      "total": 47,
+      "high": 6,
+      "critical": 2
+    },
+    {
+      "key": "2026-W44",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    }
+  ],
+  "monthly": [
+    {
+      "key": "2025-01",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-02",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2025-03",
+      "total": 6,
+      "high": 0,
+      "critical": 1
+    },
+    {
+      "key": "2025-04",
+      "total": 15,
+      "high": 4,
+      "critical": 0
+    },
+    {
+      "key": "2025-05",
+      "total": 13,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2025-06",
+      "total": 21,
+      "high": 4,
+      "critical": 0
+    },
+    {
+      "key": "2025-07",
+      "total": 11,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2025-08",
+      "total": 20,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2025-09",
+      "total": 18,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2025-10",
+      "total": 23,
+      "high": 4,
+      "critical": 0
+    },
+    {
+      "key": "2025-11",
+      "total": 54,
+      "high": 7,
+      "critical": 0
+    },
+    {
+      "key": "2025-12",
+      "total": 104,
+      "high": 14,
+      "critical": 0
+    },
+    {
+      "key": "2026-01",
+      "total": 30,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-02",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-03",
+      "total": 16,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2026-04",
+      "total": 12,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2026-05",
+      "total": 33,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2026-06",
+      "total": 24,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2026-07",
+      "total": 39,
+      "high": 5,
+      "critical": 1
+    },
+    {
+      "key": "2026-08",
+      "total": 58,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-09",
+      "total": 158,
+      "high": 24,
+      "critical": 0
+    },
+    {
+      "key": "2026-10",
+      "total": 177,
+      "high": 21,
+      "critical": 2
+    }
+  ],
+  "top_events": [
+    {
+      "id": 5798,
+      "headline": "2024 Monkeypox Outbreak: Assessing the Current Scenario, Global Health Risks, and…",
+      "summary": "（规则抽取，未使用大模型）With another sequel in the making, monkeypox virus (MPXV) has yet again resurfaced in the African subcontinent and in several non-endemic countries, prompting the World Health Organization (WHO) to declare monkeypox (Mpox) a public health emergency of international concern (PHEIC). The preceding 2022 multi-country outbreak was associated with the spread of Clade II strain, while the 2024 Mpox outbreak has been primarily linked to currently-circulating Clade Ib strain, known to be highly transmissible and severe. Although most of the Mpox cases (90%) have been reported in the Democratic Republic of the Congo (DRC), the current outbreak has become transboundary with an active caseload of 103,048 laboratory-confirmed cases and 186 probable cases (including 229 deaths) in 121 countries.",
+      "pathogen_names": [
+        "Mpox virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Global",
+        "Africa",
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "critical",
+      "severity_zh": "极高",
+      "severity_score": 91,
+      "relevance": 91,
+      "cases": 103048,
+      "deaths": 229,
+      "source_name": "PubMed",
+      "published_at": "2025-03-11 00:00:00",
+      "day": "2025-03-11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42325456"
+    },
+    {
+      "id": 68,
+      "headline": "刚果民主共和国布万达布约埃博拉病毒疫情持续扩大",
+      "summary": "截至2026年10月19日，刚果民主共和国的布万达布约埃博拉病毒疫情已影响到8个省份的66个卫生区，累计报告9637例确诊病例和4646例死亡。病例数和死亡数持续增加，且疫情扩散至肯尼亚、乌干达和尼日利亚，国际应对面临挑战。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo",
+        "Uganda",
+        "Kenya",
+        "Nigeria",
+        "Global"
+      ],
+      "severity_label": "critical",
+      "severity_zh": "极高",
+      "severity_score": 85,
+      "relevance": 90,
+      "cases": 9637,
+      "deaths": 4646,
+      "source_name": "WHO African Region",
+      "published_at": "2026-10-21 13:33:47",
+      "day": "2026-10-21",
+      "url": "https://www.afro.who.int/countries/nigeria/publication/ebola-bundibugyo-virus-disease-outbreak-democratic-republic-congo-uganda-weekly-external-situation"
+    },
+    {
+      "id": 2767,
+      "headline": "The 2026 Bundibugyo Ebola Outbreak: A Warning for Global Preparedness for Future…",
+      "summary": "（规则抽取，未使用大模型）Dear Editor, The 2026 Bundibugyo Ebolavirus (BDBV) outbreak has once again demonstrated that the threat of emerging diseases remains a major global health challenge. The outbreak, first detected in the Democratic Republic of Congo (DRC) and spread to Uganda, is not only a regional crisis but also a test of the world's preparedness for pathogens with epidemic potential. Unlike Zaire Ebolavirus (EBOV), which has benefited from effective vaccines and treatments in recent years, BDBV still lacks a licensed vaccine or specific treatment[1].",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Plasmodium"
+      ],
+      "hosts": [
+        "human",
+        "bats",
+        "wildlife"
+      ],
+      "host_labels": [
+        "人类",
+        "蝙蝠",
+        "野生动物"
+      ],
+      "locations": [
+        "Global",
+        "Democratic Republic of the Congo",
+        "Uganda",
+        "Africa"
+      ],
+      "severity_label": "critical",
+      "severity_zh": "极高",
+      "severity_score": 83,
+      "relevance": 99,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-07-01 00:00:00",
+      "day": "2026-07-01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42728358"
+    },
+    {
+      "id": 304,
+      "headline": "2024-2026年全球猴痘疫情动态",
+      "summary": "2024年至2026年期间，全球报告了82738例猴痘确诊病例和306例死亡。非洲刚果民主共和国的病例数最多，占全球总数的一半以上。猴痘病毒在国际上迅速传播，并在2025年5月达到高峰后持续存在。",
+      "pathogen_names": [
+        "Mpox virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Global",
+        "Democratic Republic of the Congo",
+        "Africa"
+      ],
+      "severity_label": "critical",
+      "severity_zh": "极高",
+      "severity_score": 83,
+      "relevance": 88,
+      "cases": 144035,
+      "deaths": 2047,
+      "source_name": "PubMed",
+      "published_at": "2026-10-21 00:00:00",
+      "day": "2026-10-21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42905633"
+    },
+    {
+      "id": 5121,
+      "headline": "Fatal Human H3N8 Influenza Virus has a Moderate Pandemic Risk.",
+      "summary": "（规则抽取，未使用大模型）In China, low pathogenic avian influenza (LPAI) H3N8 virus is widespread among chickens and has recently caused three zoonotic infections, with the last one in 2023 being fatal. Here we evaluated the relative pandemic risk of this 2023 zoonotic H3N8 influenza virus, utilizing our previously published decision tree. Serological analysis indicated that a large proportion of the human population does not have any cross-neutralizing antibodies against this H3N8 strain.",
+      "pathogen_names": [
+        "Influenza A(H3N8)"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wildlife"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野生动物"
+      ],
+      "locations": [
+        "China"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 79,
+      "relevance": 83,
+      "cases": 3,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-10-02 00:00:00",
+      "day": "2025-10-02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41256369"
+    },
+    {
+      "id": 3177,
+      "headline": "Fatal human H3N8 influenza virus has a moderate pandemic risk.",
+      "summary": "（规则抽取，未使用大模型）In China, low pathogenic avian influenza (LPAI) H3N8 virus is widespread among chickens and has recently caused three zoonotic infections, with the last one in 2023 being fatal. Here we evaluated the relative pandemic risk of this 2023 zoonotic H3N8 influenza virus, utilizing our previously published decision tree. Serological analysis indicated that a large proportion of the human population does not have any cross-neutralizing antibodies against this H3N8 strain.",
+      "pathogen_names": [
+        "Influenza A(H3N8)"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wildlife"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野生动物"
+      ],
+      "locations": [
+        "China"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 79,
+      "relevance": 83,
+      "cases": 3,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-03-03 00:00:00",
+      "day": "2026-03-03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41774777"
+    },
+    {
+      "id": 3190,
+      "headline": "Current Status of Clade 2.3.4.4b H5N1 Highly Pathogenic Avian Influenza Virus…",
+      "summary": "（规则抽取，未使用大模型）Since late 2020, clade 2.3.4.4b H5N1 highly pathogenic avian influenza viruses (HPAIVs) have expanded globally, infecting wild birds, poultry, and an increasing range of mammals. Sustained transmission has occurred in minks and dairy cattle, accompanied by key polymerase basic 2 (PB2) mutations (e.g., E627K, D701N), signaling mammalian adaptation and heightened zoonotic risk. From 2021 to early 2025, 82 human cases, including fatalities in China and the US, underscored rising public health concerns, although no sustained human-to-human transmission has been detected.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wild_birds",
+        "cattle"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野鸟",
+        "牛"
+      ],
+      "locations": [
+        "China",
+        "United States",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 77,
+      "relevance": 100,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-02-20 00:00:00",
+      "day": "2026-02-20",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41958484"
+    },
+    {
+      "id": 5421,
+      "headline": "Investigating the Relationship between Demographic, Radiological and Clinical Factors and…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Subarachnoid hemorrhage (SAH) is a life-threatening neurological condition that accounts for approximately 5% of all strokes. This study aimed to evaluate the demographic, clinical, and radiological factors associated with in-hospital mortality in patients with non-traumatic SAH and to assess potential differences before and after the COVID-19 pandemic. MATERIALS AND METHODS: This retrospective analytical study was conducted on 177 patients with non-traumatic SAH admitted to Imam Hossein Hospital, Tehran, from November 2021 to December 2022.",
+      "pathogen_names": [
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 76,
+      "relevance": 81,
+      "cases": 177,
+      "deaths": 36,
+      "source_name": "PubMed",
+      "published_at": "2025-07-09 00:00:00",
+      "day": "2025-07-09",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42038890"
+    },
+    {
+      "id": 179,
+      "headline": "刚果民主共和国埃博拉疫情病例超8000例",
+      "summary": "刚果民主共和国的埃博拉疫情已导致超过8000例病例，死亡率为48%。世卫组织警告称社区中仍有过多死亡事件。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 76,
+      "relevance": 86,
+      "cases": 8000,
+      "deaths": null,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-09-28 20:20:00",
+      "day": "2026-09-28",
+      "url": "https://www.cidrap.umn.edu/ebola/dr-congo-ebola-outbreak-tops-8000-cases-48-death-rate"
+    },
+    {
+      "id": 5306,
+      "headline": "Fatal yellow fever among captive non-human primates in southern Colombia, 2025.",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Yellow fever virus (YFV) remains a re-emerging zoonotic threat in South America. While epizootics in free-ranging Alouatta spp. are well-documented, little is known about YFV infection in other Neotropical non-human primates (NHPs), particularly in captive settings.",
+      "pathogen_names": [
+        "Yellow fever virus"
+      ],
+      "hosts": [
+        "human",
+        "primates",
+        "wildlife"
+      ],
+      "host_labels": [
+        "人类",
+        "灵长类",
+        "野生动物"
+      ],
+      "locations": [
+        "Colombia",
+        "Americas"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 75,
+      "relevance": 91,
+      "cases": 2025,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-08-21 00:00:00",
+      "day": "2025-08-21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40919041"
+    },
+    {
+      "id": 5523,
+      "headline": "Can implementation research be a game changer for measles elimination in Africa?",
+      "summary": "（规则抽取，未使用大模型）Many countries in Africa still experience large and disruptive measles outbreaks despite the availability of a highly effective vaccine. In 2023, the estimated number of measles cases and deaths in the World Health Organization African Region was 4,801,946 cases and 75,942 deaths, respectively. Studies have shown that multiple implementation challenges affect equitable access and uptake of measles-containing vaccines, with specific barriers varying by settings.",
+      "pathogen_names": [
+        "Measles virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 73,
+      "relevance": 60,
+      "cases": 4801946,
+      "deaths": 75942,
+      "source_name": "PubMed",
+      "published_at": "2025-06-13 00:00:00",
+      "day": "2025-06-13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41211034"
+    },
+    {
+      "id": 4422,
+      "headline": "Autoantibodies neutralizing type I IFNs in a fatal case of H5N1 avian influenza.",
+      "summary": "（规则抽取，未使用大模型）Avian influenza A virus (IAV) H5N1 is an emerging threat of human pandemic. We describe a 71-year-old man who died of H5N1 pneumonia in Louisiana and whose blood contained autoantibodies neutralizing type I IFNs (AAN-I-IFNs), including the 12 IFN-α subtypes (1-10 ng/ml) and IFN-ω (100 pg/ml). Causality between these AAN-I-IFN and lethal outcome of avian influenza in this patient is based on (1) our previous report that AA-I-IFN underlie about 5% of cases of critical pneumonia triggered by seasonal influenza viruses in three cohorts, (2) the rarity of this combination of AAN-I-FNs in individuals over 70 years old (<1%), and (3) the rarity of lethal avian influenza among infected individuals (<1%).",
+      "pathogen_names": [
+        "Influenza A(H5N1)"
+      ],
+      "hosts": [
+        "human",
+        "poultry"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽"
+      ],
+      "locations": [
+        "Louisiana"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 73,
+      "relevance": 98,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-12-05 00:00:00",
+      "day": "2025-12-05",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41348320"
+    },
+    {
+      "id": 2875,
+      "headline": "High Mortality and Reduced Pup Production in Eared Seals Following the 2023 Highly…",
+      "summary": "（规则抽取，未使用大模型）AbstractEmerging infectious diseases can cause abrupt demographic changes in wildlife populations. The 2023 outbreak of highly pathogenic avian influenza caused widespread mortality in pinnipeds along the South American coast. We evaluated the population-level impact of the outbreak on South American sea lions (Otaria flavescens) and South American fur seals (Arctocephalus australis) in Patagonia, Argentina.",
+      "pathogen_names": [
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wildlife"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野生动物"
+      ],
+      "locations": [
+        "United States",
+        "Argentina"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 73,
+      "relevance": 90,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-06-09 00:00:00",
+      "day": "2026-06-09",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42372095"
+    },
+    {
+      "id": 4648,
+      "headline": "Concern for Highly Pathogenic Avian Influenza Spillover into Cetaceans.",
+      "summary": "（规则抽取，未使用大模型）Influenza A virus (IAV) has a wide range of avian and mammalian hosts, leading to disease outbreaks and increasing the risk of panzootics and pandemics. Subtype H5N1 of clade 2.3.4.4b is causing the current high pathogenicity avian influenza (HPAI) panzootic. Environmental changes are fuelling the spread of HPAI H5N1 in wildlife worldwide, with occasional spillover events from seabirds to cetaceans.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wildlife"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野生动物"
+      ],
+      "locations": [
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 72,
+      "relevance": 92,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-11-24 00:00:00",
+      "day": "2025-11-24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41472208"
+    },
+    {
+      "id": 2625,
+      "headline": "Changes in the microbial spectrum and antimicrobial resistance of bloodstream infections…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Bloodstream infections (BSIs) are major infectious conditions associated with high morbidity and mortality, particularly in intensive care units (ICUs). In critically ill patients, early and appropriate empirical antimicrobial therapy plays an important role in preventing adverse clinical outcomes. However, the increasing burden of antimicrobial resistance necessitates that empirical treatment strategies be continuously reassessed based on up-to-date local resistance data.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Klebsiella pneumoniae"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 72,
+      "relevance": 86,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-07-24 00:00:00",
+      "day": "2026-07-24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42902233"
+    },
+    {
+      "id": 1542,
+      "headline": "Nationwide Surveillance and Control Measures during Large Measles Outbreak, Bangladesh…",
+      "summary": "（规则抽取，未使用大模型）Nationwide surveillance in Bangladesh during April 2-May 27, 2026, identified a total of 67,079 suspected and 8,834 confirmed measles cases across 8 administrative divisions. Among suspected cases, 472 deaths were reported, and 88 deaths were reported among confirmed cases. Despite high reported vaccine coverage, transmission persisted amid residual immunity gaps.",
+      "pathogen_names": [
+        "Measles virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Bangladesh"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 72,
+      "relevance": 83,
+      "cases": 8834,
+      "deaths": 472,
+      "source_name": "PubMed",
+      "published_at": "2026-10-02 00:00:00",
+      "day": "2026-10-02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42826219"
+    },
+    {
+      "id": 3958,
+      "headline": "Emergency Department Presentations of West Nile Virus.",
+      "summary": "（规则抽取，未使用大模型）INTRODUCTION: Maricopa County, Arizona, experienced its largest West Nile virus outbreak in 2021, with 1,487 cases and 101 deaths, in the midst of the COVID-19 pandemic. We sought to describe initial presentations of emergency department (ED) patients ultimately diagnosed with West Nile virus and determine how often patients presented to the ED before their diagnosis. To assist with disease recognition during future outbreaks, we examined in detail cases where emergency physicians initially did not suspect West Nile virus.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "West Nile virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Arizona"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 71,
+      "relevance": 83,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-12-24 00:00:00",
+      "day": "2025-12-24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41554170"
+    },
+    {
+      "id": 3607,
+      "headline": "Nepal's vulnerability to Nipah virus transmission: an urgent call for preparedness.",
+      "summary": "（规则抽取，未使用大模型）The confirmation of two Nipah virus (NiV) infections among healthcare workers in West Bengal, India, in December 2025 highlights the ongoing regional threat of this highly contagious zoonotic pathogen and the risk of nosocomial transmission before clinical suspicion. Increasing reports of human-to-human transmission in South Asia call for stronger preparedness efforts in neighboring countries. Nepal is particularly vulnerable due to its open border with India, high population mobility, ecological suitability for Petropus bat reservoirs, mixed livestock farming, limited surveillance, and diagnostic capacity.",
+      "pathogen_names": [
+        "Nipah virus"
+      ],
+      "hosts": [
+        "human",
+        "bats",
+        "wildlife",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "蝙蝠",
+        "野生动物",
+        "家畜"
+      ],
+      "locations": [
+        "Nepal",
+        "India",
+        "Asia"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 71,
+      "relevance": 96,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-04-25 00:00:00",
+      "day": "2026-04-25",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42576862"
+    },
+    {
+      "id": 3002,
+      "headline": "Outbreak of H9N2 avian influenza viruses in lesser rhea in Peru, June-July 2025.",
+      "summary": "（规则抽取，未使用大模型）Avian influenza viruses (AIVs) are endemic in the Americas and responsible for outbreaks in both domestic and wild birds that occasionally spill over into humans. We report the first known outbreak of AIV H9N2 in lesser rhea (Rhea pennata), also known as Darwin's rhea, in the region of Puno-Peru. The animals in this study lived in an isolated conservation center located in remote highlands above 4,000 m.a.s.l.",
+      "pathogen_names": [
+        "Influenza A(H9N2)"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wild_birds"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野鸟"
+      ],
+      "locations": [
+        "Peru",
+        "Americas",
+        "United States"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 71,
+      "relevance": 88,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-05-12 00:00:00",
+      "day": "2026-05-12",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42182300"
+    },
+    {
+      "id": 1216,
+      "headline": "Heterogeneous co-circulation of multiple DENV-1 and DENV-2 genotypes in Vung Tau during…",
+      "summary": "（规则抽取，未使用大模型）Dengue virus (DENV) remains a significant global health threat, particularly in hyper-endemic regions like Vietnam, where the co-circulation of multiple serotypes and genotypes complicates disease control. In 2023, 6.5 million dengue cases and 6,800 deaths were reported globally, marking the largest dengue outbreak in the world. Vietnam recorded 149,557 dengue cases and 36 deaths, with a notable dominance of the DENV-2 serotype.",
+      "pathogen_names": [
+        "Dengue virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Vietnam",
+        "Global",
+        "Asia"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 71,
+      "relevance": 86,
+      "cases": 149557,
+      "deaths": 36,
+      "source_name": "PubMed",
+      "published_at": "2026-10-13 00:00:00",
+      "day": "2026-10-13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870316"
+    },
+    {
+      "id": 1114,
+      "headline": "Entomological investigations into yellow fever outbreak in northern Ghana.",
+      "summary": "（规则抽取，未使用大模型）Arboviruses are pathogens of emerging/re-emerging infectious diseases. Half the world's population is at risk. Recent African epidemics confirmed 19,569 cases with 820 deaths.",
+      "pathogen_names": [
+        "Dengue virus",
+        "Yellow fever virus",
+        "Zika virus",
+        "Chikungunya virus"
+      ],
+      "hosts": [
+        "human",
+        "mosquitoes"
+      ],
+      "host_labels": [
+        "人类",
+        "蚊"
+      ],
+      "locations": [
+        "Ghana",
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 71,
+      "relevance": 91,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-15 00:00:00",
+      "day": "2026-10-15",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42879437"
+    },
+    {
+      "id": 5847,
+      "headline": "Dengue congénito como diagnóstico diferencial en neonatos con sospecha de sepsis…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: A major dengue epidemic affected Peru in 2023, with more than 246,614 cases with 419 deaths and an approximate of 8,312 pregnant women affected, with risk of transmitting the virus to the fetus. CLINICAL CASE: The case of an 11-day-old newborn is reported, whose mother started dengue fever one day before delivery, who was admitted to the emergency room with a diagnosis of sepsis (fever, jaundice, alteration of sensorium) and a history of cesarean delivery due to acute fetal distress. RT-PCR for dengue serotype 2 was identified in both the mother and neonate, suspending antibiotics and starting controlled hydration therapy, with favorable evolution that allowed the 7 to be discharged from hospitalization.",
+      "pathogen_names": [
+        "Dengue virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Peru"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 70,
+      "relevance": 63,
+      "cases": 246614,
+      "deaths": 419,
+      "source_name": "PubMed",
+      "published_at": "2025-01-01 00:00:00",
+      "day": "2025-01-01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40997340"
+    },
+    {
+      "id": 4385,
+      "headline": "Minimal risk of Rabies lyssavirus spillover from bats in Israel: findings from long-term…",
+      "summary": "（规则抽取，未使用大模型）Rabies, caused by viruses of the genus Lyssavirus (family Rhabdoviridae), remains a persistent public health and veterinary challenge in Israel, a small but strategically positioned country at the crossroads of Africa, Asia, and Europe. Over the past 18 years (2006-2024), more than 670 confirmed rabies cases have been reported in humans, wildlife, farm animals, and stray dogs, with the latest human fatality recorded in November 2024, following a bite from an unvaccinated dog. While domestic dogs (Canis familiaris) and golden jackals (Canis aureus) account for the majority of cases, little is known about the role of Israel's 32 bat species in the circulation of Lyssavirus rabies.",
+      "pathogen_names": [
+        "Rabies virus"
+      ],
+      "hosts": [
+        "human",
+        "dogs",
+        "bats",
+        "wildlife",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "犬",
+        "蝙蝠",
+        "野生动物",
+        "家畜"
+      ],
+      "locations": [
+        "Israel",
+        "Africa",
+        "Asia",
+        "Europe"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 70,
+      "relevance": 88,
+      "cases": 670,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-12-08 00:00:00",
+      "day": "2025-12-08",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41445951"
+    },
+    {
+      "id": 2227,
+      "headline": "Fear, stigma and Uncertainty: The short and long-term effects of Ebola on survivors…",
+      "summary": "（规则抽取，未使用大模型）In 2014, Uganda was identified as a high-risk country for Ebola Virus Disease (EVD), with a series of outbreaks recorded since 2000. In 2007, the second outbreak in Bundibugyo district resulted in 149 reported cases and 37 confirmed Ebola deaths. Through the outbreak response, a new strain of the Ebola virus (Bundibugyo ebolavirus) was discovered.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Uganda"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 70,
+      "relevance": 75,
+      "cases": 149,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-08 00:00:00",
+      "day": "2026-09-08",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42709728"
+    },
+    {
+      "id": 1954,
+      "headline": "Estimating total human deaths from rabies: A statistical framework leveraging reports of…",
+      "summary": "（规则抽取，未使用大模型）Estimating the global burden of human rabies is notoriously challenging because the infection is often misdiagnosed or not reported. Although rare, instances of donor-derived human-to-human rabies transmission have been identified after organ or tissue transplantation. Here, we present a statistical framework leveraging these instances to estimate both the probability that a death from rabies is diagnosed for an infected individual and the number of total deaths from rabies.",
+      "pathogen_names": [
+        "Rabies virus"
+      ],
+      "hosts": [
+        "human",
+        "dogs"
+      ],
+      "host_labels": [
+        "人类",
+        "犬"
+      ],
+      "locations": [
+        "Global",
+        "China",
+        "United States",
+        "India"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 70,
+      "relevance": 89,
+      "cases": null,
+      "deaths": 2227,
+      "source_name": "PubMed",
+      "published_at": "2026-09-21 00:00:00",
+      "day": "2026-09-21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42766652"
+    },
+    {
+      "id": 5740,
+      "headline": "Approaches for inactivating highly pathogenic avian influenza H5N1 cattle isolate for…",
+      "summary": "（规则抽取，未使用大模型）In March 2024, highly pathogenic avian influenza (HPAI) H5N1 was detected in Texas dairy cattle and has since spread to over 500 herds in the United States. Historically, H5N1 transmission to humans has occurred because of contact with infected birds, and over 800 cases have been reported since 2003, with a mortality rate of 52%. Sustained human-to-human transmission of H5N1 has not been observed.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "cattle",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "牛",
+        "家畜"
+      ],
+      "locations": [
+        "Texas",
+        "United States"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 69,
+      "relevance": 80,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-04-10 00:00:00",
+      "day": "2025-04-10",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40207970"
+    },
+    {
+      "id": 1966,
+      "headline": "All-Cause Excess Mortality During the COVID-19 Pandemic in a Rural Area of North India.",
+      "summary": "（规则抽取，未使用大模型）Introduction COVID-19 pandemic significantly impacted global mortality; however, many deaths were underreported. Excess mortality explains both direct and indirect impacts of the COVID-19 pandemic and therefore provides true and better estimates of pandemic deaths. Objectives The objective of this study was to estimate excess all-cause mortality during the COVID-19 pandemic in a rural area of North India.",
+      "pathogen_names": [
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "India",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 69,
+      "relevance": 83,
+      "cases": null,
+      "deaths": 43,
+      "source_name": "PubMed",
+      "published_at": "2026-09-19 00:00:00",
+      "day": "2026-09-19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42899133"
+    },
+    {
+      "id": 1463,
+      "headline": "Endogenous anti-Ebola virus GP1,2 antibodies interfere with detection of secreted…",
+      "summary": "（规则抽取，未使用大模型）Ebola disease (EBOD) is a highly infectious disease with severe hemorrhagic symptoms. It is caused by orthoebolaviruses, which include the Ebola virus (Orthoebolavirus zairense) (EBOV) causing Ebola virus disease (EVD), the most lethal EBOD to humans. Through co-transcriptional polymerase stuttering and subsequent proteolytic processing, its GP gene produces multiple protein products, including secreted glycoprotein (sGP) and structural membrane-associated trimeric GP1,2.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 69,
+      "relevance": 95,
+      "cases": 36,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-06 00:00:00",
+      "day": "2026-10-06",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42836625"
+    },
+    {
+      "id": 117,
+      "headline": "刚果民主共和国埃博拉疫情病例超9000例",
+      "summary": "截至2026年10月，刚果民主共和国的埃博拉疫情已导致至少4381人死亡。该疫情自5月15日开始，目前尚无具体传播方式和公共卫生应对措施的信息。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 69,
+      "relevance": 86,
+      "cases": null,
+      "deaths": 4381,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-10-13 19:18:00",
+      "day": "2026-10-13",
+      "url": "https://www.cidrap.umn.edu/ebola/ebola-cases-top-9000-dr-congo-outbreak"
+    },
+    {
+      "id": 5656,
+      "headline": "The emergence of highly pathogenic avian influenza H5N1 in dairy cattle: implications for…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: The 2024 outbreak of Highly Pathogenic Avian Influenza (HPAI) H5N1 in U.S. dairy cattle represents a significant change in the behavior of zoonotic influenza viruses. Previously, H5N1 was primarily an avian pathogen with limited infection in mammals.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wild_birds",
+        "cattle",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野鸟",
+        "牛",
+        "家畜"
+      ],
+      "locations": [
+        "United States"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 80,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-05-14 00:00:00",
+      "day": "2025-05-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40369349"
+    },
+    {
+      "id": 3025,
+      "headline": "Fatal Human Case of Highly Pathogenic Avian Influenza A(H5N5) in a Backyard Flock Owner -…",
+      "summary": "（规则抽取，未使用大模型）Clade 2.3.4.4b influenza A(H5N1) viruses have circulated across migratory bird flyways in the United States since 2022, including in Washington, where backyard flock detections have been reported annually. In November 2025, a Washington resident died from acute respiratory failure after receiving a positive influenza A(H5) test result at a hospital laboratory. Washington Public Health Laboratories confirmed influenza A(H5), and genomic sequencing identified influenza A(H5N5) virus (A6 genotype).",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wild_birds"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野鸟"
+      ],
+      "locations": [
+        "Washington",
+        "United States"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 95,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-05-07 00:00:00",
+      "day": "2026-05-07",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42096351"
+    },
+    {
+      "id": 2326,
+      "headline": "Systemic and Mucosal Immune Responses From Serotype-Switched Viral-Vectored Ebola…",
+      "summary": "（规则抽取，未使用大模型）Ebola virus is a highly virulent pathogen causing severe hemorrhagic fever with 25%-90% mortality. The 2014 outbreak infected over 28,000 people, causing 11,325 deaths. Although there is one FDA-approved vaccine available for limited use, additional vaccines are needed.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human",
+        "rodents"
+      ],
+      "host_labels": [
+        "人类",
+        "啮齿类"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 65,
+      "cases": null,
+      "deaths": 11325,
+      "source_name": "PubMed",
+      "published_at": "2026-09-01 00:00:00",
+      "day": "2026-09-01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42765626"
+    },
+    {
+      "id": 2284,
+      "headline": "Spatio-temporal dynamics of Rift Valley fever virus circulation in sentinel livestock…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Multiple detections of Rift Valley fever virus (RVFV) infections in humans, animals and mosquito vectors suggest permanent circulation of RVFV in Senegal. This study investigated the spatial and temporal dynamics of RVFV circulation in central (Sahelian) and southeastern (Sudanian) Senegal from March 2021 to June 2024. METHODS: A total of 976 initially seronegative sheep and goats from sentinel herds in 10 districts and 2 areas were monitored for 40 months.",
+      "pathogen_names": [
+        "Rift Valley fever virus"
+      ],
+      "hosts": [
+        "human",
+        "small_ruminants",
+        "mosquitoes",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "羊",
+        "蚊",
+        "家畜"
+      ],
+      "locations": [
+        "Senegal"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 86,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-03 00:00:00",
+      "day": "2026-09-03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42757101"
+    },
+    {
+      "id": 2082,
+      "headline": "Expanding the spectrum of oropouche virus neurological disease: emerging evidence from…",
+      "summary": "（规则抽取，未使用大模型）Oropouche virus is an emerging arbovirus whose neurotropic potential is increasingly recognized across the Americas. During the 2024-2025 outbreak in Panama, we identified six patients with confirmed or probable infection who developed a broad range of neurological manifestations. Neurological symptoms arose several days after the onset of systemic illness and included ocular motor disturbances such as nystagmus and opsoclonus, cerebellar signs including ataxia and vertigo, seizures, altered mental status, and meningeal irritation.",
+      "pathogen_names": [
+        "Oropouche virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Panama",
+        "Americas"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 88,
+      "cases": 6,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-15 00:00:00",
+      "day": "2026-09-15",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42742818"
+    },
+    {
+      "id": 1804,
+      "headline": "Marburg virus disease outbreak and response in South Ethiopia Region.",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Marburg Virus Disease (MVD) is a highly virulent zoonotic infection associated with high case fatality rates and multi-organ dysfunction. Early recognition, timely supportive care, and appropriate clinical management are important in improving outcomes. We describe the clinical presentation, laboratory features, management strategies, and outcomes of five confirmed MVD survivors.",
+      "pathogen_names": [
+        "Marburg virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Ethiopia"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 90,
+      "cases": 5,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-25 00:00:00",
+      "day": "2026-09-25",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42806302"
+    },
+    {
+      "id": 788,
+      "headline": "WHO statement on notification of withdrawal of the United States",
+      "summary": "（规则抽取，未使用大模型）WHO regrets the United States’ notification of withdrawal from WHO – a decision that makes both the United States and the world less safe. The notification of withdrawal raises issues that will be considered by the WHO Executive Board at its regular meeting starting on 2 February and by the World Health Assembly at its annual meeting in May 2026. As a founding member of the World Health Organization (WHO), the United States of America has contributed significantly to many of WHO’s greatest achievements, including the eradication of smallpox, and progress against many other public health threats including polio, HIV, Ebola, influenza, tuberculosis, malaria, neglected tropical diseases, antimicrobial resistance, food safety and more.",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Poliovirus",
+        "SARS-CoV-2",
+        "Plasmodium",
+        "Mycobacterium tuberculosis"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "United States",
+        "Global",
+        "China"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 45,
+      "cases": null,
+      "deaths": null,
+      "source_name": "WHO News",
+      "published_at": "2026-01-24 20:09:49",
+      "day": "2026-01-24",
+      "url": "https://www.who.int/news/item/24-01-2026-who-statement-on-notification-of-withdrawal-of-the-united-states"
+    },
+    {
+      "id": 187,
+      "headline": "刚果民主共和国埃博拉疫情病例和死亡人数接近7900和3800",
+      "summary": "刚果民主共和国的埃博拉疫情持续扩散，病例数接近7900例，死亡人数接近3800例。高死亡率和大量社区死亡表明及时发现病例和医疗访问存在问题。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 89,
+      "cases": null,
+      "deaths": null,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-09-25 20:22:00",
+      "day": "2026-09-25",
+      "url": "https://www.cidrap.umn.edu/ebola/ebola-cases-deaths-dr-congo-outbreak-near-7900-and-3800-virus-spreads-2-more-health-zones"
+    },
+    {
+      "id": 31,
+      "headline": "意大利一名肉牛农民因职业性钩端螺旋体病死亡",
+      "summary": "报告了一名56岁意大利肉牛农民因职业性钩端螺旋体病死亡的案例。研究发现，该病例由Javanica血清群引起，可能通过受污染的灌溉水传播。在22个月内，伦巴第地区共确认16例钩端螺旋体病，其中3人死亡，1人永久残疾。",
+      "pathogen_names": [
+        "Leptospira"
+      ],
+      "hosts": [
+        "human",
+        "cattle",
+        "wildlife",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "牛",
+        "野生动物",
+        "家畜"
+      ],
+      "locations": [
+        "Global",
+        "Europe",
+        "Lombardy",
+        "Italy"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 86,
+      "cases": 16,
+      "deaths": 3,
+      "source_name": "PubMed",
+      "published_at": "2026-10-23 00:00:00",
+      "day": "2026-10-23",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42925048"
+    },
+    {
+      "id": 5769,
+      "headline": "Editorial: Rapid Testing for the Avian Influenza A(H5N1) Virus is Urgently Required as…",
+      "summary": "（规则抽取，未使用大模型）Currently, there have been no identified cases of human-to-human transmission of highly pathogenic avian influenza A(H5N1) virus. However, there is increasing concern that infections in poultry and cattle with transmission to humans are growing due to inadequate control measures. In March 2025, the Deputy Director-General of the United Nations Food and Agricultural Organization (FAO) issued a directive with concerns about infection control in poultry and dairy cows.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza",
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "cattle"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "牛"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 67,
+      "relevance": 82,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-04-01 00:00:00",
+      "day": "2025-04-01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40165538"
+    },
+    {
+      "id": 4447,
+      "headline": "Changes in the incidence of notifiable infectious diseases before, during, and after the…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Nonpharmaceutical interventions (NPIs) have positive effects on curbing the COVID-19 pandemic, but the spread of other infectious diseases remains unknown. OBJECTIVE: This study aimed to explore the incidence of notifiable infectious diseases (NIDs) at different stages of the COVID-19 pandemic in Mainland China. METHODS: We extracted monthly cases of NIDs from the National Health Commission of the People's Republic of China from January 2020 to December 2023.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Bordetella pertussis",
+        "Enterovirus A71"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "China"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 67,
+      "relevance": 74,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-12-05 00:00:00",
+      "day": "2025-12-05",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41345840"
+    },
+    {
+      "id": 2264,
+      "headline": "Acute viral respiratory infections in children before and during the COVID-19 pandemic in…",
+      "summary": "（规则抽取，未使用大模型）Our objective was to evaluate the frequency and characteristics of acute respiratory infections (ARI) with confirmed viral etiology in children treated at a Peruvian referral hospital before and during the COVID-19 pandemic between 2019 and 2022. We conducted a descriptive study based on the detection records of adenovirus, influenza A and B (IA and IB), parainfluenza 1-3 (PIV), metapneumovirus (hMPV), and respiratory syncytial virus (RSV). Of 1740 episodes (1220 patients), 14.4% tested positive: 196 (78.0%) RSV, 23 (9.2%) IA, 14 (5.6%) PIV-3, and 13 (5.2%) hMPV.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Human metapneumovirus",
+        "Respiratory syncytial virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Peru"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 67,
+      "relevance": 77,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-04 00:00:00",
+      "day": "2026-09-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42867956"
+    },
+    {
+      "id": 944,
+      "headline": "Decomposing the decline in life expectancy at birth by cause of death during the COVID-19…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Life expectancy at birth has increased in Organisation for Economic Co-operation and Development countries and across the globe over the past few decades, until 2019. However, this trend was disrupted by the COVID-19 pandemic, which saw a significant decrease in life expectancy in Canada and many other countries. Few studies to date have decomposed the life expectancy gap by cause of death observed during the pandemic in a Canadian context.",
+      "pathogen_names": [
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Canada"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 67,
+      "relevance": 83,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-21 00:00:00",
+      "day": "2026-10-21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42905875"
+    },
+    {
+      "id": 127,
+      "headline": "刚果民主共和国埃博拉疫情持续，德国疟疾病死",
+      "summary": "刚果民主共和国的埃博拉疫情仍在继续，病例接近7500例，死亡超过3600例。德国报告了疟疾病死案例。此外，全球新增7例脊髓灰质炎病例。",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Poliovirus",
+        "Plasmodium"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo",
+        "Germany",
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 67,
+      "relevance": 86,
+      "cases": null,
+      "deaths": null,
+      "source_name": "CIDRAP · Malaria",
+      "published_at": "2026-09-18 17:39:00",
+      "day": "2026-09-18",
+      "url": "https://www.cidrap.umn.edu/ebola/quick-takes-dr-congo-ebola-emergency-malaria-deaths-germany-7-new-polio-cases"
+    },
+    {
+      "id": 5466,
+      "headline": "Local epidemiology, impact and human response during an African swine fever outbreak in a…",
+      "summary": "（规则抽取，未使用大模型）This study investigated local epidemiology, impact and actions taken by smallholder pig farmers during an outbreak of African swine fever (ASF) in rural Uganda. Data collection included the biological sampling of sick or dead pigs, structured interviews using a questionnaire and geospatial records of risk locations for ASF. Following confirmation of the presence of ASF virus by conventional PCR, all households that reported pig deaths were considered ASF positive.",
+      "pathogen_names": [
+        "African swine fever virus"
+      ],
+      "hosts": [
+        "human",
+        "swine"
+      ],
+      "host_labels": [
+        "人类",
+        "猪"
+      ],
+      "locations": [
+        "Africa",
+        "Uganda"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 92,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-06-26 00:00:00",
+      "day": "2025-06-26",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40609494"
+    },
+    {
+      "id": 5064,
+      "headline": "Learning from COVID-19: clinical trials, health information technology, and patient…",
+      "summary": "（规则抽取，未使用大模型）During the COVID-19 pandemic, deaths per case in the United States decreased from 7.46% in April 2020 to 1.76% in April 2021. One mechanism that could explain this decline is a learning effect associated with testing of new treatments by hospitals. Hospitals that participated in clinical trials developed better organizational capabilities to diagnose and treat COVID-19 patients.",
+      "pathogen_names": [
+        "SARS-CoV-2"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "United States"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 83,
+      "cases": 19,
+      "deaths": 19,
+      "source_name": "PubMed",
+      "published_at": "2025-10-13 00:00:00",
+      "day": "2025-10-13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42527466"
+    },
+    {
+      "id": 4721,
+      "headline": "The GBD 2021 perspective: COVID-19's impact on diarrheal mortality and etiological…",
+      "summary": "（规则抽取，未使用大模型）INTRODUCTION: Diarrheal diseases remain a leading cause of global mortality. While significant progress has been made in reducing diarrheal deaths, particularly among children under five, the COVID-19 pandemic introduced new dynamics through non-pharmaceutical interventions and healthcare disruptions. Understanding the evolving burden during this period is critical for guiding post-pandemic control strategies.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Vibrio cholerae",
+        "Rotavirus",
+        "Clostridioides difficile",
+        "Cryptosporidium",
+        "Norovirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Global",
+        "Africa",
+        "Americas",
+        "Asia"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 91,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-11-19 00:00:00",
+      "day": "2025-11-19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41346363"
+    },
+    {
+      "id": 4003,
+      "headline": "Molecular epidemiology of respiratory syncytial virus in Switzerland 2019-2024 from…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND AND AIMS: Respiratory syncytial virus (RSV) infection is one of the leading causes of hospitalisation in infants, the elderly and immunocompromised patients, with significant morbidity and mortality rates. Despite its global impact, epidemiological surveillance of RSV in Switzerland has historically been limited compared to the USA and European countries. A significant surge in RSV activity and hospitalisations after the COVID-19 pandemic, along with the introduction of new monoclonal antibodies and RSV vaccines, has led to an increased interest in the molecular epidemiology of RSV.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Respiratory syncytial virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Switzerland",
+        "Global",
+        "United States",
+        "Europe"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 71,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-12-23 00:00:00",
+      "day": "2025-12-23",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41474094"
+    },
+    {
+      "id": 2320,
+      "headline": "H5N1 Clade 2.3.4.4b Infections in Domestic Cats During an Avian Influenza Outbreak in…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: H5Nx goose/Guangdong (Gs/GD) lineage highly pathogenic avian influenza (HPAI) viruses pose a significant public health threat due to their global spread, mutation accumulation, and expanding host range. The descendant clade 2.3.4.4b has been causing widespread infections in birds and increasing spillover events in mammals. METHODS: This report documents the first fatal case of highly pathogenic avian influenza virus (HPAIV) H5N1 clade 2.3.4.4b infection in a domestic cat in Italy, detected in early January 2025.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "cats"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "猫"
+      ],
+      "locations": [
+        "Italy",
+        "Guangdong",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 95,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-01 00:00:00",
+      "day": "2026-09-01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42679799"
+    },
+    {
+      "id": 2293,
+      "headline": "Epidemic Comparison of Ebola and Zika-the Only Two Neglected Tropical Diseases with…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Comparative epidemiological evidence on Ebola virus disease (EVD) and Zika virus disease (ZVD) in women of childbearing age (WCBA) is limited, hindering understanding of their mother-to-child transmission (MTCT) potential and maternal-neonatal protection. This study aimed to compare EVD and ZVD epidemiology in WCBA, assess sex-specific differences, and examine the association between ZVD incidence and live births to inform maternal-neonatal protection and disease control. METHODS: Data on incidence, deaths, years of life lost (YLLs), years lived with disability (YLDs), and disability-adjusted life-years (DALYs) of EVD and ZVD (2011-2023) among WCBA and other populations were extracted from the Global Burden of Disease 2023 study.",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Zika virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Global",
+        "Africa",
+        "Americas",
+        "Brazil"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 90,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-03 00:00:00",
+      "day": "2026-09-03",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42708066"
+    },
+    {
+      "id": 1017,
+      "headline": "A Carbapenem-Resistant Acinetobacter baumannii Outbreak in an Intensive Care Unit…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: We analyzed a carbapenem-resistant Acinetobacter baumannii (CRAB) outbreak in an intensive care unit (ICU) to improve insight into how this pathogen spreads within health care facilities and to inform the development of targeted control procedures. METHODS: A CRAB outbreak in a tertiary referral center was investigated over a 5-month window with clinical data, molecular typing (AP-PCR, PFGE), and one month of environmental sampling. All ICU patients (n=31) were compared-epidemic-clone-positive (n=7) versus -negative (n=24)-using Mann-Whitney/Fisher tests and Firth penalized logistic regression.",
+      "pathogen_names": [
+        "Acinetobacter baumannii"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 89,
+      "cases": 7,
+      "deaths": 7,
+      "source_name": "PubMed",
+      "published_at": "2026-10-19 00:00:00",
+      "day": "2026-10-19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896810"
+    },
+    {
+      "id": 880,
+      "headline": "Quick takes: H5N1 death in Mexico; Kenya cholera outbreak; H5N1 virus in cows, poultry…",
+      "summary": "（规则抽取，未使用大模型）A 3-year-old girl from Mexico recently hospitalized with H5N1 avian flu has died from her infection.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza",
+        "Vibrio cholerae"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "cattle",
+        "cats"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "牛",
+        "猫"
+      ],
+      "locations": [
+        "Mexico",
+        "Kenya"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 86,
+      "cases": null,
+      "deaths": null,
+      "source_name": "CIDRAP · Cholera",
+      "published_at": "2025-04-09 19:30:00",
+      "day": "2025-04-09",
+      "url": "https://www.cidrap.umn.edu/avian-influenza-bird-flu/quick-takes-h5n1-death-mexico-kenya-cholera-outbreak-h5n1-virus-cows"
+    },
+    {
+      "id": 858,
+      "headline": "Quick takes: Fewer UK meningitis cases, clade 1 mpox in Missouri, diphtheria risk across…",
+      "summary": "（规则抽取，未使用大模型）Diphtheria poses a moderate risk to Africa, after 29,000 suspected cases with 1,420 deaths have been reported in 8 nations since January 2025.",
+      "pathogen_names": [
+        "Mpox virus",
+        "Corynebacterium diphtheriae"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "United Kingdom",
+        "Missouri",
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 76,
+      "cases": null,
+      "deaths": null,
+      "source_name": "CIDRAP · Mpox",
+      "published_at": "2026-03-23 16:15:00",
+      "day": "2026-03-23",
+      "url": "https://www.cidrap.umn.edu/meningitis/quick-takes-fewer-uk-meningitis-cases-clade-1-mpox-missouri-diphtheria-risk-across"
+    },
+    {
+      "id": 808,
+      "headline": "Cholera outbreak in DR Congo is intensifying, MSF warns",
+      "summary": "（规则抽取，未使用大模型）More than 58,000 cholera cases have been reported over the past 9 months in the country, with 1,700 deaths.",
+      "pathogen_names": [
+        "Vibrio cholerae"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 66,
+      "relevance": 82,
+      "cases": 58000,
+      "deaths": 1700,
+      "source_name": "CIDRAP · Cholera",
+      "published_at": "2025-10-24 16:57:00",
+      "day": "2025-10-24",
+      "url": "https://www.cidrap.umn.edu/cholera/cholera-outbreak-dr-congo-intensifying-msf-warns"
+    },
+    {
+      "id": 5699,
+      "headline": "[The results of the detection of specific IgG antibodies to Ebola virus (Filoviridae…",
+      "summary": "（规则抽取，未使用大模型）INTRODUCTION: In 2014-2016, an epidemic of Ebola virus disease (EVD) was registered in Guinea. In 2021, EVD cases were repeated in the region. The importance of studying the duration of post-infection immunity to the Ebola virus in the body of convalescents is due to the fact that after the end of the epidemic they can be the main sources of infection.",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Guinea"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 65,
+      "relevance": 81,
+      "cases": 2021,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-04-30 00:00:00",
+      "day": "2025-04-30",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41147577"
+    },
+    {
+      "id": 3949,
+      "headline": "Genotype A3 influenza A(H5N1) isolated from fur seals shows high virulence in mammals…",
+      "summary": "（规则抽取，未使用大模型）The global spread of highly pathogenic avian influenza A(H5N1) clade 2.3.4.4b viruses has recently extended to include diverse mammalian species, raising new concerns about pandemic risk. In 2023, this clade was first detected in Russian marine mammals during a mass mortality event among northern fur seals in the Far East. Genetic analyses revealed the causative viruses to belong to genotype A3 of European origin, which is known to have circulated in wild birds across the Far East since 2022.",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wild_birds",
+        "rodents",
+        "wildlife"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野鸟",
+        "啮齿类",
+        "野生动物"
+      ],
+      "locations": [
+        "Global",
+        "Russia",
+        "Europe"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 65,
+      "relevance": 95,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-12-24 00:00:00",
+      "day": "2025-12-24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41444280"
+    },
+    {
+      "id": 3560,
+      "headline": "Sex differences in dengue-related neurological complications: insights from the 2023…",
+      "summary": "（规则抽取，未使用大模型）Dengue is a prevalent vector-borne disease that threatens nearly half of the world's population. Although not traditionally classified as neurotropic, dengue can lead to a wide range of neurological manifestations beyond the conventional spectrum of disease severity. This study investigated neurological manifestations during the 2023 dengue outbreak in Tainan, Taiwan, with a focus on the observed male predominance in symptomatic and severe cases.",
+      "pathogen_names": [
+        "Dengue virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Taiwan"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 65,
+      "relevance": 86,
+      "cases": 1000,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-07-07 00:00:00",
+      "day": "2026-07-07",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42491602"
+    },
+    {
+      "id": 2144,
+      "headline": "First laboratory-confirmed fatal dengue virus infection and its implications for national…",
+      "summary": "（规则抽取，未使用大模型）INTRODUCTION: Dengue virus (DENV) is an emerging public health threat in Africa, where its impact is underestimated due to nonspecific clinical manifestations and restricted diagnostic capabilities. In Liberia, laboratory-confirmed cases of DENV were initially recorded in an urban febrile surveillance study (2018-2020), yet severe or fatal outcomes had not been previously reported. This paper reports the first laboratory-confirmed fatal dengue case and its implications for national surveillance and policy in Liberia.",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Marburg virus",
+        "Lassa virus",
+        "Dengue virus",
+        "Plasmodium"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Liberia",
+        "Africa",
+        "Maryland",
+        "Ghana",
+        "Senegal",
+        "Côte d'Ivoire"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 65,
+      "relevance": 95,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-09-11 00:00:00",
+      "day": "2026-09-11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42830844"
+    },
+    {
+      "id": 368,
+      "headline": "刚果民主共和国埃博拉疫情再起：经验教训与未来方向",
+      "summary": "2025年刚果民主共和国卡萨伊省爆发了由扎伊尔埃博拉病毒引起的埃博拉疫情，导致60多例确诊病例和超过65%的病死率。尽管存在先前控制成功的案例，但此次疫情暴露出在疫情准备和应对方面的持续脆弱性。通过紧急响应、疫苗接种、加强监测等措施，成功中断了传播。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo",
+        "Global",
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 65,
+      "relevance": 90,
+      "cases": 60,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-16 00:00:00",
+      "day": "2026-10-16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42890496"
+    },
+    {
+      "id": 4869,
+      "headline": "Effects of the non-pharmaceutical interventions during the COVID-19 epidemic on hand…",
+      "summary": "（规则抽取，未使用大模型）BACKGROUND: Since December 2019, COVID-19 has spread rapidly, leading to a global epidemic. The non-pharmaceutical interventions (NPIs) were implemented to control the transmission of COVID-19. Previous studies have shown that NPIs have co-benefits for the prevention of other infectious diseases.",
+      "pathogen_names": [
+        "SARS-CoV-2",
+        "Enterovirus A71"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "China",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 64,
+      "relevance": 77,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-11-04 00:00:00",
+      "day": "2025-11-04",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41188723"
+    },
+    {
+      "id": 4826,
+      "headline": "Evolutionary epidemiology of the monkeypox virus in Shandong Province during the…",
+      "summary": "（规则抽取，未使用大模型）INTRODUCTION: Monkeypox virus (MPXV) is an emerging zoonotic pathogen with increasing human-to-human transmission. Since the first case in Shandong Province in June 2023, 61 cases were reported by the end of 2024, predominantly among young men who have sex with men. Genomic and phenotypic characterization of circulating strains is crucial for assessing transmission dynamics and public health risks.",
+      "pathogen_names": [
+        "Mpox virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Shandong",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 64,
+      "relevance": 90,
+      "cases": 61,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2025-11-07 00:00:00",
+      "day": "2025-11-07",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41277969"
+    }
+  ]
+}

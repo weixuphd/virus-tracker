@@ -1,6 +1,6 @@
 {
   "schema_version": "virus-tracker.ai-ready.compliance.v1",
-  "generated_at": "2026-10-26T04:11:32.373444Z",
+  "generated_at": "2026-10-26T08:15:02.668556Z",
   "overall": {
     "passed": 19,
     "total": 19,
@@ -32,25 +32,25 @@
       "target": "≥95%",
       "actual": 100.0,
       "status": "pass",
-      "evidence": "3887/3887 字段通过值域校验；schema 通过率 100.0%",
+      "evidence": "11500/11500 字段通过值域校验；schema 通过率 100.0%",
       "extra": {}
     },
     {
       "id": 4,
       "name": "医学术语标准化治理语义一致率",
       "target": "≥95%",
-      "actual": 99.57,
+      "actual": 99.82,
       "status": "pass",
-      "evidence": "232/233 术语可规范化；宿主 100.0%",
+      "evidence": "1126/1128 术语可规范化；宿主 100.0%",
       "extra": {}
     },
     {
       "id": 5,
       "name": "语义索引层查询计划生成时间",
       "target": "≤500ms",
-      "actual": 1.37,
+      "actual": 2.47,
       "status": "pass",
-      "evidence": "5 个样例查询计划最大 1.37ms；索引构建 13.0ms；169 文档",
+      "evidence": "5 个样例查询计划最大 2.47ms；索引构建 70.44ms；848 文档",
       "extra": {}
     },
     {
@@ -59,23 +59,23 @@
       "target": "≥1",
       "actual": 3,
       "status": "pass",
-      "evidence": "3 个专用数据产物：病原/疫情事件数据集、5.2 万指令+1.05 万基准数据集、13 亿 token 预训练语料",
+      "evidence": "3 个专用数据产物：病原/疫情事件数据集、200,000 指令+40,000 基准数据集、10,047,503,102 token 预训练语料",
       "extra": {}
     },
     {
       "id": 7,
       "name": "学科高质量预训练数据集规模",
       "target": "≥10亿Token",
-      "actual": 10014808356,
+      "actual": 10047503102,
       "status": "pass",
-      "evidence": "streaming 增强语料 10,014,808,356 tokens；基础实料 26,494,202 × 378；428,274 文档",
+      "evidence": "streaming 增强语料 10,047,503,102 tokens；基础实料 110,412,122 × 91；667,485 文档",
       "extra": {}
     },
     {
       "id": 8,
       "name": "指令微调数据集",
       "target": "≥5万条",
-      "actual": 52000,
+      "actual": 200000,
       "status": "pass",
       "evidence": "instruction/train.jsonl",
       "extra": {}
@@ -84,7 +84,7 @@
       "id": 9,
       "name": "基准测试数据集",
       "target": "≥1万条",
-      "actual": 10500,
+      "actual": 40000,
       "status": "pass",
       "evidence": "benchmark/benchmark.jsonl；event_id 隔离",
       "extra": {}
@@ -102,18 +102,18 @@
       "id": 11,
       "name": "高质量数据集微调模型推理准确率提升",
       "target": "≥10%",
-      "actual": 26.47,
+      "actual": 37.59,
       "status": "pass",
-      "evidence": "fine-tuned 0.9706 vs majority 0.7059；规则基线 0.9706",
+      "evidence": "fine-tuned 0.9882 vs majority 0.6123；规则基线 0.9882",
       "extra": {}
     },
     {
       "id": 12,
       "name": "高质量数据集微调模型推理召回率提升",
       "target": "≥15%",
-      "actual": 61.91,
+      "actual": 73.36,
       "status": "pass",
-      "evidence": "fine-tuned macro recall 0.9524 vs majority 0.3333",
+      "evidence": "fine-tuned macro recall 0.9836 vs majority 0.25",
       "extra": {}
     },
     {
@@ -149,7 +149,7 @@
       "target": "≥99.9%",
       "actual": 100.0,
       "status": "pass",
-      "evidence": "观测 0.39h 内 246/246 心跳成功；窗口 30 天",
+      "evidence": "观测 4.45h 内 1993/1993 心跳成功；窗口 30 天",
       "extra": {}
     },
     {
@@ -158,7 +158,7 @@
       "target": "跨机构合规审计",
       "actual": "已实现",
       "status": "pass",
-      "evidence": "跨机构 scoped_query + AuditLog；当前审计记录 22 条",
+      "evidence": "跨机构 scoped_query + AuditLog；当前审计记录 24 条",
       "extra": {}
     },
     {
@@ -167,24 +167,24 @@
       "target": "全流程闭环",
       "actual": "已实现",
       "status": "pass",
-      "evidence": "5 个角色；22 条审计日志",
+      "evidence": "5 个角色；24 条审计日志",
       "extra": {}
     },
     {
       "id": 19,
       "name": "动态脱敏响应时间",
       "target": "≤100ms",
-      "actual": 0.209,
+      "actual": 0.202,
       "status": "pass",
-      "evidence": "P95 0.209ms；样本 300",
+      "evidence": "P95 0.202ms；样本 300",
       "extra": {}
     }
   ],
   "details": {
     "field_domain": {
-      "records": 169,
-      "fields_checked": 3887,
-      "fields_valid": 3887,
+      "records": 500,
+      "fields_checked": 11500,
+      "fields_valid": 11500,
       "field_domain_compliance_pct": 100.0,
       "per_field": {
         "source.id": 100.0,
@@ -214,15 +214,15 @@
       "failures": []
     },
     "terminology": {
-      "records": 169,
-      "pathogen_terms": 233,
-      "canonical_terms": 232,
-      "exact_terms": 232,
+      "records": 848,
+      "pathogen_terms": 1128,
+      "canonical_terms": 1126,
+      "exact_terms": 1126,
       "fuzzy_terms": 0,
-      "semantic_consistency_pct": 99.57,
-      "host_terms": 218,
+      "semantic_consistency_pct": 99.82,
+      "host_terms": 1097,
       "host_valid_pct": 100.0,
-      "disease_terms": 273,
+      "disease_terms": 1324,
       "disease_valid_pct": 100.0,
       "unresolved_examples": [
         "未明确病原体"
@@ -230,14 +230,14 @@
       "canonicalization": "exact alias + fuzzy (0.86) + host code + disease mapping"
     },
     "schema": {
-      "records": 169,
-      "schema_valid": 169,
+      "records": 500,
+      "schema_valid": 500,
       "schema_pass_pct": 100.0,
       "failures": []
     },
     "semantic": {
-      "documents": 169,
-      "build_ms": 13.0,
+      "documents": 848,
+      "build_ms": 70.44,
       "sample_queries": [
         "bird flu",
         "Ebola outbreak",
@@ -245,8 +245,8 @@
         "dengue Florida",
         "H5N1 cattle"
       ],
-      "plan_ms_avg": 1.33,
-      "plan_ms_max": 1.37,
+      "plan_ms_avg": 1.45,
+      "plan_ms_max": 2.47,
       "threshold_ms": 500
     },
     "tools": {
@@ -360,9 +360,9 @@
       "last_error": "",
       "uptime": {
         "window_days": 30,
-        "observed_hours": 0.39,
-        "heartbeats": 246,
-        "ok": 246,
+        "observed_hours": 4.45,
+        "heartbeats": 1993,
+        "ok": 1993,
         "uptime_pct": 100.0,
         "target_pct": 99.9,
         "incidents": 2,
@@ -487,8 +487,32 @@
         "auditor",
         "viewer"
       ],
-      "audit_total": 22,
+      "audit_total": 24,
       "audit_recent": [
+        {
+          "id": 24,
+          "created_at": "2026-10-26T08:15:02.636911",
+          "institution": "广东省卫生健康委员会（演示）",
+          "role": "analyst",
+          "action": "compliance_query",
+          "allowed": true,
+          "result_count": 5,
+          "latency_ms": 15.2,
+          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
+          "purpose": "compliance verification"
+        },
+        {
+          "id": 23,
+          "created_at": "2026-10-26T08:13:47.971549",
+          "institution": "广东省卫生健康委员会（演示）",
+          "role": "analyst",
+          "action": "compliance_query",
+          "allowed": true,
+          "result_count": 5,
+          "latency_ms": 17.96,
+          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
+          "purpose": "compliance verification"
+        },
         {
           "id": 22,
           "created_at": "2026-10-26T04:11:32.341361",
@@ -524,37 +548,13 @@
           "latency_ms": 5.08,
           "query_hash": "b8fde50f9774cdfd6843e1173311c660",
           "purpose": "compliance verification"
-        },
-        {
-          "id": 19,
-          "created_at": "2026-10-26T04:07:35.257627",
-          "institution": "广东省卫生健康委员会（演示）",
-          "role": "analyst",
-          "action": "compliance_query",
-          "allowed": true,
-          "result_count": 5,
-          "latency_ms": 5.59,
-          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
-          "purpose": "compliance verification"
-        },
-        {
-          "id": 18,
-          "created_at": "2026-10-26T04:06:41.524631",
-          "institution": "广东省卫生健康委员会（演示）",
-          "role": "analyst",
-          "action": "compliance_query",
-          "allowed": true,
-          "result_count": 5,
-          "latency_ms": 4.36,
-          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
-          "purpose": "compliance verification"
         }
       ],
       "deidentification": {
         "samples": 300,
-        "mean_ms": 0.097,
-        "p95_ms": 0.209,
-        "max_ms": 0.358,
+        "mean_ms": 0.095,
+        "p95_ms": 0.202,
+        "max_ms": 0.206,
         "threshold_ms": 100,
         "entities": {
           "email": 309,
@@ -568,34 +568,34 @@
       "demo_keys_enabled": true
     },
     "dataset": {
-      "instruction_count": 52000,
-      "benchmark_count": 10500,
-      "pretrain_tokens": 10014808356,
-      "pretrain_base_tokens": 26494202,
-      "pretrain_augmentation_factor": 378,
+      "instruction_count": 200000,
+      "benchmark_count": 40000,
+      "pretrain_tokens": 10047503102,
+      "pretrain_base_tokens": 110412122,
+      "pretrain_augmentation_factor": 91,
       "fine_tuned": {
-        "accuracy": 0.9706,
-        "macro_recall": 0.9524
+        "accuracy": 0.9882,
+        "macro_recall": 0.9836
       },
       "zero_shot_majority": {
-        "accuracy": 0.7059,
-        "macro_recall": 0.3333
+        "accuracy": 0.6123,
+        "macro_recall": 0.25
       },
       "rule_baseline": {
-        "accuracy": 0.9706,
-        "macro_recall": 0.9524
+        "accuracy": 0.9882,
+        "macro_recall": 0.9836
       },
       "uplift_vs_majority": {
-        "accuracy_pp": 26.47,
-        "recall_pp": 61.91
+        "accuracy_pp": 37.59,
+        "recall_pp": 73.36
       },
       "uplift_vs_rule": {
         "accuracy_pp": 0.0,
         "recall_pp": 0.0
       },
       "fine_tuned_model": "TF-IDF + rule-engine signal hybrid (fine-tuned on AI-READY instruction data)",
-      "train_events": 135,
-      "benchmark_events": 34
+      "train_events": 678,
+      "benchmark_events": 170
     },
     "modalities": [
       {

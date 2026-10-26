@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>事件库 · Virus-tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="">概览</a>
+        <a href="/virus-tracker/events/index.html" class="active">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="page-head">
+  <div>
+    <span class="eyebrow">EVENT LIBRARY</span>
+    <h1>病原与疫情事件库</h1>
+    <p class="muted">共 848 条符合相关性阈值的事件。支持按病原体、宿主、严重度、来源与时间筛选。</p>
+  </div>
+  <div class="page-head-actions">
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/events.jsonl">导出 JSONL</a>
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/events.csv">导出 CSV</a>
+  </div>
+</section>
+
+<form class="filter-panel" method="get" action="/virus-tracker/events/index.html" id="filter-form">
+  <div class="filter-search">
+    <label for="q">关键词</label>
+    <input type="search" id="q" name="q" value="" placeholder="病原体、地区、事件关键词…">
+  </div>
+  <div>
+    <label for="pathogen">病原体</label>
+    <select id="pathogen" name="pathogen">
+      <option value="">全部病原体</option>
+      
+        <option value="SARS-CoV-2" >SARS-CoV-2 (102)</option>
+      
+        <option value="Highly pathogenic avian influenza" >Highly pathogenic avian influenza (87)</option>
+      
+        <option value="Influenza A(H5N1)" >Influenza A(H5N1) (79)</option>
+      
+        <option value="Ebolavirus" >Ebolavirus (74)</option>
+      
+        <option value="Dengue virus" >Dengue virus (59)</option>
+      
+        <option value="Measles virus" >Measles virus (42)</option>
+      
+        <option value="Mpox virus" >Mpox virus (37)</option>
+      
+        <option value="Plasmodium" >Plasmodium (37)</option>
+      
+        <option value="Mycobacterium tuberculosis" >Mycobacterium tuberculosis (35)</option>
+      
+        <option value="Chikungunya virus" >Chikungunya virus (28)</option>
+      
+        <option value="Salmonella" >Salmonella (28)</option>
+      
+        <option value="Aspergillus fumigatus" >Aspergillus fumigatus (25)</option>
+      
+        <option value="Hantavirus" >Hantavirus (22)</option>
+      
+        <option value="Vibrio cholerae" >Vibrio cholerae (21)</option>
+      
+        <option value="Respiratory syncytial virus" >Respiratory syncytial virus (18)</option>
+      
+        <option value="Yersinia pestis" >Yersinia pestis (17)</option>
+      
+        <option value="African swine fever virus" >African swine fever virus (16)</option>
+      
+        <option value="Poliovirus" >Poliovirus (16)</option>
+      
+        <option value="Severe fever with thrombocytopenia syndrome virus" >Severe fever with thrombocytopenia syndrome virus (15)</option>
+      
+        <option value="Mucorales" >Mucorales (13)</option>
+      
+        <option value="Klebsiella pneumoniae" >Klebsiella pneumoniae (13)</option>
+      
+        <option value="Rabies virus" >Rabies virus (12)</option>
+      
+        <option value="Influenza A(H9N2)" >Influenza A(H9N2) (12)</option>
+      
+        <option value="Cyclospora cayetanensis" >Cyclospora cayetanensis (12)</option>
+      
+        <option value="West Nile virus" >West Nile virus (11)</option>
+      
+        <option value="Lumpy skin disease virus" >Lumpy skin disease virus (11)</option>
+      
+        <option value="Enterovirus A71" >Enterovirus A71 (10)</option>
+      
+        <option value="Norovirus" >Norovirus (10)</option>
+      
+        <option value="Zika virus" >Zika virus (9)</option>
+      
+        <option value="Foot-and-mouth disease virus" >Foot-and-mouth disease virus (9)</option>
+      
+        <option value="Echinococcus" >Echinococcus (9)</option>
+      
+        <option value="Hepatitis A virus" >Hepatitis A virus (9)</option>
+      
+        <option value="Yellow fever virus" >Yellow fever virus (8)</option>
+      
+        <option value="Oropouche virus" >Oropouche virus (8)</option>
+      
+        <option value="Candida auris" >Candida auris (8)</option>
+      
+        <option value="Marburg virus" >Marburg virus (8)</option>
+      
+        <option value="Acinetobacter baumannii" >Acinetobacter baumannii (8)</option>
+      
+        <option value="Cryptococcus neoformans" >Cryptococcus neoformans (7)</option>
+      
+        <option value="Chronic wasting disease prion" >Chronic wasting disease prion (7)</option>
+      
+        <option value="Leishmania" >Leishmania (6)</option>
+      
+        <option value="Hepatitis E virus" >Hepatitis E virus (6)</option>
+      
+        <option value="Meticillin-resistant Staphylococcus aureus" >Meticillin-resistant Staphylococcus aureus (6)</option>
+      
+        <option value="Leptospira" >Leptospira (6)</option>
+      
+        <option value="Brucella" >Brucella (6)</option>
+      
+        <option value="Toxoplasma gondii" >Toxoplasma gondii (5)</option>
+      
+        <option value="SARS-CoV" >SARS-CoV (5)</option>
+      
+        <option value="Rubella virus" >Rubella virus (5)</option>
+      
+        <option value="Schistosoma" >Schistosoma (5)</option>
+      
+        <option value="Rotavirus" >Rotavirus (5)</option>
+      
+        <option value="Mycoplasma pneumoniae" >Mycoplasma pneumoniae (5)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="host">宿主</label>
+    <select id="host" name="host">
+      <option value="">全部宿主</option>
+      
+        <option value="human" >人类 (626)</option>
+      
+        <option value="poultry" >家禽 (124)</option>
+      
+        <option value="cattle" >牛 (61)</option>
+      
+        <option value="mosquitoes" >蚊 (41)</option>
+      
+        <option value="livestock" >家畜 (39)</option>
+      
+        <option value="wildlife" >野生动物 (39)</option>
+      
+        <option value="wild_birds" >野鸟 (38)</option>
+      
+        <option value="swine" >猪 (27)</option>
+      
+        <option value="rodents" >啮齿类 (26)</option>
+      
+        <option value="dogs" >犬 (16)</option>
+      
+        <option value="ticks" >蜱 (15)</option>
+      
+        <option value="small_ruminants" >羊 (14)</option>
+      
+        <option value="cats" >猫 (13)</option>
+      
+        <option value="bats" >蝙蝠 (8)</option>
+      
+        <option value="fish" >鱼类 (4)</option>
+      
+        <option value="horses" >马 (3)</option>
+      
+        <option value="primates" >灵长类 (2)</option>
+      
+        <option value="camels" >骆驼 (1)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="severity">严重度</label>
+    <select id="severity" name="severity">
+      <option value="">全部</option>
+      
+        <option value="critical" >极高</option>
+      
+        <option value="high" >高</option>
+      
+        <option value="moderate" >中</option>
+      
+        <option value="low" >低</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="source">来源</label>
+    <select id="source" name="source">
+      <option value="">全部来源</option>
+      
+        <option value="pubmed" >PubMed (677)</option>
+      
+        <option value="cdc_outbreaks" >US CDC Outbreaks (22)</option>
+      
+        <option value="cidrap_avian_influenza" >CIDRAP · Avian Influenza (14)</option>
+      
+        <option value="cidrap_measles" >CIDRAP · Measles (14)</option>
+      
+        <option value="cidrap_cholera" >CIDRAP · Cholera (13)</option>
+      
+        <option value="cidrap_ebola" >CIDRAP · Ebola (13)</option>
+      
+        <option value="cidrap_foodborne" >CIDRAP · Foodborne Disease (12)</option>
+      
+        <option value="cidrap_mpox" >CIDRAP · Mpox (10)</option>
+      
+        <option value="cidrap_plague" >CIDRAP · Plague (8)</option>
+      
+        <option value="cidrap_cwd" >CIDRAP · Chronic Wasting Disease (7)</option>
+      
+        <option value="sciencedaily_infectious" >ScienceDaily Infectious Diseases (7)</option>
+      
+        <option value="cidrap_covid" >CIDRAP · COVID-19 (6)</option>
+      
+        <option value="cidrap_dengue" >CIDRAP · Dengue (6)</option>
+      
+        <option value="cidrap_polio" >CIDRAP · Polio (6)</option>
+      
+        <option value="cidrap_vhf" >CIDRAP · Viral Hemorrhagic Fever (6)</option>
+      
+        <option value="cidrap_malaria" >CIDRAP · Malaria (4)</option>
+      
+        <option value="cidrap_fungal" >CIDRAP · Fungal Infection (3)</option>
+      
+        <option value="cidrap_mers" >CIDRAP · MERS-CoV (3)</option>
+      
+        <option value="cidrap_rsv" >CIDRAP · RSV (3)</option>
+      
+        <option value="who_news" >WHO News (3)</option>
+      
+        <option value="cidrap_misc" >CIDRAP · Misc Emerging Topics (2)</option>
+      
+        <option value="cidrap_tuberculosis" >CIDRAP · Tuberculosis (2)</option>
+      
+        <option value="gdelt_outbreak_news" >GDELT · outbreak_news (2)</option>
+      
+        <option value="cdc_newsroom" >US CDC Newsroom (1)</option>
+      
+        <option value="cidrap_amr" >CIDRAP · Antimicrobial Stewardship (1)</option>
+      
+        <option value="ukhsa" >UK Health Security Agency (1)</option>
+      
+        <option value="who_afro" >WHO African Region (1)</option>
+      
+        <option value="woah" >WOAH (World Organisation for Animal Health) (1)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="days">时间</label>
+    <select id="days" name="days">
+      <option value="">全部时间</option>
+      
+        <option value="1" >最近 24 小时</option>
+      
+        <option value="3" >最近 3 天</option>
+      
+        <option value="7" >最近 7 天</option>
+      
+        <option value="14" >最近 14 天</option>
+      
+        <option value="30" >最近 30 天</option>
+      
+        <option value="90" >最近 90 天</option>
+      
+    </select>
+  </div>
+  <div class="filter-actions">
+    <button type="submit" class="btn btn-primary">筛选</button>
+    <a href="/virus-tracker/events/index.html" class="btn btn-ghost">重置</a>
+  </div>
+</form>
+
+
+  <div class="event-list event-list-wide">
+    <article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">16</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/1473.html">Climate change, displacement, and cholera in Somalia: A perfect storm for future…</a></h3>
+    <p>（规则抽取，未使用大模型）Climate change, displacement, and cholera in Somalia: A perfect storm for future epidemics.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Vibrio cholerae</span>
+      
+      <span class="tag tag-location">Somalia</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-10-06 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">16</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/837.html">Livestock implicated in spread of ancient strain of plague</a></h3>
+    <p>（规则抽取，未使用大模型）Distinct from the strain that caused bubonic plague, this type circulated throughout Eurasia during the Late Neolithic Bronze Age.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Yersinia pestis</span>
+      <span class="tag tag-host">家畜</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Plague</span>
+    <span class="muted small">2025-08-13 04:01</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">15</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/538.html">Exceptionally Early Onset of the Influenza Epidemic Season During Ongoing Respiratory…</a></h3>
+    <p>（规则抽取，未使用大模型）Exceptionally Early Onset of the Influenza Epidemic Season During Ongoing Respiratory Syncytial Virus Circulation in Japan, 2026.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Respiratory syncytial virus</span>
+      
+      <span class="tag tag-location">Japan</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-10-01 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">15</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/1429.html">Clarifying the Evidence Linking Hepatitis A Outbreaks to Imported Strawberries.</a></h3>
+    <p>（规则抽取，未使用大模型）The available epidemiologic, microbiological, and traceback evidence does not conclusively establish that the implicated strawberries were contaminated with HAV or that contamination occurred at a farm in Mexico. HAV RNA was not detected in the t…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Hepatitis A virus</span>
+      
+      <span class="tag tag-location">Mexico</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-10-07 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">14</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/787.html">France reports MERS in 2 travelers who had been to Middle East</a></h3>
+    <p>（规则抽取，未使用大模型）No secondary transmission chains have been identified in France.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">MERS-CoV</span>
+      
+      <span class="tag tag-location">France</span><span class="tag tag-location">Middle East</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · MERS-CoV</span>
+    <span class="muted small">2025-12-05 04:57</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">12</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/3981.html">Is Taenia crassiceps Cysticercosis a Threat to Dogs? Description of Macro- and…</a></h3>
+    <p>（规则抽取，未使用大模型）Taenia crassiceps is a cestode capable of causing severe and atypical cysticercosis in accidental intermediate hosts, including domestic dogs. Here we report a fatal disseminated T. crassiceps infection (cystiscercosis) in a 4-year-old castrated …</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Taenia solium</span>
+      <span class="tag tag-host">犬</span>
+      <span class="tag tag-location">Germany</span><span class="tag tag-location">Poland</span><span class="tag tag-location">Europe</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2025-12-24 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">6</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/3792.html">The terrein biosynthetic gene cluster of Aspergillus terreus: structure, function…</a></h3>
+    <p>（规则抽取，未使用大模型）Fungi synthesize a wide variety of secondary metabolites (SMs). The genes of the biosynthetic pathways of many of these compounds are encoded by biosynthetic gene clusters (BGCs), which typically consist of a core biosynthetic enzyme, tailoring e…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Aspergillus fumigatus</span>
+      
+      <span class="tag tag-location">Global</span><span class="tag tag-location">United States</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-01-12 08:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">0</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/197.html">Scientists find new virus behind mysterious tick illness</a></h3>
+    <p>（规则抽取，未使用大模型）Scientists have discovered a new tick-borne virus in China that causes flu-like illness and may account for previously unexplained cases of fever, fatigue, digestive problems, and low platelet counts. Most patients with ALTNV alone recovered, but…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">未明确病原体</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">蜱</span>
+      <span class="tag tag-location">China</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">ScienceDaily Infectious Diseases</span>
+    <span class="muted small">2026-09-29 09:45</span>
+    
+    
+  </div>
+</article>
+  </div>
+  <nav class="pagination" aria-label="分页">
+    
+      <a class="btn btn-ghost" href="/virus-tracker/events/page-42.html">← 上一页</a>
+    
+    <span class="page-indicator">第 43 / 43 页</span>
+    
+      <span class="btn btn-ghost disabled">下一页 →</span>
+    
+  </nav>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+</body>
+</html>
