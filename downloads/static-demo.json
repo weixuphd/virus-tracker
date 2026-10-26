@@ -1,0 +1,4 @@
+{
+  "status": "static_demo",
+  "message": "GitHub Pages only serves this read-only snapshot. Start the FastAPI app locally or on a server for collection, LLM summaries, filters and compliance queries."
+}

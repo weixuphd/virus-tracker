@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>每日简报 · Virus-tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="">概览</a>
+        <a href="/virus-tracker/events/index.html" class="">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="active">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="page-head">
+  <div>
+    <span class="eyebrow">DAILY BRIEF</span>
+    <h1>Virus-tracker 每日病原与疫情简报 · 2026-10-14</h1>
+    <p class="muted">
+      2026-10-14 · 事件 1 条 · 高风险 1 条 · 极高 0 条
+    </p>
+  </div>
+  <div class="page-head-actions">
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/digest.md">下载 Markdown</a>
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">JSON API</a>
+  </div>
+</section>
+
+
+<div class="digest-layout">
+  <article class="panel digest-article">
+    <div class="panel-head"><h2>总览</h2><span class="muted small">规则模板</span></div>
+    <p class="lead">本日 Virus-tracker 共纳入 1 条相关事件，其中高风险或极高风险 1 条，涉及 3 种病原体。主要病原体包括 Influenza A(H5N1)、Highly pathogenic avian influenza、Pasteurella multocida；主要报告地区为 地区未明确。以下内容基于公开来源的当日样本，病例数与死亡数可能随后续通报修正。</p>
+
+    <h2 class="section-title">关键信号</h2>
+    <div class="signal-list">
+      
+        <div class="signal-item">
+          <span class="signal-index">01</span>
+          <p>[高] Influenza A(H5N1)、Highly pathogenic avian influenza · 地区未明确：南极企鹅群落爆发禽霍乱</p>
+        </div>
+      
+    </div>
+
+    
+
+    
+
+    <h2 class="section-title">当日高风险事件</h2>
+    
+      <div class="event-list">
+        <article class="event-row severity-border-high">
+  <div class="event-row-severity">
+    <span class="badge severity-high">高</span>
+    <span class="score-small">61</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/397.html">南极企鹅群落爆发禽霍乱</a></h3>
+    <p>2024年3月，南极Danger Islands企鹅群落爆发大规模死亡事件，主要由禽霍乱（Pasteurella multocida）引起。该地区此前已报告H5N1高致病性禽流感病毒。研究确认了禽霍乱在南极野生动物中的重要性。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span><span class="tag tag-pathogen">Pasteurella multocida</span>
+      <span class="tag tag-host">家禽</span><span class="tag tag-host">野生动物</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">PubMed</span>
+    <span class="muted small">2026-10-14 08:00</span>
+    
+    
+  </div>
+</article>
+      </div>
+    
+
+    
+  </article>
+
+  <aside class="detail-side">
+    <section class="panel">
+      <div class="panel-head"><h2>当日统计</h2></div>
+      <div class="mini-stats">
+        <div><strong>1</strong><span>事件</span></div>
+        <div><strong>1</strong><span>高风险</span></div>
+        <div><strong>0</strong><span>极高</span></div>
+      </div>
+      <div class="panel-divider"></div>
+      <div class="meta-list">
+        <div><span>模型</span><strong>rules</strong></div>
+        <div><span>生成时间</span><strong>10-26 13:02</strong></div>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><h2>最近 30 天</h2><span class="muted small">2026-09-27 — 2026-10-26</span></div>
+      
+      <div class="history-list" id="digest-history">
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-26.html">
+              <span>2026-10-26</span>
+              <small>30 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-25.html">
+              <span>2026-10-25</span>
+              <small>21 事件 · 极高 1</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-24.html">
+              <span>2026-10-24</span>
+              <small>1 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-23.html">
+              <span>2026-10-23</span>
+              <small>4 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-22.html">
+              <span>2026-10-22</span>
+              <small>4 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-21.html">
+              <span>2026-10-21</span>
+              <small>4 事件 · 极高 1</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-20.html">
+              <span>2026-10-20</span>
+              <small>1 事件</small>
+            </a>
+          
+        
+          
+            <span class="history-item disabled">
+              <span>2026-10-19</span>
+              <small>无事件</small>
+            </span>
+          
+        
+          
+            <span class="history-item disabled">
+              <span>2026-10-18</span>
+              <small>无事件</small>
+            </span>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-17.html">
+              <span>2026-10-17</span>
+              <small>1 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-16.html">
+              <span>2026-10-16</span>
+              <small>2 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-15.html">
+              <span>2026-10-15</span>
+              <small>1 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-14.html" style="background:#f0fdfa">
+              <span>2026-10-14</span>
+              <small>1 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-13.html">
+              <span>2026-10-13</span>
+              <small>3 事件</small>
+            </a>
+          
+        
+          
+            <span class="history-item disabled">
+              <span>2026-10-12</span>
+              <small>无事件</small>
+            </span>
+          
+        
+          
+            <span class="history-item disabled">
+              <span>2026-10-11</span>
+              <small>无事件</small>
+            </span>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-10.html">
+              <span>2026-10-10</span>
+              <small>1 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-09.html">
+              <span>2026-10-09</span>
+              <small>3 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-08.html">
+              <span>2026-10-08</span>
+              <small>4 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-07.html">
+              <span>2026-10-07</span>
+              <small>2 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-06.html">
+              <span>2026-10-06</span>
+              <small>4 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-05.html">
+              <span>2026-10-05</span>
+              <small>3 事件</small>
+            </a>
+          
+        
+          
+            <span class="history-item disabled">
+              <span>2026-10-04</span>
+              <small>无事件</small>
+            </span>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-03.html">
+              <span>2026-10-03</span>
+              <small>3 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-02.html">
+              <span>2026-10-02</span>
+              <small>1 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-10-01.html">
+              <span>2026-10-01</span>
+              <small>5 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-09-30.html">
+              <span>2026-09-30</span>
+              <small>3 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-09-29.html">
+              <span>2026-09-29</span>
+              <small>4 事件</small>
+            </a>
+          
+        
+          
+            <a class="history-item" href="/virus-tracker/digest/2026-09-28.html">
+              <span>2026-09-28</span>
+              <small>1 事件</small>
+            </a>
+          
+        
+          
+            <span class="history-item disabled">
+              <span>2026-09-27</span>
+              <small>无事件</small>
+            </span>
+          
+        
+      </div>
+      <div class="panel-divider"></div>
+      <a class="btn btn-ghost btn-small btn-block" href="/virus-tracker/digest/index.html">返回最新简报</a>
+    </section>
+  </aside>
+</div>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+</body>
+</html>

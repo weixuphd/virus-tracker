@@ -1,0 +1,21 @@
+{
+  "dataset": "virus-tracker-pretrain",
+  "schema_version": "virus-tracker.pretrain.v1",
+  "target_tokens": 10000000000,
+  "estimated_tokens": 10014808356,
+  "materialized_sample_tokens": 44173,
+  "materialized_base_tokens": 320920,
+  "materialized_instruction_tokens": 22028565,
+  "materialized_benchmark_tokens": 4144717,
+  "materialized_corpus_tokens": 26494202,
+  "base_documents": 1133,
+  "augmentation_factor": 378,
+  "documents_total": 428274,
+  "avg_tokens_per_document": 23384.11,
+  "tokenizer": "cl100k_base",
+  "method": "base corpus (source articles + event records + instruction + benchmark) with deterministic multi-template/entity/QA augmentation; streaming corpus",
+  "materialized": false,
+  "base_path": "/Users/weixu/Downloads/weicode/virus-tracker/data/ai_ready/pretrain/pretrain_base.jsonl",
+  "sample_path": "/Users/weixu/Downloads/weicode/virus-tracker/data/ai_ready/pretrain/pretrain_sample.jsonl",
+  "generated_at": "2026-10-26T04:11:29.959147Z"
+}

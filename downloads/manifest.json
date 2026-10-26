@@ -1,0 +1,224 @@
+{
+  "schema_version": "virus-tracker.event.v1",
+  "pipeline_version": "0.1.0",
+  "generated_at": "2026-10-26T03:58:41.855271Z",
+  "record_count": 169,
+  "date_range": {
+    "start": "2026-04-24T00:00:00Z",
+    "end": "2026-11-01T00:00:00Z"
+  },
+  "sources": [
+    {
+      "id": "cidrap_amr",
+      "name": "CIDRAP · Antimicrobial Stewardship",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_avian_influenza",
+      "name": "CIDRAP · Avian Influenza",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_covid",
+      "name": "CIDRAP · COVID-19",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_cholera",
+      "name": "CIDRAP · Cholera",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_cwd",
+      "name": "CIDRAP · Chronic Wasting Disease",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_dengue",
+      "name": "CIDRAP · Dengue",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_ebola",
+      "name": "CIDRAP · Ebola",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_foodborne",
+      "name": "CIDRAP · Foodborne Disease",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_fungal",
+      "name": "CIDRAP · Fungal Infection",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_malaria",
+      "name": "CIDRAP · Malaria",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_measles",
+      "name": "CIDRAP · Measles",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_misc",
+      "name": "CIDRAP · Misc Emerging Topics",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_mpox",
+      "name": "CIDRAP · Mpox",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_plague",
+      "name": "CIDRAP · Plague",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_polio",
+      "name": "CIDRAP · Polio",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_rsv",
+      "name": "CIDRAP · RSV",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "cidrap_vhf",
+      "name": "CIDRAP · Viral Hemorrhagic Fever",
+      "type": "news",
+      "authority": 4
+    },
+    {
+      "id": "gdelt_outbreak_news",
+      "name": "GDELT · outbreak_news",
+      "type": "news_aggregator",
+      "authority": 2
+    },
+    {
+      "id": "pubmed",
+      "name": "PubMed",
+      "type": "journal",
+      "authority": 5
+    },
+    {
+      "id": "sciencedaily_infectious",
+      "name": "ScienceDaily Infectious Diseases",
+      "type": "news",
+      "authority": 3
+    },
+    {
+      "id": "ukhsa",
+      "name": "UK Health Security Agency",
+      "type": "government",
+      "authority": 5
+    },
+    {
+      "id": "cdc_newsroom",
+      "name": "US CDC Newsroom",
+      "type": "government",
+      "authority": 5
+    },
+    {
+      "id": "cdc_outbreaks",
+      "name": "US CDC Outbreaks",
+      "type": "government",
+      "authority": 5
+    },
+    {
+      "id": "who_afro",
+      "name": "WHO African Region",
+      "type": "international_org",
+      "authority": 5
+    },
+    {
+      "id": "who_news",
+      "name": "WHO News",
+      "type": "international_org",
+      "authority": 5
+    },
+    {
+      "id": "woah",
+      "name": "WOAH (World Organisation for Animal Health)",
+      "type": "international_org",
+      "authority": 5
+    }
+  ],
+  "model": "virus-tracker",
+  "files": [
+    {
+      "name": "events.jsonl",
+      "sha256": "1a76646dc9fe65d44bb896885040e845614e38e8d4344e39f1c368cc157aeead",
+      "bytes": 789847
+    },
+    {
+      "name": "events.json",
+      "sha256": "02a8cd30c08c4936ec744206b38dc4242a6bab3707c8e71c7c714c6f61017a57",
+      "bytes": 911553
+    },
+    {
+      "name": "event.schema.json",
+      "sha256": "baaa72a64c59c1f6041848625fef53542e805cb55b2b905463663996a562e409",
+      "bytes": 9436
+    },
+    {
+      "name": "digest.md",
+      "sha256": "cad63a59a58e4397c96215a72cfab8d9b669db015703bd08978b4d8ae5a455d2",
+      "bytes": 2302
+    },
+    {
+      "name": "history-100d.md",
+      "sha256": "de9bba717af2655e56f705fd6aa43ca353c1c1034154b7f05cc6ce64fbb1cd7d",
+      "bytes": 5088
+    },
+    {
+      "name": "history-100d.json",
+      "sha256": "f4b06137e41fd57db1024756069a9917aabbdc09e9f31f3419cc9f5ff251d5c3",
+      "bytes": 38508
+    },
+    {
+      "name": "graph.json",
+      "sha256": "22042da23ca8e055508b8835a5d3d6fc9d4dda8bbec00dc3e68035c9e1cded27",
+      "bytes": 127051
+    },
+    {
+      "name": "events.csv",
+      "sha256": "ec491db4a2d8a9d1c1643051f15585332eb501b3164358e6a90823786c00801c",
+      "bytes": 272916
+    },
+    {
+      "name": "llms.txt",
+      "sha256": "f69539f3d87600e6265ae4adf4f03d2393ffcf30def08188c7180b6fbfb9aaff",
+      "bytes": 1343
+    },
+    {
+      "name": "dataset-card.md",
+      "sha256": "023cc273f450d1d6f1ed27747ea0606810e469f62b81b2f73c0e9bdfb862cf64",
+      "bytes": 3854
+    }
+  ],
+  "citation": "Virus-tracker (2026). Daily pathogen and outbreak intelligence dataset [virus-tracker.event.v1]. Generated 2026-10-26T03:58:41.855271Z.",
+  "license": "Event metadata and machine-generated summaries are released under CC BY 4.0. Original article text, titles and images remain subject to the terms of the linked source.",
+  "disclaimer": "Machine-generated for research and public-health surveillance only. Not medical advice and not a substitute for official outbreak notifications."
+}

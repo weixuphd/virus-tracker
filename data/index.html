@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>AI-READY 数据 · Virus-tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="">概览</a>
+        <a href="/virus-tracker/events/index.html" class="">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="active">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="page-head">
+  <div>
+    <span class="eyebrow">AI-READY EXPORTS</span>
+    <h1>结构化数据出口</h1>
+    <p class="muted">每条事件都包含来源、病原体、宿主、地区、严重度、中文摘要、原文证据、溯源信息与可直接向量化的 <code>embedding_text</code>。</p>
+  </div>
+  <div class="page-head-actions">
+    <span class="pill">schema virus-tracker.event.v1</span>
+    <span class="pill">169 records</span>
+  </div>
+</section>
+
+<section class="data-hero">
+  <div>
+    <span class="eyebrow">MANIFEST</span>
+    <h2>2026-10-26T03:58:41.855271Z</h2>
+    <p class="muted">记录数 169 · 模型 virus-tracker · 生成目录 <code>/Users/weixu/Downloads/weicode/virus-tracker/data/exports/latest</code></p>
+    
+      <p class="muted small">来源日期范围：2026-04-24T00:00:00Z — 2026-11-01T00:00:00Z</p>
+    
+  </div>
+  <div class="data-hero-links">
+    <a class="btn btn-primary" href="/virus-tracker/downloads/events.jsonl">下载 events.jsonl</a>
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/manifest.json" target="_blank" rel="noopener">查看 manifest</a>
+    <a class="btn btn-ghost" href="/virus-tracker/ai-ready/index.html">AI 治理评估</a>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="panel-head"><h2>下载与文件</h2><span class="muted small">每次运行自动刷新</span></div>
+  <div class="file-grid">
+    
+      <a class="file-card" href="/virus-tracker/downloads/events.jsonl">
+        <span class="file-ext jsonl">JSONL</span>
+        <div>
+          <strong>events.jsonl</strong>
+          <p>每行一个 AI-ready 事件，适合流式处理、训练与向量化</p>
+          <small class="muted">789.8 kB · sha256 1a76646dc9fe…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/events.json">
+        <span class="file-ext json">JSON</span>
+        <div>
+          <strong>events.json</strong>
+          <p>事件数组</p>
+          <small class="muted">911.6 kB · sha256 02a8cd30c08c…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/event.schema.json">
+        <span class="file-ext json">JSON</span>
+        <div>
+          <strong>event.schema.json</strong>
+          <p>JSON Schema，可用于校验与工具生成</p>
+          <small class="muted">9.4 kB · sha256 baaa72a64c59…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/digest.md">
+        <span class="file-ext md">MD</span>
+        <div>
+          <strong>digest.md</strong>
+          <p>当日中文简报</p>
+          <small class="muted">2.3 kB · sha256 cad63a59a58e…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/history-100d.md">
+        <span class="file-ext md">MD</span>
+        <div>
+          <strong>history-100d.md</strong>
+          <p>最近 100 天病原与疫情追踪报告</p>
+          <small class="muted">5.1 kB · sha256 de9bba717af2…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/history-100d.json">
+        <span class="file-ext json">JSON</span>
+        <div>
+          <strong>history-100d.json</strong>
+          <p>最近 100 天统计数据（结构化）</p>
+          <small class="muted">38.5 kB · sha256 f4b06137e41f…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/graph.json">
+        <span class="file-ext json">JSON</span>
+        <div>
+          <strong>graph.json</strong>
+          <p>事件—病原体—宿主—地区知识图谱</p>
+          <small class="muted">127.1 kB · sha256 22042da23ca8…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/events.csv">
+        <span class="file-ext csv">CSV</span>
+        <div>
+          <strong>events.csv</strong>
+          <p>扁平化表格，适合 Excel/R/Pandas</p>
+          <small class="muted">272.9 kB · sha256 ec491db4a2d8…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/llms.txt">
+        <span class="file-ext txt">TXT</span>
+        <div>
+          <strong>llms.txt</strong>
+          <p>面向 LLM / RAG 的入口文件</p>
+          <small class="muted">1.3 kB · sha256 f69539f3d876…</small>
+        </div>
+      </a>
+    
+      <a class="file-card" href="/virus-tracker/downloads/dataset-card.md">
+        <span class="file-ext md">MD</span>
+        <div>
+          <strong>dataset-card.md</strong>
+          <p>数据集说明卡</p>
+          <small class="muted">3.9 kB · sha256 023cc273f450…</small>
+        </div>
+      </a>
+    
+  </div>
+</section>
+
+<div class="data-grid">
+  <section class="panel">
+    <div class="panel-head"><h2>字段说明</h2><span class="muted small">v1</span></div>
+    <div class="schema-table">
+      
+        <div class="schema-row"><code>schema_version</code><span class="type">string</span><span>数据集模式版本</span></div>
+      
+        <div class="schema-row"><code>id</code><span class="type">string</span><span>基于内容哈希的稳定事件 ID</span></div>
+      
+        <div class="schema-row"><code>source</code><span class="type">object</span><span>来源、URL、时间、权威度</span></div>
+      
+        <div class="schema-row"><code>content</code><span class="type">object</span><span>原始标题、摘要/正文、作者、期刊</span></div>
+      
+        <div class="schema-row"><code>event</code><span class="type">object</span><span>中文摘要、关键事实、传播与应对</span></div>
+      
+        <div class="schema-row"><code>pathogens</code><span class="type">array</span><span>病原体名称、类型、疾病</span></div>
+      
+        <div class="schema-row"><code>hosts / hosts_zh</code><span class="type">array</span><span>规范宿主代码 / 中文标签</span></div>
+      
+        <div class="schema-row"><code>locations</code><span class="type">array</span><span>国家或地区</span></div>
+      
+        <div class="schema-row"><code>severity</code><span class="type">object</span><span>0–100 评分、分级、病例/死亡、信号</span></div>
+      
+        <div class="schema-row"><code>evidence</code><span class="type">array</span><span>经原文校验的逐字引文</span></div>
+      
+        <div class="schema-row"><code>provenance</code><span class="type">object</span><span>模型、提示词、方法、内容哈希</span></div>
+      
+        <div class="schema-row"><code>embedding_text</code><span class="type">string</span><span>检索/向量化文本</span></div>
+      
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>快速使用</h2></div>
+    <p class="muted small">JSONL 每行一个事件，可直接导入向量数据库或构造训练样本。</p>
+    <pre class="code-block">curl -s /virus-tracker/downloads/events.jsonl \
+  > events.jsonl
+
+python - <<'PY'
+import json, itertools
+records = [json.loads(line) for line in open("events.jsonl")]
+for r in itertools.islice((x for x in records if x["severity"]["label"] in {"high", "critical"}), 5):
+    print(r["event"]["headline_zh"], r["severity"]["score"])
+PY</pre>
+    <div class="panel-divider"></div>
+    <h3>RAG / embedding</h3>
+    <p class="muted small">使用 <code>embedding_text</code> 做向量化；用 <code>source.url</code> 与 <code>provenance.content_hash</code> 回溯原文。</p>
+    <h3>结构化筛选</h3>
+    <p class="muted small">按 <code>pathogens[].name</code>、<code>hosts</code>、<code>locations</code>、<code>severity.label</code> 过滤；不要只依赖摘要。</p>
+  </section>
+</div>
+
+<section class="panel">
+  <div class="panel-head"><h2>来源与许可</h2></div>
+  <div class="source-cloud">
+    
+      <span class="source-pill"><span>CIDRAP · Antimicrobial Stewardship</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Avian Influenza</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · COVID-19</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Cholera</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Chronic Wasting Disease</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Dengue</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Ebola</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Foodborne Disease</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Fungal Infection</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Malaria</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Measles</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Misc Emerging Topics</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Mpox</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Plague</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Polio</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · RSV</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Viral Hemorrhagic Fever</span><strong>A4/5</strong></span>
+    
+      <span class="source-pill"><span>GDELT · outbreak_news</span><strong>A2/5</strong></span>
+    
+      <span class="source-pill"><span>PubMed</span><strong>A5/5</strong></span>
+    
+      <span class="source-pill"><span>ScienceDaily Infectious Diseases</span><strong>A3/5</strong></span>
+    
+      <span class="source-pill"><span>UK Health Security Agency</span><strong>A5/5</strong></span>
+    
+      <span class="source-pill"><span>US CDC Newsroom</span><strong>A5/5</strong></span>
+    
+      <span class="source-pill"><span>US CDC Outbreaks</span><strong>A5/5</strong></span>
+    
+      <span class="source-pill"><span>WHO African Region</span><strong>A5/5</strong></span>
+    
+      <span class="source-pill"><span>WHO News</span><strong>A5/5</strong></span>
+    
+      <span class="source-pill"><span>WOAH (World Organisation for Animal Health)</span><strong>A5/5</strong></span>
+    
+  </div>
+  <div class="panel-divider"></div>
+  <p class="muted small">Event metadata and machine-generated summaries are released under CC BY 4.0. Original article text, titles and images remain subject to the terms of the linked source.</p>
+  <p class="muted small">Machine-generated for research and public-health surveillance only. Not medical advice and not a substitute for official outbreak notifications.</p>
+  <p class="muted small">引用：Virus-tracker (2026). Daily pathogen and outbreak intelligence dataset [virus-tracker.event.v1]. Generated 2026-10-26T03:58:41.855271Z.</p>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+</body>
+</html>

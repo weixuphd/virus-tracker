@@ -1,0 +1,4986 @@
+{
+  "schema_version": "virus-tracker.graph.v1",
+  "nodes": [
+    {
+      "id": "vt_be41c934fe7a9471",
+      "type": "event",
+      "label": "刚果民主共和国布万达布约埃博拉病毒疫情持续扩大"
+    },
+    {
+      "id": "pathogen:Ebolavirus",
+      "type": "pathogen",
+      "label": "Ebolavirus"
+    },
+    {
+      "id": "host:human",
+      "type": "host",
+      "label": "human"
+    },
+    {
+      "id": "location:Democratic Republic of the Congo",
+      "type": "location",
+      "label": "Democratic Republic of the Congo"
+    },
+    {
+      "id": "location:Uganda",
+      "type": "location",
+      "label": "Uganda"
+    },
+    {
+      "id": "location:Kenya",
+      "type": "location",
+      "label": "Kenya"
+    },
+    {
+      "id": "location:Nigeria",
+      "type": "location",
+      "label": "Nigeria"
+    },
+    {
+      "id": "location:Global",
+      "type": "location",
+      "label": "Global"
+    },
+    {
+      "id": "vt_6c88218f220a5fd0",
+      "type": "event",
+      "label": "2024-2026年全球猴痘疫情动态"
+    },
+    {
+      "id": "pathogen:Mpox virus",
+      "type": "pathogen",
+      "label": "Mpox virus"
+    },
+    {
+      "id": "location:Africa",
+      "type": "location",
+      "label": "Africa"
+    },
+    {
+      "id": "vt_3d10b10bc50245cb",
+      "type": "event",
+      "label": "刚果民主共和国埃博拉疫情病例超8000例"
+    },
+    {
+      "id": "vt_fe33e5d04edb4fee",
+      "type": "event",
+      "label": "刚果民主共和国埃博拉疫情病例超9000例"
+    },
+    {
+      "id": "vt_7820e3253a604576",
+      "type": "event",
+      "label": "刚果民主共和国埃博拉疫情病例和死亡人数接近7900和3800"
+    },
+    {
+      "id": "vt_1162c83a1e186e02",
+      "type": "event",
+      "label": "意大利一名肉牛农民因职业性钩端螺旋体病死亡"
+    },
+    {
+      "id": "pathogen:Leptospira",
+      "type": "pathogen",
+      "label": "Leptospira"
+    },
+    {
+      "id": "host:cattle",
+      "type": "host",
+      "label": "cattle"
+    },
+    {
+      "id": "host:wildlife",
+      "type": "host",
+      "label": "wildlife"
+    },
+    {
+      "id": "host:livestock",
+      "type": "host",
+      "label": "livestock"
+    },
+    {
+      "id": "location:Europe",
+      "type": "location",
+      "label": "Europe"
+    },
+    {
+      "id": "location:Lombardy",
+      "type": "location",
+      "label": "Lombardy"
+    },
+    {
+      "id": "location:Italy",
+      "type": "location",
+      "label": "Italy"
+    },
+    {
+      "id": "vt_e6fc3667f3a0fee2",
+      "type": "event",
+      "label": "刚果民主共和国埃博拉疫情持续，德国疟疾病死"
+    },
+    {
+      "id": "pathogen:Poliovirus",
+      "type": "pathogen",
+      "label": "Poliovirus"
+    },
+    {
+      "id": "pathogen:Plasmodium",
+      "type": "pathogen",
+      "label": "Plasmodium"
+    },
+    {
+      "id": "location:Germany",
+      "type": "location",
+      "label": "Germany"
+    },
+    {
+      "id": "vt_a8aad87515972bea",
+      "type": "event",
+      "label": "刚果民主共和国埃博拉疫情再起：经验教训与未来方向"
+    },
+    {
+      "id": "vt_c1805b8a8dd95a20",
+      "type": "event",
+      "label": "哥伦比亚安第斯地区严重黄热病疫情特征"
+    },
+    {
+      "id": "pathogen:Yellow fever virus",
+      "type": "pathogen",
+      "label": "Yellow fever virus"
+    },
+    {
+      "id": "location:Colombia",
+      "type": "location",
+      "label": "Colombia"
+    },
+    {
+      "id": "vt_b263498c3b4af10b",
+      "type": "event",
+      "label": "美国奶牛中H5N1病毒的乳腺趋向性和乳汁传播"
+    },
+    {
+      "id": "pathogen:Influenza A(H5N1)",
+      "type": "pathogen",
+      "label": "Influenza A(H5N1)"
+    },
+    {
+      "id": "host:poultry",
+      "type": "host",
+      "label": "poultry"
+    },
+    {
+      "id": "host:wild_birds",
+      "type": "host",
+      "label": "wild_birds"
+    },
+    {
+      "id": "location:United States",
+      "type": "location",
+      "label": "United States"
+    },
+    {
+      "id": "vt_14f19ce2b1126bc8",
+      "type": "event",
+      "label": "南极企鹅群落爆发禽霍乱"
+    },
+    {
+      "id": "pathogen:Highly pathogenic avian influenza",
+      "type": "pathogen",
+      "label": "Highly pathogenic avian influenza"
+    },
+    {
+      "id": "pathogen:Pasteurella multocida",
+      "type": "pathogen",
+      "label": "Pasteurella multocida"
+    },
+    {
+      "id": "vt_6ef58059dd86c009",
+      "type": "event",
+      "label": "2025年法国从疫情地区返回的旅行者中基孔肯雅热病例激增"
+    },
+    {
+      "id": "pathogen:Chikungunya virus",
+      "type": "pathogen",
+      "label": "Chikungunya virus"
+    },
+    {
+      "id": "location:France",
+      "type": "location",
+      "label": "France"
+    },
+    {
+      "id": "location:Madagascar",
+      "type": "location",
+      "label": "Madagascar"
+    },
+    {
+      "id": "location:Sri Lanka",
+      "type": "location",
+      "label": "Sri Lanka"
+    },
+    {
+      "id": "location:Cuba",
+      "type": "location",
+      "label": "Cuba"
+    },
+    {
+      "id": "vt_ea3b9cb6c4686b9f",
+      "type": "event",
+      "label": "刚果民主共和国埃博拉疫情病例数达7200例"
+    },
+    {
+      "id": "vt_b5f07a7ee7c557de",
+      "type": "event",
+      "label": "刚果民主共和国埃博拉疫情接近7800例"
+    },
+    {
+      "id": "vt_113af5404ee8200d",
+      "type": "event",
+      "label": "肯尼亚报告首例埃博拉死亡病例"
+    },
+    {
+      "id": "vt_7778966b2d936827",
+      "type": "event",
+      "label": "埃博拉病例达5000例，环孢子虫疫情放缓但病例超1.5万"
+    },
+    {
+      "id": "pathogen:Cyclospora cayetanensis",
+      "type": "pathogen",
+      "label": "Cyclospora cayetanensis"
+    },
+    {
+      "id": "vt_4e53add0b4cac229",
+      "type": "event",
+      "label": "刚果民主共和国埃博拉疫情病例超6600例"
+    },
+    {
+      "id": "vt_5b8715534740a466",
+      "type": "event",
+      "label": "肯尼亚10人隔离，埃博拉疫情持续"
+    },
+    {
+      "id": "vt_386545df66fdf82f",
+      "type": "event",
+      "label": "No receptor-binding domain adaptation detected in within-host H5N1 surveillance of 4,559…"
+    },
+    {
+      "id": "host:cats",
+      "type": "host",
+      "label": "cats"
+    },
+    {
+      "id": "vt_1f806a049f88c030",
+      "type": "event",
+      "label": "First detection and characterization of a non-haemadsorbing African swine fever virus…"
+    },
+    {
+      "id": "pathogen:African swine fever virus",
+      "type": "pathogen",
+      "label": "African swine fever virus"
+    },
+    {
+      "id": "host:swine",
+      "type": "host",
+      "label": "swine"
+    },
+    {
+      "id": "location:Russia",
+      "type": "location",
+      "label": "Russia"
+    },
+    {
+      "id": "vt_cb355b3f5063239c",
+      "type": "event",
+      "label": "Fetal arrhythmia and heart disease during COVID-19 pandemic in patients who underwent…"
+    },
+    {
+      "id": "pathogen:SARS-CoV-2",
+      "type": "pathogen",
+      "label": "SARS-CoV-2"
+    },
+    {
+      "id": "location:Brazil",
+      "type": "location",
+      "label": "Brazil"
+    },
+    {
+      "id": "vt_7b27a18d68d0420b",
+      "type": "event",
+      "label": "Genetic Diversity of Clade 2.3.4.4b H5Nx high pathogenicity Avian Influenza Viruses…"
+    },
+    {
+      "id": "pathogen:Influenza A(H5N6)",
+      "type": "pathogen",
+      "label": "Influenza A(H5N6)"
+    },
+    {
+      "id": "location:South Korea",
+      "type": "location",
+      "label": "South Korea"
+    },
+    {
+      "id": "location:Asia",
+      "type": "location",
+      "label": "Asia"
+    },
+    {
+      "id": "vt_635b5bd547051ec9",
+      "type": "event",
+      "label": "Imported mixed malaria caused by Plasmodium falciparum and Plasmodium ovalecurtisi: An…"
+    },
+    {
+      "id": "location:Guinea",
+      "type": "location",
+      "label": "Guinea"
+    },
+    {
+      "id": "vt_862eb3da6eb5ddf3",
+      "type": "event",
+      "label": "诺如病毒GI.3和GII.12变异株的特征分析"
+    },
+    {
+      "id": "pathogen:Norovirus",
+      "type": "pathogen",
+      "label": "Norovirus"
+    },
+    {
+      "id": "location:Cameroon",
+      "type": "location",
+      "label": "Cameroon"
+    },
+    {
+      "id": "location:Mexico",
+      "type": "location",
+      "label": "Mexico"
+    },
+    {
+      "id": "vt_9dd631e50e2a514e",
+      "type": "event",
+      "label": "Lancaster County reports Pennsylvania’s 5th measles-related death"
+    },
+    {
+      "id": "pathogen:Measles virus",
+      "type": "pathogen",
+      "label": "Measles virus"
+    },
+    {
+      "id": "location:Pennsylvania",
+      "type": "location",
+      "label": "Pennsylvania"
+    },
+    {
+      "id": "vt_3a0a199fb2c4e6a5",
+      "type": "event",
+      "label": "Quick takes: Ebola deaths top 1,000, measles outbreak in Delaware, H9N2 avian flu in China"
+    },
+    {
+      "id": "pathogen:Influenza A(H9N2)",
+      "type": "pathogen",
+      "label": "Influenza A(H9N2)"
+    },
+    {
+      "id": "location:Delaware",
+      "type": "location",
+      "label": "Delaware"
+    },
+    {
+      "id": "location:China",
+      "type": "location",
+      "label": "China"
+    },
+    {
+      "id": "vt_900475d62a3c3b31",
+      "type": "event",
+      "label": "佛罗里达州登革热死亡，美国狂犬病警报，新脊髓灰质炎病例"
+    },
+    {
+      "id": "pathogen:Dengue virus",
+      "type": "pathogen",
+      "label": "Dengue virus"
+    },
+    {
+      "id": "pathogen:Rabies virus",
+      "type": "pathogen",
+      "label": "Rabies virus"
+    },
+    {
+      "id": "location:Florida",
+      "type": "location",
+      "label": "Florida"
+    },
+    {
+      "id": "vt_a1ada34ad24c28d5",
+      "type": "event",
+      "label": "Large-scale fever screening based on infrared thermography for outpatients at tertiary…"
+    },
+    {
+      "id": "vt_4301ca3dcfaa5bf0",
+      "type": "event",
+      "label": "Cluster investigation report: a probable urine-associated transmission event of severe…"
+    },
+    {
+      "id": "pathogen:Severe fever with thrombocytopenia syndrome virus",
+      "type": "pathogen",
+      "label": "Severe fever with thrombocytopenia syndrome virus"
+    },
+    {
+      "id": "host:ticks",
+      "type": "host",
+      "label": "ticks"
+    },
+    {
+      "id": "location:Henan",
+      "type": "location",
+      "label": "Henan"
+    },
+    {
+      "id": "vt_9f38effb24c51768",
+      "type": "event",
+      "label": "DR Congo Ebola cases grow, deaths top 4,000 as officials struggle to ascertain numbers…"
+    },
+    {
+      "id": "vt_905fc8adf8bcf308",
+      "type": "event",
+      "label": "Ebola death toll approaches 3,000, as case-fatality rate hovers around 50%"
+    },
+    {
+      "id": "vt_bd61abcbeb0e6e38",
+      "type": "event",
+      "label": "Red Cross trains staff as Kenya records its second death from Ebola"
+    },
+    {
+      "id": "vt_4b68b5adb709d3f3",
+      "type": "event",
+      "label": "美国H5N1高致病性禽流感病毒在雪貂中传播效率研究"
+    },
+    {
+      "id": "vt_56093bd9be41ead3",
+      "type": "event",
+      "label": "Pfcrt copy number amplification detected in a Plasmodium falciparum outbreak."
+    },
+    {
+      "id": "location:Malaysia",
+      "type": "location",
+      "label": "Malaysia"
+    },
+    {
+      "id": "location:Philippines",
+      "type": "location",
+      "label": "Philippines"
+    },
+    {
+      "id": "vt_0fba4c2d8ec4dfe7",
+      "type": "event",
+      "label": "Rising spillover risk: Lessons from the Andes hantavirus outbreak."
+    },
+    {
+      "id": "pathogen:Hantavirus",
+      "type": "pathogen",
+      "label": "Hantavirus"
+    },
+    {
+      "id": "vt_b90671a73e8c2afc",
+      "type": "event",
+      "label": "美国北卡罗来纳州出现两例西尼罗河病毒感染死亡病例"
+    },
+    {
+      "id": "pathogen:Vibrio cholerae",
+      "type": "pathogen",
+      "label": "Vibrio cholerae"
+    },
+    {
+      "id": "pathogen:West Nile virus",
+      "type": "pathogen",
+      "label": "West Nile virus"
+    },
+    {
+      "id": "host:mosquitoes",
+      "type": "host",
+      "label": "mosquitoes"
+    },
+    {
+      "id": "location:Yemen",
+      "type": "location",
+      "label": "Yemen"
+    },
+    {
+      "id": "location:North Carolina",
+      "type": "location",
+      "label": "North Carolina"
+    },
+    {
+      "id": "vt_b69b8905c824348b",
+      "type": "event",
+      "label": "2019年冠状病毒病与真菌感染的双重灾难：病例系列"
+    },
+    {
+      "id": "pathogen:Mucorales",
+      "type": "pathogen",
+      "label": "Mucorales"
+    },
+    {
+      "id": "vt_6e2d038e798a69b8",
+      "type": "event",
+      "label": "The role of psychological inflexibility on post-traumatic stress symptoms among COVID-19…"
+    },
+    {
+      "id": "vt_a5d8771e0f86029a",
+      "type": "event",
+      "label": "Antifungal Resistance and Adhesin-Mediated Phenotypic Plasticity Among Genomically…"
+    },
+    {
+      "id": "pathogen:Candida auris",
+      "type": "pathogen",
+      "label": "Candida auris"
+    },
+    {
+      "id": "vt_7b325a729f720920",
+      "type": "event",
+      "label": "Bovine mammary tissues are susceptible to infection by viruses bearing panzootic H5N1…"
+    },
+    {
+      "id": "location:United Kingdom",
+      "type": "location",
+      "label": "United Kingdom"
+    },
+    {
+      "id": "vt_d83b445fe761bac5",
+      "type": "event",
+      "label": "Lessons Learned During the 2024‒2025 Highly Pathogenic Avian Influenza A(H5N1) Virus…"
+    },
+    {
+      "id": "vt_b614c4e14af442a1",
+      "type": "event",
+      "label": "Measles cases top 900 in Pennsylvania as CDC confirms 2nd death"
+    },
+    {
+      "id": "vt_b065b2f985b087f6",
+      "type": "event",
+      "label": "Ebola outbreak officially ends in Uganda as CEPI announces new vaccine candidate"
+    },
+    {
+      "id": "vt_83893924f9035655",
+      "type": "event",
+      "label": "肯尼亚第三例埃博拉病例确诊"
+    },
+    {
+      "id": "vt_5f3b7176ebcb7364",
+      "type": "event",
+      "label": "菲律宾登革热和基孔肯雅热病毒流行病学"
+    },
+    {
+      "id": "location:India",
+      "type": "location",
+      "label": "India"
+    },
+    {
+      "id": "vt_7b54644fbb88ce73",
+      "type": "event",
+      "label": "Plague was killing entire families thousands of years before the Black Death"
+    },
+    {
+      "id": "pathogen:Yersinia pestis",
+      "type": "pathogen",
+      "label": "Yersinia pestis"
+    },
+    {
+      "id": "vt_9465c539e1c5c138",
+      "type": "event",
+      "label": "Ancient DNA reveals how plague kept returning for 400 years after the Black Death"
+    },
+    {
+      "id": "vt_37593e8af4915a9f",
+      "type": "event",
+      "label": "One Health preparedness for Ebola disease caused by Bundibugyo virus: lessons from the…"
+    },
+    {
+      "id": "vt_c6906e669aecfa5c",
+      "type": "event",
+      "label": "Identification of key COVID-19 infection contexts over time and the importance of within…"
+    },
+    {
+      "id": "vt_af8114ab5bc61f50",
+      "type": "event",
+      "label": "世卫组织发布健康数据技术包以改善新冠疫情应对"
+    },
+    {
+      "id": "vt_0512ed4dffd4a7f5",
+      "type": "event",
+      "label": "Trimester-dependent vertical transmission of H5N1 influenza virus through placental and…"
+    },
+    {
+      "id": "host:rodents",
+      "type": "host",
+      "label": "rodents"
+    },
+    {
+      "id": "vt_e4c3c0eec021988e",
+      "type": "event",
+      "label": "H5N1 epidemiology and production impact in eight California dairy herds at the outbreak…"
+    },
+    {
+      "id": "location:California",
+      "type": "location",
+      "label": "California"
+    },
+    {
+      "id": "vt_68f82b1f2b42c842",
+      "type": "event",
+      "label": "Minimised SARS-CoV-2 transmission during Tokyo 2020 Olympic and Paralympic Games…"
+    },
+    {
+      "id": "location:Japan",
+      "type": "location",
+      "label": "Japan"
+    },
+    {
+      "id": "vt_d316597830908bf7",
+      "type": "event",
+      "label": "肯尼亚发现第二例埃博拉患者"
+    },
+    {
+      "id": "vt_6f1b14e1016601c7",
+      "type": "event",
+      "label": "Epidemiological update on spatial and space-time clusters of African swine fever in the…"
+    },
+    {
+      "id": "vt_87b7762fb5c4eb77",
+      "type": "event",
+      "label": "Multiple introductions and spread of novel reassortant highly pathogenic avian influenza…"
+    },
+    {
+      "id": "vt_09d56be03374bf47",
+      "type": "event",
+      "label": "WHO Reports Highest Number of Cholera Deaths in Decades."
+    },
+    {
+      "id": "vt_c590c93c96fd076f",
+      "type": "event",
+      "label": "宾夕法尼亚州报告第六例麻疹死亡病例"
+    },
+    {
+      "id": "vt_4616dbcb5018ec7d",
+      "type": "event",
+      "label": "WOAH calls for stronger surveillance and preparedness as reported vector-borne disease…"
+    },
+    {
+      "id": "pathogen:Rift Valley fever virus",
+      "type": "pathogen",
+      "label": "Rift Valley fever virus"
+    },
+    {
+      "id": "pathogen:Lumpy skin disease virus",
+      "type": "pathogen",
+      "label": "Lumpy skin disease virus"
+    },
+    {
+      "id": "pathogen:Bluetongue virus",
+      "type": "pathogen",
+      "label": "Bluetongue virus"
+    },
+    {
+      "id": "pathogen:Western equine encephalitis virus",
+      "type": "pathogen",
+      "label": "Western equine encephalitis virus"
+    },
+    {
+      "id": "host:horses",
+      "type": "host",
+      "label": "horses"
+    },
+    {
+      "id": "location:Americas",
+      "type": "location",
+      "label": "Americas"
+    },
+    {
+      "id": "location:Middle East",
+      "type": "location",
+      "label": "Middle East"
+    },
+    {
+      "id": "vt_fe2e899b4bdfdcb4",
+      "type": "event",
+      "label": "First autochthonous cases of Oropouche fever in Southern Brazil: A case series in a…"
+    },
+    {
+      "id": "pathogen:Oropouche virus",
+      "type": "pathogen",
+      "label": "Oropouche virus"
+    },
+    {
+      "id": "vt_269e669157a1ef5b",
+      "type": "event",
+      "label": "Urotensin II: A Key Role in Hormonal and Inflammatory Cytokine Regulation in COVID-19…"
+    },
+    {
+      "id": "vt_8e79e31778da0412",
+      "type": "event",
+      "label": "Nirmatrelvir/Ritonavir and Subsequent PCR Negativity in Patients With B-Cell Lymphoma and…"
+    },
+    {
+      "id": "vt_3a69ba685afdf701",
+      "type": "event",
+      "label": "Quick takes: Schools resume in DR Congo; sprouts, mangos recalled; 2 H9N2 avian flu cases…"
+    },
+    {
+      "id": "vt_bce22f139dc5fbbd",
+      "type": "event",
+      "label": "世卫组织和美国要求俄罗斯提供更多关于实验室工作人员死亡的信息"
+    },
+    {
+      "id": "vt_4076c6de466f5886",
+      "type": "event",
+      "label": "肯尼亚报告更多埃博拉病例，均与首例患者有关"
+    },
+    {
+      "id": "vt_c63a1c523eec9f47",
+      "type": "event",
+      "label": "美国麻疹病例激增，达4588例"
+    },
+    {
+      "id": "vt_7e00cf0472410d64",
+      "type": "event",
+      "label": "Metagenomic next-generation sequencing of bronchoalveolar lavage fluid unravels…"
+    },
+    {
+      "id": "pathogen:Brucella",
+      "type": "pathogen",
+      "label": "Brucella"
+    },
+    {
+      "id": "location:Xinjiang",
+      "type": "location",
+      "label": "Xinjiang"
+    },
+    {
+      "id": "vt_5e9f09cd29b352d0",
+      "type": "event",
+      "label": "Subacute Sclerosing Panencephalitis after Measles Outbreaks, the Philippines, 2007-2022."
+    },
+    {
+      "id": "location:Western Pacific",
+      "type": "location",
+      "label": "Western Pacific"
+    },
+    {
+      "id": "vt_e00e2ee8f87b3f3a",
+      "type": "event",
+      "label": "人格特质可能解释新冠疫情期间持续的心理压力"
+    },
+    {
+      "id": "vt_1c2080c1f3bbeca7",
+      "type": "event",
+      "label": "Quick takes: Dengue rise in Florida, South Dakota anthrax detection, drop in foreign food…"
+    },
+    {
+      "id": "pathogen:Bacillus anthracis",
+      "type": "pathogen",
+      "label": "Bacillus anthracis"
+    },
+    {
+      "id": "location:South Dakota",
+      "type": "location",
+      "label": "South Dakota"
+    },
+    {
+      "id": "vt_cc6055faa31d1f6b",
+      "type": "event",
+      "label": "美国亚利桑那州提醒医生警惕肺鼠疫"
+    },
+    {
+      "id": "location:Arizona",
+      "type": "location",
+      "label": "Arizona"
+    },
+    {
+      "id": "vt_a31224efb14ceb2f",
+      "type": "event",
+      "label": "中国福建沿海越冬地发现H5N1和H5N6高致病性禽流感病毒共存"
+    },
+    {
+      "id": "location:Fujian",
+      "type": "location",
+      "label": "Fujian"
+    },
+    {
+      "id": "vt_4032d54c7d6a3634",
+      "type": "event",
+      "label": "Chikungunya case cluster with nonspecific symptoms: implications for primary care in…"
+    },
+    {
+      "id": "location:Switzerland",
+      "type": "location",
+      "label": "Switzerland"
+    },
+    {
+      "id": "vt_b28261f0cf8a858b",
+      "type": "event",
+      "label": "Postmortem Artifacts Caused by Freshwater Crab Scavenging on Human Remains in Sri Lanka…"
+    },
+    {
+      "id": "pathogen:Acinetobacter baumannii",
+      "type": "pathogen",
+      "label": "Acinetobacter baumannii"
+    },
+    {
+      "id": "vt_4b72beafcdfd17be",
+      "type": "event",
+      "label": "Community Transmission of Pneumonic Plague, Fenoarivobe, Madagascar, 2022."
+    },
+    {
+      "id": "vt_0e5e12d55e85b14a",
+      "type": "event",
+      "label": "Invasive mold disease linked to high rates of ICU care, death"
+    },
+    {
+      "id": "vt_396ef682101710c7",
+      "type": "event",
+      "label": "西伯利亚疑似鼠疫事件致1人死亡，200人隔离"
+    },
+    {
+      "id": "vt_a4fa2fb9efc9ec24",
+      "type": "event",
+      "label": "2025年全球霍乱死亡人数上升30%"
+    },
+    {
+      "id": "vt_67f0ee48aa3aaa0b",
+      "type": "event",
+      "label": "An outbreak of H7N7 high pathogenicity avian influenza in Victoria, Australia, in 2020."
+    },
+    {
+      "id": "location:Australia",
+      "type": "location",
+      "label": "Australia"
+    },
+    {
+      "id": "location:Turkey",
+      "type": "location",
+      "label": "Turkey"
+    },
+    {
+      "id": "vt_71dc390bf765523e",
+      "type": "event",
+      "label": "An Unusual Mechanism of Stroke in Neurobrucellosis: Middle Cerebral Artery Infarction…"
+    },
+    {
+      "id": "vt_5b21f00e82611015",
+      "type": "event",
+      "label": "Temporal Trends in Invasive Pulmonary Aspergillosis Among Critically Ill Patients: Serum…"
+    },
+    {
+      "id": "pathogen:Aspergillus fumigatus",
+      "type": "pathogen",
+      "label": "Aspergillus fumigatus"
+    },
+    {
+      "id": "vt_b7a3c81c0bba604a",
+      "type": "event",
+      "label": "Impact of COVID-19 restrictions on emergency bellwether procedures in South and Southeast…"
+    },
+    {
+      "id": "location:Singapore",
+      "type": "location",
+      "label": "Singapore"
+    },
+    {
+      "id": "location:Indonesia",
+      "type": "location",
+      "label": "Indonesia"
+    },
+    {
+      "id": "location:Vietnam",
+      "type": "location",
+      "label": "Vietnam"
+    },
+    {
+      "id": "vt_2f455ac4a6fb0548",
+      "type": "event",
+      "label": "The medical and surgery outcomes of pulmonary hydatid cyst disease: A 12-year…"
+    },
+    {
+      "id": "pathogen:Echinococcus",
+      "type": "pathogen",
+      "label": "Echinococcus"
+    },
+    {
+      "id": "vt_cea888cb9abb9378",
+      "type": "event",
+      "label": "Measles milestones: US closes in on 4,000 cases as Pennsylvania nears 1,000"
+    },
+    {
+      "id": "vt_9d3ecbd363f6d965",
+      "type": "event",
+      "label": "Pennsylvania confirms more than 1,000 measles cases"
+    },
+    {
+      "id": "vt_240ad43709a3dde0",
+      "type": "event",
+      "label": "美国麻疹病例超过4000例，宾夕法尼亚州占四分之一"
+    },
+    {
+      "id": "vt_23b108ab95ecac12",
+      "type": "event",
+      "label": "格陵兰4只北极熊检测出H5N1禽流感抗体"
+    },
+    {
+      "id": "location:Greenland",
+      "type": "location",
+      "label": "Greenland"
+    },
+    {
+      "id": "vt_7403e440b537796a",
+      "type": "event",
+      "label": "美国疾控中心报告第三例麻疹死亡病例"
+    },
+    {
+      "id": "location:Guinea-Bissau",
+      "type": "location",
+      "label": "Guinea-Bissau"
+    },
+    {
+      "id": "location:Denmark",
+      "type": "location",
+      "label": "Denmark"
+    },
+    {
+      "id": "vt_79ade33aa4470e66",
+      "type": "event",
+      "label": "Uveitis following COVID-19 Infection: A Case Series including Vogt-Koyanagi-Harada…"
+    },
+    {
+      "id": "vt_5c7c3f867a857b6f",
+      "type": "event",
+      "label": "Severe Inflammatory Response and Moderate Acute Respiratory Distress Syndrome (ARDS) in…"
+    },
+    {
+      "id": "pathogen:Mycobacterium tuberculosis",
+      "type": "pathogen",
+      "label": "Mycobacterium tuberculosis"
+    },
+    {
+      "id": "vt_387fb069bb40d9a2",
+      "type": "event",
+      "label": "研究人员使用假禽流感患者进行演练，强调快速行动和更好遵守的重要性"
+    },
+    {
+      "id": "vt_d1e51beefd23ac73",
+      "type": "event",
+      "label": "美国德克萨斯州出现麻疹疫情"
+    },
+    {
+      "id": "location:Texas",
+      "type": "location",
+      "label": "Texas"
+    },
+    {
+      "id": "vt_f9af5c357f656b33",
+      "type": "event",
+      "label": "佛罗里达州爆发登革热疫情"
+    },
+    {
+      "id": "vt_a7a03a43ace5ce64",
+      "type": "event",
+      "label": "Detection of Highly Pathogenic Avian Influenza A(H5N1) Virus in Cat and Rats during…"
+    },
+    {
+      "id": "location:Illinois",
+      "type": "location",
+      "label": "Illinois"
+    },
+    {
+      "id": "vt_a690c9dd44920d00",
+      "type": "event",
+      "label": "Virological and epidemiological investigations of a severe hand foot and mouth disease…"
+    },
+    {
+      "id": "pathogen:Enterovirus A71",
+      "type": "pathogen",
+      "label": "Enterovirus A71"
+    },
+    {
+      "id": "vt_72840b7417e825e1",
+      "type": "event",
+      "label": "Case Report: mNGS-negative Strongyloides hyperinfection syndrome with small bowel…"
+    },
+    {
+      "id": "pathogen:Strongyloides stercoralis",
+      "type": "pathogen",
+      "label": "Strongyloides stercoralis"
+    },
+    {
+      "id": "vt_438ae206e31879f6",
+      "type": "event",
+      "label": "Case Report: Bacteremic respiratory tularemia causing refractory ARDS requiring VV-ECMO."
+    },
+    {
+      "id": "pathogen:Francisella tularensis",
+      "type": "pathogen",
+      "label": "Francisella tularensis"
+    },
+    {
+      "id": "vt_ba252647c652452d",
+      "type": "event",
+      "label": "Cardiac injury in children with severe hand, foot and mouth disease: risk factors and…"
+    },
+    {
+      "id": "vt_b97dedef316c9816",
+      "type": "event",
+      "label": "Managing Risk or Managing Panic? Public Awareness and Regional Readiness for Nipah Virus…"
+    },
+    {
+      "id": "pathogen:Nipah virus",
+      "type": "pathogen",
+      "label": "Nipah virus"
+    },
+    {
+      "id": "vt_57a02c13eb801532",
+      "type": "event",
+      "label": "CDC warns of new Salmonella outbreak linked to broccoli sprouts"
+    },
+    {
+      "id": "pathogen:Salmonella",
+      "type": "pathogen",
+      "label": "Salmonella"
+    },
+    {
+      "id": "vt_78a06ad3a1c72621",
+      "type": "event",
+      "label": "Measles can cast a long shadow, even after an apparent full recovery"
+    },
+    {
+      "id": "vt_43ca62600ea94a05",
+      "type": "event",
+      "label": "Data reveal higher rates of severe RSV, death in medically complex kids not targeted for…"
+    },
+    {
+      "id": "pathogen:Respiratory syncytial virus",
+      "type": "pathogen",
+      "label": "Respiratory syncytial virus"
+    },
+    {
+      "id": "vt_51a2941d28953dc2",
+      "type": "event",
+      "label": "佛罗里达州爆发登革热疫情，一名女子因感染死亡"
+    },
+    {
+      "id": "vt_9903fcf600262779",
+      "type": "event",
+      "label": "埃博拉和马堡病毒出血热疫情信息"
+    },
+    {
+      "id": "pathogen:Marburg virus",
+      "type": "pathogen",
+      "label": "Marburg virus"
+    },
+    {
+      "id": "vt_e20021956762fcd4",
+      "type": "event",
+      "label": "Reassortment of Highly Pathogenic Avian Influenza as a Driver for Zoonotic Spillover…"
+    },
+    {
+      "id": "vt_afce47992064926b",
+      "type": "event",
+      "label": "Case Report: Liangxue Jiedu Huayu Formula as adjunctive therapy for leptospirosis with…"
+    },
+    {
+      "id": "vt_bfe9ed35ad38d892",
+      "type": "event",
+      "label": "Nowcasting officially reported highly pathogenic avian influenza outbreak counts under…"
+    },
+    {
+      "id": "vt_2124374d886695ed",
+      "type": "event",
+      "label": "Ischemic stroke after bivalent mRNA COVID-19 vaccination and influenza vaccination during…"
+    },
+    {
+      "id": "vt_f348961b4986c035",
+      "type": "event",
+      "label": "Quick takes: Cyclosporiasis in Michigan, Aedes mosquitoes in the UK, new NYC Legionnaires…"
+    },
+    {
+      "id": "location:Michigan",
+      "type": "location",
+      "label": "Michigan"
+    },
+    {
+      "id": "vt_ec202e821b89bd01",
+      "type": "event",
+      "label": "Quick takes: Infant botulism, New World screwworm preventative, ‘airport malaria’ in…"
+    },
+    {
+      "id": "pathogen:Clostridium botulinum",
+      "type": "pathogen",
+      "label": "Clostridium botulinum"
+    },
+    {
+      "id": "vt_b53029b2ccc835cc",
+      "type": "event",
+      "label": "美国弗吉尼亚州生蚝引发沙门氏菌疫情"
+    },
+    {
+      "id": "location:Virginia",
+      "type": "location",
+      "label": "Virginia"
+    },
+    {
+      "id": "vt_c9d3279ad668c9ab",
+      "type": "event",
+      "label": "Repeat COVID infections tied to higher odds of new health conditions"
+    },
+    {
+      "id": "vt_90878e7eeceda6ea",
+      "type": "event",
+      "label": "Vaccine recommendations and access, plus measles deaths: 3 questions, zero consensus: The…"
+    },
+    {
+      "id": "vt_6f9eef8f264a7db9",
+      "type": "event",
+      "label": "Three-Phase Decline in Reported Farm-Level Fowl Typhoid Occurrence in the Republic of…"
+    },
+    {
+      "id": "vt_cfb9a70b353fe4b7",
+      "type": "event",
+      "label": "Klebsiella pneumoniae pyogenic liver abscess mimicking hepatic malignancy in a…"
+    },
+    {
+      "id": "pathogen:Klebsiella pneumoniae",
+      "type": "pathogen",
+      "label": "Klebsiella pneumoniae"
+    },
+    {
+      "id": "location:Kazakhstan",
+      "type": "location",
+      "label": "Kazakhstan"
+    },
+    {
+      "id": "vt_02114e0df0b40df3",
+      "type": "event",
+      "label": "Genotype-resolved wastewater surveillance for monitoring human norovirus GII circulation."
+    },
+    {
+      "id": "location:Beijing",
+      "type": "location",
+      "label": "Beijing"
+    },
+    {
+      "id": "vt_3b03078e689bf62b",
+      "type": "event",
+      "label": "High-flying superbugs: Bouncy castles tied to MRSA skin infections"
+    },
+    {
+      "id": "pathogen:Meticillin-resistant Staphylococcus aureus",
+      "type": "pathogen",
+      "label": "Meticillin-resistant Staphylococcus aureus"
+    },
+    {
+      "id": "location:Ireland",
+      "type": "location",
+      "label": "Ireland"
+    },
+    {
+      "id": "vt_a362cfe08f30fc22",
+      "type": "event",
+      "label": "Four measles deaths, a looming policy comment deadline, and how to read a study: The…"
+    },
+    {
+      "id": "vt_11e43342ddb30ba4",
+      "type": "event",
+      "label": "Quick takes: Dengue surge in Sri Lanka, New World screwworm in Texas goat, polio in 3…"
+    },
+    {
+      "id": "host:small_ruminants",
+      "type": "host",
+      "label": "small_ruminants"
+    },
+    {
+      "id": "vt_03ab196a500c0326",
+      "type": "event",
+      "label": "美国因芽苗菜感染沙门氏菌病例增加"
+    },
+    {
+      "id": "vt_0e5f3359fc345d79",
+      "type": "event",
+      "label": "美国疫苗政策现状：长新冠、麻疹死亡争议及无RSV保护新生儿"
+    },
+    {
+      "id": "vt_c2944ee202d80ce8",
+      "type": "event",
+      "label": "儿童重症百日咳的白细胞减少治疗效果"
+    },
+    {
+      "id": "pathogen:Bordetella pertussis",
+      "type": "pathogen",
+      "label": "Bordetella pertussis"
+    },
+    {
+      "id": "vt_2482cdf6e17000c1",
+      "type": "event",
+      "label": "Detection of highly pathogenic avian influenza A(H5N1) virus, clade 2.3.4.4b, genotype…"
+    },
+    {
+      "id": "vt_36ed1d980e396c4f",
+      "type": "event",
+      "label": "Repeated detection of West Nile virus in Aedes caspius during an unusually early…"
+    },
+    {
+      "id": "vt_b210b2f460f80e4f",
+      "type": "event",
+      "label": "DR Congo suffers deadliest week in its Ebola outbreak"
+    },
+    {
+      "id": "vt_e41f3cc8d3e36949",
+      "type": "event",
+      "label": "Infection prevention and control considerations in invasive group A streptococcus…"
+    },
+    {
+      "id": "pathogen:Invasive group A Streptococcus",
+      "type": "pathogen",
+      "label": "Invasive group A Streptococcus"
+    },
+    {
+      "id": "vt_c7eadc28e716dc83",
+      "type": "event",
+      "label": "CDC adds more than 3,000 new Cyclospora cases"
+    },
+    {
+      "id": "vt_6eb1c6d0efab7e96",
+      "type": "event",
+      "label": "Airport air sampling captures COVID, influenza viruses"
+    },
+    {
+      "id": "vt_87db47a3e89b0c2b",
+      "type": "event",
+      "label": "Outbreak linked to alfalfa sprouts; people sickened with E. coli and Salmonella"
+    },
+    {
+      "id": "vt_3b188211d5a9dc45",
+      "type": "event",
+      "label": "Correction to: Monkeypox: considerations for the understanding and containment of the…"
+    },
+    {
+      "id": "vt_aee0940be5148d8e",
+      "type": "event",
+      "label": "美国四州爆发37例冷冻贻贝相关甲型肝炎疫情"
+    },
+    {
+      "id": "pathogen:Hepatitis A virus",
+      "type": "pathogen",
+      "label": "Hepatitis A virus"
+    },
+    {
+      "id": "location:Massachusetts",
+      "type": "location",
+      "label": "Massachusetts"
+    },
+    {
+      "id": "location:Minnesota",
+      "type": "location",
+      "label": "Minnesota"
+    },
+    {
+      "id": "location:New York",
+      "type": "location",
+      "label": "New York"
+    },
+    {
+      "id": "vt_d2ac579bba2a57c8",
+      "type": "event",
+      "label": "Case Report: Henoch-Schönlein-like purpura as an unusual presentation of acute hepatitis…"
+    },
+    {
+      "id": "pathogen:Hepatitis E virus",
+      "type": "pathogen",
+      "label": "Hepatitis E virus"
+    },
+    {
+      "id": "vt_b5d2775ec8ef7b9e",
+      "type": "event",
+      "label": "Gardeners Basics Recalls Waltham 29 Broccoli Sprouting Seeds Due to Possible Salmonella…"
+    },
+    {
+      "id": "location:Spain",
+      "type": "location",
+      "label": "Spain"
+    },
+    {
+      "id": "location:Utah",
+      "type": "location",
+      "label": "Utah"
+    },
+    {
+      "id": "vt_768b67dddac6314b",
+      "type": "event",
+      "label": "美国明尼苏达州火鸡和水禽中检测到高致病性禽流感"
+    },
+    {
+      "id": "vt_c2461e00fa652ce6",
+      "type": "event",
+      "label": "犹他州水貂养殖场爆发高致病性禽流感"
+    },
+    {
+      "id": "vt_137dc5b672f70dab",
+      "type": "event",
+      "label": "慢性消耗病在怀俄明州、威斯康星州和密歇根州出现新病例"
+    },
+    {
+      "id": "pathogen:Chronic wasting disease prion",
+      "type": "pathogen",
+      "label": "Chronic wasting disease prion"
+    },
+    {
+      "id": "location:Wyoming",
+      "type": "location",
+      "label": "Wyoming"
+    },
+    {
+      "id": "location:Wisconsin",
+      "type": "location",
+      "label": "Wisconsin"
+    },
+    {
+      "id": "vt_a1349be4a9e51a49",
+      "type": "event",
+      "label": "One Health surveillance integrating human, mosquito, and climate data for early warning…"
+    },
+    {
+      "id": "vt_aa0ff4ae75522ef3",
+      "type": "event",
+      "label": "Public Health Alerts: Cyclosporiasis outbreak in Michigan, May–July 2026—an interim report"
+    },
+    {
+      "id": "vt_0be5050b7d832231",
+      "type": "event",
+      "label": "A deadly ebola relative is surging after years in the shadows"
+    },
+    {
+      "id": "vt_e5c468433c0a3d5c",
+      "type": "event",
+      "label": "美国明尼苏达州麻疹群集和新世界牛蝇在麋鹿中出现"
+    },
+    {
+      "id": "vt_2ef5d915b6c48808",
+      "type": "event",
+      "label": "A new antiviral could stop measles before an outbreak takes off"
+    },
+    {
+      "id": "vt_2a90e48838dea0a8",
+      "type": "event",
+      "label": "CDC, FDA end investigation into Listeria outbreak, begin looking into new Salmonella…"
+    },
+    {
+      "id": "pathogen:Listeria monocytogenes",
+      "type": "pathogen",
+      "label": "Listeria monocytogenes"
+    },
+    {
+      "id": "vt_58595f53cecb8f20",
+      "type": "event",
+      "label": "After lab study finds interspecies spread of CWD prions, experts debate significance for…"
+    },
+    {
+      "id": "vt_591c0e3cff66bd4b",
+      "type": "event",
+      "label": "美国农业部报告家禽农场H5N1禽流感新病例"
+    },
+    {
+      "id": "vt_44b68b5117296820",
+      "type": "event",
+      "label": "美国华盛顿州首次确认H5N1禽流感感染奶牛"
+    },
+    {
+      "id": "location:Washington",
+      "type": "location",
+      "label": "Washington"
+    },
+    {
+      "id": "vt_487af23b564ed652",
+      "type": "event",
+      "label": "Kids hit hard in deadly Jerusalem measles outbreak, report reveals"
+    },
+    {
+      "id": "location:Israel",
+      "type": "location",
+      "label": "Israel"
+    },
+    {
+      "id": "vt_dd26da85e9dffef1",
+      "type": "event",
+      "label": "Measles outbreaks could leave thousands vulnerable to infectious diseases for years"
+    },
+    {
+      "id": "vt_b8fb9647b583bf4c",
+      "type": "event",
+      "label": "Louisiana confirms Naegleria fowleri brain infection in resident who swam in Lake…"
+    },
+    {
+      "id": "pathogen:Naegleria fowleri",
+      "type": "pathogen",
+      "label": "Naegleria fowleri"
+    },
+    {
+      "id": "location:Louisiana",
+      "type": "location",
+      "label": "Louisiana"
+    },
+    {
+      "id": "vt_d96db5ee56dcb4ba",
+      "type": "event",
+      "label": "RSV vaccine effective against hospitalization, death in nursing home residents, study…"
+    },
+    {
+      "id": "vt_4480a53b5f09ec62",
+      "type": "event",
+      "label": "4 new human H9N2 avian flu cases in China as Australia sees more H5N1 in wild birds"
+    },
+    {
+      "id": "vt_6d4ac7b83d9ae336",
+      "type": "event",
+      "label": "麻疹并发症导致罕见致命脑病"
+    },
+    {
+      "id": "vt_29df77d183f65f32",
+      "type": "event",
+      "label": "非洲疾控中心警告刚果民主共和国埃博拉疫情可能蔓延至所有非洲国家"
+    },
+    {
+      "id": "vt_932954a4c61717bb",
+      "type": "event",
+      "label": "Bird flu is spreading. Your backyard feeder could make it worse"
+    },
+    {
+      "id": "vt_c364b377ee9a3547",
+      "type": "event",
+      "label": "Quick takes: Sprout recall, local dengue in Florida, variant H1N2 flu in Michigan, new…"
+    },
+    {
+      "id": "vt_49b54f2e80bb0a4c",
+      "type": "event",
+      "label": "美国华盛顿州出现H5N1禽流感病例"
+    },
+    {
+      "id": "pathogen:MERS-CoV",
+      "type": "pathogen",
+      "label": "MERS-CoV"
+    },
+    {
+      "id": "location:Saudi Arabia",
+      "type": "location",
+      "label": "Saudi Arabia"
+    },
+    {
+      "id": "vt_590bbff64116e377",
+      "type": "event",
+      "label": "Quick takes: Cautious optimism on Ebola, rare New World screwworm in a horse, HIV alert…"
+    },
+    {
+      "id": "location:Fiji",
+      "type": "location",
+      "label": "Fiji"
+    },
+    {
+      "id": "vt_374e04665d036072",
+      "type": "event",
+      "label": "CDC warns of Salmonella outbreak linked to jalapeños"
+    },
+    {
+      "id": "vt_ecaab763a6739111",
+      "type": "event",
+      "label": "肯尼亚一周内无新增埃博拉病例"
+    },
+    {
+      "id": "vt_239987ebde62f009",
+      "type": "event",
+      "label": "FDA, CDC investigating multistate outbreak of E coli, Salmonella linked to sprouts"
+    },
+    {
+      "id": "vt_d2fb3ee4f91f7af1",
+      "type": "event",
+      "label": "Cyclospora outbreak linked to iceberg lettuce expanded to four new states."
+    },
+    {
+      "id": "vt_de37871c72c7fc21",
+      "type": "event",
+      "label": "What a highly monitored chikungunya epidemic reveals about preparedness for Europe and…"
+    },
+    {
+      "id": "vt_93e087e44e99590b",
+      "type": "event",
+      "label": "Don't scapegoat rats: Analysis of Mallorca's 1820 epidemic finds rodents didn't bring…"
+    },
+    {
+      "id": "vt_a22af8c1e730ec0d",
+      "type": "event",
+      "label": "沙门氏菌疫情扩大，环斑叶绿病原体感染结束"
+    },
+    {
+      "id": "vt_f0116ffacc37ef0f",
+      "type": "event",
+      "label": "老年人因新冠住院增加中风风险"
+    },
+    {
+      "id": "vt_98467a84c19f5eb8",
+      "type": "event",
+      "label": "美国麻疹病例一周内增加8% 总数达4410例"
+    },
+    {
+      "id": "vt_c7c2e3c69de1a07e",
+      "type": "event",
+      "label": "A base-editing and auxotrophic selection platform for linking epigenetic regulators to…"
+    },
+    {
+      "id": "vt_ed8e51f27c33bffc",
+      "type": "event",
+      "label": "USDA confirms new H5N1 avian flu cases in poultry, dairy cattle"
+    },
+    {
+      "id": "vt_bb070af69925e470",
+      "type": "event",
+      "label": "Exceptionally Early Onset of the Influenza Epidemic Season During Ongoing Respiratory…"
+    },
+    {
+      "id": "vt_3748a1681a195337",
+      "type": "event",
+      "label": "Scientists find new virus behind mysterious tick illness"
+    },
+    {
+      "id": "pathogen:未明确病原体",
+      "type": "pathogen",
+      "label": "未明确病原体"
+    }
+  ],
+  "edges": [
+    {
+      "source": "vt_be41c934fe7a9471",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_be41c934fe7a9471",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_be41c934fe7a9471",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_be41c934fe7a9471",
+      "target": "location:Uganda",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_be41c934fe7a9471",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_be41c934fe7a9471",
+      "target": "location:Nigeria",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_be41c934fe7a9471",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6c88218f220a5fd0",
+      "target": "pathogen:Mpox virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_6c88218f220a5fd0",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_6c88218f220a5fd0",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6c88218f220a5fd0",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6c88218f220a5fd0",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_3d10b10bc50245cb",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3d10b10bc50245cb",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3d10b10bc50245cb",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_fe33e5d04edb4fee",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_fe33e5d04edb4fee",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_fe33e5d04edb4fee",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7820e3253a604576",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7820e3253a604576",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7820e3253a604576",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "pathogen:Leptospira",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "location:Lombardy",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_1162c83a1e186e02",
+      "target": "location:Italy",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e6fc3667f3a0fee2",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e6fc3667f3a0fee2",
+      "target": "pathogen:Poliovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e6fc3667f3a0fee2",
+      "target": "pathogen:Plasmodium",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e6fc3667f3a0fee2",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e6fc3667f3a0fee2",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e6fc3667f3a0fee2",
+      "target": "location:Germany",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e6fc3667f3a0fee2",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a8aad87515972bea",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a8aad87515972bea",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a8aad87515972bea",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a8aad87515972bea",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a8aad87515972bea",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c1805b8a8dd95a20",
+      "target": "pathogen:Yellow fever virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c1805b8a8dd95a20",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_c1805b8a8dd95a20",
+      "target": "location:Colombia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b263498c3b4af10b",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b263498c3b4af10b",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b263498c3b4af10b",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b263498c3b4af10b",
+      "target": "host:wild_birds",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b263498c3b4af10b",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b263498c3b4af10b",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b263498c3b4af10b",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_14f19ce2b1126bc8",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_14f19ce2b1126bc8",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_14f19ce2b1126bc8",
+      "target": "pathogen:Pasteurella multocida",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_14f19ce2b1126bc8",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_14f19ce2b1126bc8",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_6ef58059dd86c009",
+      "target": "pathogen:Chikungunya virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_6ef58059dd86c009",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_6ef58059dd86c009",
+      "target": "location:France",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6ef58059dd86c009",
+      "target": "location:Madagascar",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6ef58059dd86c009",
+      "target": "location:Sri Lanka",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6ef58059dd86c009",
+      "target": "location:Cuba",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6ef58059dd86c009",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_ea3b9cb6c4686b9f",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ea3b9cb6c4686b9f",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_ea3b9cb6c4686b9f",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b5f07a7ee7c557de",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b5f07a7ee7c557de",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b5f07a7ee7c557de",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_113af5404ee8200d",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_113af5404ee8200d",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_113af5404ee8200d",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_113af5404ee8200d",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_113af5404ee8200d",
+      "target": "location:Uganda",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7778966b2d936827",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7778966b2d936827",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7778966b2d936827",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4e53add0b4cac229",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4e53add0b4cac229",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4e53add0b4cac229",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_5b8715534740a466",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_5b8715534740a466",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_5b8715534740a466",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_5b8715534740a466",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_386545df66fdf82f",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_386545df66fdf82f",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_386545df66fdf82f",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_386545df66fdf82f",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_386545df66fdf82f",
+      "target": "host:cats",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_386545df66fdf82f",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_1f806a049f88c030",
+      "target": "pathogen:African swine fever virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_1f806a049f88c030",
+      "target": "host:swine",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_1f806a049f88c030",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_1f806a049f88c030",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_1f806a049f88c030",
+      "target": "location:Russia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_1f806a049f88c030",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_cb355b3f5063239c",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_cb355b3f5063239c",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_cb355b3f5063239c",
+      "target": "location:Brazil",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7b27a18d68d0420b",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7b27a18d68d0420b",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7b27a18d68d0420b",
+      "target": "pathogen:Influenza A(H5N6)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7b27a18d68d0420b",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7b27a18d68d0420b",
+      "target": "host:wild_birds",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7b27a18d68d0420b",
+      "target": "location:South Korea",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7b27a18d68d0420b",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7b27a18d68d0420b",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_635b5bd547051ec9",
+      "target": "pathogen:Plasmodium",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_635b5bd547051ec9",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_635b5bd547051ec9",
+      "target": "location:Italy",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_635b5bd547051ec9",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_635b5bd547051ec9",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_635b5bd547051ec9",
+      "target": "location:Guinea",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_862eb3da6eb5ddf3",
+      "target": "pathogen:Norovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_862eb3da6eb5ddf3",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_862eb3da6eb5ddf3",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_862eb3da6eb5ddf3",
+      "target": "location:Cameroon",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_862eb3da6eb5ddf3",
+      "target": "location:Mexico",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_9dd631e50e2a514e",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_9dd631e50e2a514e",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_9dd631e50e2a514e",
+      "target": "location:Pennsylvania",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_3a0a199fb2c4e6a5",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3a0a199fb2c4e6a5",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3a0a199fb2c4e6a5",
+      "target": "pathogen:Influenza A(H9N2)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3a0a199fb2c4e6a5",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3a0a199fb2c4e6a5",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3a0a199fb2c4e6a5",
+      "target": "location:Delaware",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_3a0a199fb2c4e6a5",
+      "target": "location:China",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_900475d62a3c3b31",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_900475d62a3c3b31",
+      "target": "pathogen:Poliovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_900475d62a3c3b31",
+      "target": "pathogen:Rabies virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_900475d62a3c3b31",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_900475d62a3c3b31",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_900475d62a3c3b31",
+      "target": "location:Florida",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_900475d62a3c3b31",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a1ada34ad24c28d5",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a1ada34ad24c28d5",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4301ca3dcfaa5bf0",
+      "target": "pathogen:Severe fever with thrombocytopenia syndrome virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4301ca3dcfaa5bf0",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4301ca3dcfaa5bf0",
+      "target": "host:ticks",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4301ca3dcfaa5bf0",
+      "target": "location:Henan",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_9f38effb24c51768",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_9f38effb24c51768",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_9f38effb24c51768",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_9f38effb24c51768",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_905fc8adf8bcf308",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_905fc8adf8bcf308",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_905fc8adf8bcf308",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_bd61abcbeb0e6e38",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_bd61abcbeb0e6e38",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_bd61abcbeb0e6e38",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "host:wild_birds",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "host:cats",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4b68b5adb709d3f3",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_56093bd9be41ead3",
+      "target": "pathogen:Plasmodium",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_56093bd9be41ead3",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_56093bd9be41ead3",
+      "target": "location:Malaysia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_56093bd9be41ead3",
+      "target": "location:Philippines",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_56093bd9be41ead3",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_56093bd9be41ead3",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_0fba4c2d8ec4dfe7",
+      "target": "pathogen:Hantavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_0fba4c2d8ec4dfe7",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_0fba4c2d8ec4dfe7",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "pathogen:Vibrio cholerae",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "pathogen:West Nile virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "host:mosquitoes",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "location:Yemen",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b90671a73e8c2afc",
+      "target": "location:North Carolina",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b69b8905c824348b",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b69b8905c824348b",
+      "target": "pathogen:Mucorales",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b69b8905c824348b",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b69b8905c824348b",
+      "target": "location:Sri Lanka",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6e2d038e798a69b8",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_6e2d038e798a69b8",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a5d8771e0f86029a",
+      "target": "pathogen:Candida auris",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a5d8771e0f86029a",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a5d8771e0f86029a",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7b325a729f720920",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7b325a729f720920",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7b325a729f720920",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7b325a729f720920",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7b325a729f720920",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7b325a729f720920",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7b325a729f720920",
+      "target": "location:United Kingdom",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_d83b445fe761bac5",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_d83b445fe761bac5",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_d83b445fe761bac5",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_d83b445fe761bac5",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_d83b445fe761bac5",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b614c4e14af442a1",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b614c4e14af442a1",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b614c4e14af442a1",
+      "target": "location:Pennsylvania",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b065b2f985b087f6",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b065b2f985b087f6",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b065b2f985b087f6",
+      "target": "location:Uganda",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_83893924f9035655",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_83893924f9035655",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_83893924f9035655",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_83893924f9035655",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_5f3b7176ebcb7364",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_5f3b7176ebcb7364",
+      "target": "pathogen:Chikungunya virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_5f3b7176ebcb7364",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_5f3b7176ebcb7364",
+      "target": "location:Philippines",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_5f3b7176ebcb7364",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_5f3b7176ebcb7364",
+      "target": "location:India",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7b54644fbb88ce73",
+      "target": "pathogen:Yersinia pestis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7b54644fbb88ce73",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_9465c539e1c5c138",
+      "target": "pathogen:Yersinia pestis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_9465c539e1c5c138",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_9465c539e1c5c138",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_37593e8af4915a9f",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_37593e8af4915a9f",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_37593e8af4915a9f",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_37593e8af4915a9f",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_37593e8af4915a9f",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c6906e669aecfa5c",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c6906e669aecfa5c",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_af8114ab5bc61f50",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_af8114ab5bc61f50",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_af8114ab5bc61f50",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_0512ed4dffd4a7f5",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_0512ed4dffd4a7f5",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_0512ed4dffd4a7f5",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_0512ed4dffd4a7f5",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_0512ed4dffd4a7f5",
+      "target": "host:rodents",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e4c3c0eec021988e",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e4c3c0eec021988e",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e4c3c0eec021988e",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e4c3c0eec021988e",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e4c3c0eec021988e",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e4c3c0eec021988e",
+      "target": "location:California",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e4c3c0eec021988e",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_68f82b1f2b42c842",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_68f82b1f2b42c842",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_68f82b1f2b42c842",
+      "target": "location:Japan",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_d316597830908bf7",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_d316597830908bf7",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_d316597830908bf7",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6f1b14e1016601c7",
+      "target": "pathogen:African swine fever virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_6f1b14e1016601c7",
+      "target": "host:swine",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_6f1b14e1016601c7",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6f1b14e1016601c7",
+      "target": "location:Philippines",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6f1b14e1016601c7",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_87b7762fb5c4eb77",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_87b7762fb5c4eb77",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_87b7762fb5c4eb77",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_87b7762fb5c4eb77",
+      "target": "host:wild_birds",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_87b7762fb5c4eb77",
+      "target": "host:cats",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_87b7762fb5c4eb77",
+      "target": "location:South Korea",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_09d56be03374bf47",
+      "target": "pathogen:Vibrio cholerae",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_09d56be03374bf47",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_c590c93c96fd076f",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c590c93c96fd076f",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_c590c93c96fd076f",
+      "target": "location:Pennsylvania",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "pathogen:Rift Valley fever virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "pathogen:Lumpy skin disease virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "pathogen:West Nile virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "pathogen:Bluetongue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "pathogen:Western equine encephalitis virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "host:horses",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "host:ticks",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "host:mosquitoes",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "location:Americas",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "location:Middle East",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4616dbcb5018ec7d",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_fe2e899b4bdfdcb4",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_fe2e899b4bdfdcb4",
+      "target": "pathogen:Oropouche virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_fe2e899b4bdfdcb4",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_fe2e899b4bdfdcb4",
+      "target": "location:Brazil",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_269e669157a1ef5b",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_269e669157a1ef5b",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_8e79e31778da0412",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_8e79e31778da0412",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3a69ba685afdf701",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3a69ba685afdf701",
+      "target": "pathogen:Influenza A(H9N2)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3a69ba685afdf701",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3a69ba685afdf701",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3a69ba685afdf701",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_3a69ba685afdf701",
+      "target": "location:China",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_bce22f139dc5fbbd",
+      "target": "pathogen:Yersinia pestis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_bce22f139dc5fbbd",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_bce22f139dc5fbbd",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_bce22f139dc5fbbd",
+      "target": "location:Russia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4076c6de466f5886",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4076c6de466f5886",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4076c6de466f5886",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4076c6de466f5886",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c63a1c523eec9f47",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c63a1c523eec9f47",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_c63a1c523eec9f47",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c63a1c523eec9f47",
+      "target": "location:Pennsylvania",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7e00cf0472410d64",
+      "target": "pathogen:Brucella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7e00cf0472410d64",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7e00cf0472410d64",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7e00cf0472410d64",
+      "target": "location:Xinjiang",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7e00cf0472410d64",
+      "target": "location:China",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_5e9f09cd29b352d0",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_5e9f09cd29b352d0",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_5e9f09cd29b352d0",
+      "target": "location:Philippines",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_5e9f09cd29b352d0",
+      "target": "location:Western Pacific",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e00e2ee8f87b3f3a",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e00e2ee8f87b3f3a",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_1c2080c1f3bbeca7",
+      "target": "pathogen:Bacillus anthracis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_1c2080c1f3bbeca7",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_1c2080c1f3bbeca7",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_1c2080c1f3bbeca7",
+      "target": "location:Florida",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_1c2080c1f3bbeca7",
+      "target": "location:South Dakota",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_cc6055faa31d1f6b",
+      "target": "pathogen:Yersinia pestis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_cc6055faa31d1f6b",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_cc6055faa31d1f6b",
+      "target": "location:Arizona",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "pathogen:Influenza A(H5N6)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "host:wild_birds",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "host:rodents",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "location:China",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a31224efb14ceb2f",
+      "target": "location:Fujian",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4032d54c7d6a3634",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4032d54c7d6a3634",
+      "target": "pathogen:Plasmodium",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4032d54c7d6a3634",
+      "target": "pathogen:Chikungunya virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4032d54c7d6a3634",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4032d54c7d6a3634",
+      "target": "host:mosquitoes",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4032d54c7d6a3634",
+      "target": "location:Switzerland",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4032d54c7d6a3634",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b28261f0cf8a858b",
+      "target": "pathogen:Acinetobacter baumannii",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b28261f0cf8a858b",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b28261f0cf8a858b",
+      "target": "location:Sri Lanka",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4b72beafcdfd17be",
+      "target": "pathogen:Yersinia pestis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4b72beafcdfd17be",
+      "target": "location:Madagascar",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_0e5e12d55e85b14a",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_0e5e12d55e85b14a",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_396ef682101710c7",
+      "target": "pathogen:Yersinia pestis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_396ef682101710c7",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_396ef682101710c7",
+      "target": "location:Russia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a4fa2fb9efc9ec24",
+      "target": "pathogen:Vibrio cholerae",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a4fa2fb9efc9ec24",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a4fa2fb9efc9ec24",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_67f0ee48aa3aaa0b",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_67f0ee48aa3aaa0b",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_67f0ee48aa3aaa0b",
+      "target": "host:wild_birds",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_67f0ee48aa3aaa0b",
+      "target": "location:Australia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_67f0ee48aa3aaa0b",
+      "target": "location:Turkey",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_67f0ee48aa3aaa0b",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_71dc390bf765523e",
+      "target": "pathogen:Brucella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_71dc390bf765523e",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_71dc390bf765523e",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_71dc390bf765523e",
+      "target": "location:Middle East",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_71dc390bf765523e",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_71dc390bf765523e",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_71dc390bf765523e",
+      "target": "location:Americas",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_71dc390bf765523e",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_5b21f00e82611015",
+      "target": "pathogen:Aspergillus fumigatus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_5b21f00e82611015",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "location:Singapore",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "location:Malaysia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "location:Indonesia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "location:India",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b7a3c81c0bba604a",
+      "target": "location:Vietnam",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_2f455ac4a6fb0548",
+      "target": "pathogen:Echinococcus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_2f455ac4a6fb0548",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_cea888cb9abb9378",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_cea888cb9abb9378",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_cea888cb9abb9378",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_cea888cb9abb9378",
+      "target": "location:Pennsylvania",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_9d3ecbd363f6d965",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_9d3ecbd363f6d965",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_9d3ecbd363f6d965",
+      "target": "location:Pennsylvania",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_240ad43709a3dde0",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_240ad43709a3dde0",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_240ad43709a3dde0",
+      "target": "location:Pennsylvania",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_240ad43709a3dde0",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_23b108ab95ecac12",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_23b108ab95ecac12",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_23b108ab95ecac12",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_23b108ab95ecac12",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_23b108ab95ecac12",
+      "target": "location:Greenland",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7403e440b537796a",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_7403e440b537796a",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_7403e440b537796a",
+      "target": "location:Guinea-Bissau",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_7403e440b537796a",
+      "target": "location:Denmark",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_79ade33aa4470e66",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_79ade33aa4470e66",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_5c7c3f867a857b6f",
+      "target": "pathogen:Mycobacterium tuberculosis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_5c7c3f867a857b6f",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_387fb069bb40d9a2",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_387fb069bb40d9a2",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_387fb069bb40d9a2",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_d1e51beefd23ac73",
+      "target": "pathogen:Poliovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_d1e51beefd23ac73",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_d1e51beefd23ac73",
+      "target": "location:Texas",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_f9af5c357f656b33",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_f9af5c357f656b33",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_f9af5c357f656b33",
+      "target": "location:Florida",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a7a03a43ace5ce64",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a7a03a43ace5ce64",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a7a03a43ace5ce64",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a7a03a43ace5ce64",
+      "target": "host:cats",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a7a03a43ace5ce64",
+      "target": "host:rodents",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a7a03a43ace5ce64",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a7a03a43ace5ce64",
+      "target": "location:Illinois",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a690c9dd44920d00",
+      "target": "pathogen:Enterovirus A71",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a690c9dd44920d00",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a690c9dd44920d00",
+      "target": "location:Vietnam",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a690c9dd44920d00",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a690c9dd44920d00",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_72840b7417e825e1",
+      "target": "pathogen:Strongyloides stercoralis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_72840b7417e825e1",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_438ae206e31879f6",
+      "target": "pathogen:Francisella tularensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_438ae206e31879f6",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_ba252647c652452d",
+      "target": "pathogen:Enterovirus A71",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ba252647c652452d",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_ba252647c652452d",
+      "target": "location:Vietnam",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b97dedef316c9816",
+      "target": "pathogen:Nipah virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b97dedef316c9816",
+      "target": "location:India",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_57a02c13eb801532",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_57a02c13eb801532",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_57a02c13eb801532",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_57a02c13eb801532",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_78a06ad3a1c72621",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_78a06ad3a1c72621",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_43ca62600ea94a05",
+      "target": "pathogen:Respiratory syncytial virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_43ca62600ea94a05",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_51a2941d28953dc2",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_51a2941d28953dc2",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_51a2941d28953dc2",
+      "target": "location:Florida",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_9903fcf600262779",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_9903fcf600262779",
+      "target": "pathogen:Marburg virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e20021956762fcd4",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e20021956762fcd4",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e20021956762fcd4",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e20021956762fcd4",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e20021956762fcd4",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e20021956762fcd4",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_afce47992064926b",
+      "target": "pathogen:Leptospira",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_afce47992064926b",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_afce47992064926b",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_afce47992064926b",
+      "target": "location:China",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_bfe9ed35ad38d892",
+      "target": "pathogen:African swine fever virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_bfe9ed35ad38d892",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_bfe9ed35ad38d892",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_bfe9ed35ad38d892",
+      "target": "host:swine",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_bfe9ed35ad38d892",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_2124374d886695ed",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_2124374d886695ed",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_2124374d886695ed",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_f348961b4986c035",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_f348961b4986c035",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_f348961b4986c035",
+      "target": "host:mosquitoes",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_f348961b4986c035",
+      "target": "location:Michigan",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_f348961b4986c035",
+      "target": "location:United Kingdom",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_ec202e821b89bd01",
+      "target": "pathogen:Poliovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ec202e821b89bd01",
+      "target": "pathogen:Plasmodium",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ec202e821b89bd01",
+      "target": "pathogen:Clostridium botulinum",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ec202e821b89bd01",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_ec202e821b89bd01",
+      "target": "location:Germany",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_ec202e821b89bd01",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b53029b2ccc835cc",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b53029b2ccc835cc",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b53029b2ccc835cc",
+      "target": "location:Virginia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c9d3279ad668c9ab",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c9d3279ad668c9ab",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_90878e7eeceda6ea",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_90878e7eeceda6ea",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_90878e7eeceda6ea",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6f9eef8f264a7db9",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_6f9eef8f264a7db9",
+      "target": "pathogen:Influenza A(H5N6)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_6f9eef8f264a7db9",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_6f9eef8f264a7db9",
+      "target": "location:South Korea",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_cfb9a70b353fe4b7",
+      "target": "pathogen:Klebsiella pneumoniae",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_cfb9a70b353fe4b7",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_cfb9a70b353fe4b7",
+      "target": "location:Kazakhstan",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_cfb9a70b353fe4b7",
+      "target": "location:Asia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_02114e0df0b40df3",
+      "target": "pathogen:Norovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_02114e0df0b40df3",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_02114e0df0b40df3",
+      "target": "location:Global",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_02114e0df0b40df3",
+      "target": "location:Beijing",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_02114e0df0b40df3",
+      "target": "location:China",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_3b03078e689bf62b",
+      "target": "pathogen:Meticillin-resistant Staphylococcus aureus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3b03078e689bf62b",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3b03078e689bf62b",
+      "target": "location:Ireland",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a362cfe08f30fc22",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a362cfe08f30fc22",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a362cfe08f30fc22",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_11e43342ddb30ba4",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_11e43342ddb30ba4",
+      "target": "pathogen:Poliovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_11e43342ddb30ba4",
+      "target": "host:small_ruminants",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_11e43342ddb30ba4",
+      "target": "host:mosquitoes",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_11e43342ddb30ba4",
+      "target": "location:Sri Lanka",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_11e43342ddb30ba4",
+      "target": "location:Texas",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_03ab196a500c0326",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_03ab196a500c0326",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_0e5f3359fc345d79",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_0e5f3359fc345d79",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_0e5f3359fc345d79",
+      "target": "pathogen:Respiratory syncytial virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_0e5f3359fc345d79",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_0e5f3359fc345d79",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c2944ee202d80ce8",
+      "target": "pathogen:Bordetella pertussis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c2944ee202d80ce8",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_2482cdf6e17000c1",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_2482cdf6e17000c1",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_2482cdf6e17000c1",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_2482cdf6e17000c1",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_2482cdf6e17000c1",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_36ed1d980e396c4f",
+      "target": "pathogen:West Nile virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_36ed1d980e396c4f",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_36ed1d980e396c4f",
+      "target": "host:mosquitoes",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_36ed1d980e396c4f",
+      "target": "location:Italy",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_36ed1d980e396c4f",
+      "target": "location:Lombardy",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b210b2f460f80e4f",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b210b2f460f80e4f",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e41f3cc8d3e36949",
+      "target": "pathogen:Invasive group A Streptococcus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e41f3cc8d3e36949",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e41f3cc8d3e36949",
+      "target": "location:United Kingdom",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e41f3cc8d3e36949",
+      "target": "location:Ireland",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c7eadc28e716dc83",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c7eadc28e716dc83",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_c7eadc28e716dc83",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6eb1c6d0efab7e96",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_6eb1c6d0efab7e96",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_87db47a3e89b0c2b",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_87db47a3e89b0c2b",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3b188211d5a9dc45",
+      "target": "pathogen:Mpox virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_aee0940be5148d8e",
+      "target": "pathogen:Hepatitis A virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_aee0940be5148d8e",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_aee0940be5148d8e",
+      "target": "location:Massachusetts",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_aee0940be5148d8e",
+      "target": "location:Minnesota",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_aee0940be5148d8e",
+      "target": "location:New York",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_aee0940be5148d8e",
+      "target": "location:Pennsylvania",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_d2ac579bba2a57c8",
+      "target": "pathogen:Hepatitis E virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_d2ac579bba2a57c8",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_d2ac579bba2a57c8",
+      "target": "host:swine",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_d2ac579bba2a57c8",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_d2ac579bba2a57c8",
+      "target": "location:Italy",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b5d2775ec8ef7b9e",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b5d2775ec8ef7b9e",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_b5d2775ec8ef7b9e",
+      "target": "location:Spain",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_b5d2775ec8ef7b9e",
+      "target": "location:Utah",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_768b67dddac6314b",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_768b67dddac6314b",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_768b67dddac6314b",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_768b67dddac6314b",
+      "target": "host:wild_birds",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_768b67dddac6314b",
+      "target": "location:Minnesota",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_768b67dddac6314b",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c2461e00fa652ce6",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c2461e00fa652ce6",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_c2461e00fa652ce6",
+      "target": "location:Utah",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_137dc5b672f70dab",
+      "target": "pathogen:Chronic wasting disease prion",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_137dc5b672f70dab",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_137dc5b672f70dab",
+      "target": "location:Wyoming",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_137dc5b672f70dab",
+      "target": "location:Wisconsin",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_137dc5b672f70dab",
+      "target": "location:Michigan",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a1349be4a9e51a49",
+      "target": "pathogen:Chikungunya virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a1349be4a9e51a49",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a1349be4a9e51a49",
+      "target": "host:mosquitoes",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_a1349be4a9e51a49",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_aa0ff4ae75522ef3",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_aa0ff4ae75522ef3",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_aa0ff4ae75522ef3",
+      "target": "location:Michigan",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_0be5050b7d832231",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e5c468433c0a3d5c",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e5c468433c0a3d5c",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_e5c468433c0a3d5c",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_e5c468433c0a3d5c",
+      "target": "location:Minnesota",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_e5c468433c0a3d5c",
+      "target": "location:Virginia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_2ef5d915b6c48808",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_2ef5d915b6c48808",
+      "target": "host:wildlife",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_2a90e48838dea0a8",
+      "target": "pathogen:Listeria monocytogenes",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_2a90e48838dea0a8",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_2a90e48838dea0a8",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_2a90e48838dea0a8",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_58595f53cecb8f20",
+      "target": "pathogen:Chronic wasting disease prion",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_58595f53cecb8f20",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_591c0e3cff66bd4b",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_591c0e3cff66bd4b",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_591c0e3cff66bd4b",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_591c0e3cff66bd4b",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_591c0e3cff66bd4b",
+      "target": "location:Texas",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_44b68b5117296820",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_44b68b5117296820",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_44b68b5117296820",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_44b68b5117296820",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_44b68b5117296820",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_44b68b5117296820",
+      "target": "location:Washington",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_44b68b5117296820",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_487af23b564ed652",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_487af23b564ed652",
+      "target": "location:Israel",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_dd26da85e9dffef1",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b8fb9647b583bf4c",
+      "target": "pathogen:Naegleria fowleri",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_b8fb9647b583bf4c",
+      "target": "location:Louisiana",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_d96db5ee56dcb4ba",
+      "target": "pathogen:Respiratory syncytial virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_d96db5ee56dcb4ba",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4480a53b5f09ec62",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4480a53b5f09ec62",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4480a53b5f09ec62",
+      "target": "pathogen:Influenza A(H9N2)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_4480a53b5f09ec62",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4480a53b5f09ec62",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4480a53b5f09ec62",
+      "target": "host:wild_birds",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_4480a53b5f09ec62",
+      "target": "location:China",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_4480a53b5f09ec62",
+      "target": "location:Australia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_6d4ac7b83d9ae336",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_29df77d183f65f32",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_29df77d183f65f32",
+      "target": "pathogen:Poliovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_29df77d183f65f32",
+      "target": "pathogen:Plasmodium",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_29df77d183f65f32",
+      "target": "location:Africa",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_29df77d183f65f32",
+      "target": "location:Democratic Republic of the Congo",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_932954a4c61717bb",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_932954a4c61717bb",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_932954a4c61717bb",
+      "target": "location:Australia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c364b377ee9a3547",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c364b377ee9a3547",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_c364b377ee9a3547",
+      "target": "location:Florida",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c364b377ee9a3547",
+      "target": "location:Michigan",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "pathogen:MERS-CoV",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "pathogen:Yersinia pestis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "pathogen:Dengue virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "pathogen:Poliovirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "location:Florida",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "location:Madagascar",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "location:Saudi Arabia",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_49b54f2e80bb0a4c",
+      "target": "location:Washington",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_590bbff64116e377",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_590bbff64116e377",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_590bbff64116e377",
+      "target": "host:horses",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_590bbff64116e377",
+      "target": "location:Fiji",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_374e04665d036072",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ecaab763a6739111",
+      "target": "pathogen:Ebolavirus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ecaab763a6739111",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_ecaab763a6739111",
+      "target": "location:Kenya",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_239987ebde62f009",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_239987ebde62f009",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_d2fb3ee4f91f7af1",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_de37871c72c7fc21",
+      "target": "pathogen:Chikungunya virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_de37871c72c7fc21",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_93e087e44e99590b",
+      "target": "pathogen:Yersinia pestis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_93e087e44e99590b",
+      "target": "host:rodents",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_93e087e44e99590b",
+      "target": "location:Europe",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_a22af8c1e730ec0d",
+      "target": "pathogen:Salmonella",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_a22af8c1e730ec0d",
+      "target": "pathogen:Cyclospora cayetanensis",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_f0116ffacc37ef0f",
+      "target": "pathogen:SARS-CoV-2",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_f0116ffacc37ef0f",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_98467a84c19f5eb8",
+      "target": "pathogen:Measles virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_98467a84c19f5eb8",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_98467a84c19f5eb8",
+      "target": "location:United States",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_c7c2e3c69de1a07e",
+      "target": "pathogen:Aspergillus fumigatus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ed8e51f27c33bffc",
+      "target": "pathogen:Influenza A(H5N1)",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ed8e51f27c33bffc",
+      "target": "pathogen:Highly pathogenic avian influenza",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_ed8e51f27c33bffc",
+      "target": "host:poultry",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_ed8e51f27c33bffc",
+      "target": "host:cattle",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_ed8e51f27c33bffc",
+      "target": "host:livestock",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_ed8e51f27c33bffc",
+      "target": "location:Texas",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_bb070af69925e470",
+      "target": "pathogen:Respiratory syncytial virus",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_bb070af69925e470",
+      "target": "location:Japan",
+      "relation": "located_in"
+    },
+    {
+      "source": "vt_3748a1681a195337",
+      "target": "pathogen:未明确病原体",
+      "relation": "mentions_pathogen"
+    },
+    {
+      "source": "vt_3748a1681a195337",
+      "target": "host:human",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3748a1681a195337",
+      "target": "host:ticks",
+      "relation": "has_host"
+    },
+    {
+      "source": "vt_3748a1681a195337",
+      "target": "location:China",
+      "relation": "located_in"
+    }
+  ],
+  "stats": {
+    "nodes": 309,
+    "edges": 686
+  }
+}

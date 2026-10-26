@@ -1,0 +1,426 @@
+{
+  "$defs": {
+    "ContentBlock": {
+      "properties": {
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "abstract": {
+          "default": "",
+          "title": "Abstract",
+          "type": "string"
+        },
+        "authors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Authors",
+          "type": "array"
+        },
+        "journal": {
+          "default": "",
+          "title": "Journal",
+          "type": "string"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "ContentBlock",
+      "type": "object"
+    },
+    "EventBody": {
+      "properties": {
+        "headline_zh": {
+          "title": "Headline Zh",
+          "type": "string"
+        },
+        "summary_zh": {
+          "title": "Summary Zh",
+          "type": "string"
+        },
+        "key_facts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Key Facts",
+          "type": "array"
+        },
+        "transmission": {
+          "default": "",
+          "title": "Transmission",
+          "type": "string"
+        },
+        "public_health_response": {
+          "default": "",
+          "title": "Public Health Response",
+          "type": "string"
+        },
+        "uncertainty": {
+          "default": "",
+          "title": "Uncertainty",
+          "type": "string"
+        }
+      },
+      "required": [
+        "headline_zh",
+        "summary_zh"
+      ],
+      "title": "EventBody",
+      "type": "object"
+    },
+    "EvidenceItem": {
+      "properties": {
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        },
+        "verified": {
+          "default": true,
+          "title": "Verified",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "quote"
+      ],
+      "title": "EvidenceItem",
+      "type": "object"
+    },
+    "PathogenRef": {
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "type": {
+          "description": "virus | bacteria | fungus | parasite | prion | unknown",
+          "title": "Type",
+          "type": "string"
+        },
+        "diseases": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Diseases",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "type"
+      ],
+      "title": "PathogenRef",
+      "type": "object"
+    },
+    "Provenance": {
+      "properties": {
+        "pipeline_version": {
+          "default": "0.1.0",
+          "title": "Pipeline Version",
+          "type": "string"
+        },
+        "analysis_method": {
+          "description": "llm | rules",
+          "title": "Analysis Method",
+          "type": "string"
+        },
+        "model": {
+          "default": "",
+          "title": "Model",
+          "type": "string"
+        },
+        "prompt_version": {
+          "default": "",
+          "title": "Prompt Version",
+          "type": "string"
+        },
+        "content_hash": {
+          "title": "Content Hash",
+          "type": "string"
+        },
+        "source_authority": {
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Source Authority",
+          "type": "integer"
+        },
+        "generated_at": {
+          "title": "Generated At",
+          "type": "string"
+        }
+      },
+      "required": [
+        "analysis_method",
+        "content_hash",
+        "source_authority",
+        "generated_at"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    },
+    "SeverityBlock": {
+      "properties": {
+        "score": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Score",
+          "type": "integer"
+        },
+        "label": {
+          "description": "low | moderate | high | critical",
+          "title": "Label",
+          "type": "string"
+        },
+        "label_zh": {
+          "title": "Label Zh",
+          "type": "string"
+        },
+        "cases": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cases"
+        },
+        "deaths": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Deaths"
+        },
+        "signals": {
+          "description": "Rule-engine signal labels.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Signals",
+          "type": "array"
+        },
+        "rule_breakdown": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Rule Breakdown",
+          "type": "object"
+        },
+        "llm_label": {
+          "default": "",
+          "title": "Llm Label",
+          "type": "string"
+        },
+        "llm_reason": {
+          "default": "",
+          "title": "Llm Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "score",
+        "label",
+        "label_zh"
+      ],
+      "title": "SeverityBlock",
+      "type": "object"
+    },
+    "SourceRef": {
+      "properties": {
+        "id": {
+          "description": "Stable source identifier, e.g. pubmed, who_news, cidrap.",
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "type": {
+          "description": "journal | news | government | international_org | news_aggregator",
+          "title": "Type",
+          "type": "string"
+        },
+        "authority": {
+          "description": "Editorial authority score, 5 is highest.",
+          "maximum": 5,
+          "minimum": 1,
+          "title": "Authority",
+          "type": "integer"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "retrieved_at": {
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "external_id": {
+          "default": "",
+          "title": "External Id",
+          "type": "string"
+        },
+        "language": {
+          "default": "en",
+          "title": "Language",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type",
+        "authority",
+        "url",
+        "retrieved_at"
+      ],
+      "title": "SourceRef",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "default": "virus-tracker.event.v1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "id": {
+      "description": "Stable event identifier derived from the source content hash.",
+      "title": "Id",
+      "type": "string"
+    },
+    "generated_at": {
+      "title": "Generated At",
+      "type": "string"
+    },
+    "source": {
+      "$ref": "#/$defs/SourceRef"
+    },
+    "content": {
+      "$ref": "#/$defs/ContentBlock"
+    },
+    "event": {
+      "$ref": "#/$defs/EventBody"
+    },
+    "pathogens": {
+      "items": {
+        "$ref": "#/$defs/PathogenRef"
+      },
+      "title": "Pathogens",
+      "type": "array"
+    },
+    "hosts": {
+      "description": "Canonical host codes.",
+      "items": {
+        "type": "string"
+      },
+      "title": "Hosts",
+      "type": "array"
+    },
+    "hosts_zh": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Hosts Zh",
+      "type": "array"
+    },
+    "locations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Locations",
+      "type": "array"
+    },
+    "diseases": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Diseases",
+      "type": "array"
+    },
+    "severity": {
+      "$ref": "#/$defs/SeverityBlock"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "evidence": {
+      "items": {
+        "$ref": "#/$defs/EvidenceItem"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "relevance": {
+      "maximum": 100,
+      "minimum": 0,
+      "title": "Relevance",
+      "type": "integer"
+    },
+    "confidence": {
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Confidence",
+      "type": "number"
+    },
+    "provenance": {
+      "$ref": "#/$defs/Provenance"
+    },
+    "embedding_text": {
+      "description": "Clean, retrieval-ready text for embedding or RAG ingestion.",
+      "title": "Embedding Text",
+      "type": "string"
+    },
+    "annotation": {
+      "default": "machine_generated",
+      "title": "Annotation",
+      "type": "string"
+    },
+    "disclaimer": {
+      "default": "Automatically generated for research and public-health surveillance. Verify against the original source before clinical or policy use.",
+      "title": "Disclaimer",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "generated_at",
+    "source",
+    "content",
+    "event",
+    "severity",
+    "relevance",
+    "confidence",
+    "provenance",
+    "embedding_text"
+  ],
+  "title": "EventRecord",
+  "type": "object"
+}

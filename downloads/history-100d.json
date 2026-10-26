@@ -1,0 +1,1796 @@
+{
+  "days": 100,
+  "start": "2026-07-19",
+  "end": "2026-10-26",
+  "total": 167,
+  "high_or_critical": 18,
+  "critical": 2,
+  "severity": {
+    "critical": 2,
+    "high": 16,
+    "moderate": 105,
+    "low": 44
+  },
+  "pathogens": [
+    [
+      "Ebolavirus",
+      27
+    ],
+    [
+      "Highly pathogenic avian influenza",
+      26
+    ],
+    [
+      "Influenza A(H5N1)",
+      22
+    ],
+    [
+      "Measles virus",
+      20
+    ],
+    [
+      "SARS-CoV-2",
+      18
+    ],
+    [
+      "Salmonella",
+      11
+    ],
+    [
+      "Cyclospora cayetanensis",
+      9
+    ],
+    [
+      "Dengue virus",
+      9
+    ],
+    [
+      "Poliovirus",
+      7
+    ],
+    [
+      "Yersinia pestis",
+      7
+    ],
+    [
+      "Plasmodium",
+      6
+    ],
+    [
+      "Chikungunya virus",
+      5
+    ],
+    [
+      "Respiratory syncytial virus",
+      4
+    ],
+    [
+      "African swine fever virus",
+      3
+    ],
+    [
+      "Influenza A(H5N6)",
+      3
+    ],
+    [
+      "Influenza A(H9N2)",
+      3
+    ],
+    [
+      "Vibrio cholerae",
+      3
+    ],
+    [
+      "West Nile virus",
+      3
+    ],
+    [
+      "Mpox virus",
+      2
+    ],
+    [
+      "Leptospira",
+      2
+    ]
+  ],
+  "hosts": [
+    [
+      "human",
+      "人类",
+      125
+    ],
+    [
+      "poultry",
+      "家禽",
+      27
+    ],
+    [
+      "cattle",
+      "牛",
+      13
+    ],
+    [
+      "wildlife",
+      "野生动物",
+      10
+    ],
+    [
+      "livestock",
+      "家畜",
+      9
+    ],
+    [
+      "wild_birds",
+      "野鸟",
+      8
+    ],
+    [
+      "mosquitoes",
+      "蚊",
+      7
+    ],
+    [
+      "cats",
+      "猫",
+      4
+    ],
+    [
+      "swine",
+      "猪",
+      4
+    ],
+    [
+      "rodents",
+      "啮齿类",
+      4
+    ],
+    [
+      "ticks",
+      "蜱",
+      3
+    ],
+    [
+      "horses",
+      "马",
+      2
+    ],
+    [
+      "small_ruminants",
+      "羊",
+      1
+    ]
+  ],
+  "locations": [
+    [
+      "United States",
+      25
+    ],
+    [
+      "Democratic Republic of the Congo",
+      21
+    ],
+    [
+      "Global",
+      21
+    ],
+    [
+      "Africa",
+      14
+    ],
+    [
+      "Kenya",
+      9
+    ],
+    [
+      "Europe",
+      9
+    ],
+    [
+      "Asia",
+      9
+    ],
+    [
+      "Pennsylvania",
+      8
+    ],
+    [
+      "China",
+      8
+    ],
+    [
+      "Florida",
+      6
+    ],
+    [
+      "Italy",
+      4
+    ],
+    [
+      "Sri Lanka",
+      4
+    ],
+    [
+      "Philippines",
+      4
+    ],
+    [
+      "Texas",
+      4
+    ],
+    [
+      "Michigan",
+      4
+    ]
+  ],
+  "sources": [
+    [
+      "PubMed",
+      69
+    ],
+    [
+      "CIDRAP · Measles",
+      14
+    ],
+    [
+      "CIDRAP · Ebola",
+      13
+    ],
+    [
+      "CIDRAP · Foodborne Disease",
+      12
+    ],
+    [
+      "CIDRAP · Avian Influenza",
+      10
+    ],
+    [
+      "CIDRAP · Viral Hemorrhagic Fever",
+      6
+    ],
+    [
+      "ScienceDaily Infectious Diseases",
+      6
+    ],
+    [
+      "CIDRAP · COVID-19",
+      6
+    ],
+    [
+      "CIDRAP · Plague",
+      4
+    ],
+    [
+      "CIDRAP · Polio",
+      3
+    ],
+    [
+      "CIDRAP · RSV",
+      3
+    ],
+    [
+      "US CDC Outbreaks",
+      3
+    ],
+    [
+      "CIDRAP · Malaria",
+      2
+    ],
+    [
+      "GDELT · outbreak_news",
+      2
+    ],
+    [
+      "CIDRAP · Dengue",
+      2
+    ]
+  ],
+  "types": [
+    [
+      "virus",
+      124
+    ],
+    [
+      "bacteria",
+      35
+    ],
+    [
+      "parasite",
+      18
+    ],
+    [
+      "fungus",
+      4
+    ],
+    [
+      "prion",
+      2
+    ],
+    [
+      "unknown",
+      1
+    ]
+  ],
+  "daily": [
+    {
+      "date": "2026-07-19",
+      "label": "07-19",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-20",
+      "label": "07-20",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-21",
+      "label": "07-21",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-22",
+      "label": "07-22",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-23",
+      "label": "07-23",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-24",
+      "label": "07-24",
+      "weekday": "周五",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-25",
+      "label": "07-25",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-26",
+      "label": "07-26",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-27",
+      "label": "07-27",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-28",
+      "label": "07-28",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-29",
+      "label": "07-29",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-30",
+      "label": "07-30",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-07-31",
+      "label": "07-31",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-01",
+      "label": "08-01",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-02",
+      "label": "08-02",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-03",
+      "label": "08-03",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-04",
+      "label": "08-04",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-05",
+      "label": "08-05",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-06",
+      "label": "08-06",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-07",
+      "label": "08-07",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-08",
+      "label": "08-08",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-09",
+      "label": "08-09",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-10",
+      "label": "08-10",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-11",
+      "label": "08-11",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-12",
+      "label": "08-12",
+      "weekday": "周三",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-13",
+      "label": "08-13",
+      "weekday": "周四",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-14",
+      "label": "08-14",
+      "weekday": "周五",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-15",
+      "label": "08-15",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-16",
+      "label": "08-16",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-17",
+      "label": "08-17",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-18",
+      "label": "08-18",
+      "weekday": "周二",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-19",
+      "label": "08-19",
+      "weekday": "周三",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-20",
+      "label": "08-20",
+      "weekday": "周四",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-21",
+      "label": "08-21",
+      "weekday": "周五",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-22",
+      "label": "08-22",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-23",
+      "label": "08-23",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-24",
+      "label": "08-24",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-25",
+      "label": "08-25",
+      "weekday": "周二",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-26",
+      "label": "08-26",
+      "weekday": "周三",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-27",
+      "label": "08-27",
+      "weekday": "周四",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-28",
+      "label": "08-28",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-29",
+      "label": "08-29",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-30",
+      "label": "08-30",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-08-31",
+      "label": "08-31",
+      "weekday": "周一",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-01",
+      "label": "09-01",
+      "weekday": "周二",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-02",
+      "label": "09-02",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-03",
+      "label": "09-03",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-04",
+      "label": "09-04",
+      "weekday": "周五",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-05",
+      "label": "09-05",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-06",
+      "label": "09-06",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-07",
+      "label": "09-07",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-08",
+      "label": "09-08",
+      "weekday": "周二",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-09",
+      "label": "09-09",
+      "weekday": "周三",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-10",
+      "label": "09-10",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-11",
+      "label": "09-11",
+      "weekday": "周五",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-12",
+      "label": "09-12",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-13",
+      "label": "09-13",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-14",
+      "label": "09-14",
+      "weekday": "周一",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-15",
+      "label": "09-15",
+      "weekday": "周二",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-16",
+      "label": "09-16",
+      "weekday": "周三",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-17",
+      "label": "09-17",
+      "weekday": "周四",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-18",
+      "label": "09-18",
+      "weekday": "周五",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-19",
+      "label": "09-19",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-20",
+      "label": "09-20",
+      "weekday": "周日",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-21",
+      "label": "09-21",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-22",
+      "label": "09-22",
+      "weekday": "周二",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-23",
+      "label": "09-23",
+      "weekday": "周三",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-24",
+      "label": "09-24",
+      "weekday": "周四",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-25",
+      "label": "09-25",
+      "weekday": "周五",
+      "total": 1,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-26",
+      "label": "09-26",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-27",
+      "label": "09-27",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-28",
+      "label": "09-28",
+      "weekday": "周一",
+      "total": 2,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-29",
+      "label": "09-29",
+      "weekday": "周二",
+      "total": 6,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-09-30",
+      "label": "09-30",
+      "weekday": "周三",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-01",
+      "label": "10-01",
+      "weekday": "周四",
+      "total": 6,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-02",
+      "label": "10-02",
+      "weekday": "周五",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-03",
+      "label": "10-03",
+      "weekday": "周六",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-04",
+      "label": "10-04",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-05",
+      "label": "10-05",
+      "weekday": "周一",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-06",
+      "label": "10-06",
+      "weekday": "周二",
+      "total": 5,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-07",
+      "label": "10-07",
+      "weekday": "周三",
+      "total": 4,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-08",
+      "label": "10-08",
+      "weekday": "周四",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-09",
+      "label": "10-09",
+      "weekday": "周五",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-10",
+      "label": "10-10",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-11",
+      "label": "10-11",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-12",
+      "label": "10-12",
+      "weekday": "周一",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-13",
+      "label": "10-13",
+      "weekday": "周二",
+      "total": 6,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-14",
+      "label": "10-14",
+      "weekday": "周三",
+      "total": 3,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-15",
+      "label": "10-15",
+      "weekday": "周四",
+      "total": 4,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-16",
+      "label": "10-16",
+      "weekday": "周五",
+      "total": 5,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-17",
+      "label": "10-17",
+      "weekday": "周六",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-18",
+      "label": "10-18",
+      "weekday": "周日",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-19",
+      "label": "10-19",
+      "weekday": "周一",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-20",
+      "label": "10-20",
+      "weekday": "周二",
+      "total": 3,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-21",
+      "label": "10-21",
+      "weekday": "周三",
+      "total": 7,
+      "high": 1,
+      "critical": 2
+    },
+    {
+      "date": "2026-10-22",
+      "label": "10-22",
+      "weekday": "周四",
+      "total": 8,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-23",
+      "label": "10-23",
+      "weekday": "周五",
+      "total": 8,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-24",
+      "label": "10-24",
+      "weekday": "周六",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-25",
+      "label": "10-25",
+      "weekday": "周日",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "date": "2026-10-26",
+      "label": "10-26",
+      "weekday": "周一",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    }
+  ],
+  "weekly": [
+    {
+      "key": "2026-W29",
+      "start": "2026-07-19",
+      "end": "2026-07-19",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W30",
+      "start": "2026-07-20",
+      "end": "2026-07-26",
+      "total": 5,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W31",
+      "start": "2026-07-27",
+      "end": "2026-08-02",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W32",
+      "start": "2026-08-03",
+      "end": "2026-08-09",
+      "total": 2,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W33",
+      "start": "2026-08-10",
+      "end": "2026-08-16",
+      "total": 1,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W34",
+      "start": "2026-08-17",
+      "end": "2026-08-23",
+      "total": 6,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W35",
+      "start": "2026-08-24",
+      "end": "2026-08-30",
+      "total": 9,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W36",
+      "start": "2026-08-31",
+      "end": "2026-09-06",
+      "total": 13,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-W37",
+      "start": "2026-09-07",
+      "end": "2026-09-13",
+      "total": 6,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W38",
+      "start": "2026-09-14",
+      "end": "2026-09-20",
+      "total": 14,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-W39",
+      "start": "2026-09-21",
+      "end": "2026-09-27",
+      "total": 9,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-W40",
+      "start": "2026-09-28",
+      "end": "2026-10-04",
+      "total": 22,
+      "high": 1,
+      "critical": 0
+    },
+    {
+      "key": "2026-W41",
+      "start": "2026-10-05",
+      "end": "2026-10-11",
+      "total": 26,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-W42",
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "total": 21,
+      "high": 3,
+      "critical": 0
+    },
+    {
+      "key": "2026-W43",
+      "start": "2026-10-19",
+      "end": "2026-10-25",
+      "total": 31,
+      "high": 3,
+      "critical": 2
+    },
+    {
+      "key": "2026-W44",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "total": 0,
+      "high": 0,
+      "critical": 0
+    }
+  ],
+  "monthly": [
+    {
+      "key": "2026-07",
+      "total": 7,
+      "high": 0,
+      "critical": 0
+    },
+    {
+      "key": "2026-08",
+      "total": 21,
+      "high": 2,
+      "critical": 0
+    },
+    {
+      "key": "2026-09",
+      "total": 50,
+      "high": 6,
+      "critical": 0
+    },
+    {
+      "key": "2026-10",
+      "total": 89,
+      "high": 8,
+      "critical": 2
+    }
+  ],
+  "top_events": [
+    {
+      "id": 68,
+      "headline": "刚果民主共和国布万达布约埃博拉病毒疫情持续扩大",
+      "summary": "截至2026年10月19日，刚果民主共和国的布万达布约埃博拉病毒疫情已影响到8个省份的66个卫生区，累计报告9637例确诊病例和4646例死亡。病例数和死亡数持续增加，且疫情扩散至肯尼亚、乌干达和尼日利亚，国际应对面临挑战。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo",
+        "Uganda",
+        "Kenya",
+        "Nigeria",
+        "Global"
+      ],
+      "severity_label": "critical",
+      "severity_zh": "极高",
+      "severity_score": 85,
+      "relevance": 90,
+      "cases": 9637,
+      "deaths": 4646,
+      "source_name": "WHO African Region",
+      "published_at": "2026-10-21 13:33:47",
+      "day": "2026-10-21",
+      "url": "https://www.afro.who.int/countries/nigeria/publication/ebola-bundibugyo-virus-disease-outbreak-democratic-republic-congo-uganda-weekly-external-situation"
+    },
+    {
+      "id": 304,
+      "headline": "2024-2026年全球猴痘疫情动态",
+      "summary": "2024年至2026年期间，全球报告了82738例猴痘确诊病例和306例死亡。非洲刚果民主共和国的病例数最多，占全球总数的一半以上。猴痘病毒在国际上迅速传播，并在2025年5月达到高峰后持续存在。",
+      "pathogen_names": [
+        "Mpox virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Global",
+        "Democratic Republic of the Congo",
+        "Africa"
+      ],
+      "severity_label": "critical",
+      "severity_zh": "极高",
+      "severity_score": 83,
+      "relevance": 88,
+      "cases": 144035,
+      "deaths": 2047,
+      "source_name": "PubMed",
+      "published_at": "2026-10-21 00:00:00",
+      "day": "2026-10-21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42905633"
+    },
+    {
+      "id": 179,
+      "headline": "刚果民主共和国埃博拉疫情病例超8000例",
+      "summary": "刚果民主共和国的埃博拉疫情已导致超过8000例病例，死亡率为48%。世卫组织警告称社区中仍有过多死亡事件。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 76,
+      "relevance": 86,
+      "cases": 8000,
+      "deaths": null,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-09-28 20:20:00",
+      "day": "2026-09-28",
+      "url": "https://www.cidrap.umn.edu/ebola/dr-congo-ebola-outbreak-tops-8000-cases-48-death-rate"
+    },
+    {
+      "id": 117,
+      "headline": "刚果民主共和国埃博拉疫情病例超9000例",
+      "summary": "截至2026年10月，刚果民主共和国的埃博拉疫情已导致至少4381人死亡。该疫情自5月15日开始，目前尚无具体传播方式和公共卫生应对措施的信息。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 69,
+      "relevance": 86,
+      "cases": null,
+      "deaths": 4381,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-10-13 19:18:00",
+      "day": "2026-10-13",
+      "url": "https://www.cidrap.umn.edu/ebola/ebola-cases-top-9000-dr-congo-outbreak"
+    },
+    {
+      "id": 187,
+      "headline": "刚果民主共和国埃博拉疫情病例和死亡人数接近7900和3800",
+      "summary": "刚果民主共和国的埃博拉疫情持续扩散，病例数接近7900例，死亡人数接近3800例。高死亡率和大量社区死亡表明及时发现病例和医疗访问存在问题。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 89,
+      "cases": null,
+      "deaths": null,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-09-25 20:22:00",
+      "day": "2026-09-25",
+      "url": "https://www.cidrap.umn.edu/ebola/ebola-cases-deaths-dr-congo-outbreak-near-7900-and-3800-virus-spreads-2-more-health-zones"
+    },
+    {
+      "id": 31,
+      "headline": "意大利一名肉牛农民因职业性钩端螺旋体病死亡",
+      "summary": "报告了一名56岁意大利肉牛农民因职业性钩端螺旋体病死亡的案例。研究发现，该病例由Javanica血清群引起，可能通过受污染的灌溉水传播。在22个月内，伦巴第地区共确认16例钩端螺旋体病，其中3人死亡，1人永久残疾。",
+      "pathogen_names": [
+        "Leptospira"
+      ],
+      "hosts": [
+        "human",
+        "cattle",
+        "wildlife",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "牛",
+        "野生动物",
+        "家畜"
+      ],
+      "locations": [
+        "Global",
+        "Europe",
+        "Lombardy",
+        "Italy"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 68,
+      "relevance": 86,
+      "cases": 16,
+      "deaths": 3,
+      "source_name": "PubMed",
+      "published_at": "2026-10-23 00:00:00",
+      "day": "2026-10-23",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42925048"
+    },
+    {
+      "id": 127,
+      "headline": "刚果民主共和国埃博拉疫情持续，德国疟疾病死",
+      "summary": "刚果民主共和国的埃博拉疫情仍在继续，病例接近7500例，死亡超过3600例。德国报告了疟疾病死案例。此外，全球新增7例脊髓灰质炎病例。",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Poliovirus",
+        "Plasmodium"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo",
+        "Germany",
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 67,
+      "relevance": 86,
+      "cases": null,
+      "deaths": null,
+      "source_name": "CIDRAP · Malaria",
+      "published_at": "2026-09-18 17:39:00",
+      "day": "2026-09-18",
+      "url": "https://www.cidrap.umn.edu/ebola/quick-takes-dr-congo-ebola-emergency-malaria-deaths-germany-7-new-polio-cases"
+    },
+    {
+      "id": 368,
+      "headline": "刚果民主共和国埃博拉疫情再起：经验教训与未来方向",
+      "summary": "2025年刚果民主共和国卡萨伊省爆发了由扎伊尔埃博拉病毒引起的埃博拉疫情，导致60多例确诊病例和超过65%的病死率。尽管存在先前控制成功的案例，但此次疫情暴露出在疫情准备和应对方面的持续脆弱性。通过紧急响应、疫苗接种、加强监测等措施，成功中断了传播。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo",
+        "Global",
+        "Africa"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 65,
+      "relevance": 90,
+      "cases": 60,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-16 00:00:00",
+      "day": "2026-10-16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42890496"
+    },
+    {
+      "id": 299,
+      "headline": "哥伦比亚安第斯地区严重黄热病疫情特征",
+      "summary": "2024-2025年，哥伦比亚安第斯地区出现严重黄热病疫情，61名患者中有22人死亡。研究发现非幸存者在ICU入院时血小板计数和凝血因子水平较低，而肝功能指标较高。",
+      "pathogen_names": [
+        "Yellow fever virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Colombia"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 63,
+      "relevance": 86,
+      "cases": 10,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-21 00:00:00",
+      "day": "2026-10-21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42909258"
+    },
+    {
+      "id": 712,
+      "headline": "美国奶牛中H5N1病毒的乳腺趋向性和乳汁传播",
+      "summary": "2024年，美国多地爆发了H5N1高致病性禽流感在奶牛中的大规模传播事件。该病毒在奶牛乳腺上皮细胞中高效复制，导致牛奶中病毒含量高，可能通过牛奶传播。目前未见持续的人际传播证据。",
+      "pathogen_names": [
+        "Influenza A(H5N1)"
+      ],
+      "hosts": [
+        "human",
+        "poultry",
+        "wild_birds",
+        "cattle",
+        "livestock"
+      ],
+      "host_labels": [
+        "人类",
+        "家禽",
+        "野鸟",
+        "牛",
+        "家畜"
+      ],
+      "locations": [
+        "United States"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 62,
+      "relevance": 94,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-08-26 00:00:00",
+      "day": "2026-08-26",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42797905"
+    },
+    {
+      "id": 397,
+      "headline": "南极企鹅群落爆发禽霍乱",
+      "summary": "2024年3月，南极Danger Islands企鹅群落爆发大规模死亡事件，主要由禽霍乱（Pasteurella multocida）引起。该地区此前已报告H5N1高致病性禽流感病毒。研究确认了禽霍乱在南极野生动物中的重要性。",
+      "pathogen_names": [
+        "Influenza A(H5N1)",
+        "Highly pathogenic avian influenza",
+        "Pasteurella multocida"
+      ],
+      "hosts": [
+        "poultry",
+        "wildlife"
+      ],
+      "host_labels": [
+        "家禽",
+        "野生动物"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 83,
+      "cases": null,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-14 00:00:00",
+      "day": "2026-10-14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42869479"
+    },
+    {
+      "id": 271,
+      "headline": "2025年法国从疫情地区返回的旅行者中基孔肯雅热病例激增",
+      "summary": "2025年，法国从马达加斯加、斯里兰卡、古巴等疫情地区返回的旅行者中报告了大量基孔肯雅热病例。这些地区的基孔肯雅病毒爆发导致法国本土出现大量输入性病例，最高时达到1800例/10万旅行者（留尼汪岛4月）。研究强调了加强监测系统和及时通报疫情的重要性。",
+      "pathogen_names": [
+        "Chikungunya virus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "France",
+        "Madagascar",
+        "Sri Lanka",
+        "Cuba",
+        "Global"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 76,
+      "cases": 2480,
+      "deaths": null,
+      "source_name": "PubMed",
+      "published_at": "2026-10-22 00:00:00",
+      "day": "2026-10-22",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42911140"
+    },
+    {
+      "id": 224,
+      "headline": "刚果民主共和国埃博拉疫情病例数达7200例",
+      "summary": "刚果民主共和国的埃博拉疫情已累计报告7200例病例，政府官员表示传播可能已达峰值。这是历史上第二大埃博拉疫情。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 77,
+      "cases": 7200,
+      "deaths": null,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-09-14 20:25:00",
+      "day": "2026-09-14",
+      "url": "https://www.cidrap.umn.edu/ebola/ebola-outbreak-dr-congo-grows-7200-cases-government-officials-suggest-transmission-has-peaked"
+    },
+    {
+      "id": 204,
+      "headline": "刚果民主共和国埃博拉疫情接近7800例",
+      "summary": "刚果民主共和国的埃博拉疫情已接近7800例，但只有85%的病例接触者在追踪中。公共卫生应对措施仍在进行中。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 77,
+      "cases": 7800,
+      "deaths": null,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-09-23 20:09:00",
+      "day": "2026-09-23",
+      "url": "https://www.cidrap.umn.edu/ebola/ebola-outbreak-dr-congo-approaches-7800-cases"
+    },
+    {
+      "id": 165,
+      "headline": "肯尼亚报告首例埃博拉死亡病例",
+      "summary": "一名从刚果民主共和国抵达肯尼亚的男子被诊断为埃博拉病毒病并死亡，卫生官员正在寻找与该男子同机乘客。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Kenya",
+        "Democratic Republic of the Congo",
+        "Uganda"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 78,
+      "cases": null,
+      "deaths": null,
+      "source_name": "CIDRAP · Ebola",
+      "published_at": "2026-10-06 19:53:00",
+      "day": "2026-10-06",
+      "url": "https://www.cidrap.umn.edu/ebola/kenya-reports-its-first-ebola-case-man-who-died-after-arriving-dr-congo"
+    },
+    {
+      "id": 159,
+      "headline": "埃博拉病例达5000例，环孢子虫疫情放缓但病例超1.5万",
+      "summary": "埃博拉病毒病例累计达到5000例，环孢子虫疫情虽有所放缓但仍新增大量病例，总数已超过1.5万。公共卫生应对措施未详细提及。",
+      "pathogen_names": [
+        "Ebolavirus",
+        "Cyclospora cayetanensis"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 75,
+      "cases": null,
+      "deaths": null,
+      "source_name": "CIDRAP · Viral Hemorrhagic Fever",
+      "published_at": "2026-08-19 17:55:00",
+      "day": "2026-08-19",
+      "url": "https://www.cidrap.umn.edu/public-health/quick-takes-nominee-fda-director-ebola-cases-hit-5000-cyclospora-outbreak-slows-cases"
+    },
+    {
+      "id": 136,
+      "headline": "刚果民主共和国埃博拉疫情病例超6600例",
+      "summary": "刚果民主共和国的埃博拉疫情已导致超过6600例病例，但死亡人数未提及。由于丧葬仪式中存在违反防疫规定的现象，疫情应对面临挑战。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 77,
+      "cases": 6600,
+      "deaths": null,
+      "source_name": "CIDRAP · Viral Hemorrhagic Fever",
+      "published_at": "2026-09-08 20:19:00",
+      "day": "2026-09-08",
+      "url": "https://www.cidrap.umn.edu/ebola/ebola-outbreak-dr-congo-tops-6600-cases"
+    },
+    {
+      "id": 134,
+      "headline": "肯尼亚10人隔离，埃博拉疫情持续",
+      "summary": "肯尼亚卫生官员正在追踪一名死亡的埃博拉患者的57名接触者，并已将10人隔离。刚果民主共和国报告了8665例确诊病例和4178例死亡。",
+      "pathogen_names": [
+        "Ebolavirus"
+      ],
+      "hosts": [
+        "human"
+      ],
+      "host_labels": [
+        "人类"
+      ],
+      "locations": [
+        "Kenya",
+        "Democratic Republic of the Congo"
+      ],
+      "severity_label": "high",
+      "severity_zh": "高",
+      "severity_score": 61,
+      "relevance": 58,
+      "cases": null,
+      "deaths": 4178,
+      "source_name": "CIDRAP · Viral Hemorrhagic Fever",
+      "published_at": "2026-10-07 20:56:00",
+      "day": "2026-10-07",
+      "url": "https://www.cidrap.umn.edu/ebola/kenya-10-people-quarantine-officials-try-reach-57-more-contacts-deceased-ebola-patient"
+    }
+  ]
+}

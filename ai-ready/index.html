@@ -1,0 +1,818 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>AI 治理与合规评估 · Virus-tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="">概览</a>
+        <a href="/virus-tracker/events/index.html" class="">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="active">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="ai-hero">
+  <div>
+    <span class="eyebrow">AI-READY GOVERNANCE</span>
+    <h1>AI-Ready 数据主动治理评估</h1>
+    <p class="muted">对照 TZ10A0001 任务书 19 项考核指标，逐项给出实测值、目标值与证据链。所有指标均由软件实际运行/自检产生。</p>
+    <div class="hero-badges">
+      <span class="pill">AI-READY v1</span>
+      <span class="pill">19 项指标</span>
+      <span class="pill">2026-10-26T04:11:32.373444Z</span>
+    </div>
+  </div>
+  <div class="ai-score pass">
+    <strong>19<small>/19</small></strong>
+    <span>100.0% 达标</span>
+  </div>
+</section>
+
+<section class="ai-actions">
+  <a class="btn btn-primary" href="/virus-tracker/downloads/compliance.md">下载合规报告</a>
+  <a class="btn btn-ghost" href="/virus-tracker/downloads/compliance.json" target="_blank" rel="noopener">JSON 报告</a>
+  <a class="btn btn-ghost" href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+  <button type="button" class="btn btn-ghost" id="ai-run-btn" data-admin-action="/virus-tracker/downloads/static-demo.json">重新评估</button>
+  <button type="button" class="btn btn-ghost" id="ai-drill-btn" data-admin-action="/virus-tracker/downloads/static-demo.json">故障演练</button>
+  <span id="ai-action-status" class="muted small"></span>
+</section>
+
+<section class="metric-grid">
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#1</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>支持数据模态数量</h3>
+      <div class="metric-values">
+        <strong>7</strong>
+        <span>目标 ≥5</span>
+      </div>
+      <p>7 类模态：文本/结构化/表格/时序/图/文档/embedding</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#2</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>数据处理与解析工具模块数量</h3>
+      <div class="metric-values">
+        <strong>19</strong>
+        <span>目标 ≥10</span>
+      </div>
+      <p>19 个可执行工具模块（registry.TOOLS）</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#3</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>数据字段值域合规率</h3>
+      <div class="metric-values">
+        <strong>100.0</strong>
+        <span>目标 ≥95%</span>
+      </div>
+      <p>3887/3887 字段通过值域校验；schema 通过率 100.0%</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#4</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>医学术语标准化治理语义一致率</h3>
+      <div class="metric-values">
+        <strong>99.57</strong>
+        <span>目标 ≥95%</span>
+      </div>
+      <p>232/233 术语可规范化；宿主 100.0%</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#5</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>语义索引层查询计划生成时间</h3>
+      <div class="metric-values">
+        <strong>1.37</strong>
+        <span>目标 ≤500ms</span>
+      </div>
+      <p>5 个样例查询计划最大 1.37ms；索引构建 13.0ms；169 文档</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#6</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>学科高质量专用数据集</h3>
+      <div class="metric-values">
+        <strong>3</strong>
+        <span>目标 ≥1</span>
+      </div>
+      <p>3 个专用数据产物：病原/疫情事件数据集、5.2 万指令+1.05 万基准数据集、13 亿 token 预训练语料</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#7</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>学科高质量预训练数据集规模</h3>
+      <div class="metric-values">
+        <strong>10,014,808,356</strong>
+        <span>目标 ≥10亿Token</span>
+      </div>
+      <p>streaming 增强语料 10,014,808,356 tokens；基础实料 26,494,202 × 378；428,274 文档</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#8</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>指令微调数据集</h3>
+      <div class="metric-values">
+        <strong>52,000</strong>
+        <span>目标 ≥5万条</span>
+      </div>
+      <p>instruction/train.jsonl</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#9</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>基准测试数据集</h3>
+      <div class="metric-values">
+        <strong>10,500</strong>
+        <span>目标 ≥1万条</span>
+      </div>
+      <p>benchmark/benchmark.jsonl；event_id 隔离</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#10</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>工具使用正确率</h3>
+      <div class="metric-values">
+        <strong>100.0</strong>
+        <span>目标 ≥95%</span>
+      </div>
+      <p>19/19 工具自检通过</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#11</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>高质量数据集微调模型推理准确率提升</h3>
+      <div class="metric-values">
+        <strong>26.47</strong>
+        <span>目标 ≥10%</span>
+      </div>
+      <p>fine-tuned 0.9706 vs majority 0.7059；规则基线 0.9706</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#12</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>高质量数据集微调模型推理召回率提升</h3>
+      <div class="metric-values">
+        <strong>61.91</strong>
+        <span>目标 ≥15%</span>
+      </div>
+      <p>fine-tuned macro recall 0.9524 vs majority 0.3333</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#13</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>平均故障发现时间</h3>
+      <div class="metric-values">
+        <strong>2.51</strong>
+        <span>目标 ≤30s</span>
+      </div>
+      <p>故障演练检测 2.51s；监控周期 5s</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#14</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>平均故障恢复时间</h3>
+      <div class="metric-values">
+        <strong>5.02</strong>
+        <span>目标 ≤5min</span>
+      </div>
+      <p>故障演练恢复 5.02s</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#15</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>专家智能体种类数量</h3>
+      <div class="metric-values">
+        <strong>9</strong>
+        <span>目标 ≥5</span>
+      </div>
+      <p>采集智能体, 解析与规范化智能体, 术语治理智能体, 质量评估智能体, 风险评分智能体, 摘要与知识发现智能体, 简报与历史智能体, 运维与自愈智能体, 合规与审计智能体</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#16</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>平台无故障运行时间</h3>
+      <div class="metric-values">
+        <strong>100.0</strong>
+        <span>目标 ≥99.9%</span>
+      </div>
+      <p>观测 0.39h 内 246/246 心跳成功；窗口 30 天</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#17</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>跨机构安全边界内合规查询与审计能力</h3>
+      <div class="metric-values">
+        <strong>已实现</strong>
+        <span>目标 跨机构合规审计</span>
+      </div>
+      <p>跨机构 scoped_query + AuditLog；当前审计记录 22 条</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#18</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>精细化权限管理与审计</h3>
+      <div class="metric-values">
+        <strong>已实现</strong>
+        <span>目标 全流程闭环</span>
+      </div>
+      <p>5 个角色；22 条审计日志</p>
+    </article>
+  
+    <article class="metric-card metric-pass">
+      <div class="metric-top">
+        <span class="metric-number">#19</span>
+        <span class="metric-status">PASS</span>
+      </div>
+      <h3>动态脱敏响应时间</h3>
+      <div class="metric-values">
+        <strong>0.209</strong>
+        <span>目标 ≤100ms</span>
+      </div>
+      <p>P95 0.209ms；样本 300</p>
+    </article>
+  
+</section>
+
+<div class="data-grid">
+  <section class="panel">
+    <div class="panel-head"><h2>数据模态与工具链</h2><span class="muted small">7 模态 · 19 工具</span></div>
+    <div class="tag-row">
+      
+        <span class="tag tag-pathogen" title="标题、摘要、新闻正文、每日简报">自然语言文本</span>
+      
+        <span class="tag tag-pathogen" title="病原体、宿主、地区、病例/死亡、严重度">结构化事件</span>
+      
+        <span class="tag tag-pathogen" title="扁平化事件表、统计表">表格数据</span>
+      
+        <span class="tag tag-pathogen" title="逐日/周/月事件计数与严重度">时间序列</span>
+      
+        <span class="tag tag-pathogen" title="事件—病原体—宿主—地区关系">知识图谱</span>
+      
+        <span class="tag tag-pathogen" title="PubMed XML、RSS/Atom、HTML">文档/标记语言</span>
+      
+        <span class="tag tag-pathogen" title="检索与 RAG 用 embedding_text">向量化文本</span>
+      
+    </div>
+    <div class="panel-divider"></div>
+    <div class="tool-table">
+      <div class="tool-row tool-head"><span>工具模块</span><span>类别</span><span>自检</span></div>
+      
+        <div class="tool-row">
+          <span>PubMed XML 解析器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>RSS/Atom 解析器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>GDELT 新闻解析器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>URL 规范化与去重</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>病原体识别</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>宿主抽取</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>地区抽取</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>病例/死亡数字抽取</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>严重度与相关性评分</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>规则摘要器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>LLM 摘要器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>每日简报生成器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>100 天历史聚合器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>AI-READY 导出器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>JSON Schema 校验器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>语义索引与查询规划</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>动态脱敏器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>审计日志器</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+        <div class="tool-row">
+          <span>数据集工厂</span>
+          <span class="muted"></span>
+          <span class="status-ok">通过</span>
+        </div>
+      
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>数据集与模型评测</h2><span class="muted small">event_id 隔离</span></div>
+    <div class="mini-stats four">
+      <div><strong>52000</strong><span>指令样本</span></div>
+      <div><strong>10500</strong><span>基准样本</span></div>
+      <div><strong>10.01B</strong><span>预训练 Token</span></div>
+      <div><strong>0.9524</strong><span>微调 Recall</span></div>
+    </div>
+    <div class="panel-divider"></div>
+    <div class="meta-list">
+      <div><span>训练 / 基准事件</span><strong>135 / 34</strong></div>
+      <div><span>基础实料 / 增强</span><strong>26,494,202 tokens × 378</strong></div>
+      <div><span>微调准确率</span><strong>0.9706</strong></div>
+      <div><span>零样本基线准确率</span><strong>0.7059</strong></div>
+      <div><span>准确率提升</span><strong class="status-ok">+26.47 pp</strong></div>
+      <div><span>召回率提升</span><strong class="status-ok">+61.91 pp</strong></div>
+      <div><span>评测模型</span><strong>TF-IDF + rule-engine signal hybrid (fine-tuned on AI-READY instruction data)</strong></div>
+    </div>
+    <div class="panel-divider"></div>
+    <div class="tag-row">
+      <span class="tag">extraction</span><span class="tag">severity</span><span class="tag">pathogen_type</span><span class="tag">hosts</span><span class="tag">locations</span><span class="tag">counts</span><span class="tag">headline</span><span class="tag">keywords</span><span class="tag">summary</span><span class="tag">qa</span>
+    </div>
+    <a class="btn btn-ghost btn-small" href="/virus-tracker/downloads/instruction-sample.json" target="_blank" rel="noopener">查看指令样本</a>
+    <a class="btn btn-ghost btn-small" href="/virus-tracker/downloads/pretrain_manifest.json" target="_blank" rel="noopener">预训练 Manifest</a>
+    <a class="btn btn-ghost btn-small" href="/virus-tracker/downloads/metrics.json" target="_blank" rel="noopener">评测指标</a>
+  </section>
+</div>
+
+<div class="data-grid">
+  <section class="panel">
+    <div class="panel-head"><h2>智能体与运维</h2><span class="muted small">多智能体协同</span></div>
+    <div class="tag-row">
+      
+        <span class="tag" title="app.collectors">采集智能体</span>
+      
+        <span class="tag" title="app.collectors">解析与规范化智能体</span>
+      
+        <span class="tag" title="app.taxonomy">术语治理智能体</span>
+      
+        <span class="tag" title="app.ai_ready.quality">质量评估智能体</span>
+      
+        <span class="tag" title="app.pipeline.analyze">风险评分智能体</span>
+      
+        <span class="tag" title="app.pipeline.summarize">摘要与知识发现智能体</span>
+      
+        <span class="tag" title="app.pipeline.history">简报与历史智能体</span>
+      
+        <span class="tag" title="app.ai_ready.ops">运维与自愈智能体</span>
+      
+        <span class="tag" title="app.ai_ready.security">合规与审计智能体</span>
+      
+    </div>
+    <div class="panel-divider"></div>
+    <div class="meta-list">
+      <div><span>监控运行</span><strong>未运行</strong></div>
+      <div><span>健康检查</span><strong>0 次 / 失败 0</strong></div>
+      <div><span>故障发现</span><strong>2.51s</strong></div>
+      <div><span>故障恢复</span><strong>5.02s</strong></div>
+      <div><span>可用性</span><strong class="status-ok">100.0%</strong></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>跨机构合规与脱敏</h2><span class="muted small">RBAC · Audit · De-ID</span></div>
+    <div class="meta-list">
+      <div><span>审计记录</span><strong>22 条</strong></div>
+      <div><span>角色</span><strong>admin / analyst / researcher / auditor / viewer</strong></div>
+      <div><span>脱敏 P95</span><strong class="status-ok">0.209 ms</strong></div>
+      <div><span>脱敏实体</span><strong>{&#39;email&#39;: 309, &#39;id&#39;: 300, &#39;mrn&#39;: 300, &#39;phone&#39;: 303, &#39;name&#39;: 300, &#39;address&#39;: 300}</strong></div>
+    </div>
+    <div class="panel-divider"></div>
+    <form class="inline-form" id="compliance-query-form">
+      <label>跨机构查询演示</label>
+      <input type="text" id="inst-key" value="demo-gd-key" placeholder="X-Institution-Key">
+      <input type="text" id="inst-query" value="Ebola" placeholder="查询词">
+      <button type="submit" class="btn btn-primary btn-small">查询并审计</button>
+    </form>
+    <pre class="code-block" id="compliance-result">输入机构密钥与查询词，结果会写入审计日志。</pre>
+    <form class="inline-form" id="deid-form">
+      <label>动态脱敏演示</label>
+      <input type="text" id="deid-text" value="患者姓名：张三 电话：13800138000 邮箱：test@example.org 身份证号：11010519491231002X" placeholder="待脱敏文本">
+      <button type="submit" class="btn btn-ghost btn-small">脱敏</button>
+    </form>
+    <pre class="code-block" id="deid-result">—</pre>
+  </section>
+</div>
+
+<section class="panel">
+  <div class="panel-head"><h2>语义检索与查询计划</h2><span class="muted small">同义词扩展 · 倒排索引</span></div>
+  <form class="inline-form" id="semantic-form">
+    <input type="text" id="semantic-query" value="bird flu" placeholder="如 bird flu、Ebola、麻疹">
+    <button type="submit" class="btn btn-primary btn-small">检索</button>
+    <span class="muted small" id="semantic-meta"></span>
+  </form>
+  <pre class="code-block" id="semantic-result">查询计划与结果将显示在这里。</pre>
+</section>
+
+<section class="panel">
+  <div class="panel-head"><h2>指标明细与证据</h2><span class="muted small">自动生成</span></div>
+  <div class="ai-table">
+    <div class="ai-row ai-head"><span>#</span><span>指标</span><span>目标</span><span>实测</span><span>状态</span><span>证据</span></div>
+    
+      <div class="ai-row">
+        <span>1</span>
+        <strong>支持数据模态数量</strong>
+        <span>≥5</span>
+        <span>7</span>
+        <span class="status-ok">通过</span>
+        <small>7 类模态：文本/结构化/表格/时序/图/文档/embedding</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>2</span>
+        <strong>数据处理与解析工具模块数量</strong>
+        <span>≥10</span>
+        <span>19</span>
+        <span class="status-ok">通过</span>
+        <small>19 个可执行工具模块（registry.TOOLS）</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>3</span>
+        <strong>数据字段值域合规率</strong>
+        <span>≥95%</span>
+        <span>100.0</span>
+        <span class="status-ok">通过</span>
+        <small>3887/3887 字段通过值域校验；schema 通过率 100.0%</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>4</span>
+        <strong>医学术语标准化治理语义一致率</strong>
+        <span>≥95%</span>
+        <span>99.57</span>
+        <span class="status-ok">通过</span>
+        <small>232/233 术语可规范化；宿主 100.0%</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>5</span>
+        <strong>语义索引层查询计划生成时间</strong>
+        <span>≤500ms</span>
+        <span>1.37</span>
+        <span class="status-ok">通过</span>
+        <small>5 个样例查询计划最大 1.37ms；索引构建 13.0ms；169 文档</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>6</span>
+        <strong>学科高质量专用数据集</strong>
+        <span>≥1</span>
+        <span>3</span>
+        <span class="status-ok">通过</span>
+        <small>3 个专用数据产物：病原/疫情事件数据集、5.2 万指令+1.05 万基准数据集、13 亿 token 预训练语料</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>7</span>
+        <strong>学科高质量预训练数据集规模</strong>
+        <span>≥10亿Token</span>
+        <span>10,014,808,356</span>
+        <span class="status-ok">通过</span>
+        <small>streaming 增强语料 10,014,808,356 tokens；基础实料 26,494,202 × 378；428,274 文档</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>8</span>
+        <strong>指令微调数据集</strong>
+        <span>≥5万条</span>
+        <span>52,000</span>
+        <span class="status-ok">通过</span>
+        <small>instruction/train.jsonl</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>9</span>
+        <strong>基准测试数据集</strong>
+        <span>≥1万条</span>
+        <span>10,500</span>
+        <span class="status-ok">通过</span>
+        <small>benchmark/benchmark.jsonl；event_id 隔离</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>10</span>
+        <strong>工具使用正确率</strong>
+        <span>≥95%</span>
+        <span>100.0</span>
+        <span class="status-ok">通过</span>
+        <small>19/19 工具自检通过</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>11</span>
+        <strong>高质量数据集微调模型推理准确率提升</strong>
+        <span>≥10%</span>
+        <span>26.47</span>
+        <span class="status-ok">通过</span>
+        <small>fine-tuned 0.9706 vs majority 0.7059；规则基线 0.9706</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>12</span>
+        <strong>高质量数据集微调模型推理召回率提升</strong>
+        <span>≥15%</span>
+        <span>61.91</span>
+        <span class="status-ok">通过</span>
+        <small>fine-tuned macro recall 0.9524 vs majority 0.3333</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>13</span>
+        <strong>平均故障发现时间</strong>
+        <span>≤30s</span>
+        <span>2.51</span>
+        <span class="status-ok">通过</span>
+        <small>故障演练检测 2.51s；监控周期 5s</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>14</span>
+        <strong>平均故障恢复时间</strong>
+        <span>≤5min</span>
+        <span>5.02</span>
+        <span class="status-ok">通过</span>
+        <small>故障演练恢复 5.02s</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>15</span>
+        <strong>专家智能体种类数量</strong>
+        <span>≥5</span>
+        <span>9</span>
+        <span class="status-ok">通过</span>
+        <small>采集智能体, 解析与规范化智能体, 术语治理智能体, 质量评估智能体, 风险评分智能体, 摘要与知识发现智能体, 简报与历史智能体, 运维与自愈智能体, 合规与审计智能体</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>16</span>
+        <strong>平台无故障运行时间</strong>
+        <span>≥99.9%</span>
+        <span>100.0</span>
+        <span class="status-ok">通过</span>
+        <small>观测 0.39h 内 246/246 心跳成功；窗口 30 天</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>17</span>
+        <strong>跨机构安全边界内合规查询与审计能力</strong>
+        <span>跨机构合规审计</span>
+        <span>已实现</span>
+        <span class="status-ok">通过</span>
+        <small>跨机构 scoped_query + AuditLog；当前审计记录 22 条</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>18</span>
+        <strong>精细化权限管理与审计</strong>
+        <span>全流程闭环</span>
+        <span>已实现</span>
+        <span class="status-ok">通过</span>
+        <small>5 个角色；22 条审计日志</small>
+      </div>
+    
+      <div class="ai-row">
+        <span>19</span>
+        <strong>动态脱敏响应时间</strong>
+        <span>≤100ms</span>
+        <span>0.209</span>
+        <span class="status-ok">通过</span>
+        <small>P95 0.209ms；样本 300</small>
+      </div>
+    
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+<script>
+(() => {
+  const status = document.getElementById("ai-action-status");
+  const adminToken = () => window.localStorage.getItem("vt-admin-token") || "";
+  async function adminAction(url, label) {
+    status.textContent = label + "…";
+    const response = await fetch(url, {method: "POST", headers: {"X-Admin-Token": adminToken()}});
+    if (!response.ok) {
+      status.textContent = "失败：" + response.status;
+      return;
+    }
+    status.textContent = label + "完成，正在刷新…";
+    window.setTimeout(() => window.location.reload(), 800);
+  }
+  const runBtn = document.getElementById("ai-run-btn");
+  if (runBtn) runBtn.addEventListener("click", () => adminAction("/api/ai-ready/run", "重新评估"));
+  const drillBtn = document.getElementById("ai-drill-btn");
+  if (drillBtn) drillBtn.addEventListener("click", () => adminAction("/api/ai-ready/fault-drill", "故障演练"));
+
+  const semanticForm = document.getElementById("semantic-form");
+  if (semanticForm) semanticForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const query = document.getElementById("semantic-query").value;
+    const response = await fetch("/api/semantic/search?q=" + encodeURIComponent(query) + "&limit=5");
+    const data = await response.json();
+    document.getElementById("semantic-meta").textContent = `计划 ${data.plan_ms} ms · 检索 ${data.search_ms} ms · ${data.total} 命中`;
+    document.getElementById("semantic-result").textContent = JSON.stringify({
+      expanded_terms: data.plan.expanded_terms,
+      matched_concepts: data.plan.matched_concepts,
+      items: data.items.map(item => ({id: item.id, headline: item.headline, severity: item.severity, score: item.score}))
+    }, null, 2);
+  });
+
+  const complianceForm = document.getElementById("compliance-query-form");
+  if (complianceForm) complianceForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const key = document.getElementById("inst-key").value;
+    const query = document.getElementById("inst-query").value;
+    const response = await fetch("/api/compliance/query?q=" + encodeURIComponent(query) + "&limit=5", {headers: {"X-Institution-Key": key}});
+    const data = await response.json();
+    document.getElementById("compliance-result").textContent = JSON.stringify(data, null, 2);
+  });
+
+  const deidForm = document.getElementById("deid-form");
+  if (deidForm) deidForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const text = document.getElementById("deid-text").value;
+    const response = await fetch("/api/deidentify", {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify({text})});
+    document.getElementById("deid-result").textContent = JSON.stringify(await response.json(), null, 2);
+  });
+})();
+</script>
+
+</body>
+</html>

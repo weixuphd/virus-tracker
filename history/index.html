@@ -1,0 +1,1287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>最近 100 天历史 · Virus-tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="">概览</a>
+        <a href="/virus-tracker/events/index.html" class="">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="active">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="page-head">
+  <div>
+    <span class="eyebrow">100-DAY RETROSPECTIVE</span>
+    <h1>最近 100 天病原与疫情追踪</h1>
+    <p class="muted">2026-07-19 — 2026-10-26 · 基于 PubMed、WHO、CDC、WOAH、UKHSA、CIDRAP 等公开来源 · 共 167 条事件</p>
+  </div>
+  <div class="page-head-actions">
+    <a class="btn btn-primary" href="/virus-tracker/downloads/history-100d.md">下载 100 天报告</a>
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/history-100d.json" target="_blank" rel="noopener">结构化统计 JSON</a>
+    <a class="btn btn-ghost" href="/virus-tracker/events/index.html">查看高风险事件</a>
+  </div>
+</section>
+
+<section class="stat-grid">
+  <div class="stat-card accent-teal">
+  <span class="stat-label">事件总数</span>
+  <strong class="stat-value">167</strong>
+  <span class="stat-detail">2026-07-19 至 2026-10-26</span>
+</div>
+  <div class="stat-card accent-amber">
+  <span class="stat-label">高风险 / 极高</span>
+  <strong class="stat-value">18</strong>
+  <span class="stat-detail">需优先关注</span>
+</div>
+  <div class="stat-card accent-red">
+  <span class="stat-label">极高风险</span>
+  <strong class="stat-value">2</strong>
+  <span class="stat-detail">最高严重度</span>
+</div>
+  <div class="stat-card accent-blue">
+  <span class="stat-label">主要病原体</span>
+  <strong class="stat-value">20</strong>
+  <span class="stat-detail">进入前 20 的病原体</span>
+</div>
+</section>
+
+<section class="panel">
+  <div class="panel-head">
+    <div>
+      <span class="eyebrow">DAILY SIGNAL</span>
+      <h2>逐日事件分布</h2>
+    </div>
+    <span class="muted small">柱高 = 当日事件数 · 红色 = 极高 · 橙色 = 高</span>
+  </div>
+  
+  <div class="history-chart" aria-label="最近 100 天逐日事件数">
+    
+      <div class="history-bar-wrap" title="2026-07-19 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-20 周一 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-21 周二 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-22 周三 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-23 周四 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-24 周五 · 4 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 50%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-25 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-26 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-27 周一 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-28 周二 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-29 周三 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-30 周四 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-07-31 周五 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-01 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-02 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-03 周一 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-04 周二 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-05 周三 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-06 周四 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-07 周五 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-08 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-09 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-10 周一 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-11 周二 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-12 周三 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-13 周四 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-14 周五 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-15 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-16 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-17 周一 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-18 周二 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-19 周三 · 2 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-20 周四 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-21 周五 · 3 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-22 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-23 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-24 周一 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-25 周二 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-26 周三 · 2 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-27 周四 · 3 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-28 周五 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-29 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-30 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-08-31 周一 · 3 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-01 周二 · 3 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-02 周三 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-03 周四 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-04 周五 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-05 周六 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-06 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-07 周一 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-08 周二 · 3 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-09 周三 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-10 周四 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-11 周五 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-12 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-13 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-14 周一 · 2 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-15 周二 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-16 周三 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-17 周四 · 4 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 50%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-18 周五 · 2 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-19 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-20 周日 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-21 周一 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-22 周二 · 3 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-23 周三 · 3 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-24 周四 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-25 周五 · 1 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-26 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-27 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-28 周一 · 2 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-29 周二 · 6 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 75%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-09-30 周三 · 3 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-01 周四 · 6 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 75%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-02 周五 · 5 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 62%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-03 周六 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-04 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-05 周一 · 5 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 62%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-06 周二 · 5 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 62%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-07 周三 · 4 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 50%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-08 周四 · 5 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 62%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-09 周五 · 5 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 62%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-10 周六 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-11 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-12 周一 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-13 周二 · 6 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 75%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-14 周三 · 3 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-15 周四 · 4 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 50%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-16 周五 · 5 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 62%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-17 周六 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-18 周日 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-19 周一 · 1 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 12%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-20 周二 · 3 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 38%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-21 周三 · 7 条（高 1 / 极高 2）">
+        <div class="history-bar severity-critical"
+             style="height: 88%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-22 周四 · 8 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 100%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-23 周五 · 8 条（高 1 / 极高 0）">
+        <div class="history-bar severity-high"
+             style="height: 100%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-24 周六 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-25 周日 · 2 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 25%"></div>
+      </div>
+    
+      <div class="history-bar-wrap" title="2026-10-26 周一 · 0 条（高 0 / 极高 0）">
+        <div class="history-bar "
+             style="height: 0%"></div>
+      </div>
+    
+  </div>
+  
+  <div class="history-axis">
+    <span>07-19</span>
+    <span>08-13</span>
+    <span>09-07</span>
+    <span>10-02</span>
+    <span>10-26</span>
+  </div>
+</section>
+
+<div class="dashboard-grid">
+  <section class="panel">
+    <div class="panel-head"><h2>月度趋势</h2><span class="muted small">事件 / 高风险+ / 极高</span></div>
+    
+    <div class="monthly-list">
+      
+        <div class="monthly-row">
+          <span class="month-label">2026-07</span>
+          <div class="month-bar"><span style="width: 8%"></span></div>
+          <span class="month-count">7 <small>（0 / 0）</small></span>
+        </div>
+      
+        <div class="monthly-row">
+          <span class="month-label">2026-08</span>
+          <div class="month-bar"><span style="width: 24%"></span></div>
+          <span class="month-count">21 <small>（2 / 0）</small></span>
+        </div>
+      
+        <div class="monthly-row">
+          <span class="month-label">2026-09</span>
+          <div class="month-bar"><span style="width: 56%"></span></div>
+          <span class="month-count">50 <small>（6 / 0）</small></span>
+        </div>
+      
+        <div class="monthly-row">
+          <span class="month-label">2026-10</span>
+          <div class="month-bar"><span style="width: 100%"></span></div>
+          <span class="month-count">89 <small>（10 / 2）</small></span>
+        </div>
+      
+    </div>
+    <div class="panel-divider"></div>
+    <div class="panel-head"><h2>周度汇总</h2><span class="muted small">最近 15 周</span></div>
+    <div class="week-table">
+      <div class="week-row week-head"><span>周</span><span>事件</span><span>高风险+</span><span>极高</span></div>
+      
+        <div class="week-row"><span>2026-W30</span><strong>5</strong><span>0</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W31</span><strong>2</strong><span>0</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W32</span><strong>2</strong><span>0</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W33</span><strong>1</strong><span>0</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W34</span><strong>6</strong><span>1</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W35</span><strong>9</strong><span>1</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W36</span><strong>13</strong><span>0</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W37</span><strong>6</strong><span>1</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W38</span><strong>14</strong><span>2</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W39</span><strong>9</strong><span>2</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W40</span><strong>22</strong><span>1</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W41</span><strong>26</strong><span>2</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W42</span><strong>21</strong><span>3</span><span>0</span></div>
+      
+        <div class="week-row"><span>2026-W43</span><strong>31</strong><span>5</span><span>2</span></div>
+      
+        <div class="week-row"><span>2026-W44</span><strong>0</strong><span>0</span><span>0</span></div>
+      
+    </div>
+  </section>
+
+  <aside class="panel">
+    <div class="panel-head"><h2>主要病原体</h2><span class="muted small">TOP 20</span></div>
+    <div class="rank-list">
+      
+        <div class="rank-row">
+          <span class="rank-name">Ebolavirus</span>
+          <span class="rank-bar"><span style="width: 100%"></span></span>
+          <span class="rank-count">27</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Highly pathogenic avian influenza</span>
+          <span class="rank-bar"><span style="width: 96%"></span></span>
+          <span class="rank-count">26</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Influenza A(H5N1)</span>
+          <span class="rank-bar"><span style="width: 81%"></span></span>
+          <span class="rank-count">22</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Measles virus</span>
+          <span class="rank-bar"><span style="width: 74%"></span></span>
+          <span class="rank-count">20</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">SARS-CoV-2</span>
+          <span class="rank-bar"><span style="width: 67%"></span></span>
+          <span class="rank-count">18</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Salmonella</span>
+          <span class="rank-bar"><span style="width: 41%"></span></span>
+          <span class="rank-count">11</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Cyclospora cayetanensis</span>
+          <span class="rank-bar"><span style="width: 33%"></span></span>
+          <span class="rank-count">9</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Dengue virus</span>
+          <span class="rank-bar"><span style="width: 33%"></span></span>
+          <span class="rank-count">9</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Poliovirus</span>
+          <span class="rank-bar"><span style="width: 26%"></span></span>
+          <span class="rank-count">7</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Yersinia pestis</span>
+          <span class="rank-bar"><span style="width: 26%"></span></span>
+          <span class="rank-count">7</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Plasmodium</span>
+          <span class="rank-bar"><span style="width: 22%"></span></span>
+          <span class="rank-count">6</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Chikungunya virus</span>
+          <span class="rank-bar"><span style="width: 19%"></span></span>
+          <span class="rank-count">5</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Respiratory syncytial virus</span>
+          <span class="rank-bar"><span style="width: 15%"></span></span>
+          <span class="rank-count">4</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">African swine fever virus</span>
+          <span class="rank-bar"><span style="width: 11%"></span></span>
+          <span class="rank-count">3</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Influenza A(H5N6)</span>
+          <span class="rank-bar"><span style="width: 11%"></span></span>
+          <span class="rank-count">3</span>
+        </div>
+      
+    </div>
+    <div class="panel-divider"></div>
+    <div class="panel-head"><h2>宿主分布</h2></div>
+    <div class="tag-row">
+      
+        <span class="tag tag-host">人类 · 125</span>
+      
+        <span class="tag tag-host">家禽 · 27</span>
+      
+        <span class="tag tag-host">牛 · 13</span>
+      
+        <span class="tag tag-host">野生动物 · 10</span>
+      
+        <span class="tag tag-host">家畜 · 9</span>
+      
+        <span class="tag tag-host">野鸟 · 8</span>
+      
+        <span class="tag tag-host">蚊 · 7</span>
+      
+        <span class="tag tag-host">猫 · 4</span>
+      
+        <span class="tag tag-host">猪 · 4</span>
+      
+        <span class="tag tag-host">啮齿类 · 4</span>
+      
+        <span class="tag tag-host">蜱 · 3</span>
+      
+        <span class="tag tag-host">马 · 2</span>
+      
+        <span class="tag tag-host">羊 · 1</span>
+      
+    </div>
+    <div class="panel-divider"></div>
+    <div class="panel-head"><h2>地区分布</h2></div>
+    <div class="tag-row">
+      
+        <span class="tag tag-location">United States · 25</span>
+      
+        <span class="tag tag-location">Democratic Republic of the Congo · 21</span>
+      
+        <span class="tag tag-location">Global · 21</span>
+      
+        <span class="tag tag-location">Africa · 14</span>
+      
+        <span class="tag tag-location">Kenya · 9</span>
+      
+        <span class="tag tag-location">Europe · 9</span>
+      
+        <span class="tag tag-location">Asia · 9</span>
+      
+        <span class="tag tag-location">Pennsylvania · 8</span>
+      
+        <span class="tag tag-location">China · 8</span>
+      
+        <span class="tag tag-location">Florida · 6</span>
+      
+        <span class="tag tag-location">Italy · 4</span>
+      
+        <span class="tag tag-location">Sri Lanka · 4</span>
+      
+    </div>
+  </aside>
+</div>
+
+<section class="panel">
+  <div class="panel-head">
+    <div>
+      <span class="eyebrow">PRIORITY SIGNALS</span>
+      <h2>100 天高风险事件</h2>
+    </div>
+    <a class="link-arrow" href="/virus-tracker/events/index.html">浏览全部 →</a>
+  </div>
+  
+    <div class="history-event-list">
+      
+        <article class="history-event severity-border-critical">
+          <div class="history-event-date">
+            <strong>10-21</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-critical">极高</span>
+              <span class="tag">WHO African Region</span>
+              <span class="tag">85/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/68.html">刚果民主共和国布万达布约埃博拉病毒疫情持续扩大</a></h3>
+            <p>截至2026年10月19日，刚果民主共和国的布万达布约埃博拉病毒疫情已影响到8个省份的66个卫生区，累计报告9637例确诊病例和4646例死亡。病例数和死亡数持续增加，且疫情扩散至肯尼亚、乌干达和尼日利亚，国际应对面临挑战。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span><span class="tag tag-location">Uganda</span><span class="tag tag-location">Kenya</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-critical">
+          <div class="history-event-date">
+            <strong>10-21</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-critical">极高</span>
+              <span class="tag">PubMed</span>
+              <span class="tag">83/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/304.html">2024-2026年全球猴痘疫情动态</a></h3>
+            <p>2024年至2026年期间，全球报告了82738例猴痘确诊病例和306例死亡。非洲刚果民主共和国的病例数最多，占全球总数的一半以上。猴痘病毒在国际上迅速传播，并在2025年5月达到高峰后持续存在。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Mpox virus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Global</span><span class="tag tag-location">Democratic Republic of the Congo</span><span class="tag tag-location">Africa</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>09-28</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Ebola</span>
+              <span class="tag">76/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/179.html">刚果民主共和国埃博拉疫情病例超8000例</a></h3>
+            <p>刚果民主共和国的埃博拉疫情已导致超过8000例病例，死亡率为48%。世卫组织警告称社区中仍有过多死亡事件。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>10-13</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Ebola</span>
+              <span class="tag">69/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/117.html">刚果民主共和国埃博拉疫情病例超9000例</a></h3>
+            <p>截至2026年10月，刚果民主共和国的埃博拉疫情已导致至少4381人死亡。该疫情自5月15日开始，目前尚无具体传播方式和公共卫生应对措施的信息。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>09-25</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Ebola</span>
+              <span class="tag">68/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/187.html">刚果民主共和国埃博拉疫情病例和死亡人数接近7900和3800</a></h3>
+            <p>刚果民主共和国的埃博拉疫情持续扩散，病例数接近7900例，死亡人数接近3800例。高死亡率和大量社区死亡表明及时发现病例和医疗访问存在问题。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>10-23</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">PubMed</span>
+              <span class="tag">68/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/31.html">意大利一名肉牛农民因职业性钩端螺旋体病死亡</a></h3>
+            <p>报告了一名56岁意大利肉牛农民因职业性钩端螺旋体病死亡的案例。研究发现，该病例由Javanica血清群引起，可能通过受污染的灌溉水传播。在22个月内，伦巴第地区共确认16例钩端螺旋体病，其中3人死亡，1人永久残疾。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Leptospira</span>
+              <span class="tag tag-host">人类</span><span class="tag tag-host">牛</span><span class="tag tag-host">野生动物</span>
+              <span class="tag tag-location">Global</span><span class="tag tag-location">Europe</span><span class="tag tag-location">Lombardy</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>09-18</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Malaria</span>
+              <span class="tag">67/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/127.html">刚果民主共和国埃博拉疫情持续，德国疟疾病死</a></h3>
+            <p>刚果民主共和国的埃博拉疫情仍在继续，病例接近7500例，死亡超过3600例。德国报告了疟疾病死案例。此外，全球新增7例脊髓灰质炎病例。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span><span class="tag tag-pathogen">Poliovirus</span><span class="tag tag-pathogen">Plasmodium</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span><span class="tag tag-location">Germany</span><span class="tag tag-location">Africa</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>10-16</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">PubMed</span>
+              <span class="tag">65/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/368.html">刚果民主共和国埃博拉疫情再起：经验教训与未来方向</a></h3>
+            <p>2025年刚果民主共和国卡萨伊省爆发了由扎伊尔埃博拉病毒引起的埃博拉疫情，导致60多例确诊病例和超过65%的病死率。尽管存在先前控制成功的案例，但此次疫情暴露出在疫情准备和应对方面的持续脆弱性。通过紧急响应、疫苗接种、加强监测等措施，成功中断了传播。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span><span class="tag tag-location">Global</span><span class="tag tag-location">Africa</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>10-21</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">PubMed</span>
+              <span class="tag">63/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/299.html">哥伦比亚安第斯地区严重黄热病疫情特征</a></h3>
+            <p>2024-2025年，哥伦比亚安第斯地区出现严重黄热病疫情，61名患者中有22人死亡。研究发现非幸存者在ICU入院时血小板计数和凝血因子水平较低，而肝功能指标较高。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Yellow fever virus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Colombia</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>08-26</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">PubMed</span>
+              <span class="tag">62/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/712.html">美国奶牛中H5N1病毒的乳腺趋向性和乳汁传播</a></h3>
+            <p>2024年，美国多地爆发了H5N1高致病性禽流感在奶牛中的大规模传播事件。该病毒在奶牛乳腺上皮细胞中高效复制，导致牛奶中病毒含量高，可能通过牛奶传播。目前未见持续的人际传播证据。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Influenza A(H5N1)</span>
+              <span class="tag tag-host">人类</span><span class="tag tag-host">家禽</span><span class="tag tag-host">野鸟</span>
+              <span class="tag tag-location">United States</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>10-14</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">PubMed</span>
+              <span class="tag">61/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/397.html">南极企鹅群落爆发禽霍乱</a></h3>
+            <p>2024年3月，南极Danger Islands企鹅群落爆发大规模死亡事件，主要由禽霍乱（Pasteurella multocida）引起。该地区此前已报告H5N1高致病性禽流感病毒。研究确认了禽霍乱在南极野生动物中的重要性。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span><span class="tag tag-pathogen">Pasteurella multocida</span>
+              <span class="tag tag-host">家禽</span><span class="tag tag-host">野生动物</span>
+              
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>10-22</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">PubMed</span>
+              <span class="tag">61/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/271.html">2025年法国从疫情地区返回的旅行者中基孔肯雅热病例激增</a></h3>
+            <p>2025年，法国从马达加斯加、斯里兰卡、古巴等疫情地区返回的旅行者中报告了大量基孔肯雅热病例。这些地区的基孔肯雅病毒爆发导致法国本土出现大量输入性病例，最高时达到1800例/10万旅行者（留尼汪岛4月）。研究强调了加强监测系统和及时通报疫情的重要性。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Chikungunya virus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">France</span><span class="tag tag-location">Madagascar</span><span class="tag tag-location">Sri Lanka</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>09-14</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Ebola</span>
+              <span class="tag">61/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/224.html">刚果民主共和国埃博拉疫情病例数达7200例</a></h3>
+            <p>刚果民主共和国的埃博拉疫情已累计报告7200例病例，政府官员表示传播可能已达峰值。这是历史上第二大埃博拉疫情。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>09-23</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Ebola</span>
+              <span class="tag">61/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/204.html">刚果民主共和国埃博拉疫情接近7800例</a></h3>
+            <p>刚果民主共和国的埃博拉疫情已接近7800例，但只有85%的病例接触者在追踪中。公共卫生应对措施仍在进行中。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>10-06</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Ebola</span>
+              <span class="tag">61/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/165.html">肯尼亚报告首例埃博拉死亡病例</a></h3>
+            <p>一名从刚果民主共和国抵达肯尼亚的男子被诊断为埃博拉病毒病并死亡，卫生官员正在寻找与该男子同机乘客。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Kenya</span><span class="tag tag-location">Democratic Republic of the Congo</span><span class="tag tag-location">Uganda</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>08-19</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Viral Hemorrhagic Fever</span>
+              <span class="tag">61/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/159.html">埃博拉病例达5000例，环孢子虫疫情放缓但病例超1.5万</a></h3>
+            <p>埃博拉病毒病例累计达到5000例，环孢子虫疫情虽有所放缓但仍新增大量病例，总数已超过1.5万。公共卫生应对措施未详细提及。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span><span class="tag tag-pathogen">Cyclospora cayetanensis</span>
+              <span class="tag tag-host">人类</span>
+              
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>09-08</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Viral Hemorrhagic Fever</span>
+              <span class="tag">61/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/136.html">刚果民主共和国埃博拉疫情病例超6600例</a></h3>
+            <p>刚果民主共和国的埃博拉疫情已导致超过6600例病例，但死亡人数未提及。由于丧葬仪式中存在违反防疫规定的现象，疫情应对面临挑战。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Democratic Republic of the Congo</span>
+            </div>
+          </div>
+        </article>
+      
+        <article class="history-event severity-border-high">
+          <div class="history-event-date">
+            <strong>10-07</strong>
+            <span>2026</span>
+          </div>
+          <div class="history-event-body">
+            <div class="tag-row">
+              <span class="badge severity-high">高</span>
+              <span class="tag">CIDRAP · Viral Hemorrhagic Fever</span>
+              <span class="tag">61/100</span>
+            </div>
+            <h3><a href="/virus-tracker/events/134.html">肯尼亚10人隔离，埃博拉疫情持续</a></h3>
+            <p>肯尼亚卫生官员正在追踪一名死亡的埃博拉患者的57名接触者，并已将10人隔离。刚果民主共和国报告了8665例确诊病例和4178例死亡。</p>
+            <div class="tag-row">
+              <span class="tag tag-pathogen">Ebolavirus</span>
+              <span class="tag tag-host">人类</span>
+              <span class="tag tag-location">Kenya</span><span class="tag tag-location">Democratic Republic of the Congo</span>
+            </div>
+          </div>
+        </article>
+      
+    </div>
+  
+</section>
+
+<section class="panel">
+  <div class="panel-head"><h2>来源覆盖</h2><span class="muted small">100 天</span></div>
+  <div class="source-cloud">
+    
+      <span class="source-pill"><span>PubMed</span><strong>69</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Measles</span><strong>14</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Ebola</span><strong>13</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Foodborne Disease</span><strong>12</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Avian Influenza</span><strong>10</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Viral Hemorrhagic Fever</span><strong>6</strong></span>
+    
+      <span class="source-pill"><span>ScienceDaily Infectious Diseases</span><strong>6</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · COVID-19</span><strong>6</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Plague</span><strong>4</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Polio</span><strong>3</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · RSV</span><strong>3</strong></span>
+    
+      <span class="source-pill"><span>US CDC Outbreaks</span><strong>3</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Malaria</span><strong>2</strong></span>
+    
+      <span class="source-pill"><span>GDELT · outbreak_news</span><strong>2</strong></span>
+    
+      <span class="source-pill"><span>CIDRAP · Dengue</span><strong>2</strong></span>
+    
+  </div>
+  <p class="muted small history-note">历史事件按原始发布日期归档；首尾月份为不完整月份。由于各来源仅保留有限历史条目，月度事件数变化可能反映覆盖差异，而不一定是真实发病率变化。病例数、死亡数与地区请以原始来源为准。</p>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+</body>
+</html>

@@ -1,0 +1,27 @@
+# Virus-tracker
+
+> Daily AI-ready pathogen and outbreak intelligence. Generated 2026-10-26T03:58:41.855271Z. 169 records.
+
+## Files
+- [events.jsonl](events.jsonl): one JSON event per line, schema `virus-tracker.event.v1`
+- [events.json](events.json): JSON array of events
+- [events.csv](events.csv): flattened tabular export
+- [event.schema.json](event.schema.json): JSON Schema for a single event
+- [manifest.json](manifest.json): dataset manifest, counts, sources, checksums
+- [dataset-card.md](dataset-card.md): dataset card and field descriptions
+- [digest.md](digest.md): Chinese daily briefing
+- [history-100d.md](history-100d.md): 100-day retrospective report
+- [history-100d.json](history-100d.json): 100-day structured statistics
+- [graph.json](graph.json): event–pathogen–host–location knowledge graph
+
+## Quick start
+Use `embedding_text` for retrieval. Use `pathogens[].name`, `hosts`, `locations`, `severity.label`
+and `severity.score` for filtering. Always keep `source.url` and `provenance.content_hash`
+for traceability.
+
+## Scope
+Human, animal, poultry, livestock and wildlife pathogens (viruses, bacteria, fungi, parasites,
+prions) reported by PubMed, WHO, CDC, WOAH, UKHSA, CIDRAP and other public sources.
+
+## Disclaimer
+Machine-generated; verify against the original source before clinical, veterinary or policy use.

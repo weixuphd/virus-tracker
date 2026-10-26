@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>Virus-tracker · 今日病原与疫情概览</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="active">概览</a>
+        <a href="/virus-tracker/events/index.html" class="">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="hero">
+  <div class="hero-main">
+    <span class="eyebrow">DAILY PATHOGEN INTELLIGENCE</span>
+    <h1>病原微生物与疫情追踪</h1>
+    <p class="hero-sub">每日扫描 PubMed、WHO、CDC、WOAH、UKHSA、CIDRAP 与全球新闻源，识别对人类、动物、家禽和野生动物造成疾病、重症与死亡的病原体，并用本地大模型生成中文情报摘要。</p>
+    <div class="hero-badges">
+      <span class="pill">细菌 · 病毒 · 真菌 · 寄生虫 · 朊病毒</span>
+      <span class="pill">人类 / 动物 / 家禽 / 野生动物</span>
+      <span class="pill">JSONL · JSON Schema · RAG-ready</span>
+    </div>
+  </div>
+  <div class="hero-side">
+    <div class="hero-date">
+      <span>情报日期</span>
+      <strong>2026-10-26</strong>
+      <small>更新于 2026-10-26 11:21</small>
+    </div>
+    <div class="run-state completed">
+      
+        <span class="status-dot"></span>
+        最近一次追踪已完成
+      
+    </div>
+  </div>
+</section>
+
+<section class="stat-grid">
+  <div class="stat-card accent-teal">
+  <span class="stat-label">当日事件</span>
+  <strong class="stat-value">30</strong>
+  <span class="stat-detail">超过相关性阈值</span>
+</div>
+  <div class="stat-card accent-amber">
+  <span class="stat-label">高风险 / 极高</span>
+  <strong class="stat-value">3</strong>
+  <span class="stat-detail">需优先关注</span>
+</div>
+  <div class="stat-card accent-blue">
+  <span class="stat-label">涉及病原体</span>
+  <strong class="stat-value">20</strong>
+  <span class="stat-detail">去重后的病原体数</span>
+</div>
+  <div class="stat-card accent-violet">
+  <span class="stat-label">覆盖来源</span>
+  <strong class="stat-value">16</strong>
+  <span class="stat-detail">论文 / 机构 / 新闻</span>
+</div>
+</section>
+
+<div class="dashboard-grid">
+  <section class="panel digest-panel">
+    <div class="panel-head">
+      <div>
+        <span class="eyebrow">DAILY BRIEF</span>
+        <h2>2026年10月26日病原体与疫情简报</h2>
+      </div>
+      <a class="link-arrow" href="/virus-tracker/digest/index.html">完整简报 →</a>
+    </div>
+    
+      <p class="digest-overview">2026年10月26日，刚果民主共和国埃博拉疫情持续，病例接近7500例，死亡超过3600例。肯尼亚报告了第二例埃博拉死亡病例，并隔离了10名接触者。美国宾夕法尼亚州麻疹疫情严重，确诊病例达到4080例，其中四分之一来自该州。此外，全球新增7例脊髓灰质炎病例，德国报告了一例疟疾病死案例。</p>
+      <div class="signal-list">
+        
+          <div class="signal-item">
+            <span class="signal-index">01</span>
+            <p>刚果民主共和国埃博拉疫情持续，病例接近7500例，死亡超过3600例</p>
+          </div>
+        
+          <div class="signal-item">
+            <span class="signal-index">02</span>
+            <p>肯尼亚报告第二例埃博拉死亡病例，并隔离10名接触者</p>
+          </div>
+        
+          <div class="signal-item">
+            <span class="signal-index">03</span>
+            <p>美国宾夕法尼亚州麻疹确诊病例达到4080例，占全美四分之一</p>
+          </div>
+        
+      </div>
+      
+        <div class="action-box">
+          <strong>监测提示</strong>
+          <ul>
+            <li>加强对刚果民主共和国和肯尼亚的埃博拉疫情监测，确保及时隔离接触者。</li><li>宾夕法尼亚州应加强麻疹疫苗接种工作，控制疫情扩散。</li><li>全球卫生组织需关注脊髓灰质炎病例增加，采取措施防止疫情进一步蔓延。</li>
+          </ul>
+        </div>
+      
+    
+  </section>
+
+  <aside class="panel side-panel">
+    <div class="panel-head"><h2>风险分布</h2><span class="muted small">30 条</span></div>
+    <div class="distribution">
+      
+      
+        
+        <div class="distribution-row">
+          <span class="dist-label"><span class="dot severity-critical"></span>极高</span>
+          <div class="dist-bar"><span class="severity-critical" style="width: 0.0%"></span></div>
+          <span class="dist-count">0</span>
+        </div>
+      
+        
+        <div class="distribution-row">
+          <span class="dist-label"><span class="dot severity-high"></span>高</span>
+          <div class="dist-bar"><span class="severity-high" style="width: 10.0%"></span></div>
+          <span class="dist-count">3</span>
+        </div>
+      
+        
+        <div class="distribution-row">
+          <span class="dist-label"><span class="dot severity-moderate"></span>中</span>
+          <div class="dist-bar"><span class="severity-moderate" style="width: 60.0%"></span></div>
+          <span class="dist-count">18</span>
+        </div>
+      
+        
+        <div class="distribution-row">
+          <span class="dist-label"><span class="dot severity-low"></span>低</span>
+          <div class="dist-bar"><span class="severity-low" style="width: 30.0%"></span></div>
+          <span class="dist-count">9</span>
+        </div>
+      
+    </div>
+
+    <div class="panel-divider"></div>
+    <div class="panel-head"><h2>重点病原体</h2><span class="muted small">TOP 10</span></div>
+    <div class="rank-list">
+      
+        <div class="rank-row">
+          <span class="rank-name">Highly pathogenic avian influenza</span>
+          <span class="rank-bar"><span style="width: 100%"></span></span>
+          <span class="rank-count">6</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Ebolavirus</span>
+          <span class="rank-bar"><span style="width: 83%"></span></span>
+          <span class="rank-count">5</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">SARS-CoV-2</span>
+          <span class="rank-bar"><span style="width: 67%"></span></span>
+          <span class="rank-count">4</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Measles virus</span>
+          <span class="rank-bar"><span style="width: 67%"></span></span>
+          <span class="rank-count">4</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Influenza A(H5N1)</span>
+          <span class="rank-bar"><span style="width: 67%"></span></span>
+          <span class="rank-count">4</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Poliovirus</span>
+          <span class="rank-bar"><span style="width: 50%"></span></span>
+          <span class="rank-count">3</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Yersinia pestis</span>
+          <span class="rank-bar"><span style="width: 50%"></span></span>
+          <span class="rank-count">3</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Dengue virus</span>
+          <span class="rank-bar"><span style="width: 33%"></span></span>
+          <span class="rank-count">2</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Cyclospora cayetanensis</span>
+          <span class="rank-bar"><span style="width: 33%"></span></span>
+          <span class="rank-count">2</span>
+        </div>
+      
+        <div class="rank-row">
+          <span class="rank-name">Respiratory syncytial virus</span>
+          <span class="rank-bar"><span style="width: 33%"></span></span>
+          <span class="rank-count">2</span>
+        </div>
+      
+    </div>
+
+    <div class="panel-divider"></div>
+    <div class="panel-head"><h2>14 日趋势</h2><span class="muted small">事件数</span></div>
+    
+    <div class="spark-bars" aria-label="最近 14 日事件数">
+      
+        <div class="spark-bar" title="2026-10-13 · 3 条">
+          <span style="height: 10%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-14 · 1 条">
+          <span style="height: 3%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-15 · 1 条">
+          <span style="height: 3%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-16 · 2 条">
+          <span style="height: 7%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-17 · 1 条">
+          <span style="height: 3%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-18 · 0 条">
+          <span style="height: 0%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-19 · 0 条">
+          <span style="height: 0%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-20 · 1 条">
+          <span style="height: 3%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-21 · 4 条">
+          <span style="height: 13%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-22 · 4 条">
+          <span style="height: 13%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-23 · 4 条">
+          <span style="height: 13%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-24 · 1 条">
+          <span style="height: 3%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-25 · 21 条">
+          <span style="height: 70%"></span>
+        </div>
+      
+        <div class="spark-bar" title="2026-10-26 · 30 条">
+          <span style="height: 100%"></span>
+        </div>
+      
+    </div>
+    <div class="spark-axis"><span>10-13</span><span>10-26</span></div>
+  </aside>
+</div>
+
+<section class="panel">
+  <div class="panel-head">
+    <div>
+      <span class="eyebrow">LATEST SIGNALS</span>
+      <h2>最新高风险事件</h2>
+    </div>
+    <a class="link-arrow" href="/virus-tracker/events/index.html">浏览事件库 →</a>
+  </div>
+  
+    <div class="event-list">
+      <article class="event-row severity-border-high">
+  <div class="event-row-severity">
+    <span class="badge severity-high">高</span>
+    <span class="score-small">69</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/117.html">刚果民主共和国埃博拉疫情病例超9000例</a></h3>
+    <p>截至2026年10月，刚果民主共和国的埃博拉疫情已导致至少4381人死亡。该疫情自5月15日开始，目前尚无具体传播方式和公共卫生应对措施的信息。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Ebolavirus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Democratic Republic of the Congo</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Ebola</span>
+    <span class="muted small">2026-10-14 03:18</span>
+    
+    <span class="muted small danger-text">死亡 4381</span>
+  </div>
+</article><article class="event-row severity-border-high">
+  <div class="event-row-severity">
+    <span class="badge severity-high">高</span>
+    <span class="score-small">67</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/127.html">刚果民主共和国埃博拉疫情持续，德国疟疾病死</a></h3>
+    <p>刚果民主共和国的埃博拉疫情仍在继续，病例接近7500例，死亡超过3600例。德国报告了疟疾病死案例。此外，全球新增7例脊髓灰质炎病例。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Ebolavirus</span><span class="tag tag-pathogen">Poliovirus</span><span class="tag tag-pathogen">Plasmodium</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Democratic Republic of the Congo</span><span class="tag tag-location">Germany</span><span class="tag tag-location">Africa</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Malaria</span>
+    <span class="muted small">2026-09-19 01:39</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-high">
+  <div class="event-row-severity">
+    <span class="badge severity-high">高</span>
+    <span class="score-small">61</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/134.html">肯尼亚10人隔离，埃博拉疫情持续</a></h3>
+    <p>肯尼亚卫生官员正在追踪一名死亡的埃博拉患者的57名接触者，并已将10人隔离。刚果民主共和国报告了8665例确诊病例和4178例死亡。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Ebolavirus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Kenya</span><span class="tag tag-location">Democratic Republic of the Congo</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Viral Hemorrhagic Fever</span>
+    <span class="muted small">2026-10-08 04:56</span>
+    
+    <span class="muted small danger-text">死亡 4178</span>
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">59</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/109.html">佛罗里达州登革热死亡，美国狂犬病警报，新脊髓灰质炎病例</a></h3>
+    <p>佛罗里达州报告了一例可能的登革热死亡事件，美国发布了狂犬病警报，并且有新的脊髓灰质炎病例。环孢子虫疫情自八月中旬以来没有新增病例。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Dengue virus</span><span class="tag tag-pathogen">Poliovirus</span><span class="tag tag-pathogen">Rabies virus</span><span class="tag tag-pathogen">Cyclospora cayetanensis</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Florida</span><span class="tag tag-location">United States</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Polio</span>
+    <span class="muted small">2026-09-12 02:32</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">58</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/116.html">Red Cross trains staff as Kenya records its second death from Ebola</a></h3>
+    <p>（规则抽取，未使用大模型）Red Cross trains staff as Kenya records its second death from Ebola</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Ebolavirus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Kenya</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">GDELT · outbreak_news</span>
+    <span class="muted small">2026-10-25 20:45</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">53</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/90.html">世卫组织发布健康数据技术包以改善新冠疫情应对</a></h3>
+    <p>世界卫生组织发布了SCORE for Health Data技术包，旨在提高各国获取及时可靠健康数据的能力，以更好地应对新冠疫情及其他公共卫生挑战。该技术包包括超过90种工具和标准，用于加强国家健康信息系统。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">SARS-CoV-2</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Global</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">WHO News</span>
+    <span class="muted small">2026-10-10 15:49</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">51</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/133.html">宾夕法尼亚州报告第六例麻疹死亡病例</a></h3>
+    <p>宾夕法尼亚州一名39岁女性因麻疹去世，这是该州第六例麻疹死亡病例。患者有既往麻疹感染史和其他基础疾病。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Measles virus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Pennsylvania</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Measles</span>
+    <span class="muted small">2026-10-13 04:37</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-moderate">
+  <div class="event-row-severity">
+    <span class="badge severity-moderate">中</span>
+    <span class="score-small">51</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/101.html">WOAH calls for stronger surveillance and preparedness as reported vector-borne disease…</a></h3>
+    <p>（规则抽取，未使用大模型）WOAH calls on its Members to strengthen surveillance, early warning and preparedness for vector-borne diseases (VBDs). A vector-borne disease is a disease that can be transmitted from one animal or person to another through a living organism, kno…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Rift Valley fever virus</span><span class="tag tag-pathogen">Lumpy skin disease virus</span><span class="tag tag-pathogen">West Nile virus</span><span class="tag tag-pathogen">Bluetongue virus</span><span class="tag tag-pathogen">Western equine encephalitis virus</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">马</span><span class="tag tag-host">野生动物</span>
+      <span class="tag tag-location">Global</span><span class="tag tag-location">Europe</span><span class="tag tag-location">Americas</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">WOAH (World Organisation for Animal Health)</span>
+    <span class="muted small">2026-10-09 21:23</span>
+    
+    
+  </div>
+</article>
+    </div>
+  
+</section>
+
+<div class="dashboard-grid lower-grid">
+  <section class="panel">
+    <div class="panel-head"><h2>来源覆盖</h2><span class="muted small">当日事件</span></div>
+    <div class="source-cloud">
+      
+        <span class="source-pill"><span>CIDRAP · Avian Influenza</span><strong>4</strong></span>
+      
+        <span class="source-pill"><span>CIDRAP · Measles</span><strong>3</strong></span>
+      
+        <span class="source-pill"><span>CIDRAP · Plague</span><strong>3</strong></span>
+      
+        <span class="source-pill"><span>CIDRAP · COVID-19</span><strong>3</strong></span>
+      
+        <span class="source-pill"><span>CIDRAP · Foodborne Disease</span><strong>3</strong></span>
+      
+        <span class="source-pill"><span>CIDRAP · Ebola</span><strong>2</strong></span>
+      
+        <span class="source-pill"><span>CIDRAP · Polio</span><strong>2</strong></span>
+      
+        <span class="source-pill"><span>GDELT · outbreak_news</span><strong>2</strong></span>
+      
+        <span class="source-pill"><span>CIDRAP · Malaria</span><strong>1</strong></span>
+      
+        <span class="source-pill"><span>CIDRAP · Viral Hemorrhagic Fever</span><strong>1</strong></span>
+      
+    </div>
+    <div class="panel-divider"></div>
+    <div class="panel-head"><h2>宿主分布</h2></div>
+    <div class="tag-row">
+      
+        <span class="tag tag-host">人类 · 24</span>
+      
+        <span class="tag tag-host">家禽 · 5</span>
+      
+        <span class="tag tag-host">野生动物 · 2</span>
+      
+        <span class="tag tag-host">家畜 · 2</span>
+      
+        <span class="tag tag-host">牛 · 2</span>
+      
+        <span class="tag tag-host">马 · 1</span>
+      
+        <span class="tag tag-host">蜱 · 1</span>
+      
+        <span class="tag tag-host">蚊 · 1</span>
+      
+        <span class="tag tag-host">野鸟 · 1</span>
+      
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>最近运行</h2><span class="muted small">自动 / 手动</span></div>
+    <div class="run-list">
+      
+        <div class="run-row">
+          <span class="status-pill status-completed">completed</span>
+          <span class="run-trigger">summarize</span>
+          <span class="muted small">10-26 11:21</span>
+          <span class="run-stats">
+            0 新增 · 1 分析 · 1 LLM
+          </span>
+        </div>
+      
+        <div class="run-row">
+          <span class="status-pill status-completed">completed</span>
+          <span class="run-trigger">reanalyze</span>
+          <span class="muted small">10-26 11:19</span>
+          <span class="run-stats">
+            0 新增 · 785 分析 · 0 LLM
+          </span>
+        </div>
+      
+        <div class="run-row">
+          <span class="status-pill status-completed">completed</span>
+          <span class="run-trigger">summarize</span>
+          <span class="muted small">10-26 11:17</span>
+          <span class="run-stats">
+            0 新增 · 7 分析 · 7 LLM
+          </span>
+        </div>
+      
+        <div class="run-row">
+          <span class="status-pill status-completed">completed</span>
+          <span class="run-trigger">reanalyze</span>
+          <span class="muted small">10-26 10:53</span>
+          <span class="run-stats">
+            0 新增 · 785 分析 · 0 LLM
+          </span>
+        </div>
+      
+        <div class="run-row">
+          <span class="status-pill status-completed">completed</span>
+          <span class="run-trigger">reanalyze</span>
+          <span class="muted small">10-26 10:52</span>
+          <span class="run-stats">
+            0 新增 · 785 分析 · 0 LLM
+          </span>
+        </div>
+      
+    </div>
+    <div class="panel-divider"></div>
+    <div class="quick-links">
+      <a href="/virus-tracker/history/index.html" class="quick-link"><span>100 天</span><small>历史追踪趋势</small></a>
+      <a href="/virus-tracker/ai-ready/index.html" class="quick-link"><span>AI 治理</span><small>19 项指标评估</small></a>
+      <a href="/virus-tracker/downloads/events.jsonl" class="quick-link"><span>JSONL</span><small>AI-ready 事件流</small></a>
+      <a href="/virus-tracker/downloads/event.schema.json" class="quick-link"><span>Schema</span><small>JSON Schema v1</small></a>
+      <a href="/virus-tracker/downloads/digest.md" class="quick-link"><span>Markdown</span><small>每日简报</small></a>
+    </div>
+  </section>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+</body>
+</html>

@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>事件库 · Virus-tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="">概览</a>
+        <a href="/virus-tracker/events/index.html" class="active">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="page-head">
+  <div>
+    <span class="eyebrow">EVENT LIBRARY</span>
+    <h1>病原与疫情事件库</h1>
+    <p class="muted">共 169 条符合相关性阈值的事件。支持按病原体、宿主、严重度、来源与时间筛选。</p>
+  </div>
+  <div class="page-head-actions">
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/events.jsonl">导出 JSONL</a>
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/events.csv">导出 CSV</a>
+  </div>
+</section>
+
+<form class="filter-panel" method="get" action="/virus-tracker/events/index.html" id="filter-form">
+  <div class="filter-search">
+    <label for="q">关键词</label>
+    <input type="search" id="q" name="q" value="" placeholder="病原体、地区、事件关键词…">
+  </div>
+  <div>
+    <label for="pathogen">病原体</label>
+    <select id="pathogen" name="pathogen">
+      <option value="">全部病原体</option>
+      
+        <option value="Ebolavirus" >Ebolavirus (27)</option>
+      
+        <option value="Highly pathogenic avian influenza" >Highly pathogenic avian influenza (26)</option>
+      
+        <option value="Influenza A(H5N1)" >Influenza A(H5N1) (22)</option>
+      
+        <option value="Measles virus" >Measles virus (20)</option>
+      
+        <option value="SARS-CoV-2" >SARS-CoV-2 (18)</option>
+      
+        <option value="Salmonella" >Salmonella (11)</option>
+      
+        <option value="Dengue virus" >Dengue virus (10)</option>
+      
+        <option value="Cyclospora cayetanensis" >Cyclospora cayetanensis (9)</option>
+      
+        <option value="Poliovirus" >Poliovirus (7)</option>
+      
+        <option value="Yersinia pestis" >Yersinia pestis (7)</option>
+      
+        <option value="Plasmodium" >Plasmodium (6)</option>
+      
+        <option value="Chikungunya virus" >Chikungunya virus (5)</option>
+      
+        <option value="Respiratory syncytial virus" >Respiratory syncytial virus (4)</option>
+      
+        <option value="Influenza A(H9N2)" >Influenza A(H9N2) (3)</option>
+      
+        <option value="Influenza A(H5N6)" >Influenza A(H5N6) (3)</option>
+      
+        <option value="African swine fever virus" >African swine fever virus (3)</option>
+      
+        <option value="West Nile virus" >West Nile virus (3)</option>
+      
+        <option value="Vibrio cholerae" >Vibrio cholerae (3)</option>
+      
+        <option value="Chronic wasting disease prion" >Chronic wasting disease prion (2)</option>
+      
+        <option value="Brucella" >Brucella (2)</option>
+      
+        <option value="Enterovirus A71" >Enterovirus A71 (2)</option>
+      
+        <option value="Leptospira" >Leptospira (2)</option>
+      
+        <option value="Aspergillus fumigatus" >Aspergillus fumigatus (2)</option>
+      
+        <option value="Norovirus" >Norovirus (2)</option>
+      
+        <option value="Mpox virus" >Mpox virus (2)</option>
+      
+        <option value="Oropouche virus" >Oropouche virus (1)</option>
+      
+        <option value="Naegleria fowleri" >Naegleria fowleri (1)</option>
+      
+        <option value="Listeria monocytogenes" >Listeria monocytogenes (1)</option>
+      
+        <option value="Clostridium botulinum" >Clostridium botulinum (1)</option>
+      
+        <option value="Candida auris" >Candida auris (1)</option>
+      
+        <option value="Bacillus anthracis" >Bacillus anthracis (1)</option>
+      
+        <option value="Meticillin-resistant Staphylococcus aureus" >Meticillin-resistant Staphylococcus aureus (1)</option>
+      
+        <option value="Mycobacterium tuberculosis" >Mycobacterium tuberculosis (1)</option>
+      
+        <option value="Invasive group A Streptococcus" >Invasive group A Streptococcus (1)</option>
+      
+        <option value="未明确病原体" >未明确病原体 (1)</option>
+      
+        <option value="Severe fever with thrombocytopenia syndrome virus" >Severe fever with thrombocytopenia syndrome virus (1)</option>
+      
+        <option value="Strongyloides stercoralis" >Strongyloides stercoralis (1)</option>
+      
+        <option value="Hepatitis E virus" >Hepatitis E virus (1)</option>
+      
+        <option value="Francisella tularensis" >Francisella tularensis (1)</option>
+      
+        <option value="Hantavirus" >Hantavirus (1)</option>
+      
+        <option value="Pasteurella multocida" >Pasteurella multocida (1)</option>
+      
+        <option value="Klebsiella pneumoniae" >Klebsiella pneumoniae (1)</option>
+      
+        <option value="Yellow fever virus" >Yellow fever virus (1)</option>
+      
+        <option value="Nipah virus" >Nipah virus (1)</option>
+      
+        <option value="Acinetobacter baumannii" >Acinetobacter baumannii (1)</option>
+      
+        <option value="Echinococcus" >Echinococcus (1)</option>
+      
+        <option value="Mucorales" >Mucorales (1)</option>
+      
+        <option value="Marburg virus" >Marburg virus (1)</option>
+      
+        <option value="Bordetella pertussis" >Bordetella pertussis (1)</option>
+      
+        <option value="MERS-CoV" >MERS-CoV (1)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="host">宿主</label>
+    <select id="host" name="host">
+      <option value="">全部宿主</option>
+      
+        <option value="human" >人类 (126)</option>
+      
+        <option value="poultry" >家禽 (27)</option>
+      
+        <option value="cattle" >牛 (13)</option>
+      
+        <option value="wildlife" >野生动物 (10)</option>
+      
+        <option value="livestock" >家畜 (9)</option>
+      
+        <option value="wild_birds" >野鸟 (8)</option>
+      
+        <option value="mosquitoes" >蚊 (7)</option>
+      
+        <option value="rodents" >啮齿类 (4)</option>
+      
+        <option value="cats" >猫 (4)</option>
+      
+        <option value="swine" >猪 (4)</option>
+      
+        <option value="ticks" >蜱 (3)</option>
+      
+        <option value="horses" >马 (2)</option>
+      
+        <option value="small_ruminants" >羊 (1)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="severity">严重度</label>
+    <select id="severity" name="severity">
+      <option value="">全部</option>
+      
+        <option value="critical" >极高</option>
+      
+        <option value="high" >高</option>
+      
+        <option value="moderate" >中</option>
+      
+        <option value="low" >低</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="source">来源</label>
+    <select id="source" name="source">
+      <option value="">全部来源</option>
+      
+        <option value="pubmed" >PubMed (71)</option>
+      
+        <option value="cidrap_measles" >CIDRAP · Measles (14)</option>
+      
+        <option value="cidrap_ebola" >CIDRAP · Ebola (13)</option>
+      
+        <option value="cidrap_foodborne" >CIDRAP · Foodborne Disease (12)</option>
+      
+        <option value="cidrap_avian_influenza" >CIDRAP · Avian Influenza (10)</option>
+      
+        <option value="cidrap_covid" >CIDRAP · COVID-19 (6)</option>
+      
+        <option value="cidrap_vhf" >CIDRAP · Viral Hemorrhagic Fever (6)</option>
+      
+        <option value="sciencedaily_infectious" >ScienceDaily Infectious Diseases (6)</option>
+      
+        <option value="cidrap_plague" >CIDRAP · Plague (4)</option>
+      
+        <option value="cdc_outbreaks" >US CDC Outbreaks (3)</option>
+      
+        <option value="cidrap_polio" >CIDRAP · Polio (3)</option>
+      
+        <option value="cidrap_rsv" >CIDRAP · RSV (3)</option>
+      
+        <option value="cidrap_cwd" >CIDRAP · Chronic Wasting Disease (2)</option>
+      
+        <option value="cidrap_dengue" >CIDRAP · Dengue (2)</option>
+      
+        <option value="cidrap_malaria" >CIDRAP · Malaria (2)</option>
+      
+        <option value="gdelt_outbreak_news" >GDELT · outbreak_news (2)</option>
+      
+        <option value="cdc_newsroom" >US CDC Newsroom (1)</option>
+      
+        <option value="cidrap_amr" >CIDRAP · Antimicrobial Stewardship (1)</option>
+      
+        <option value="cidrap_cholera" >CIDRAP · Cholera (1)</option>
+      
+        <option value="cidrap_fungal" >CIDRAP · Fungal Infection (1)</option>
+      
+        <option value="cidrap_misc" >CIDRAP · Misc Emerging Topics (1)</option>
+      
+        <option value="cidrap_mpox" >CIDRAP · Mpox (1)</option>
+      
+        <option value="ukhsa" >UK Health Security Agency (1)</option>
+      
+        <option value="who_afro" >WHO African Region (1)</option>
+      
+        <option value="who_news" >WHO News (1)</option>
+      
+        <option value="woah" >WOAH (World Organisation for Animal Health) (1)</option>
+      
+    </select>
+  </div>
+  <div>
+    <label for="days">时间</label>
+    <select id="days" name="days">
+      <option value="">全部时间</option>
+      
+        <option value="1" >最近 24 小时</option>
+      
+        <option value="3" >最近 3 天</option>
+      
+        <option value="7" >最近 7 天</option>
+      
+        <option value="14" >最近 14 天</option>
+      
+        <option value="30" >最近 30 天</option>
+      
+        <option value="90" >最近 90 天</option>
+      
+    </select>
+  </div>
+  <div class="filter-actions">
+    <button type="submit" class="btn btn-primary">筛选</button>
+    <a href="/virus-tracker/events/index.html" class="btn btn-ghost">重置</a>
+  </div>
+</form>
+
+
+  <div class="event-list event-list-wide">
+    <article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">34</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/104.html">美国华盛顿州首次确认H5N1禽流感感染奶牛</a></h3>
+    <p>美国华盛顿州首次报告H5N1高致病性禽流感在奶牛中检测阳性。今年全美已有96个奶牛群被检出该病毒。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span>
+      <span class="tag tag-host">家禽</span><span class="tag tag-host">牛</span><span class="tag tag-host">家畜</span>
+      <span class="tag tag-location">Washington</span><span class="tag tag-location">United States</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Avian Influenza</span>
+    <span class="muted small">2026-10-14 03:16</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">34</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/229.html">A new antiviral could stop measles before an outbreak takes off</a></h3>
+    <p>（规则抽取，未使用大模型）An experimental pill prevented a measles-like virus from spreading through the air or through close contact in ferrets. It worked when given shortly before or after exposure and also shortened illness and the period when infected animals remained…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Measles virus</span>
+      <span class="tag tag-host">野生动物</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">ScienceDaily Infectious Diseases</span>
+    <span class="muted small">2026-07-24 21:27</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">34</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/110.html">美国农业部报告家禽农场H5N1禽流感新病例</a></h3>
+    <p>美国农业部通报了德克萨斯州家禽农场的H5N1高致病性禽流感新病例，同时在德克萨斯州发现了一例牛感染情况。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span>
+      <span class="tag tag-host">家禽</span><span class="tag tag-host">牛</span>
+      <span class="tag tag-location">Texas</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Avian Influenza</span>
+    <span class="muted small">2026-10-09 02:45</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">34</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/151.html">After lab study finds interspecies spread of CWD prions, experts debate significance for…</a></h3>
+    <p>（规则抽取，未使用大模型）The findings don’t confirm that the fatal disease is a threat to people but do offer important clues to what infection might look like in humans.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Chronic wasting disease prion</span>
+      <span class="tag tag-host">人类</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Chronic Wasting Disease</span>
+    <span class="muted small">2026-07-31 01:15</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">34</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/209.html">CDC, FDA end investigation into Listeria outbreak, begin looking into new Salmonella…</a></h3>
+    <p>（规则抽取，未使用大模型）The CDC also added 8 new cases to 3 smaller Cyclospora outbreaks.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Listeria monocytogenes</span><span class="tag tag-pathogen">Salmonella</span><span class="tag tag-pathogen">Cyclospora cayetanensis</span>
+      <span class="tag tag-host">人类</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Foodborne Disease</span>
+    <span class="muted small">2026-08-28 03:46</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">33</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/203.html">Kids hit hard in deadly Jerusalem measles outbreak, report reveals</a></h3>
+    <p>（规则抽取，未使用大模型）The measles infection rate in Jerusalem during the outbreak was 15 times higher than in the rest of Israel.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Measles virus</span>
+      
+      <span class="tag tag-location">Israel</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Measles</span>
+    <span class="muted small">2026-10-02 04:26</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">33</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/192.html">Measles outbreaks could leave thousands vulnerable to infectious diseases for years</a></h3>
+    <p>（规则抽取，未使用大模型）The measles virus kills crucial immune cells, putting survivors at risk of being reinfected with diseases they’ve already had.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Measles virus</span>
+      
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Measles</span>
+    <span class="muted small">2026-10-03 01:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">33</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/181.html">Louisiana confirms Naegleria fowleri brain infection in resident who swam in Lake…</a></h3>
+    <p>（规则抽取，未使用大模型）Though “brain-eating amoeba” infections are rare, they are almost always fatal.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Naegleria fowleri</span>
+      
+      <span class="tag tag-location">Louisiana</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Misc Emerging Topics</span>
+    <span class="muted small">2026-08-21 03:49</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">33</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/175.html">RSV vaccine effective against hospitalization, death in nursing home residents, study…</a></h3>
+    <p>（规则抽取，未使用大模型）The vaccine was an estimated 73% effective at preventing hospitalizations and 56% effective in protecting against death.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Respiratory syncytial virus</span>
+      <span class="tag tag-host">人类</span>
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · RSV</span>
+    <span class="muted small">2026-09-03 02:56</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">32</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/190.html">4 new human H9N2 avian flu cases in China as Australia sees more H5N1 in wild birds</a></h3>
+    <p>（规则抽取，未使用大模型）There have been 20 H9N2 human detections in the past 6 months.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span><span class="tag tag-pathogen">Influenza A(H9N2)</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">家禽</span><span class="tag tag-host">野鸟</span>
+      <span class="tag tag-location">China</span><span class="tag tag-location">Australia</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Avian Influenza</span>
+    <span class="muted small">2026-08-05 03:24</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">32</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/20.html">非洲疾控中心警告刚果民主共和国埃博拉疫情可能蔓延至所有非洲国家</a></h3>
+    <p>非洲疾控中心主任警告称，刚果民主共和国的埃博拉疫情有可能扩散到非洲所有国家。目前没有具体的病例或死亡数字报告。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Ebolavirus</span><span class="tag tag-pathogen">Poliovirus</span><span class="tag tag-pathogen">Plasmodium</span>
+      
+      <span class="tag tag-location">Africa</span><span class="tag tag-location">Democratic Republic of the Congo</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Ebola</span>
+    <span class="muted small">2026-10-24 01:03</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">32</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/121.html">麻疹并发症导致罕见致命脑病</a></h3>
+    <p>麻疹病毒可引发罕见且致命的亚急性硬化性全脑炎，该病可能在麻疹康复多年后发生。目前没有具体病例或死亡数字。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Measles virus</span>
+      
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Measles</span>
+    <span class="muted small">2026-10-15 04:53</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">30</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/226.html">Bird flu is spreading. Your backyard feeder could make it worse</a></h3>
+    <p>（规则抽取，未使用大模型）Backyard bird feeders could become unexpected hotspots for H5N1 as Australia’s bird flu outbreak spreads, bringing species together in ways that rarely occur naturally. Experts say stopping feeding is safest, while smaller amounts of food, no han…</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span>
+      
+      <span class="tag tag-location">Australia</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">ScienceDaily Infectious Diseases</span>
+    <span class="muted small">2026-08-24 20:49</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">30</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/83.html">美国华盛顿州出现H5N1禽流感病例</a></h3>
+    <p>美国华盛顿州一名居民感染H5N1禽流感病毒，该患者曾接触过感染的奶牛。目前未报告具体病例和死亡数字。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Influenza A(H5N1)</span><span class="tag tag-pathogen">Highly pathogenic avian influenza</span><span class="tag tag-pathogen">MERS-CoV</span><span class="tag tag-pathogen">Yersinia pestis</span><span class="tag tag-pathogen">Dengue virus</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">家禽</span><span class="tag tag-host">牛</span>
+      <span class="tag tag-location">United States</span><span class="tag tag-location">Florida</span><span class="tag tag-location">Madagascar</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Avian Influenza</span>
+    <span class="muted small">2026-10-16 23:55</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">30</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/216.html">Quick takes: Sprout recall, local dengue in Florida, variant H1N2 flu in Michigan, new…</a></h3>
+    <p>（规则抽取，未使用大模型）A Minneapolis-based company has recalled certain lots of alfalfa sprouts linked to a 15-state E coli and Salmonella outbreak.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Dengue virus</span><span class="tag tag-pathogen">Salmonella</span>
+      
+      <span class="tag tag-location">Florida</span><span class="tag tag-location">Michigan</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Foodborne Disease</span>
+    <span class="muted small">2026-08-25 01:55</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">29</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/163.html">CDC warns of Salmonella outbreak linked to jalapeños</a></h3>
+    <p>（规则抽取，未使用大模型）A CDC food safety alert regarding a multistate outbreak of Salmonella linked to jalapeños</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Salmonella</span>
+      
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">US CDC Outbreaks</span>
+    <span class="muted small">2026-08-05 16:00</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">29</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/122.html">肯尼亚一周内无新增埃博拉病例</a></h3>
+    <p>肯尼亚报告首例埃博拉病例后，过去一周未出现新病例。目前尚无其他具体信息。</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Ebolavirus</span>
+      <span class="tag tag-host">人类</span>
+      <span class="tag tag-location">Kenya</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Ebola</span>
+    <span class="muted small">2026-10-13 04:12</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">29</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/222.html">Quick takes: Cautious optimism on Ebola, rare New World screwworm in a horse, HIV alert…</a></h3>
+    <p>（规则抽取，未使用大模型）1 in 60 adults in Fiji is HIV-positive.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Ebolavirus</span>
+      <span class="tag tag-host">人类</span><span class="tag tag-host">马</span>
+      <span class="tag tag-location">Fiji</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Ebola</span>
+    <span class="muted small">2026-09-18 02:50</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">27</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/218.html">FDA, CDC investigating multistate outbreak of E coli, Salmonella linked to sprouts</a></h3>
+    <p>（规则抽取，未使用大模型）Alfalfa sprouts sold under the Calco and Everything Sprouts brands are linked to the most recent outbreak of foodborne illness affecting the US.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Salmonella</span>
+      
+      <span class="tag tag-location">United States</span>
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">CIDRAP · Foodborne Disease</span>
+    <span class="muted small">2026-08-22 04:18</span>
+    
+    
+  </div>
+</article><article class="event-row severity-border-low">
+  <div class="event-row-severity">
+    <span class="badge severity-low">低</span>
+    <span class="score-small">25</span>
+  </div>
+  <div class="event-row-body">
+    <h3><a href="/virus-tracker/events/171.html">Cyclospora outbreak linked to iceberg lettuce expanded to four new states.</a></h3>
+    <p>（规则抽取，未使用大模型）Cyclospora outbreak linked to iceberg lettuce expanded to four new states.</p>
+    <div class="tag-row">
+      <span class="tag tag-pathogen">Cyclospora cayetanensis</span>
+      
+      
+    </div>
+  </div>
+  <div class="event-row-side">
+    <span class="source-chip">US CDC Outbreaks</span>
+    <span class="muted small">2026-07-25 05:00</span>
+    
+    
+  </div>
+</article>
+  </div>
+  <nav class="pagination" aria-label="分页">
+    
+      <a class="btn btn-ghost" href="/virus-tracker/events/page-7.html">← 上一页</a>
+    
+    <span class="page-indicator">第 8 / 9 页</span>
+    
+      <a class="btn btn-ghost" href="/virus-tracker/events/page-9.html">下一页 →</a>
+    
+  </nav>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+</body>
+</html>

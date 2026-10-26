@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virus-tracker: 每日病原微生物、疫情与动物疫病 AI 情报追踪">
+  <title>方法与数据源 · Virus-tracker</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1220'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%232dd4bf' stroke-width='4'/%3E%3Cpath d='M20 32h24M32 20v24' stroke='%232dd4bf' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/virus-tracker/assets/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/virus-tracker/">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 12v24M12 24h24M17 17l14 14M31 17L17 31" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text">
+          <strong>Virus-tracker</strong>
+          <small>病原微生物 · 疫情情报</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/virus-tracker/" class="">概览</a>
+        <a href="/virus-tracker/events/index.html" class="">事件库</a>
+        <a href="/virus-tracker/digest/index.html" class="">每日简报</a>
+        <a href="/virus-tracker/history/index.html" class="">100 天历史</a>
+        <a href="/virus-tracker/ai-ready/index.html" class="">AI 治理</a>
+        <a href="/virus-tracker/data/index.html" class="">AI-READY 数据</a>
+        <a href="/virus-tracker/about/index.html" class="active">方法</a>
+      </nav>
+      <div class="header-actions">
+        <span class="ai-chip" title="所有事件均生成结构化 AI-ready 记录">AI-READY</span>
+        <button type="button" class="btn btn-primary" id="run-btn">
+          <span class="btn-dot"></span> 立即追踪
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="run-banner" id="run-banner" hidden>
+    <div class="container run-banner-inner">
+      <span class="spinner" aria-hidden="true"></span>
+      <span id="run-banner-text">正在采集与总结…</span>
+      <a href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">查看运行状态</a>
+    </div>
+  </div>
+
+  <main class="container page">
+    
+<section class="page-head">
+  <div>
+    <span class="eyebrow">METHODOLOGY</span>
+    <h1>方法、数据源与限制</h1>
+    <p class="muted">Virus-tracker 把公开文献、卫生机构通报、动物疫病信息与新闻源汇聚为可审计的每日病原与疫情事件库。</p>
+  </div>
+  <div class="page-head-actions">
+    <a class="btn btn-ghost" href="/virus-tracker/data/index.html">AI-READY 数据</a>
+    <a class="btn btn-ghost" href="/virus-tracker/downloads/static-demo.json" target="_blank" rel="noopener">来源 API</a>
+  </div>
+</section>
+
+<section class="method-grid">
+  <div class="method-card">
+    <span class="method-num">01</span>
+    <h3>采集</h3>
+    <p>PubMed E-utilities 按病原体与暴发/重症关键词检索；RSS/Atom 覆盖 WHO、WHO AFRO、CDC、WOAH、UKHSA、CIDRAP、Outbreak News Today、ScienceDaily；可选 GDELT 全球新闻。</p>
+  </div>
+  <div class="method-card">
+    <span class="method-num">02</span>
+    <h3>识别</h3>
+    <p>基于人工维护的病原体词典（115 种，含别名）识别病毒、细菌、真菌、寄生虫与朊病毒；同步提取宿主、国家/地区、病例数、死亡数与暴发信号。</p>
+  </div>
+  <div class="method-card">
+    <span class="method-num">03</span>
+    <h3>评分</h3>
+    <p>规则引擎综合病原体风险组、优先级别、人类/动物宿主、死亡、人际传播、新发/耐药/免疫逃逸、扑杀、跨地区传播、来源权威度与时效性，生成 0–100 严重度与相关性。</p>
+  </div>
+  <div class="method-card">
+    <span class="method-num">04</span>
+    <h3>总结</h3>
+    <p>本地 Ollama 模型 virus-tracker 生成中文摘要、关键事实、传播/应对与不确定性；每日再生成总览与监测提示。所有结果带模型与提示词版本。</p>
+  </div>
+</section>
+
+<div class="data-grid">
+  <section class="panel">
+    <div class="panel-head"><h2>数据源</h2><span class="muted small">权威度 1–5</span></div>
+    <div class="source-table">
+      <div class="source-row source-head"><span>来源</span><span>类型</span><span>权威度</span><span>状态</span></div>
+      <div class="source-row"><strong>PubMed</strong><span>文献</span><span>A5</span><span class="status-ok">启用</span></div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Avian Influenza</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Ebola</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Measles</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Dengue</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Polio</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Mpox</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Viral Hemorrhagic Fever</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Misc Emerging Topics</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Public Health</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · COVID-19</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Foodborne Disease</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Antimicrobial Stewardship</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Fungal Infection</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Malaria</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Tuberculosis</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Cholera</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Plague</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · MERS-CoV</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · RSV</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>CIDRAP · Chronic Wasting Disease</strong>
+          <span>news</span>
+          <span>A4</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>WHO News</strong>
+          <span>international_org</span>
+          <span>A5</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>WHO African Region</strong>
+          <span>international_org</span>
+          <span>A5</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>US CDC Newsroom</strong>
+          <span>government</span>
+          <span>A5</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>US CDC Outbreaks</strong>
+          <span>government</span>
+          <span>A5</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>WOAH (World Organisation for Animal Health)</strong>
+          <span>international_org</span>
+          <span>A5</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>UK Health Security Agency</strong>
+          <span>government</span>
+          <span>A5</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>ScienceDaily Infectious Diseases</strong>
+          <span>news</span>
+          <span>A3</span>
+          <span class="status-ok">启用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>Google News - H5N1</strong>
+          <span>news_aggregator</span>
+          <span>A2</span>
+          <span class="muted">停用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>Google News - Outbreaks</strong>
+          <span>news_aggregator</span>
+          <span>A2</span>
+          <span class="muted">停用</span>
+        </div>
+      
+        <div class="source-row">
+          <strong>Outbreak News Today</strong>
+          <span>news</span>
+          <span>A3</span>
+          <span class="muted">停用</span>
+        </div>
+      
+      <div class="source-row"><strong>GDELT</strong><span>新闻聚合</span><span>A2</span><span class="status-ok">启用</span></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head"><h2>覆盖范围</h2></div>
+    <div class="coverage-grid">
+      <div><strong>115</strong><span>病原体条目</span></div>
+      <div><strong>261</strong><span>国家 / 地区</span></div>
+      <div><strong>59</strong><span>病毒</span></div>
+      <div><strong>31</strong><span>细菌</span></div>
+      <div><strong>6</strong><span>真菌</span></div>
+      <div><strong>16</strong><span>寄生虫</span></div>
+      <div><strong>3</strong><span>朊病毒</span></div>
+      <div><strong>19</strong><span>宿主类别</span></div>
+    </div>
+    <div class="panel-divider"></div>
+    <div class="meta-list">
+      <div><span>每日运行</span><strong>07:30（Asia/Shanghai）</strong></div>
+      <div><span>LLM</span><strong>ollama · virus-tracker</strong></div>
+      <div><span>检索回溯</span><strong>3 天</strong></div>
+      <div><span>相关性阈值</span><strong>40/100</strong></div>
+      <div><span>单次 LLM 上限</span><strong>30 条</strong></div>
+      <div><span>历史回填</span><strong>最近 100 天（按发布日期）</strong></div>
+    </div>
+  </section>
+</div>
+
+<section class="panel">
+  <div class="panel-head"><h2>严重度评分</h2><span class="muted small">规则引擎，可复现</span></div>
+  <div class="scoring-grid">
+    <div class="scoring-block">
+      <h3>病原体与宿主</h3>
+      <ul>
+        <li>风险组 4 / 3 / 2 / 1：+20 / +15 / +8 / +3</li>
+        <li>病原体优先级：最高 +8</li>
+        <li>人类宿主 +12；家禽/家畜 +5；野生动物 +3</li>
+      </ul>
+    </div>
+    <div class="scoring-block">
+      <h3>事件信号</h3>
+      <ul>
+        <li>死亡/致死 +14；暴发 +8；大流行 +12</li>
+        <li>人际传播 +10；新发/首次报告 +7</li>
+        <li>耐药 +7；免疫逃逸 +6；扑杀 +6</li>
+        <li>跨地区传播 +4；公共卫生警报 +3</li>
+      </ul>
+    </div>
+    <div class="scoring-block">
+      <h3>规模与时效</h3>
+      <ul>
+        <li>病例数 ≥10k / 1k / 100 / 10：+8 / +6 / +4 / +2</li>
+        <li>死亡数 ≥1k / 100 / 10：+10 / +7 / +4</li>
+        <li>来源权威度：−2 至 +6</li>
+        <li>发布时间 ≤2 天 +4；≤7 天 +2</li>
+      </ul>
+    </div>
+    <div class="scoring-block">
+      <h3>分级</h3>
+      <ul>
+        <li><span class="badge severity-critical">极高</span> ≥ 80</li>
+        <li><span class="badge severity-high">高</span> 60–79</li>
+        <li><span class="badge severity-moderate">中</span> 40–59</li>
+        <li><span class="badge severity-low">低</span> &lt; 40</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="panel disclaimer-panel">
+  <div class="panel-head"><h2>重要限制</h2></div>
+  <div class="two-col-text">
+    <p>系统输出是机器生成的监测线索，不是官方疫情通报。病例数、死亡数与地理范围以原始来源为准；机器翻译、实体识别和严重度评分均可能出错。</p>
+    <p>单日事件数不能解释为长期趋势；不同来源可能存在重复、滞后或口径差异。公共卫生决策、临床诊疗与动物防疫应以 WHO、CDC、WOAH 及各国主管部门的正式信息为准。</p>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Virus-tracker</strong> <span class="muted">v0.1.0</span>
+        <p class="muted small">PubMed · WHO · CDC · WOAH · UKHSA · CIDRAP 等公开来源 · 本地大模型总结</p>
+      </div>
+      <div class="footer-meta">
+        <a href="/virus-tracker/downloads/events.jsonl">JSONL</a>
+        <a href="/virus-tracker/downloads/event.schema.json">JSON Schema</a>
+        <a href="/virus-tracker/downloads/dataset-card.md">Dataset Card</a>
+        <span class="muted small">仅供科研与公共卫生监测参考</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>window.VIRUS_TRACKER_STATIC=true;</script><script src="/virus-tracker/assets/static.js"></script><script src="/virus-tracker/assets/app.js" defer></script>
+  
+</body>
+</html>

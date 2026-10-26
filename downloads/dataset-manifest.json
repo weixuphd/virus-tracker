@@ -1,0 +1,80 @@
+{
+  "dataset": "virus-tracker-ai-ready",
+  "schema_version": "virus-tracker.ai-ready.v1",
+  "generated_at": "2026-10-26T04:11:32.155211Z",
+  "events": 169,
+  "train_events": 135,
+  "benchmark_events": 34,
+  "instruction_path": "/Users/weixu/Downloads/weicode/virus-tracker/data/ai_ready/instruction/train.jsonl",
+  "instruction_count": 52000,
+  "benchmark_path": "/Users/weixu/Downloads/weicode/virus-tracker/data/ai_ready/benchmark/benchmark.jsonl",
+  "benchmark_count": 10500,
+  "pretrain": {
+    "dataset": "virus-tracker-pretrain",
+    "schema_version": "virus-tracker.pretrain.v1",
+    "target_tokens": 10000000000,
+    "estimated_tokens": 10014808356,
+    "materialized_sample_tokens": 44173,
+    "materialized_base_tokens": 320920,
+    "materialized_instruction_tokens": 22028565,
+    "materialized_benchmark_tokens": 4144717,
+    "materialized_corpus_tokens": 26494202,
+    "base_documents": 1133,
+    "augmentation_factor": 378,
+    "documents_total": 428274,
+    "avg_tokens_per_document": 23384.11,
+    "tokenizer": "cl100k_base",
+    "method": "base corpus (source articles + event records + instruction + benchmark) with deterministic multi-template/entity/QA augmentation; streaming corpus",
+    "materialized": false,
+    "base_path": "/Users/weixu/Downloads/weicode/virus-tracker/data/ai_ready/pretrain/pretrain_base.jsonl",
+    "sample_path": "/Users/weixu/Downloads/weicode/virus-tracker/data/ai_ready/pretrain/pretrain_sample.jsonl",
+    "generated_at": "2026-10-26T04:11:29.959147Z"
+  },
+  "evaluation": {
+    "status": "ok",
+    "task": "severity_classification",
+    "train_samples": 5400,
+    "benchmark_samples": 1360,
+    "fine_tuned": {
+      "accuracy": 0.9706,
+      "macro_recall": 0.9524
+    },
+    "zero_shot_majority": {
+      "accuracy": 0.7059,
+      "macro_recall": 0.3333
+    },
+    "rule_baseline": {
+      "accuracy": 0.9706,
+      "macro_recall": 0.9524
+    },
+    "labels": [
+      "high",
+      "low",
+      "moderate"
+    ],
+    "model": "TF-IDF + rule-engine signal hybrid (fine-tuned on AI-READY instruction data)",
+    "uplift_vs_majority": {
+      "accuracy_pp": 26.47,
+      "recall_pp": 61.91
+    },
+    "uplift_vs_rule": {
+      "accuracy_pp": 0.0,
+      "recall_pp": 0.0
+    }
+  },
+  "modalities": 7,
+  "tasks": [
+    "extraction",
+    "severity",
+    "pathogen_type",
+    "hosts",
+    "locations",
+    "counts",
+    "headline",
+    "keywords",
+    "summary",
+    "qa"
+  ],
+  "license": "Synthetic instruction/benchmark data derived from public sources; source metadata CC BY 4.0.",
+  "disclaimer": "Synthetic augmented data for training/evaluation; verify original sources for clinical or policy use."
+}

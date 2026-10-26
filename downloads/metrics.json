@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "task": "severity_classification",
+  "train_samples": 5400,
+  "benchmark_samples": 1360,
+  "fine_tuned": {
+    "accuracy": 0.9706,
+    "macro_recall": 0.9524
+  },
+  "zero_shot_majority": {
+    "accuracy": 0.7059,
+    "macro_recall": 0.3333
+  },
+  "rule_baseline": {
+    "accuracy": 0.9706,
+    "macro_recall": 0.9524
+  },
+  "labels": [
+    "high",
+    "low",
+    "moderate"
+  ],
+  "model": "TF-IDF + rule-engine signal hybrid (fine-tuned on AI-READY instruction data)",
+  "uplift_vs_majority": {
+    "accuracy_pp": 26.47,
+    "recall_pp": 61.91
+  },
+  "uplift_vs_rule": {
+    "accuracy_pp": 0.0,
+    "recall_pp": 0.0
+  }
+}

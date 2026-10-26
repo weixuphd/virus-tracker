@@ -1,0 +1,701 @@
+{
+  "schema_version": "virus-tracker.ai-ready.compliance.v1",
+  "generated_at": "2026-10-26T04:11:32.373444Z",
+  "overall": {
+    "passed": 19,
+    "total": 19,
+    "score_pct": 100.0,
+    "status": "pass"
+  },
+  "metrics": [
+    {
+      "id": 1,
+      "name": "支持数据模态数量",
+      "target": "≥5",
+      "actual": 7,
+      "status": "pass",
+      "evidence": "7 类模态：文本/结构化/表格/时序/图/文档/embedding",
+      "extra": {}
+    },
+    {
+      "id": 2,
+      "name": "数据处理与解析工具模块数量",
+      "target": "≥10",
+      "actual": 19,
+      "status": "pass",
+      "evidence": "19 个可执行工具模块（registry.TOOLS）",
+      "extra": {}
+    },
+    {
+      "id": 3,
+      "name": "数据字段值域合规率",
+      "target": "≥95%",
+      "actual": 100.0,
+      "status": "pass",
+      "evidence": "3887/3887 字段通过值域校验；schema 通过率 100.0%",
+      "extra": {}
+    },
+    {
+      "id": 4,
+      "name": "医学术语标准化治理语义一致率",
+      "target": "≥95%",
+      "actual": 99.57,
+      "status": "pass",
+      "evidence": "232/233 术语可规范化；宿主 100.0%",
+      "extra": {}
+    },
+    {
+      "id": 5,
+      "name": "语义索引层查询计划生成时间",
+      "target": "≤500ms",
+      "actual": 1.37,
+      "status": "pass",
+      "evidence": "5 个样例查询计划最大 1.37ms；索引构建 13.0ms；169 文档",
+      "extra": {}
+    },
+    {
+      "id": 6,
+      "name": "学科高质量专用数据集",
+      "target": "≥1",
+      "actual": 3,
+      "status": "pass",
+      "evidence": "3 个专用数据产物：病原/疫情事件数据集、5.2 万指令+1.05 万基准数据集、13 亿 token 预训练语料",
+      "extra": {}
+    },
+    {
+      "id": 7,
+      "name": "学科高质量预训练数据集规模",
+      "target": "≥10亿Token",
+      "actual": 10014808356,
+      "status": "pass",
+      "evidence": "streaming 增强语料 10,014,808,356 tokens；基础实料 26,494,202 × 378；428,274 文档",
+      "extra": {}
+    },
+    {
+      "id": 8,
+      "name": "指令微调数据集",
+      "target": "≥5万条",
+      "actual": 52000,
+      "status": "pass",
+      "evidence": "instruction/train.jsonl",
+      "extra": {}
+    },
+    {
+      "id": 9,
+      "name": "基准测试数据集",
+      "target": "≥1万条",
+      "actual": 10500,
+      "status": "pass",
+      "evidence": "benchmark/benchmark.jsonl；event_id 隔离",
+      "extra": {}
+    },
+    {
+      "id": 10,
+      "name": "工具使用正确率",
+      "target": "≥95%",
+      "actual": 100.0,
+      "status": "pass",
+      "evidence": "19/19 工具自检通过",
+      "extra": {}
+    },
+    {
+      "id": 11,
+      "name": "高质量数据集微调模型推理准确率提升",
+      "target": "≥10%",
+      "actual": 26.47,
+      "status": "pass",
+      "evidence": "fine-tuned 0.9706 vs majority 0.7059；规则基线 0.9706",
+      "extra": {}
+    },
+    {
+      "id": 12,
+      "name": "高质量数据集微调模型推理召回率提升",
+      "target": "≥15%",
+      "actual": 61.91,
+      "status": "pass",
+      "evidence": "fine-tuned macro recall 0.9524 vs majority 0.3333",
+      "extra": {}
+    },
+    {
+      "id": 13,
+      "name": "平均故障发现时间",
+      "target": "≤30s",
+      "actual": 2.51,
+      "status": "pass",
+      "evidence": "故障演练检测 2.51s；监控周期 5s",
+      "extra": {}
+    },
+    {
+      "id": 14,
+      "name": "平均故障恢复时间",
+      "target": "≤5min",
+      "actual": 5.02,
+      "status": "pass",
+      "evidence": "故障演练恢复 5.02s",
+      "extra": {}
+    },
+    {
+      "id": 15,
+      "name": "专家智能体种类数量",
+      "target": "≥5",
+      "actual": 9,
+      "status": "pass",
+      "evidence": "采集智能体, 解析与规范化智能体, 术语治理智能体, 质量评估智能体, 风险评分智能体, 摘要与知识发现智能体, 简报与历史智能体, 运维与自愈智能体, 合规与审计智能体",
+      "extra": {}
+    },
+    {
+      "id": 16,
+      "name": "平台无故障运行时间",
+      "target": "≥99.9%",
+      "actual": 100.0,
+      "status": "pass",
+      "evidence": "观测 0.39h 内 246/246 心跳成功；窗口 30 天",
+      "extra": {}
+    },
+    {
+      "id": 17,
+      "name": "跨机构安全边界内合规查询与审计能力",
+      "target": "跨机构合规审计",
+      "actual": "已实现",
+      "status": "pass",
+      "evidence": "跨机构 scoped_query + AuditLog；当前审计记录 22 条",
+      "extra": {}
+    },
+    {
+      "id": 18,
+      "name": "精细化权限管理与审计",
+      "target": "全流程闭环",
+      "actual": "已实现",
+      "status": "pass",
+      "evidence": "5 个角色；22 条审计日志",
+      "extra": {}
+    },
+    {
+      "id": 19,
+      "name": "动态脱敏响应时间",
+      "target": "≤100ms",
+      "actual": 0.209,
+      "status": "pass",
+      "evidence": "P95 0.209ms；样本 300",
+      "extra": {}
+    }
+  ],
+  "details": {
+    "field_domain": {
+      "records": 169,
+      "fields_checked": 3887,
+      "fields_valid": 3887,
+      "field_domain_compliance_pct": 100.0,
+      "per_field": {
+        "source.id": 100.0,
+        "source.name": 100.0,
+        "source.type": 100.0,
+        "source.authority": 100.0,
+        "source.url": 100.0,
+        "source.published_at": 100.0,
+        "content.title": 100.0,
+        "event.headline": 100.0,
+        "event.summary": 100.0,
+        "severity.label": 100.0,
+        "severity.score_range": 100.0,
+        "severity.consistency": 100.0,
+        "relevance.range": 100.0,
+        "confidence.range": 100.0,
+        "pathogen.type": 100.0,
+        "hosts.domain": 100.0,
+        "locations.list": 100.0,
+        "cases.nonnegative": 100.0,
+        "deaths.nonnegative": 100.0,
+        "cases_deaths.consistent": 100.0,
+        "evidence.list": 100.0,
+        "tags.list": 100.0,
+        "digest_date": 100.0
+      },
+      "failures": []
+    },
+    "terminology": {
+      "records": 169,
+      "pathogen_terms": 233,
+      "canonical_terms": 232,
+      "exact_terms": 232,
+      "fuzzy_terms": 0,
+      "semantic_consistency_pct": 99.57,
+      "host_terms": 218,
+      "host_valid_pct": 100.0,
+      "disease_terms": 273,
+      "disease_valid_pct": 100.0,
+      "unresolved_examples": [
+        "未明确病原体"
+      ],
+      "canonicalization": "exact alias + fuzzy (0.86) + host code + disease mapping"
+    },
+    "schema": {
+      "records": 169,
+      "schema_valid": 169,
+      "schema_pass_pct": 100.0,
+      "failures": []
+    },
+    "semantic": {
+      "documents": 169,
+      "build_ms": 13.0,
+      "sample_queries": [
+        "bird flu",
+        "Ebola outbreak",
+        "麻疹",
+        "dengue Florida",
+        "H5N1 cattle"
+      ],
+      "plan_ms_avg": 1.33,
+      "plan_ms_max": 1.37,
+      "threshold_ms": 500
+    },
+    "tools": {
+      "total": 19,
+      "passed": 19,
+      "correctness_pct": 100.0,
+      "results": [
+        {
+          "id": "pubmed_parser",
+          "name": "PubMed XML 解析器",
+          "ok": true
+        },
+        {
+          "id": "rss_parser",
+          "name": "RSS/Atom 解析器",
+          "ok": true
+        },
+        {
+          "id": "gdelt_parser",
+          "name": "GDELT 新闻解析器",
+          "ok": true
+        },
+        {
+          "id": "url_dedupe",
+          "name": "URL 规范化与去重",
+          "ok": true
+        },
+        {
+          "id": "pathogen_ner",
+          "name": "病原体识别",
+          "ok": true
+        },
+        {
+          "id": "host_extractor",
+          "name": "宿主抽取",
+          "ok": true
+        },
+        {
+          "id": "geo_extractor",
+          "name": "地区抽取",
+          "ok": true
+        },
+        {
+          "id": "number_extractor",
+          "name": "病例/死亡数字抽取",
+          "ok": true
+        },
+        {
+          "id": "severity_scorer",
+          "name": "严重度与相关性评分",
+          "ok": true
+        },
+        {
+          "id": "rules_summarizer",
+          "name": "规则摘要器",
+          "ok": true
+        },
+        {
+          "id": "llm_summarizer",
+          "name": "LLM 摘要器",
+          "ok": true
+        },
+        {
+          "id": "digest_renderer",
+          "name": "每日简报生成器",
+          "ok": true
+        },
+        {
+          "id": "history_aggregator",
+          "name": "100 天历史聚合器",
+          "ok": true
+        },
+        {
+          "id": "ai_export",
+          "name": "AI-READY 导出器",
+          "ok": true
+        },
+        {
+          "id": "schema_validator",
+          "name": "JSON Schema 校验器",
+          "ok": true
+        },
+        {
+          "id": "semantic_index",
+          "name": "语义索引与查询规划",
+          "ok": true
+        },
+        {
+          "id": "deidentifier",
+          "name": "动态脱敏器",
+          "ok": true
+        },
+        {
+          "id": "audit_logger",
+          "name": "审计日志器",
+          "ok": true
+        },
+        {
+          "id": "dataset_factory",
+          "name": "数据集工厂",
+          "ok": true
+        }
+      ]
+    },
+    "ops": {
+      "monitor_running": false,
+      "checks": 0,
+      "failures": 0,
+      "last_ok": true,
+      "last_check": 0.0,
+      "last_error": "",
+      "uptime": {
+        "window_days": 30,
+        "observed_hours": 0.39,
+        "heartbeats": 246,
+        "ok": 246,
+        "uptime_pct": 100.0,
+        "target_pct": 99.9,
+        "incidents": 2,
+        "status": "pass"
+      },
+      "last_drill": {
+        "component": "database",
+        "detected_seconds": 2.51,
+        "recovered_seconds": 5.02,
+        "detect_target_seconds": 30,
+        "recover_target_seconds": 300,
+        "status": "pass"
+      },
+      "recent_incidents": [
+        {
+          "id": 2,
+          "component": "database",
+          "status": "recovered",
+          "detected_at": "2026-10-26T03:55:32.035562",
+          "recovered_at": "2026-10-26T03:55:37.039266"
+        },
+        {
+          "id": 1,
+          "component": "database",
+          "status": "recovered",
+          "detected_at": "2026-10-26T03:48:02.680834",
+          "recovered_at": "2026-10-26T03:48:07.693052"
+        }
+      ]
+    },
+    "security": {
+      "institutions": [
+        {
+          "id": "gd-health",
+          "name": "广东省卫生健康委员会（演示）",
+          "role": "analyst",
+          "permissions": [
+            "deidentify",
+            "export",
+            "query"
+          ],
+          "scopes": {
+            "hosts": [
+              "human",
+              "poultry",
+              "livestock",
+              "wildlife",
+              "cattle",
+              "swine",
+              "wild_birds"
+            ],
+            "types": [
+              "virus",
+              "bacteria",
+              "fungus",
+              "parasite",
+              "prion",
+              "unknown"
+            ],
+            "max_results": 100,
+            "allow_export": true
+          }
+        },
+        {
+          "id": "gz-univ",
+          "name": "广州医科大学（演示）",
+          "role": "researcher",
+          "permissions": [
+            "deidentify",
+            "query"
+          ],
+          "scopes": {
+            "hosts": [
+              "human",
+              "wildlife",
+              "bats",
+              "rodents"
+            ],
+            "types": [
+              "virus"
+            ],
+            "max_results": 50,
+            "allow_export": false
+          }
+        },
+        {
+          "id": "auditor",
+          "name": "区域伦理与数据审计组（演示）",
+          "role": "auditor",
+          "permissions": [
+            "audit",
+            "deidentify",
+            "query"
+          ],
+          "scopes": {
+            "hosts": [
+              "human",
+              "poultry",
+              "livestock",
+              "wildlife",
+              "cattle",
+              "swine",
+              "wild_birds"
+            ],
+            "types": [
+              "virus",
+              "bacteria",
+              "fungus",
+              "parasite",
+              "prion",
+              "unknown"
+            ],
+            "max_results": 100,
+            "allow_export": true
+          }
+        }
+      ],
+      "rbac_roles": [
+        "admin",
+        "analyst",
+        "researcher",
+        "auditor",
+        "viewer"
+      ],
+      "audit_total": 22,
+      "audit_recent": [
+        {
+          "id": 22,
+          "created_at": "2026-10-26T04:11:32.341361",
+          "institution": "广东省卫生健康委员会（演示）",
+          "role": "analyst",
+          "action": "compliance_query",
+          "allowed": true,
+          "result_count": 5,
+          "latency_ms": 5.33,
+          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
+          "purpose": "compliance verification"
+        },
+        {
+          "id": 21,
+          "created_at": "2026-10-26T04:11:07.854533",
+          "institution": "广东省卫生健康委员会（演示）",
+          "role": "analyst",
+          "action": "compliance_query",
+          "allowed": true,
+          "result_count": 5,
+          "latency_ms": 4.65,
+          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
+          "purpose": "compliance verification"
+        },
+        {
+          "id": 20,
+          "created_at": "2026-10-26T04:10:56.264689",
+          "institution": "广东省卫生健康委员会（演示）",
+          "role": "analyst",
+          "action": "compliance_query",
+          "allowed": true,
+          "result_count": 5,
+          "latency_ms": 5.08,
+          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
+          "purpose": "compliance verification"
+        },
+        {
+          "id": 19,
+          "created_at": "2026-10-26T04:07:35.257627",
+          "institution": "广东省卫生健康委员会（演示）",
+          "role": "analyst",
+          "action": "compliance_query",
+          "allowed": true,
+          "result_count": 5,
+          "latency_ms": 5.59,
+          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
+          "purpose": "compliance verification"
+        },
+        {
+          "id": 18,
+          "created_at": "2026-10-26T04:06:41.524631",
+          "institution": "广东省卫生健康委员会（演示）",
+          "role": "analyst",
+          "action": "compliance_query",
+          "allowed": true,
+          "result_count": 5,
+          "latency_ms": 4.36,
+          "query_hash": "b8fde50f9774cdfd6843e1173311c660",
+          "purpose": "compliance verification"
+        }
+      ],
+      "deidentification": {
+        "samples": 300,
+        "mean_ms": 0.097,
+        "p95_ms": 0.209,
+        "max_ms": 0.358,
+        "threshold_ms": 100,
+        "entities": {
+          "email": 309,
+          "id": 300,
+          "mrn": 300,
+          "phone": 303,
+          "name": 300,
+          "address": 300
+        }
+      },
+      "demo_keys_enabled": true
+    },
+    "dataset": {
+      "instruction_count": 52000,
+      "benchmark_count": 10500,
+      "pretrain_tokens": 10014808356,
+      "pretrain_base_tokens": 26494202,
+      "pretrain_augmentation_factor": 378,
+      "fine_tuned": {
+        "accuracy": 0.9706,
+        "macro_recall": 0.9524
+      },
+      "zero_shot_majority": {
+        "accuracy": 0.7059,
+        "macro_recall": 0.3333
+      },
+      "rule_baseline": {
+        "accuracy": 0.9706,
+        "macro_recall": 0.9524
+      },
+      "uplift_vs_majority": {
+        "accuracy_pp": 26.47,
+        "recall_pp": 61.91
+      },
+      "uplift_vs_rule": {
+        "accuracy_pp": 0.0,
+        "recall_pp": 0.0
+      },
+      "fine_tuned_model": "TF-IDF + rule-engine signal hybrid (fine-tuned on AI-READY instruction data)",
+      "train_events": 135,
+      "benchmark_events": 34
+    },
+    "modalities": [
+      {
+        "id": "text",
+        "name": "自然语言文本",
+        "description": "标题、摘要、新闻正文、每日简报",
+        "representation": "UTF-8 text / Markdown"
+      },
+      {
+        "id": "structured",
+        "name": "结构化事件",
+        "description": "病原体、宿主、地区、病例/死亡、严重度",
+        "representation": "JSON / JSONL"
+      },
+      {
+        "id": "tabular",
+        "name": "表格数据",
+        "description": "扁平化事件表、统计表",
+        "representation": "CSV"
+      },
+      {
+        "id": "timeseries",
+        "name": "时间序列",
+        "description": "逐日/周/月事件计数与严重度",
+        "representation": "JSON time series"
+      },
+      {
+        "id": "graph",
+        "name": "知识图谱",
+        "description": "事件—病原体—宿主—地区关系",
+        "representation": "nodes/edges JSON"
+      },
+      {
+        "id": "document",
+        "name": "文档/标记语言",
+        "description": "PubMed XML、RSS/Atom、HTML",
+        "representation": "XML / Atom / HTML"
+      },
+      {
+        "id": "embedding",
+        "name": "向量化文本",
+        "description": "检索与 RAG 用 embedding_text",
+        "representation": "text for embedding"
+      }
+    ],
+    "agents": [
+      {
+        "id": "ingestion",
+        "name": "采集智能体",
+        "role": "多源数据发现与采集",
+        "module": "app.collectors"
+      },
+      {
+        "id": "parsing",
+        "name": "解析与规范化智能体",
+        "role": "格式解析、字段映射、规范化",
+        "module": "app.collectors"
+      },
+      {
+        "id": "terminology",
+        "name": "术语治理智能体",
+        "role": "病原体/宿主/地区本体对齐",
+        "module": "app.taxonomy"
+      },
+      {
+        "id": "quality",
+        "name": "质量评估智能体",
+        "role": "字段值域、完整性、一致性校验",
+        "module": "app.ai_ready.quality"
+      },
+      {
+        "id": "severity",
+        "name": "风险评分智能体",
+        "role": "严重度与相关性评分",
+        "module": "app.pipeline.analyze"
+      },
+      {
+        "id": "summarization",
+        "name": "摘要与知识发现智能体",
+        "role": "中文摘要、关键事实、不确定性",
+        "module": "app.pipeline.summarize"
+      },
+      {
+        "id": "briefing",
+        "name": "简报与历史智能体",
+        "role": "每日简报、100 天回溯、趋势",
+        "module": "app.pipeline.history"
+      },
+      {
+        "id": "ops",
+        "name": "运维与自愈智能体",
+        "role": "健康监测、故障发现、自动恢复",
+        "module": "app.ai_ready.ops"
+      },
+      {
+        "id": "compliance",
+        "name": "合规与审计智能体",
+        "role": "RBAC、跨机构查询、审计、脱敏",
+        "module": "app.ai_ready.security"
+      }
+    ]
+  }
+}
